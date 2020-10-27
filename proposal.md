@@ -1,4 +1,4 @@
-## March 16 - Project proposal due -  class presentation + questions (5 mins ) - (7 mins for group)
+## November 4 - Project proposal due -  class presentation + questions (5 mins ) - (7 mins for group)
 
 You're submitting a proposal, not a specification - it's natural that your plans will change somewhat as you refine your ideas. But your proposal should be based on an idea that we've discussed and I've approved.
 

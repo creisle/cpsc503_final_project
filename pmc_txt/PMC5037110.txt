@@ -1,0 +1,195 @@
+Effects of the culture media optimization on pectinase production by Enterobacter sp. PSTB-1
+
+Abstract
+
+In the present study, media composition for high production of pectinase by Enterobacter sp. PSTB-1 in submerged fermentation was optimized using response surface methodology (RSM). Mango fruit processing industrial waste (MIW) was used as substrate (carbon source) as it contains high amount of pectin. Enterobacter sp. PSTB-1 used in present study has given pectin clear zone (PCZ) of 34 mm is higher than other isolates. The experimental results made by statistical design for high pectinase production revealed that the suitable media components: NaNO3 2.0 g/l, KCl 0.50 g/l, KH2PO4 1.0 g/l, MgSO4·7H2O 0.50 g/l, Yeast extract 1.0 g/l, mango industrial waste powder 5.0 g/l. The actual pectinase activity was 75.23 % correlated with the predicted pectinase activity where the model (CCD) was significant. Response surface modelling applied effectively to optimize the production of pectinase in submerged fermentation to make the process low cost-effective by using powdered mango industrial waste as substrate.
+
+Introduction
+
+Mango is the most delicious fruit with its health benefits and commercially valuable seasonal fruit. So, there must be a need to process this fruit to make available its products in all seasons (Indian Horticulture Database 2011; Purnachandra Reddy and Saritha 2013). Many mango fruit processing industries were established throughout the world and were generating huge amounts of waste or residues while processing the mango fruits. It has been reported that 28 to 43 % of the total of mangoes remain as residues mainly constituted by peel and seeds are discarded during the process (Guzman et al. 2013). The mango industrial waste can be used in so many ways such as animal feed, fuel wood (dried seeds) and it can also be useful for vermicompost preparation and biogas production. Mango industrial waste is the best source for the production of industrially important pectinase, as it contains high amounts of pectin in ripened mango (Yashoda et al. 2005). Pectin is a jelly like matrix structural polysaccharide found in the primary cell wall and the middle lamella of fruits and vegetables (Namasivayam et al. 2011). Along with pectin other polysaccharides such as cellulose and xylan type polysaccharides strengthens the structure of cell-walls in the flesh of fruits (Beatriz and Fabrice 2012). Pectinase is mainly useful for increasing the filtration efficiency and clarification of fruit juices, most of these are microbial derived. Most of the Bacterial isolates such as Bacillus sp and Pseudomonas.sp., Bacillus sp. MFW7, Bacillus cereus, Bacillus licheniformis, Bacillus cereus, and Staphylococcus aureus were reported as good pectinase producers (Geetha et al. 2012; Mukesh kumar et al. 2012; Venkata Naga Raju et al. 2013). In the present study dried mango fruit processing industrial waste (MIW powder; one of the polluting solid wastes) has been utilized for the production of pectinase through submerged fermentation by using pectinolytic Enterobacter sp. PSTB-1 under RSM conditions.
+
+Materials and methods
+
+Sample collection
+
+Fresh, dried and decomposed mango industrial waste samples were collected in sterile polythene covers from different mango fruit processing industries around Chittoor, A.P., India. The collected samples were stored at 4 °C for future purposes.
+
+Isolation and identification of bacterial strains
+
+The bacterial strains were isolated by serial dilution of 1.0 g of mango industrial waste (mixture of fresh, dried and decomposed) (Aneja 2003). Pure cultures of isolated strains were maintained at 4 °C on nutrient agar medium. These strains were identified by Gram’s staining, biochemical testing (Srivastava 2003).
+
+Screening for pectinolytic bacterial strains
+
+Pectinase production medium
+
+This medium was prepared according to Reda Bayoumi et al. (2008), consists of part (A) and part (B). Part (A) contained (g/l): NaNO3 2.0, KH2PO4 1.0, KCl 0.5, MgSO4·7H2O 0.5, Yeast extract 1.0. These contents were dissolved in 40 ml distilled water and pH adjusted to 7.0 by 5 % NaOH (w/v). Part (B) contained (g/l): MIW powder 5.0, dissolved in 10 ml of distilled water. The two parts (A) and (B) were mixed and sterilized. This medium was inoculated with isolated bacterial strains and incubated at 37 °C for 96 hours, then assayed for pectinase activity.
+
+Assay medium
+
+The medium composition was (g/l): Peptone 0.5, Beef extracts 0.3, NaCl 0.5, Agar 15, Pectin 4.0, these contents dissolved in distilled water (pH 7.0).
+
+Pectinase activity assay
+
+Plates of the same size were poured with equal amounts of sterilized assay medium. After cooling, three wells were made in each plate with sterilized cork borer. Each well was inoculated with 0.1 ml of culture filtrate of (pectinolytic enzyme) production medium. These plates were incubated at 37 °C for two to four days. Then the plates were flooded with hexadecyl trimethyl ammonium bromide (HTAB) solution, clearing zones of the medium was investigated and taken as the criteria for determining the pectinase productivity.
+
+Species identification of PSTB-1 strain
+
+The species identification of highest pectinase producing PSTB-1 was done by sequencing the 16S r-RNA gene using a suitable primer set; B27 (F); 5′-AGA GTT TGA TCM TGG CTC AG-3′ 1492 (R); 5′-GGT TAC CTT GTT ACG ACT T -3′ by following Alexander Probst et al. (Alexander et al. 2010).
+
+PCR
+
+A 14 µl PCR master mix contains (µl); 10X PCR buffer 1.25, MgCl2 0.4, dNTPs 1.0, F-primer 1.0, R-primer 1.0, trehalose 8.25, taq 0.1 and 1.0 µl of template DNA. The PCR was carried out in three steps by 37 cycles. First step is de-naturation (1 cycle) at 94 °C for 3 minutes, second step is annealing (35 cycles) at 50 °C for 33 minutes and the third step is re-naturation (1 cycle) at 72 °C for 10 minutes.
+
+Optimization of media composition
+
+Experimental bergy
+
+Central composite design (Design-Expert 9.0.1 2013) model of RSM for six factors with three replicates has been used in the investigation. The variables used were NaNO3 (X1), KH2PO4 (X2), KCl (X3), MgSO4·7H2O (X4), yeast extract (X5) and MIW powder (X6) each at low (−1) and high (+1) of coded levels.
+
+Preparation of substrate
+
+The collected fresh mango industrial waste was washed and chopped into small pieces and oven dried at 55 °C for 72 hours. The dried waste was ground and sieved through 2.0 mm mesh size and dissolved in water (1:5) and left for overnight (Veeranjaneya Reddy et al. 2011). The liquid containing substrate was extracted with the help of cheese cloth by squeezing. This was used as a carbon source for pectinase production.
+
+Preparation of inoculum
+
+The inoculum was prepared by using overnight incubated nutrient broth culture of Enterobacter sp. PSTB-1.
+
+Pectinase production medium
+
+Mango peel basal medium (MPBM) was used as production medium. The media contents were dissolved in citrate phosphate buffer at pH 6.0 according to design model and sterilised. Then the medium was inoculated with Enterobacter sp. PSTB-1 and incubated at 37 °C for 48 hours. The culture filtrate of this medium will be used as enzyme source.
+
+Pectinase assay
+
+Pectinase activity assay was done by 3,5-dinitrosalicylic acid (DNS) method (Miller 1959). 0.5 ml of the culture filtrate was used as crude enzyme source; 0.5 ml of 1 % pectin was used as substrate. One unit of the enzyme is equal to 1 U of reducing sugars released, measured in terms of D-Galacturonic acid, produced as a result of enzyme reaction.
+
+Statistical analysis
+
+Experimental data was analysed by analysis of variance (ANOVA) according to response surface regression procedure to fit the following second order polynomial Eq. (1) was used to describe the effect of variables in terms of linear (A1–A6), cross product terms (A7–A21) and exponents (A22–A27) using Central Composite Design model.1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \begin{aligned} Y\,\, = \,\,A_{0} + A_{1} X_{1} + A_{2} X_{2} + A_{3} X_{3} + A_{4} X_{4} + A_{5} X_{5} + A_{6} X_{6} + A_{7} X_{1} X_{2} + A_{8} X_{1} X_{3} \hfill \\ + A_{9} X_{1} X_{4} + A_{10} X_{1} X_{5} + A_{11} X_{1} X_{6} + A_{12} X_{2} X_{3} + A_{13} X_{2} X_{4} + A_{14} X_{2} X_{5} + A_{15} X_{2} X_{6} \hfill \\ + A_{16} X_{3} X_{4} + A_{17} X_{3} X_{5} + A_{18} X_{3} X_{6} + A_{19} X_{4} X_{5} + A_{20} X_{4} X_{6} + A_{21} X_{5} X_{6} + A_{22} X_{1}^{2} \hfill \\ + A_{23} X_{2}^{2} + A_{24} X_{3}^{2} + A_{25} X_{4}^{2} + A_{26} X_{5}^{2} + A_{27} X_{6}^{2} . \hfill \\ \end{aligned} $$\end{document}Y=A0+A1X1+A2X2+A3X3+A4X4+A5X5+A6X6+A7X1X2+A8X1X3+A9X1X4+A10X1X5+A11X1X6+A12X2X3+A13X2X4+A14X2X5+A15X2X6+A16X3X4+A17X3X5+A18X3X6+A19X4X5+A20X4X6+A21X5X6+A22X12+A23X22+A24X32+A25X42+A26X52+A27X62.where ‘Y’ is the predicted response (Pectinase yield U/ml) and X1, X2, X3, X4, X5,and X6 are the coded values of ingredients NaNO3, KH2PO4, KCl, MgSO4·7H2O, yeast extract and MIW powder of culture medium, respectively.
+
+1
+
+Results and discussion
+
+Sample collection
+
+There are about 13 mango industries in Chittoor district, A.P., India producing high amount of waste which had been leading to environmental pollution. Thirty samples were collected from ten different mango fruit processing industries around Chittoor. Similarly, the wastes such as orange peel, citrus peel, potato peel, corn tegument, wheat bran and banana peels reported as a source for pectinolytic microorganisms (Geetha et al. 2012).
+
+Isolation and identification of bacterial strains
+
+Microorganisms are said to be the major bio-transforming agents for their ability to degrade waste. So, the bacterial strains used in the present study were isolated from collected mango industrial waste as they already existed in that particular environment and having the capacity to degrade it. Colony-forming units of bacteria in the different habitats were significantly different. Eight bacterial strains belonging to genus Bacillus and Cocci were identified based on their Gram’s staining and biochemical characterization. They were given by isolate names such as PSTB-1, PSTB-2, PSTB-3, PSTB-4, PSTB-5, PSTB-6, PSTB-7, and PSTB-8.
+
+Screening for pectinolytic bacteria
+
+All the isolates (PSTB-1 to PSTB-8) were considered as good pectinase producers with their PCZ value of 34, 26, 22, 15, 18, 16, 18, and 18 mm. Only one strain that is PSTB-1 has been selected for high pectinase production due to its high PCZ value of 34 mm. The PCZ value of Enterobacter sp. PSTB1 was similar with that of three bacterial isolates (numbers 4071, 107 and 10104) PCZ value of 32, 34 and 34 mm, respectively by using Solanum tuberosum peels as substrate (Reda Bayoumi et al. 2008).
+
+Species identification of PSTB-1 strain
+
+The 16S r-RNA sequence of isolated bacterial strain PSTB-1 has shown more homology with reported strain Enterobacter cloacae sub sp. Cloacae (Fig. 1). The identification of this strain was confirmed by NCBI sequence submission. Similarly, pectinolytic bacterial strains such as Bacillus firmus-I-4071, B. firmus-I-10104 and Bacillus laterosporus-I-107 were reported from agro and fruit processing industrial wastes (Geetha et al. 2012; Veeranjaneya Reddy et al. 2011; Kashyap et al. 2000).Fig. 1Phylogenetic analysis based on 16S r-RNA sequence available from bacterial isolates was constructed. Evolutionary distances were computed using the p-distance method clustering with the neighbour-joining method
+
+Fig. 1
+
+Phylogenetic analysis based on 16S r-RNA sequence available from bacterial isolates was constructed. Evolutionary distances were computed using the p-distance method clustering with the neighbour-joining method
+
+Optimization of media composition
+
+The experimental results associated with the processing set of each independent variable (Table 1). To study the combined effects of these factors/variables, experiments were conducted at different combinations of these parameters using statistically designed experiments (Table 2). Experimental response along with predicted response was calculated from the regression equation for each run. A second order polynomial equation was derived to represent the pectinase production as a function of independent variables tested (Eq. 2).Table 1Actual and coded values of the media components in designFactorNameUnitsLow levelHigh levelLow codedHigh codedMeanStd. devANaNO3
+g/l1.222.78−112.000.43BKH2PO4
+g/l0.611.39−111.000.21CKClg/l0.340.66−110.500.09DMgSO4·7H2Og/l0.340.66−110.500.09EYeast extractg/l0.611.39−111.000.21FMIW powderg/l4.437.57−116.000.85ResponseNameObs.AnalysisMin.Max.MeanStd. devR1
+Pectinase activity (U/ml)96Polynomial10.38587.55625.07310.6414
+Std. Dev standard deviation, Obs observations, Min minimum, Max maximum; A, B, C, D,and E represents the process parameters denoted as X1, X2, X3, X4, X5, and X6, respectively for regression equation
+Table 2Experimental design with actual experimental and predicted value of responses of the central composite designS. noABCDEFActual pectinase U/mlPredicted pectinase U/ml100000022.2927.702−1−1−111120.0116.53311−1−11122.2922.244−111−1−1117.1422.6951−11−11−120.5224.43600000021.2827.707−1−1−1−1−1−121.7026.398−11111−187.5651.6891−111−1122.2932.791011−11−1−121.9524.87111−1−1−11−114.1015.751200000027.0222.5413−1−1111133.6928.67141111−1−120.3523.30151−1−11−1120.2624.0416−1−11−1−1−113.5911.0517111−11126.5120.611800000020.1822.5419−11−111−124.4029.2220−11−1−1−1125.3327.712111−1−1−1133.6028.262200000028.2028.912300000026.0128.9124−1111−1−155.9843.99251−1111150.7442.88261−11−1−1−115.1116.752711−111−117.5621.2628−1−1−1−11−117.4822.7829−1−1−11−1124.1522.5630−111−11120.2632.793100000018.1522.4332−1−11−11−119.5919.8233−11−1−11119.4222.78341−1−111122.6319.1035−11−11−1−115.8733.923611111−114.7832.0737−1−111−1119.9319.663800000025.0822.4339111−1−1118.5811.60401−1−1−1−1−150.2420.454100000023.8124.28421−11−11127.1928.8543−1−1−1−1−1119.0022.2944−111−1−1−126.9329.964511−11−1126.4319.2746−11111141.6337.564711−1−11−117.3921.0048−1−1−111−121.3613.784900000022.2124.28501−111−1−116.8921.53511−1−11−1−121.7816.68521−1−1−11124.8224.0753−11−111120.0119.0154−11−1−1−1−148.6338.88551111−1118.9121.605600000024.4023.0257111−11−121.1123.2758−1−1111−112.3329.8259−1−11−1−1119.2510.866000000019.0023.0261−1−1−11−1−114.1819.58621−11−1−1114.0220.956300000030.6525.266411−1−1−1−122.2126.8065−111−11−139.8539.8366−1−1−1−11123.0518.466700000024.7425.2668−1111−1122.2129.656911−111124.2315.44701−1111−137.4931.4071−11−1−11−129.4736.1572−1−11−11123.5621.827300000033.6925.107400000048.3825.10751−1−111−110.3913.94761−1−1−1−1112.5030.967711111121.3632.5778−11−11−1122.3725.9079−1−111−1−121.5323.0180111−1−1−127.7816.4681−1.5650000022.8028.448200000026.4325.91831.5650000018.9123.38840000−1.565027.2724.328500001.565023.4727.50860−1.565000018.0721.748700000026.6825.918800000028.2025.918900−1.56500026.3423.13900001.5650034.3627.889100000−1.56521.7027.0392000001.56530.4024.799300000027.2725.9194000−1.5650025.5823.9495001.56500028.1228.699601.565000028.9630.09
+
+Table 1
+
+Actual and coded values of the media components in design
+
+Std. Dev standard deviation, Obs observations, Min minimum, Max maximum; A, B, C, D,and E represents the process parameters denoted as X1, X2, X3, X4, X5, and X6, respectively for regression equation
+
+Table 2
+
+Experimental design with actual experimental and predicted value of responses of the central composite design
+
+Experimental design
+
+Statistical analysis
+
+The ANOVA result of quadratic regression model for pectinase yield is described in Table 3.Table 3Analysis of variance table (partial sum of squares-type III)SourceSum of squares
+df
+Mean square
+F value
+p value Prob > FBlock410.20851.28Model4052.2511368.394.45<0.0001 significantA-NaNO3
+180.551180.552.180.1440B-KH2PO4
+490.321490.325.920.0173C-KCl218.101218.102.630.1088D-MgSO4·7H2O109.291109.291.320.2543E-Yeast extract71.38171.380.860.3562F-MIW powder35.02135.020.420.5175AB746.631746.639.010.0036AF289.811289.813.500.0653BF401.691401.694.850.0307CD758.211758.219.150.0034CE751.251751.259.070.0035Residual6295.247682.83Lack of fit6101.846593.875.340.0022 significantPure error193.411117.58Cor total10757.695
+
+Table 3
+
+Analysis of variance table (partial sum of squares-type III)
+
+Equation:
+
+2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \begin{aligned} {\text{Pectinase}}\,\, ( {\text{U/ml)}}  \,  = + 28.25 - 1.62 \times A + 2.67 \times B + 1.78 \times C + 1.26 \times D + 1.02 \times E \, - 0.71 \times F - 3.42 \times A \times B \\\ - 1.52 \times A \times C - 1.14 \times A \times D - 0.87 \times A \times E + 2.13 \times A \times F \\  + 0.93 \times B \times C + 0.080 \times B \times D - 0.45 \times B \times E - 2.51 \times B \times F + 3.44 \times C \times D \\  + 3.43 \times C \times E - 0.71 \times C \times F + 1.78 \times D \times E + 0.87 \times D \times F + 1.48 \times E \times F \\  - 2.52 \times A^{2} - 1.44 \times B^{2} + 0.081 \times C_{2} + 1.20 \times D_{2} - 0.68 \times E_{2} - 0.40 \times F_{2} \\ \end{aligned} $$\end{document}Pectinase(U/ml)=+28.25-1.62×A+2.67×B+1.78×C+1.26×D+1.02×E-0.71×F-3.42×A×B-1.52×A×C-1.14×A×D-0.87×A×E+2.13×A×F+0.93×B×C+0.080×B×D-0.45×B×E-2.51×B×F+3.44×C×D+3.43×C×E-0.71×C×F+1.78×D×E+0.87×D×F+1.48×E×F-2.52×A2-1.44×B2+0.081×C2+1.20×D2-0.68×E2-0.40×F2
+
+2
+
+The statistical significance of Eq. (2) was verified by the ‘F-test and the ‘analysis of variance’ for the quadratic model of the response surface (Table 3). The Model F-Valueof 1.74 implies that the model is significant. There is only a 4.66 % chance that a “Model F-Value” this large could occur due to noise. Values of “Prob > F” less than 0.0500 indicate model terms are significant. ANOVA (F-test) for the model explained the response of the dependent variable ‘Y’. In this case B, AB, BF, CD and CE are significant model terms. If there are many insignificant model terms (not counting those required to support hierarchy), model reduction may improve model. Values greater than 0.1000 indicate the model terms are not significant. The R
+2 which can be defined as the ratio of the explained variation to the total variation was a measure of the degree of fit. The closer the R
+2 value to unity, the better the empirical model fits the actual data. The value of determination of coefficient R
+2 is 0.7523, which indicated that the model could explain 75.23 % of variability and is unable to explain only 24.77 % of the total variation. The closer the value of R
+2 to 1 indicates the better correlation between the observed and predicted values suggesting a good fit for submerged fermentation.
+
+The adjusted R
+2 was a corrected value for R
+2 after elimination of the unnecessary model terms. If many non-significant terms have been included in the model, the adjusted R
+2 would be remarkably smaller than the R
+2. The adjusted R
+2 was 0.3663, which is more suitable for comparing models with different numbers of independent variables. The coefficient of variation (CV) is a measure of residual variation of the data relative to the size of the mean; the small values of CV give better reproducibility. A lower value for the CV 36.30 % clearly indicates high degree of precision and higher reliability of the experimental values. The significance of individual variables can be evaluated from their p values, the more significant terms having a lower p-value. The p-values are used to check the significance of each coefficient which also indicates the interaction strength between each independent variable. The p-values of each of the variables also indicate their quadratic and interaction terms. Besides the relationship between the actual experimental and predicted values, the plotted points cluster around the diagonal line, indicating good fitness of the model and they are in reasonable agreement (Fig. 2). An effect of concentration of KH2PO4 has shown significance on the pectinase production than NaNO3 and MIW powder was analyzed by the response surface plots (Figs. 3, 4).Fig. 2
+Plots of normal probability % and correlation between actual and predicted values
+Fig. 3Response surface plots of effect of NaNO3 and KH2PO4 on pectinase production
+Fig. 4Response surface plots of effect of KH2PO4 and MIW powder on pectinase production
+
+Fig. 2
+
+Plots of normal probability % and correlation between actual and predicted values
+
+Fig. 3
+
+Response surface plots of effect of NaNO3 and KH2PO4 on pectinase production
+
+Fig. 4
+
+Response surface plots of effect of KH2PO4 and MIW powder on pectinase production
+
+Similarly, KCl has shown significance on the pectinase production than yeast extract and MgSO4·7H2O, respectively (Figs. 5, 6). All the response surfaces could be analyzed for determining the optimized value of the factors. Enzyme production is a growing field of biotechnology, the majority of the industrial enzymes are of microbial origin. Though there is a conventional method for the optimization of media composition RSM is the best statistical method to optimise all media components at a time. Through this method we can find out the suitable medium with optimal cultural conditions for high production of microbial pectinase by submerged fermentation. In the present study, the Enterobacter sp. PSTB-1 showed pectinase activity ranging from 10.3852 U/ml (low) to 87.5565 U/ml (high) under RSM designed conditions. The highest activity 87.5565 U/ml of Enterobacter sp. PSTB-1 is higher than the pectinase activity 53 U/ml of Bacillus sp. DT7 and 10.65 U/ml of Bacillus licheniformis (Shahera et al. 2002; Hou et al. 2011).Fig. 5Response surface plots of effect of KCl and MIW powder on pectinase production
+Fig. 6Response surface plots of effect of KCl and Yeast extract on pectinase production
+
+Fig. 5
+
+Response surface plots of effect of KCl and MIW powder on pectinase production
+
+Fig. 6
+
+Response surface plots of effect of KCl and Yeast extract on pectinase production
+
+Conclusion
+
+Model summary statistics showed that the predicted model was in close agreement with the experimental data. From the ANOVA results, the second-order polynomial regression model developed has a high correlation R
+2 value. The best conditions were found to be, NaNO3 2.0 g/l, KCl 0.50 g/l, KH2PO4 1.0 g/l, MgSO4·7H2O 0.50 g/l, Yeast extract 1.0 g/l, Mango industrial waste powder 5.0 g/l. Under these optimized conditions, the experimental value 87.557 U/ml of enzyme production closely agreed with the predicted value 53.658/ml. This is the first report regarding pectinase production from Enterobacter sp. PSTB-1 by using mango fruit processing industrial waste as a carbon source. The results resembled that the followed design model of response surface methodology (RSM) is the best fit for conducting the experiments to know the required concentrations of media components for the high production of pectinase. It is the cheapest fermentation process for high production of industrially important and microbial derived pectinase.
+

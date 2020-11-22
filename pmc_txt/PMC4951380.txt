@@ -1,0 +1,292 @@
+Statistical modeling and optimization of culture conditions by response surface methodology for 2,4- and 2,6-dinitrotoluene biodegradation using Rhodococcus pyridinivorans NT2
+
+Abstract
+
+To improve biodegradability (% biodegradation) and specific growth rate of Rhodococcus pyridinivorans NT2, culture medium and environmental parameters were screened and optimized using the statistical design techniques of Plackett–Burman and response surface methodology. Of the process variables screened, DNTs (2,4-DNT and 2,6-DNT), MgSO4·7H2O, temperature and inoculum size (O.D.) were selected as the most important (P value <0.05) factors. In multiresponse analysis of central composite design, medium formulation consisting of 474/470 mg l−1 2,4-DNT/2,6-DNT, 0.11 g l−1 MgSO4·7H2O, 37.5 °C temperature and 1.05 OD inoculum size were found to predict maximum % degradation and specific growth rate of 97.55 % and 0.19 h−1, respectively. The validity of the optimized variables was verified in shake flasks. The optimized media significantly shortened the time required for biodegradation of DNTs while providing a nearly 30 % (for 2,4-DNT) and 70 % (for 2,6-DNT) increased biodegradation along with 5.64-fold increase in specific growth rate for both DNTs.
+
+Electronic supplementary material
+
+The online version of this article (doi:10.1007/s13205-016-0468-9) contains supplementary material, which is available to authorized users.
+
+Introduction
+
+2,4-Dinitrotoluene 
+(2,4-DNT) and 2,6-dinitrotoluene (2,6-DNT) are the most common isomers produced during 2,4,6-trinitrotoluene (TNT) synthesis (Nishino et al. 2000) and are used commercially as an intermediate in the production of herbicides, dyes, and synthetic foams (Spain 1995; Mulla et al. 2014). Besides, DNTs are used as waterproofing, plasticizing and gelatinizing agent in explosives and as a modifier for smokeless powders (Kuşçu and Sponza 2011). While DNTs can be mineralized by many microorganisms isolated from the DNT-contaminated sites under laboratory conditions, DNT’s long-term persistence in the contaminated soil and groundwater is often observed (Han et al. 2011). Thus, the environmental impact of exposure of DNTs is a major public concern and is regulated by the US Environmental Protection Agency (EPA) as priority pollutants (Han et al. 2011; Hudcova et al. 2011; Mulla et al. 2014).
+
+To date, numerous studies reported the remediation of TNT and DNTs in contaminated lands, including ex situ and in situ techniques (Das et al. 2013; Gumuscu and Tekinay 2013). Also, the metabolic fate, toxicity, and biotransformation pathways in fungi, bacteria and plants have already been the subject of several studies (Bradley et al. 1994; Spain 1995; Nishino et al. 2000). Current research has mainly focused on the isolation of various microbes to mineralize/degrade nitroaromatics aerobically or anaerobically, and deciphering the catabolic pathways and enzymes involved in degradation (Ye et al. 2004; Kulkarni and Chaudhari 2007; Ju and Parales 2010; Mulla et al. 2011a, b, 2013; Singh et al. 2014). Although the DNT concentrations used in these studies were much higher than would be needed for successful applications of biological treatment in environmental systems, there is no reported instances where DNT biodegradation studies were conducted beyond 50 µM to 1 mM.
+
+We have recently isolated and characterized a Rhodococcus pyridinivorans NT2 from a pesticide-manufacturing facility that can degrade 4-NT (Kundu et al. 2013), 2,4-DNT (Kundu et al. 2015a) as well as 2,6-DNT (Kundu et al. 2015b). As a continuation of our research on the microbial treatment of nitrotoluene-contaminated wastewater, it is imperative to formulate an optimized cultivation strategy for enhanced degradation of DNTs to develop more efficient methods of treating such wastewater. Incidentally, to our knowledge, information regarding the multivariate statistical optimization in biodegradation of DNTs is not available. Therefore, the objective of this work was to increase the biodegradability (% biodegradation) of 2,4-DNT and 2,6-DNT using R. pyridinivorans NT2 by optimizing the media ingredients and environmental parameters. For this purpose, mathematical modeling and statistical analysis using Plackett–Burman design (PBD) and response surface methodology (RSM) were used to evaluate the main and interactive effects of process parameters on the biodegradation of DNTs and to determine their optimal values. Furthermore, a central composite design (CCD) model was developed to predict the removal of these isomers. Finally, numerical optimization based on desirability function was carried out to verify and validate the process.
+
+Materials and methods
+
+Chemicals
+
+2,4-DNT (97 %) and 2,6-DNT (98 %) were obtained from Sigma-Aldrich (St. Louis, MO, USA). All inorganic chemicals were of analytical grade unless specified otherwise and were obtained from Hi-Media, Mumbai (India).
+
+Microorganism and culture medium
+
+The actinobacterium R. pyridinivorans NT2 was used in this study (Kundu et al. 2013, 2015a). A basic mineral salt medium (MSB) (pH 7.0 ± 0.2) containing 0.75 g l−1 dipotassium hydrogen phosphate (K2HPO4), 0.2 g l−1 potassium dihydrogen phosphate (KH2PO4), and 0.09 g l−1 magnesium sulfate (MgSO4·7H2O) was used to grow the microorganism. Solid media were prepared by the addition of 15 g l−1 agar to the MSB medium. Prior to use, the media were sterilized in an autoclave at 121 °C for 15 min. The growth media were prepared by adding 2,4-DNT or 2,6-DNT of the required concentration (from filter-sterilized stock solutions in acetone) to the MSB. Acetone was removed by evaporation prior to the addition of the aqueous medium. Seed culture of the isolate was prepared with 18-h-old inoculum (OD600 = 0.5; ~1.0 × 107 CFU ml−1; ~1.6 mg CDW l−1) in the MSB. The pure culture was maintained by subculturing every 45 days in a 250-ml conical flask containing 100 ml of MSB and 2,4-DNT/2,6-DNT at an initial concentration of 100 mg l−1. All biodegradation experiments were performed in 500-ml conical flask containing 100 ml of media, as per the statistical design given in Supplementary Table 1.
+
+Identification of important variables and range finding by PBD
+
+The first screening step in optimization is to identify the variables which have significant effects on system response(s). For this, a two-level 12-run PBD in duplicate (Plackett and Burman 1946; Khuri and Mukhopadhyay 2010) was used to screen nine variables viz. 2,4-DNT/2,6-DNT, K2HPO4, KH2PO4, MgSO4·7H2O, yeast extract, pH, temperature, agitation and inoculum size at high (+1) and low (−1) levels (Table 1) to maximize the responses (% degradation and specific growth rate). In the 12-run PBD, each row represents an experiment and each column represents an independent variable (Tables 1a, 2b for 2,4- and 2,6-DNT, respectively).Table 1PBD matrix adopted in the screening study for biodegradation of (a) 2,4-DNT and (b) 2,6-DNT(a) Run no.Experimental variables Response 1Response 22,4-DNT (mg l−1)MgSO4·7H2O (g l−1)K2HPO4 (g l−1)KH2PO4 (g l−1)Yeast extract (g l−1)Temperature (°C)pHAgitation (rpm)Inoculum (OD)Specific growth rate (h−1)Biodegradability (% biodegradation)14000.0522115511010.113821000.10.052115920010.199431000.0520.05140520010.147241000.120.05140911010.144551000.1220.11552000.10.15661000.050.050.050.11551100.10.066574000.10.050.050.14052000.10.138984000.05220.14092000.10.086091000.050.0520.14091100.10.1680104000.10.052140511010.10473114000.120.050.11591100.10.1145124000.050.050.05115920010.0681(b) Run no.Experimental variablesResponse 1Response 22,6-DNT (mg l−1)MgSO4·7H2O (g l−1)K2HPO4 (g l−1)KH2PO4 (g l−1)Yeast extract (g l−1)Temperature (°C)pHAgitation (rpm)Inoculum (OD)Specific growth rate (h−1)Biodegradability (% biodegradation)13000.0522115511010.17823000.10.05214051100.10.119231000.0520.05140520010.144341000.120.0514091100.10.143551000.10.052115920010.176361000.050.050.050.11551100.10.077073000.10.050.050.140520010.125483000.050.050.0511592000.10.047093000.05220.14092000.10.0780101000.050.0520.140911010.1560111000.1220.11552000.10.142123000.120.050.115911010.190
+Table 2Experimental design and results of CCD of response surface methodology for the optimization of biodegradation of (a) 2,4-DNT and (b) 2,6-DNT(a) Exp. run no.Experimental variablesSpecific growth rate (h−1)Biodegradability (% biodegradation)2,4-DNT (X1)MgSO4·7H2O (X2)Temperature (X3)Inoculum size (X4)Exp.Pred.Exp.Pred.16000.08500.50.170.12868226000.15301.50.110.14808133000.15301.50.180.13788043000.08501.50.170.11636256000.08300.50.150.16324163000.15300.50.030.1808473000.08300.50.080.12888984500.1154010.180.16798294500.1154010.160.158177103000.08301.50.10.137067113000.15501.50.160.126065124500.1154010.120.145349134500.1154000.010.034751144500.1154010.180.178287156000.15300.50.130.165255164500.1154010.110.148184174500.0454010.140.176465184500.1154020.170.156066196000.08501.50.090.117374203000.15500.50.020.085859214500.1154010.160.116569226000.15501.50.170.121016237500.1154010.050.037679244500.1156010.130.16063251500.1154010.060.058791266000.08301.50.120.17772274500.1154010.150.117075284500.1854010.080.115559294500.1152010.10.086068306000.15500.50.040.077076313000.08500.50.110.127270(b) Exp. run no.Experimental variablesSpecific growth rate (h−1)Biodegradability (% biodegradation)2,6D-NT (X1)MgSO4·7H2O (X2)Temperature (X3)Inoculum size (X4)Exp.Pred.Exp.Pred.15000.08300.50.140.16798122000.08501.50.080.1606333500.1154010.160.18575542000.08500.50.120.14807853500.1154010.150.17555262000.08301.50.10.12424575000.15501.50.160.17495383500.1154020.150.16717595000.08301.50.130.128281106500.1154010.070.096160113500.1854010.050.085755122000.15300.50.010.046059135000.15301.50.120.157578143500.1154010.130.147780152000.15501.50.140.152231165000.08501.50.10.133444173500.11540000.021318183500.1154010.150.147882195000.15300.50.120.156975202000.15500.50.10.085054212000.15301.50.080.126658223500.1154010.170.187176232000.08300.50.060.087873243500.1156010.120.116371253500.1154010.140.12848926500.1154010.040.077371273500.1152010.110.138185285000.15500.50.030.056268295000.08500.50.060.087677303500.1154010.150.177879313500.0454010.10.118480
+
+Table 1
+
+PBD matrix adopted in the screening study for biodegradation of (a) 2,4-DNT and (b) 2,6-DNT
+
+Table 2
+
+Experimental design and results of CCD of response surface methodology for the optimization of biodegradation of (a) 2,4-DNT and (b) 2,6-DNT
+
+All experiments were carried out in duplicate, and the averages of residual 2,4-DNT/2,6-DNT concentration and culture growth were estimated. The variables whose confidence levels were higher than 95 % (P < 0.05) were considered to significantly influence biodegradation and were selected for further optimization by RSM.
+
+Optimization of identified variables by CCD
+
+To describe the nature of the response surface in the experimental region, a central composite design (Montgomery 1991; Sahoo et al. 2010) was applied. As presented in Supplementary Table 2, factors of highest confidence levels elucidated through PBD experimental design were 2,4-DNT/2,6-DNT (X1), MgSO4·7H2O (X2), temperature (X3) and inoculum size (X4). The total numbers of experimental runs carried out were 2k + 2 k + n
+0, where ‘k’ is the number of independent variables and n
+0 the number of replicate runs performed at center point of the variables. Thus, a total number of 31 experiments were carried out. The coded values of independent variables were found from equation (Sahoo et al. 2011):1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ X_{\text{i}} = \, \frac{{\Delta U_{\text{i}} - U_{0} }}{\Delta U}\;, $$\end{document}Xi=ΔUi-U0ΔU,where X
+i is the coded level (−α, −1, 0, +1 and +α) of any independent variable, U
+i is the uncoded/actual level of the independent variable, U
+0 is the uncoded level of the independent variable at its center point, and U is the step change. In the present case, as per the design, the default α value was taken to be 2.
+
+1
+
+For fitting the experimental results by response surface regression procedure, the following second-order polynomial equation was used:2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Y }} = \beta_{0} + \beta_{ 1} {\text{X}}_{ 1} + \beta_{ 2} {\text{X}}_{ 2} + \beta_{ 3} {\text{X}}_{ 3} + \beta_{ 4} {\text{X}}_{ 4} + \beta_{ 5} {\text{X}}_{ 1} {\text{X}}_{ 2} + \beta_{ 6} {\text{X}}_{ 1} {\text{X}}_{ 3} + \beta_{ 7} {\text{X}}_{ 1} {\text{X}}_{ 4} + \beta_{ 8} {\text{X}}_{ 2} {\text{X}}_{ 3} + \beta_{ 9} {\text{X}}_{ 2} {\text{X}}_{ 4} + \beta_{ 10} {\text{X}}_{ 3} {\text{X}}_{ 4} + \beta_{ 1 1} {\text{X}}_{ 1}^{ 2} + \beta_{ 1 2} {\text{X}}_{ 2}^{ 2} + \beta_{ 1 3} {\text{X}}_{ 3}^{ 2} + \beta_{ 1 4} {\text{X}}_{ 4}^{ 2} $$\end{document}Y=β0+β1X1+β2X2+β3X3+β4X4+β5X1X2+β6X1X3+β7X1X4+β8X2X3+β9X2X4+β10X3X4+β11X12+β12X22+β13X32+β14X42where Y is the measured or fitted or predicted response (% degradation and the specific growth rate, two responses in this case); X1, X2, X3, X4 are the coded independent input variables; β
+0 is the intercept term; β
+1, β
+2, β
+3, β
+4 are the linear coefficients showing the linear effects; β
+5, β
+6, β
+7, β
+8, β
+9, β
+10 are the cross-product coefficients showing the interaction effects; and β
+11, β
+12, β
+13, β
+14 are the quadratic coefficients showing the squared effects cross-product coefficients showing the interaction effects.
+
+2
+
+Experimental validation of the statistical model
+
+To check the validation of model predictions, a set of shake-flask experiments at optimal factor levels were run, and the experimental and predicted % biodegradation and specific growth rate were compared. The validation run experiments were conducted in 250-ml conical flasks containing 100 ml aliquots of the optimized medium. The samples were withdrawn aseptically at appropriate intervals and further analyzed for biomass (O.D.), dry cell weight and residual concentration of DNTs.
+
+Analytical methods
+
+Biomass in the samples was determined by measuring its optical density (O.D.) at 600 nm using a UV–visible spectrophotometer. The O.D. value was then converted to dry cell mass using appropriate calibration curve by plotting dry weight of biomass per liter against optical density of the suspension. To determine the amount of remaining 2,4- and 2,6-DNT, samples were withdrawn at regular intervals from the MSB media, centrifuged (6000g, 15 min) (Hereaus, Kendro Laboratory Products, Germany) and extracted twice with diethyl ether. Each sample extract was evaporated to dryness at 30 °C and redissolved in 0.5 ml methanol and was quantitatively analyzed by a HPLC equipped with UV (254 nm) detector using C18 column (4.6 × 250 mm; particle size: 5 µm) (Young Lin Autochro, S. Korea) using solvent methanol/water (60:40, v/v) as mobile phase at the flow rate of 1 ml min−1 (Mulla et al. 2013). Under these conditions, retention times of 2,4-DNT and 2,6-DNT were 31 and 29 min, respectively. Percentage biodegradation was calculated by applying the following formula:3\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Residual DNTs (}}\% ) { } = \, \left( {\frac{{C_{t} }}{{C_{0} }}} \right) \times 100\;, $$\end{document}Residual DNTs (%)=CtC0×100,where C
+0 is the initial concentration of DNTs in the medium, and C
+t is the concentration at time t.
+
+3
+
+Statistical analysis
+
+Experiments were carried out in duplicate, and final data were reported in terms of mean values. Statistical experimental designs were generated and analyzed using the statistical software package, Reliasoft Design of Experiment (DOE++; v 9.0.13) with a risk factor (α) of 0.05 (i.e. 95 % level of confidence) for both PBD and CCD. Three-dimensional surface plots were constructed for visualization of interaction between significant variables and their optimal values. Statistical analysis of the model was performed to evaluate the analysis of variance (ANOVA). The quality of the polynomial model equation was judged statistically by the coefficient of determination R
+2, and its statistical significance was determined by an F test. The significance of the regression coefficients was tested by a t test. Desirability function (Sahoo et al. 2010, 2011) was used for simultaneous optimization of all affecting parameters to achieve the highest % degradation and specific growth rate.
+
+Results and discussion
+
+In this study, the MSB medium was optimized statistically for optimal degradation of DNTs by R. pyridinivorans NT2. According to the results from the literature review and preliminary studies, 2,4-DNT/2,6-DNT (X1), MgSO4 (X2), K2HPO4 (X3), KH2PO4 (X4), yeast extract (X5), temperature (X6), pH (X7), agitation speed (X8), and inoculum size, i.e., OD (X9) were selected to optimize the medium composition using 12-run PBD. The analysis of PBD leads us to identify the most significant factors to proceed to the second phase of experimentation.
+
+Screening of media constituents and physical parameters using the two-level factorial design
+
+All the nine cultivation parameters were investigated for their effects on biodegradation and specific growth rate of R. pyridinivorans NT2 by taking 95 % as confidence level (α = 0.05) in statistical analysis of the results. Supplementary Tables 3 and 4 present the ANOVA and regression analysis of percentage degradation and specific growth rate, respectively. ANOVA for percentage degradation and specific growth rate indicated the F values to be 39.32 and 28.63 (2,4-DNT), 22.25 and 41.08 (2,6-DNT), respectively, and implied that the model was significant. This was further supported by a low value of P (<0.05). Based on regression analysis of the model, the coefficient of determination (R
+2) values were 99.44 % and 99.23 % (2,4-DNT), 99.01 and 99.46 % (2,6-DNT), along with adjusted R
+2 values of 96.91 and 95.76 % (2,4-DNT), 94.56 and 97.04 % (2,6-DNT) for percentage degradation and specific growth rate, respectively. These values again ensured a satisfactory adjustment of the model to the experimental data. The order of significantly affected variables in 2,4-DNT degradation was: inoculum size (OD) > 2,4-DNT > MgSO4·7H2O > temperature (specific growth rate) and inoculum size (OD) > MgSO4·7H2O > temperature > 2,4-DNT (% biodegradation). The pattern of response of specific growth rate and biodegradability (% biodegradation) in 2,6-DNT was similar with the data of 2,4-DNT degradation. All the other factors with P value >0.05 did not significantly affect the biodegradation of DNTs or the culture specific growth rate and, thus, were ruled out.
+
+According to ANOVA, regression analysis, mean effect plots (Supplementary Fig. 1) and Pareto charts (Supplementary Fig. 2), the four factors, inoculum size (OD), MgSO4·7H2O, 2,4-DNT/2,6-DNT and temperature, which had higher significance effect on both  % biodegradation and specific growth rate, were chosen for further optimization of their levels. The remaining factors (agitation speed, pH, concentrations of K2HPO4, KH2PO4 and yeast extract) were fixed at the levels where Y
+% degradation and Y
+specific growth rate were maximum. From the mean effect plots, it can be observed that the higher system responses were obtained at the highest level of MgSO4·7H2O (0.1 g l−1), KH2PO4 (2 g l−1), yeast extract (1 g l−1), temperature (40 °C), pH (9) and inoculums size (1 %) and the lowest level of K2HPO4 (0.5 g l−1) and agitation speed (110 rpm).
+
+RSM approach for optimization of operational parameters
+
+The CCD comprises three groups of design points: two-level factorial design points, axial points and center points. Thus, the relationship and interrelationship of factors were determined by fitting the second-order polynomial equation to the data obtained from the CCD experiments. Table 2 presents the matrix of the CCD design with actual values for independent variables and the corresponding two responses (specific growth rate and percentage biodegradation).
+
+For maximizing biodegradability, the two DNT and the culture specific growth rate, the levels of the four screened process variables, i.e., inoculum size (OD), MgSO4·7H2O, 2,4-DNT/2,6-DNT and temperature, were varied using the CCD. The four independent variables were studied at five different levels (−α, −1, 0, +1, +α), and a set of 31 experiments were carried out. A multiple regression analysis of the data was carried out to obtain an empirical model that relates the measured response to the independent variables.
+
+Based on the results obtained, regression model equations were developed for depicting the relationship between the various medium constituents and the responses on percentage biodegradation and specific growth rate. The second-order regression equation for 2,4-DNT degradation was:4\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Y}}_{ 1} f\left( {\text{X}} \right) \, = { 76}. 3 1 7 3 { } + \, 0. 2 6 2 5 {\text{X}}_{ 1} - 1 6 1. 4 1 8 9 {\text{X}}_{ 2} - 2. 6 9 5 8 {\text{X}}_{ 3} + { 8}. 9 8 8 1 {\text{X}}_{ 4} - 0. 7 7 3 8 {\text{X}}_{ 1} {\text{X}}_{ 2} + \, 0.00 3 5 {\text{X}}_{ 1} {\text{X}}_{ 3} - 0.0 8 2 5 {\text{X}}_{ 1} {\text{X}}_{ 4} + { 24}. 4 6 4 3 {\text{X}}_{ 2} {\text{X}}_{ 3} - 2 7 5.0000{\text{X}}_{ 2} {\text{X}}_{ 4} + { 2}.0 8 7 5 {\text{X}}_{ 3} {\text{X}}_{ 4} - 0.000 2 {\text{X}}_{ 1}^{ 2} - 900. 1 4 5 8 {\text{X}}_{ 2}^{ 2} - 0.0 4 4 8 {\text{X}}_{ 3}^{ 2} - 1 5. 4 10 7 {\text{X}}_{ 4}^{ 2} $$\end{document}Y1fX=76.3173+0.2625X1-161.4189X2-2.6958X3+8.9881X4-0.7738X1X2+0.0035X1X3-0.0825X1X4+24.4643X2X3-275.0000X2X4+2.0875X3X4-0.0002X12-900.1458X22-0.0448X32-15.4107X42
+5\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Y}}_{2} f(X) \, = - 0.3977 \, + \, 0.0014{\text{X}}_{1} + \, 0.5279{\text{X}}_{2} + \, 0.0083{\text{X}}_{3} + \, 0.0483{\text{X}}_{4} - 0.0001{\text{X}}_{1} {\text{X}}_{2} - 4.5833{\text{E}} - 06{\text{X}}_{1} {\text{X}}_{3} - 0.0003{\text{X}}_{1} {\text{X}}_{4} - 0.0268{\text{X}}_{2} {\text{X}}_{3} + \, 1.5357{\text{X}}_{2} {\text{X}}_{4} + \, 0.0016{\text{X}}_{3} {\text{X}}_{4} - 9.0939{\text{E}} - 07{\text{X}}_{1}^{2} - 5.4786{\text{X}}_{2}^{2} - 5.4613{\text{E}} - 05{\text{X}}_{3}^{2} - 0.0468{\text{X}}_{4}^{2} $$\end{document}Y2f(X)=-0.3977+0.0014X1+0.5279X2+0.0083X3+0.0483X4-0.0001X1X2-4.5833E-06X1X3-0.0003X1X4-0.0268X2X3+1.5357X2X4+0.0016X3X4-9.0939E-07X12-5.4786X22-5.4613E-05X32-0.0468X42The fitted second-order response surface models specified by Eq. (2) for degradation of 2,6-DNT in terms of actual process variables was:6\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Y}}_{ 1} f({\text{X}}) \, = { 87}. 3 9 4 4 { } + \, 0. 2 2 4 2 {\text{X}}_{ 1} - 2 9 3. 5 8 60{\text{X}}_{ 2} - 1. 7 6 3 1 {\text{X}}_{ 3} + { 3}. 7 3 8 1 {\text{X}}_{ 4} - 0. 5 7 1 4 {\text{X}}_{ 1} {\text{X}}_{ 2} + \, 0.00 2 8 {\text{X}}_{ 1} {\text{X}}_{ 3} - 0.0 6 8 3 {\text{X}}_{ 1} {\text{X}}_{ 4} + { 21}.0 7 1 4 {\text{X}}_{ 2} {\text{X}}_{ 3} - 1 9 2. 8 5 7 1 {\text{X}}_{ 2} {\text{X}}_{ 4} + { 1}. 8 500{\text{X}}_{ 3} {\text{X}}_{ 4} - 0.000 3 {\text{X}}_{ 1}^{ 2} - 7 6 2. 8 7 6 6 {\text{X}}_{ 2}^{ 2} - 0.0 4 1 8 {\text{X}}_{ 3}^{ 2} - 1 8. 7 3 8 1 {\text{X}}_{ 4}^{ 2} $$\end{document}Y1f(X)=87.3944+0.2242X1-293.5860X2-1.7631X3+3.7381X4-0.5714X1X2+0.0028X1X3-0.0683X1X4+21.0714X2X3-192.8571X2X4+1.8500X3X4-0.0003X12-762.8766X22-0.0418X32-18.7381X42
+7\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Y}}_{2} f\left( {\text{X}} \right) \, = - 0.2695 \, + \, 0.0012{\text{X}}_{1} + \, 0.7483{\text{X}}_{2} + \, 0.0057{\text{X}}_{3} + \, 0.0392{\text{X}}_{4} + \, 0.0004{\text{X}}_{1} {\text{X}}_{2} - 1.4583{\text{E}} - 05{\text{X}}_{1} {\text{X}}_{3} + \, 4.1667{\text{E}} - 05{\text{X}}_{1} {\text{X}}_{4} + \, 0.0304{\text{X}}_{2} {\text{X}}_{3} + \, 0.7500{\text{X}}_{2} {\text{X}}_{4} + \, 0.0009{\text{X}}_{3} {\text{X}}_{4} - 9.3056{\text{E}} - 07{\text{X}}_{1}^{2} - 13.0102{\text{X}}_{2}^{2} - 5.9375{\text{E}} - 05{\text{X}}_{3}^{2} - 0.0637{\text{X}}_{4}^{2} $$\end{document}Y2fX=-0.2695+0.0012X1+0.7483X2+0.0057X3+0.0392X4+0.0004X1X2-1.4583E-05X1X3+4.1667E-05X1X4+0.0304X2X3+0.7500X2X4+0.0009X3X4-9.3056E-07X12-13.0102X22-5.9375E-05X32-0.0637X42where Y1 = percentage biodegradation, Y2 = specific growth rate, X1 is 2,4-DNT/2,6-DNT, X2 is MgSO4·7H2O, X3 is temperature and X4 is inoculum size (OD). The negative and positive signs of regression coefficients indicate the antagonistic effect and synergistic effect of each variable, respectively.
+
+4
+
+5
+
+6
+
+7
+
+The statistical significance of Eqs. (4–7) was checked by F test. The ANOVA and student’s t test of the models for percentage biodegradation and specific growth rate were obtained as before in the screening study, and are given in Tables 3 and 4, respectively. In 2,4-DNT biodegradation, squared model terms X12, X32 and interaction of X1 with X4, X2 with X3, X3 with X4 were highly significant (P < 0.001) while calculating biodegradability (% biodegradation). In terms of specific growth rate, coefficient of linear term X4, squared model term X12 and interaction of X1 with X4 as well as X2 with X4 were highly significant (P < 0.001). Similarly, squared model terms X12, X32 and X42, and interaction of X1 with X4, X2 with X3, X3 with X4 were highly significant (P < 0.001) for biodegradability (% biodegradation) of 2,6-DNT. However, the coefficient of X4, squared model term X12, X22 and X42 and the two-way interaction between X1 and X3 were significant model terms in the calculation of specific growth rate of 2,6-DNT biodegradation studies.Table 3ANOVA of percentage degradation and specific growth rate in the optimization study of (a) 2,4-DNT and (b) 2,6-DNT biodegradationSpecific growth rate (h−1)Biodegradability (% biodegradation)
+df
+SSMS
+F
+
+P (Prob >F)
+df
+SSMS
+F
+
+P (Prob >F)(a) Source of variation Model140.06220.00444.47440.0027146575.9236469.70884.04480.0046 Main effects40.02370.00595.9750.00394440.1667110.04170.94760.4622 Two-way interactions60.02330.00393.91960.013464593.875765.64586.59320.0012 Quadratic effects40.01510.00383.8060.023341541.8819385.47053.31940.0368 Residual160.01590.001161858.0119116.1257 Lack of fit100.01140.00111.52370.3137101644.5833164.45834.62330.0371 Pure error60.00450.00076213.428635.5714 Total300.078308433.9355
+ R
+2 0.7965, Adj R
+2 0.6185
+R
+2 0.7797, Adj R
+2 0.5869(b) Source of variation Model140.05180.00374.94290.0016145419.3072387.09343.97010.005 Main effects40.01650.00415.52820.0054438395.750.9820.445 Two-way interactions60.01270.00212.83650.0446632585435.56910.0028 Quadratic effects40.02250.00567.51740.001341778.3072444.57684.55960.012 Residual160.0120.0007161560.047697.503 Lack of fit100.0110.00116.5850.0158101442.3333144.23337.35170.0119 Pure error60.0010.00026117.714319.619 Total300.0638306979.3548
+ R
+2 0.8122, Adj R
+2 0.6479
+R
+2 0.7765, Adj R
+2 0.5809
+df degrees of freedom, SS sum of squares, MS mean sum of squares
+Table 4Estimated regression coefficients and their significance in the models in the optimization study of (a) 2,4-DNT and (b) 2,6-DNT biodegradationSpecific growth rate (h−1)Biodegradability (% biodegradation)CoefficientStandard error
+T value
+P valueCoefficientStandard error
+T value
+P value(a) Term Intercept0.17190.015317.7267<0.000195.87433.643327.3686<0.0001 X1:2,4-DNT0.00440.00590.76240.30661.57111.66220.88790.4051 X2:MgSO4
+−0.00230.0059−0.44620.6298−2.3881.6622−1.31050.2267 X3:Temp−0.00110.0059−0.21550.7311−0.1271.6622−0.07840.9175 X4:Inoculum0.02580.00594.3711<0.00010.29551.66220.16660.8755 X1X2
+−0.00430.0077−0.61020.5709−0.84652.208−0.33430.7477 X1X3
+−0.01520.0077−2.80220.3104−1.93282.208−0.85480.393 X1X4
+0.00870.00771.1442<0.00010.31192.2080.1213<0.0001 X2X3
+0.00630.00770.95730.30186.61552.2083.0827<0.0001 X2X4
+0.01160.00771.6525<0.00013.56252.2081.62630.1265 X3X4
+0.00630.00770.98830.35220.47722.2080.1541<0.0001 X12
+−0.02330.0056−4.4962<0.0001−16.56281.6333−10.4247<0.0001 X22
+−0.01840.0056−3.60410.0589−8.44751.6333−5.00570.0457 X32
+−0.00840.0056−1.62930.1106−3.17551.6333−1.8346<0.0001 X42
+−0.01840.0056−3.6053<0.0001−2.46221.6333−1.58660.1403(b) Term Intercept0.21140.017816.7369<0.000194.86633.599928.3772<0.0001 X1:2,6-DNT0.00410.00530.78290.30181.54141.75870.83740.4075 X2:MgSO4
+−0.00280.0053−0.49820.6251−2.3351.7437−1.36640.2022 X3:Temp−0.00140.0061−0.21350.8336−0.1251.6922−0.07950.9351 X4:Inoculum0.02590.00584.3415<0.00010.27151.69220.11720.8732 X1X2
+−0.00440.0072−0.61020.5503−0.82352.205−0.39330.7176 X1X3
+−0.01930.0072−2.7022<0.0001−1.93882.205−0.85250.344 X1X4
+0.00880.00721.13320.51680.32232.2050.1434<0.0001 X2X3
+0.00690.00720.95890.35196.84552.2053.0924<0.0001 X2X4
+0.01210.00721.6562<0.00013.55762.2051.61760.1297 X3X4
+0.00670.00720.95890.35190.46722.2050.1887<0.0001 X12
+−0.02410.0054−4.4366<0.0001−18.31241.6874−10.2516<0.0001 X22
+−0.01780.0054−3.5043<0.0001−8.47291.6874−5.04840.0441 X32
+−0.00780.0054−1.63980.1206−3.19211.6874−1.8221<0.0001 X42
+−0.01780.0054−3.5043<0.0001−2.25241.6874−1.5188<0.0001
+
+Table 3
+
+ANOVA of percentage degradation and specific growth rate in the optimization study of (a) 2,4-DNT and (b) 2,6-DNT biodegradation
+
+df degrees of freedom, SS sum of squares, MS mean sum of squares
+
+Table 4
+
+Estimated regression coefficients and their significance in the models in the optimization study of (a) 2,4-DNT and (b) 2,6-DNT biodegradation
+
+The coefficient of determination (R
+2) value ranged between 77 and 90 % for both percentage biodegradation and specific growth rate in case of both DNTs. The values of R
+2 and adjusted R
+2 were close to 1.0 and advocated a high correlation between the observed values and the predicted values. Adequate precision is a measure of the signal-to-noise ratio, and a value greater than 4.0 is desirable. The adequate precision value ranged between 8.81 and 10.77, which indicated an adequate signal and suggested that the model can be used to navigate the design space. Thus, it can be concluded that there is a good agreement between the experimental values and the second-order polynomial model developed, and the observed differences (i.e., the residuals) may be readily explained as random noise (Tsimas et al. 2009; Tzikalos et al. 2013).
+
+The fitted response surface (3D) and their corresponding contour (2D) plots for percentage biodegradation and specific growth rate by the aforementioned model were generated to investigate the individual and cumulative effects of 2,4-DNT/2,6-DNT, MgSO4·7H2O, temperature and inoculum size (OD). The surface plots are generated for the pair-wise combination of factors with significant mutual effects, while other factors are set at their middle (0) levels. From the nature of the response surface contours, whether elliptical, circular or saddle point, interaction between the variables may be predicted. Interaction of inoculum size (OD) with 2,4-DNT concentration (Fig. 1a) and MgSO4·7H2O (Fig. 1b) (on specific growth rate) and interaction of 2,4-DNT concentration with inoculum size (OD) (Fig. 2a), MgSO4·7H2O with temperature (Fig. 2b) as well as temperature with inoculum size (OD) (Supplementary Fig. 3) had significant impact among variables on  % biodegradation. For specific growth rate in 2,6-DNT degradation, mutual interactions between the variables concentration of 2,6-DNT with temperature (Fig. 3a) and MgSO4·7H2O with temperature (Fig. 3b) were the most significant. On the other hand, interactions of inoculum size (OD) with 2,6-DNT concentration (Supplementary Fig. 4), and MgSO4·7H2O with temperature (Supplementary Fig. 5) were of highest significance on % biodegradation of 2,6-DNT.Fig. 13D surface (left) and 2D contour (right) plot for the response of specific growth rate of R. pyridinivorans NT2 in 2,4-DNT biodegradation as a function of a inoculum size (OD) and initial 2,4-DNT concentration (mg l−1) and b inoculum size (OD) and MgSO4·7H2O (g l−1)
+Fig. 23D surface (left) and 2D contour (right) plot showing the behavior of  % biodegradation as a function of a inoculum size (OD) and initial 2,4-DNT concentration (mg l−1) and b MgSO4·7H2O (g l−1) and temperature (°C) during 2,4-DNT biodegradation
+Fig. 33D surface (left) and 2D contour (right) plot for the response of specific growth rate of R. pyridinivorans NT2 in 2,6-DNT biodegradation as a function of a initial 2,6-DNT concentration (mg l−1) and temperature (°C) and b MgSO4·7H2O (g l−1) and temperature (°C)
+
+Fig. 1
+
+3D surface (left) and 2D contour (right) plot for the response of specific growth rate of R. pyridinivorans NT2 in 2,4-DNT biodegradation as a function of a inoculum size (OD) and initial 2,4-DNT concentration (mg l−1) and b inoculum size (OD) and MgSO4·7H2O (g l−1)
+
+Fig. 2
+
+3D surface (left) and 2D contour (right) plot showing the behavior of  % biodegradation as a function of a inoculum size (OD) and initial 2,4-DNT concentration (mg l−1) and b MgSO4·7H2O (g l−1) and temperature (°C) during 2,4-DNT biodegradation
+
+Fig. 3
+
+3D surface (left) and 2D contour (right) plot for the response of specific growth rate of R. pyridinivorans NT2 in 2,6-DNT biodegradation as a function of a initial 2,6-DNT concentration (mg l−1) and temperature (°C) and b MgSO4·7H2O (g l−1) and temperature (°C)
+
+To determine the optimal levels of each variable for maximizing both % biodegradation and the culture specific growth rate, the method of desirability function was applied. The desirability function test in this multiple response optimization reveals that the overall desirability function for biodegradation of DNTs and specific growth rate are close to 1, indicating that the function increases linearly toward the desired target values of the two responses. Besides, individual desirability values of the two responses were calculated and were found to be 1 each for the two responses. Using the desirability function method for optimizing both the responses simultaneously, optimum values of the cultivation conditions were estimated as follows: 2,4-DNT/2,6-DNT = 474/470 mg l−1, MgSO4·7H2O = 0.11 g l−1, temperature = 37.5 °C, and inoculum size = 1.05 OD, all of which were located within the experimental range. The predicted responses as maximum % degradation and specific growth rate under these optimum conditions were 97.55 % and 0.19 h−1, respectively.
+
+Validation of the experimental model under optimized settings
+
+To confirm the validity and accuracy of the model, additional confirmation experiments were done in triplicates according to the optimum configuration in batch shake-flask. 2,4- and 2,6-DNT were degraded at 0.036 and 0.035 mM h−1 with a specific growth rate of 0.166 and 0.141 h−1, respectively (Fig. 4). Using the previous unoptimized MSB media, the strain NT2 could degrade 365 mg l−1 (2 mM) and 275 mg l−1 (1.5 mM) of 2,4-DNT and 2,6-DNT, respectively. Thus, these optimized settings resulted in (1) 30 % (2,4-DNT) and 70 % (2,6-DNT) increased biodegradation, (2) 5.64-fold increase in specific growth rate for both DNTs, and (3) significant reduction in total degradation time (108 h in unoptimized vs. 72 h in optimized). The comparable predicted and experimental system responses reflect the accuracy and applicability of RSM for optimizing the biodegradation process.Fig. 4Validation experiments of a 2,4-DNT and b 2,6-DNT biodegradation by R. pyridinivorans NT2 in optimal (red filled circle) and previous (black filled square) MSB media. Data are mean values of two batches. Vertical bars are standard errors; where absent, bars fall within symbols
+
+Fig. 4
+
+Validation experiments of a 2,4-DNT and b 2,6-DNT biodegradation by R. pyridinivorans NT2 in optimal (red filled circle) and previous (black filled square) MSB media. Data are mean values of two batches. Vertical bars are standard errors; where absent, bars fall within symbols
+
+The biodegradability (% biodegradation) of 2,4-DNT and 2,6-DNT obtained here was compared with previous published data. Supplementary Table 5 shows the biodegradation of DNTs under aerobic and anaerobic conditions. Using the optimization medium, 100 % of both 2,4-DNT and 2,6-DNT was degraded in 72 h at 0.036 and 0.035 mM h−1, respectively. In other studies, 2,4-DNT and 2,6-DNT were degraded within a range of 0.0001–0.0604 mM h−1. Hughes et al. (1999) reported a higher value; however, Clostridium acetobutylicum was used to grow in anaerobic condition, compared to aerobic growth in this study. Moreover, despite DNT’s ability to serve as a nitrogen source and even as an energy source, the biotransformation of DNTs requires a primary substrate to serve as a carbon source and reducing equivalents in most cases (Wittich et al. 2009; Chien et al. 2014). Further, this is the first report of optimization of DNT degradation where the biodegradation time was reduced by 36 h, which should be cost-effective on a large-scale operation. Also, the decontaminated extracts may be used as a soil conditioner due to the content of organic carbon, total nitrogen, potassium as K2O and phosphorus as P2O5 (Yuan et al. 2006).
+
+Conclusions
+
+This study is the first report employing central composite design and response surface methodology to optimize the nutritional and physical parameters for enhanced biodegradation of DNTs. The results clearly demonstrated enhancement in biodegradability (% biodegradation) of 2,4-DNT and 2,6-DNT by R. pyridinivorans isolate NT2 following screening and optimization of medium constituents. Based on the Plackett–Burman design for screening the medium constituents, the substrates tested (2,4-DNT, 2,6-DNT), MgSO4·7H2O, temperature and inoculum size (OD) were found to be the most influential factors affecting biodegradability (% biodegradation) and specific growth rate. At the RSM optimized levels, increased biodegradation (2,4-DNT: 30 % and 2,6-DNT: 70 %) and increased specific growth rate (5.64-fold) were achieved in 33 % less time. Further pilot scale studies are required with this strain for actual applications in industrial wastewaters, and it is set aside for the next study.
+
+Electronic supplementary material
+
+Below is the link to the electronic supplementary material.
+Supplementary material 1 (DOCX 918 kb)
+
+Supplementary material 1 (DOCX 918 kb)
+

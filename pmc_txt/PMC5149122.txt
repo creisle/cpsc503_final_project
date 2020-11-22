@@ -1,0 +1,184 @@
+Extraction and bioactive profile of the compounds produced by Rhodococcus sp. VLD-10
+
+Abstract
+
+A potent actinobacterial strain isolated from the marine samples of Bheemunipatnam beach, Visakhapatnam, India, was identified as Rhodococcus sp. VLD-10 using the conventional and genomic (16S rRNA) approaches. Bioactive compounds responsible for the antimicrobial activity of the strain were elucidated by cultivating the strain VLD-10 in a modified yeast extract-malt extract-lactose broth followed by subsequent chromatographic and spectroscopic analyses. Extraction, purification, and structural confirmation of five compounds, viz., benzoic acid, 2-nitrobenzaldehyde, 4-chlorobenzaldehyde, nonadeconoic acid, and 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione, from Rhodococcus sp. VLD-10 were fruitfully described. The bioactivity of the compounds isolated from the strain VLD-10 against Gram-positive as well as Gram-negative bacteria, yeast, and molds was tested and their minimum inhibition concentration was reported. Antibacterial activity of 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione is more prominent against Bacillus subtilis, B. cereus, B. megaterium, Corynebacterium diphtheriae, and Escherichia coli, whereas its antifungal spectrum showed less potency against yeast and fungi. This is the first report on the natural occurrence and bioactivity of 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione from Rhodococcus sp. VLD-10.
+
+Electronic supplementary material
+
+The online version of this article (doi:10.1007/s13205-016-0576-6) contains supplementary material, which is available to authorized users.
+
+Introduction
+
+Microorganisms are capable of carrying out a tremendous variety of reactions and can adapt to a range of environments allowing them to be transplanted from nature to the laboratory where they can be grown on inexpensive carbon and nitrogen sources to produce valuable compounds (Narayana and Vijayalakshmi 2008; Manivasagan et al. 2013). Because of their biological activity, secondary metabolites of microbial origin are extremely important to our health and nutrition, and have a tremendous economic importance. The screening of microbial natural products continues to represent an important route to the discovery of novel chemicals, for development of new therapeutic agents and for evaluation of the potential of lesser-known or new bacterial taxa (Kurtboke and Wildman 1998; Ramesh and William 2012). Natural products or their derivatives remain the most significant source of novel medicines (Newman et al. 2003; Fenical 2006; Lam 2007; Manivasagan et al. 2013). Among the potential sources of natural products, bacteria are proven to be a predominantly prolific resource with a surprisingly small group of taxa accounting for the vast majority of compounds discovered (Keller and Zengler 2004). Among them, bacteria belonging to the order Actinomycetales (commonly called actinobacteria) are distributed ubiquitous in nature and account for more than 50% of the compounds reported in the Dictionary of Natural Products.
+
+In world’s 70% water ecosystem, Indian marine environment is believed to have rich microbial diversity. However, the wealth of indigenous marine microflora has not been fully explored. Most of the studies on marine microorganisms have been limited to isolation, identification, and maintenance of these organisms on different culture media. Their biotechnological potentials are yet to be fully explored (Sivakumar et al. 2007; Manivasagan et al. 2013). East Coast of India is reported to be a major source of actinobacteria (Sambamurthy and Ellaiah 1974; Balagurunathan 1992; Dhanasekaran et al. 2005; Vijayakumar et al. 2007). Therefore, there is tremendous scope to identify new or rare marine microorganisms from this region and also to discover novel microbial metabolites with diverse biological activities (Dhanasekaran et al. 2005; Ramesh and Mathivanan 2009; Ramesh and William 2012). The recent discovery of novel secondary metabolites from taxonomically unique populations of marine actinobacteria suggested that these bacteria add an important new dimension to microbial natural product research. Continued efforts to characterize marine actinobacterial diversity and how adaptations to the marine environment affect secondary metabolite production will create a better understanding of the potential utility of these bacteria as a source of useful products for biotechnology (Jensen et al. 2015). These findings will hopefully encourage additional studies addressing the ecological roles of actinobacteria in the marine environment, their diversity, distribution, culture requirements, and evolutionary responses to life in the sea. In view of the significance of marine actinobacteria as potential producers of bioactive compounds, this study is mainly aimed to identify the potent strain, Rhodococcus sp. VLD-10, isolated from marine soil samples of Bheemili beach, Visakhapatnam, India, and to characterize the bioactive metabolites responsible for its antimicrobial activity.
+
+Materials and methods
+
+Isolation and identification of an actinobacterial strain VLD-10
+
+An actinobacterial strain, VLD-10, was isolated from marine samples collected at a depth of 5–10 cm from Bheemunipatnam beach, Visakhapatnam, India, in sterile polyethylene bags. The soil dried at 45 °C for 1 h in hot air oven was pretreated with calcium carbonate (1:1 w/w) followed by plating on YMD agar medium using soil dilution technique (Williams and Cross 1971).
+
+Taxonomic studies of the actinobacterial strain VLD 10
+
+Cultural, physiological, and morphological characteristics together with genomic (16S rDNA gene sequencing) analysis of the strain were studied.
+
+The growth characteristics of the strain were studied on seven International Streptomyces Project (ISP) media, such as ISP-1 (Tryptone-yeast extract agar), ISP-2 (Yeast extract-malt extract-dextrose agar), ISP-3 (Oat meal agar), ISP-4 (Inorganic salts starch agar), ISP-5 (Glycerol-asparagine salts agar), ISP-6 (Peptone yeast extract iron agar medium), and ISP-7 (Tyrosine agar), as well as on five nonISP media, such as Nutrient agar (NA), Czapek–Dox (CD) agar, Bennett’s agar, Glucose–tryptone (GT) agar, and Starch casein (SC) agar, with the initial pH 7.2 maintained at 30 °C (Dietz and Theyer 1980). Cultural characters, such as growth, color of the aerial and substrate mycelia, and pigment production, were observed. Physiological and biochemical tests of the strain were examined using standard protocols (Shirling and Gottlieb 1966).
+
+Slide culture technique was employed to study the micro-morphology of the strain cultured on ISP-2 medium. The detailed micro-morphology of the strain was recorded using Scanning Electron Microscopy (SEM) as previously described (Bozzola and Russell 1999). The culture was fixed in 2.5% glutaraldehyde prepared in 0.1 M phosphate buffer (pH 7.2) for 24 h at 4 °C followed by the post-fixation step in 2% aqueous osmium tetroxide for 4 h in the same buffer. The sample was then dehydrated in ethanol and then dried up to critical with the help of Electron Microscopy Science CPD unit (Ruska Labs, Acharya N. G. Ranga Agricultural University, Hyderabad, India). The dried sample was mounted on aluminum stubs covered with double-sided carbon tape. A thin layer of gold coating was applied over the sample using automated sputter coaster for 3 min (JEOL JFC-1600, Japan). Finally, the samples were examined under SEM at various magnifications (Model: JOEL-JSM 5600, Japan).
+
+Molecular identification of the strain based on 16S rDNA sequence analysis
+
+The strain grown in YMD broth for 3 days was centrifuged at 10,000 rpm for 20 min and the pellet was used for the extraction of DNA (Mehling et al. 1995). PCR mixture consisted of 2.5 μl of 10X Taq buffer, 3.5 μl of MgCl2 (25 mM), 2 μl of dNTP (0.4 mM), 1 μl of 16S rDNA forward primer—5′-CCCATG TTGGGTATTCCTCCAGGCGAAAACGGG 3′ (10 pmol/μl), 1 μl of 16S rDNA reverse primer—5′CCCGCATTATCCGTACTCCCCAGGCGGGGC-3′ (10 pmol/μl), Taq polymerase (2 U/μl), and 2 μl template DNA. PCR amplification was carried out as follows: the initial denaturation step at 94 °C for 3 min followed by 30 cycles of denaturation at 94 °C for 1 min, annealing at 65 °C for 1 min, and extension at 72 °C for 1 min, with a further 5 min extension at 72 °C. The PCR product was purified with agarose gel DNA purification kit (SoluteReady® Genomic DNA purification kit, HELINI Biomolecules, Chennai, India) followed by sequencing of 750 bp. The deduced partial 16S rDNA gene sequence was compared with the accessible sequences in GenBank (http://www.ncbi.nlm.nih.gov/) using Basic Local Alignment Search Tool (BLAST) in NCBI GenBank databases. Phylogenetic and molecular evolutionary analyses were conducted using Molecular Evolutionary Genetic Analysis (MEGA) version 4.0 (Tamura et al. 2007).
+
+Extraction, purification, and structural confirmation of bioactive compounds produced by Rhodococcus sp. VLD-10
+
+Production of bioactive metabolites
+
+For the large-scale production of bioactive compounds from the strain, 10% of seed broth was inoculated into the optimized production medium (lactose @ 10 g, yeast extract @ 10 g, malt extract @ 10 g, and sodium chloride @ 60 g dissolved in 1 L distilled water and adjusted to pH 7.0) for the enhanced secondary metabolite production. The fermentation was carried out in 1 L Roux bottles for 120 h at 30 °C.
+
+Isolation, purification, and identification of bioactive compounds
+
+The bioactive compounds from the fermented broth were harvested by filtration of biomass through Whatman filter paper no. 42 (Merck, Mumbai, India). The culture filtrate (25 L) was extracted twice with an equal volume of ethyl acetate and pooled, and the organic layer was concentrated in a Rotovac. The deep brown semi-solid compound (3.8 g) obtained was applied to a silica gel G column (80 × 2.5 cm, Silica gel, Merck, Mumbai, India).
+
+The separation of the crude extract was conducted via gradient elution with hexane: ethyl acetate. The eluent was run over the column and small volumes of eluent collected in test tubes were analyzed via thin-layer chromatography (TLC) using silica gel plates (Silica gel, Merck, Mumbai, India) with hexane: ethyl acetate solvent system. Compounds with identical retention factors (R
+f) were combined and assayed for antimicrobial activities. The crude eluent was recuperated in 5–10 ml of ethyl acetate and was further purified.
+
+Among the 11 main fractions eluted, 10 fractions were found polar and 1 was nonpolar residue. Antimicrobial activity was tested for all the fractions obtained. Among the 10 polar fractions eluted from the crude extract, three fractions along with the nonpolar fraction exhibited high antimicrobial activity. D1 (70–30 v/v), D2 (30–70 v/v), D3 (20–80 v/v), and D4 (100–0 v/v) were the fractions collected at different hexane: ethyl acetate solvent system. All the fractions were rechromatographed using different gradient eluent systems for final elucidation of compounds. The fraction D1 on further purification yielded two compounds each in pure form (D1Ba and D1Bb). The second fraction D2 also yielded two subfractions in pure form namely D2Ba and D2Bb. The fraction D3 was single and obtained in pure form. The structure of these active fractions was analyzed on the basis of Fourier Transform Infrared (FTIR); model: Thermo Nicolet Nexus 670 spectrophotometer with NaCl optics, Electron Ionization Mass/Electron Spray Ionization Mass Spectrophotometry (EIMS/ESIMS); model: Micromass VG-7070H, 70 eV spectrophotometer and Nuclear Magnetic Resonance (1H NMR and 13C NMR); and model: Varian Gemini 200, and samples were made in CDCl3 with trimethyl silane as standard.
+
+Determination of minimum inhibitory concentration (MIC) of bioactive compounds
+
+The antimicrobial spectra of the bioactive compounds produced by the strain were determined in terms of minimum inhibitory concentration (MIC) against a wide variety of Gram-positive, Gram-negative bacteria, and fungi using agar plate diffusion assay (Cappuccino and Sherman 2002). Nutrient agar and Czapek–Dox agar were the media prepared for the growth of bacteria and fungi, respectively. The metabolite dissolved in DMSO at concentrations ranging from 0 to 1000 μg/ml was used to assay against the test bacteria, such as B. cereus (MTCC 430), B. megaterium (NCIM 2187), B. subtilis (MTCC 441), Corynebacterium diphtheriae (MTCC 116), E. coli (MTCC 40), Pseudomonas aeruginosa (MTCC 424), Salmonella typhi (ATCC 14028), Serratia marcescens (MTCC 118), Shigella flexneri (MTCC 1457), Staphylococcus aureus (MTCC 96), Xanthomonas campestris (NCIM 2310), and fungi, including Aspergillus niger (ATCC 1015), Alternaria alternata (MTCC 6572), Botrytis cinerea, C. albicans (MTCC 183), Fusarium oxysporum (MTCC 218), F. solani (MTCC 4634), and Verticillium alboatrum. The inoculated plates were examined after 24–48 h of incubation at 37 °C for bacteria and 48–72 h at 28 °C for fungi. The lowest concentration of the bioactive metabolite exhibiting significant antimicrobial activity against the test microbes was taken as the MIC of the compound.
+
+Results and discussion
+
+Isolation and identification of an actinobacterial strain VLD-10
+
+An actinobacterial strain, VLD-10, isolated from marine samples of Bheemunipatnam beach, Visakhapatnam, India, was purified on YMD agar medium using classical microbiological methods. Taxonomic position of the strain was described on the basis of cultural, morphological, physiological, and genomic analyses.
+
+Cultural characteristics of the strain were studied by growing the isolate on seven ISP media and five nonISP media and the results are tabulated in Table 1. It exhibited good growth on ISP 2, ISP 4, ISP 6, Bennett’s Agar, and SC Agar, while it was moderate on ISP 1, ISP 3, ISP 5, NAM, CD, and GT agar media. Growth was found to be less on ISP 7. No pigment production was observed in any of the media. Color of aerial and substrate mycelium ranged from dark brown to light brown. Aerial mycelium was white on NAM and CD agar media. Micromorphological studies of the strain through slide culture technique and Scanning Electron Microscopy (SEM) revealed the formation of short rods by the fragmentation of hyphae in their growth phase (Fig. 1).Table 1Cultural characteristics of the strain VLD10Culture mediaGrowthColor of aerial myceliumColor of substrate myceliumPigment productionISP-1ModerateBrownBrown–ISP-2GoodLight brownLight brown–ISP-3ModerateLight brownLight brown–ISP-4GoodLight brownLight brown–ISP-5ModerateBrownDark brown–ISP-6GoodBrownDark brown–ISP-7PoorLight brownBrown–NAMModerateWhiteBrown–CD agarModerateWhiteBrown–Benett’s agarGoodBrownDark brown–GT agarModerateLight brownBrown–SC agarGoodBrownDark brown–
+NAM nutrient agar medium, GT agar glucose–tryptone agar, CD agar Czapek–Dox agar, SC agar starch casein agar
+Fig. 1Scanning electron microscopic photograph of the actinobacterial strain VLD 10
+
+Table 1
+
+Cultural characteristics of the strain VLD10
+
+NAM nutrient agar medium, GT agar glucose–tryptone agar, CD agar Czapek–Dox agar, SC agar starch casein agar
+
+Fig. 1
+
+Scanning electron microscopic photograph of the actinobacterial strain VLD 10
+
+According to Kampfer et al. (1991), physiological tests play a significant role in the classification and identification of actinobacteria. The strain exhibited good growth with glucose, lactose, starch, and sucrose as carbon sources, while it was moderate with maltose and fructose compared to arabinose, d-galactose, glycerol, mannitol, raffinose, and xylose. It exhibited good growth with organic nitrogen sources like yeast extract and tryptone followed by peptone and l-asparagine. Inorganic nitrogen sources like sodium nitrate, potassium nitrate, and ammonium nitrate did not support the growth. The isolate was indole and methyl red positive. It showed negative results for Voges Proskauer and citrate utilization tests (Table 2). The comparison of biochemical and morphological characteristics of the strain with those reported in Bergey’s Manual of Systematic Bacteriology (Buchannar and Gibbons 1974) revealed its identity as Rhodococcus sp.Table 2Physiological and biochemical characteristics of the strain VLD 10InferenceUtilization of carbon sources (w/v) Glucose+++ Lactose+++ Starch+++ Sucrose+++ Fructose++ Maltose++ Arabinose+ Galactose+ Glycerol+ Mannitol+ Raffinose+ Xylose+Utilization of nitrogen sources (w/v) Tryptone+++ Yeast extract+++
+ l-Asparagine++ Peptone++ Ammonium nitrate− Potassium nitrate− Sodium nitrate− Tyrosine−Biochemical characteristics Methyl redP IndoleP Voges ProskaeurN Citrate utilizationN H2S productionPSodium chloride tolerance (w/v) 0%− 1–3%+ 4–6%++ 7–8%+++ Above 8%+Enzymatic activity AmylaseP CellulaseP ChitinaseP PectinaseP
+ l-AsparaginaseP ProteaseP RNAaseN Nitrate reductaseN DNAaseN KeratinaseNAntibiotic sensitivity (µg/ml)) Ampicillin (10)S Chloramphenicol (10)S Gentamicin (30)R Neomycin (15)S Penicillin (25)S Rifampicin (20)S Streptomycin (50)R Tetracycline (35)S Vancomycin (30)R
+P positive, N negative, S sensitive, R resistant+++ good growth, ++ moderate growth, + weak growth, − no growth
+
+Table 2
+
+Physiological and biochemical characteristics of the strain VLD 10
+
+P positive, N negative, S sensitive, R resistant
+
++++ good growth, ++ moderate growth, + weak growth, − no growth
+
+The strain exhibited good growth in the medium amended with 7–8% (w/v) NaCl, while growth was moderate between 1 and 6% (w/v). No growth was found in the medium without NaCl indicating its halophilic nature. It could produce a broad range of commercially important enzymes like amylase, cellulase, chitinase, l-asparaginase, protease, and pectinase, but it was negative for DNase, RNase, keratinase, and nitrate reductase. It was found to be sensitive to antibiotics, such as ampicillin, chloramphenicol, neomycin, penicillin, rifampicin, and tetracycline, but showed resistance to gentamicin, streptomycin, and vancomycin (Table 2).
+
+Using 16S rRNA analysis, the gene sequence of the strain was compared and aligned with those sequences retrieved from NCBI GenBank database using the BLAST analysis. The phylogenetic tree was constructed by neighbour-joining method using the MEGA software (Fig. 2) and deposited in the Gene Bank with an accession number KC505180. Based on these cultural, morphological, physiological, and molecular analyses, the strain VLD-10 was identified as Rhodococcus sp. VLD-10 belonging to the family Corynebacteriaceae.Fig. 2Phylogenetic tree of 16SrRNA sequence of the actinobacterial strain VLD 10 constructed in comparison with those of species of genus Rhodococcus using neighbour-joining method. Bar, one substitutions per nucleotide position
+
+Fig. 2
+
+Phylogenetic tree of 16SrRNA sequence of the actinobacterial strain VLD 10 constructed in comparison with those of species of genus Rhodococcus using neighbour-joining method. Bar, one substitutions per nucleotide position
+
+Isolation and purification of bioactive compounds from crude extract
+
+For the isolation and purification of bioactive compounds, crude extract was applied on a silica gel G column (80 × 2.5 cm, Silica gel, Merck, Mumbai, India) and their separation was conducted via gradient elution with hexane: ethyl acetate. Elutions were collected sequentially in small test tubes and those fractions having similar retention factors (R
+f) on thin-layer chromatography (TLC) silica gel plates were pooled together. Out of 11 eluted main fractions, 10 are polar residues and 1 is nonpolar residue. Among the ten polar fractions, three fractions and the single nonpolar fraction exhibited high antimicrobial activity. These four fractions, namely D1, D2, D3, and D4, were collected at different eluent systems of hexane: ethyl acetate solvent systems, viz., 70–30 v/v, 30–70 v/v, 20–80 v/v, and 100–0 v/v, respectively. All the fractions were rechromatographed using different gradient eluent systems to obtain the fractions in pure form for structural elucidation. The flowchart showing the isolation and purification of bioactive fractions is illustrated in Fig S1.
+
+Physico-chemical properties and structural elucidation of six bioactive compounds
+
+D1 fraction was rechromatographed into two pure fractions, (D1Ba) and (D1Bb). The fraction D1Ba appeared as yellow solid which was soluble in CHCl3, MeOH, DCM, and DMSO. The IR absorption maxima V
+max at 1686 cm−1 suggested the presence of functional groups like carbonyl groups (Fig. S2a). In ESIMS, the compound showed molecular ions at m/z = 123 [M+] inferring the molecular weight of C7H6O2 [M]+ (Fig. S2b). The proton NMR of the compound displayed proton signals at signals at δ 8.12–8.15 (m, 2H), 7.59–7.62 (m, 1H), and 7.44–7.46 (m, 2H) due to five aromatic protons (Fig. S2c). 13C NMR depicted peak and showed signal at δ 172.7 for carbonyl group (Fig. S2d). Based on these spectral data, the first active fraction (D1Ba) was identified as benzoic acid.
+
+D1Bb fraction soluble in MeOH, DCM, and DMSO appeared as white crystalline powder. The IR absorption maxima V
+max at 1705 cm−1 suggested the presence of functional aldehyde (Fig. S3a). In ESIMS, the compound showed molecular ions at m/z = 301[2M-1] inferring the molecular weight of 2(C7H5O3N)-1 [2M-1] (Fig. S3b). The proton NMR of the compound displayed proton signals at δ 10.43 (1H, s), and one proton for aldehyde, at δ 8.13 (d, 1H, J = 7.7, 1.3 Hz), 7.96 (dd, 1H, J = 7.3, 1.9 Hz), and 7.75–7.83 (2H, m) for four aromatic protons (Fig. S3c). 13C NMR depicted peaks at δ (188.1) for aldehyde carbon (Fig. S3d). Based on the spectral data, the fraction D1Bb was identified as 2-nitrobenzaldehyde.
+
+D2 fraction was rechromatographed into two pure fractions, (D2Ba) and (D2Bb). D2Ba fraction appeared as white crystalline powder and was soluble in CHCl3, MeOH, and DCM. The IR absorption maxima V
+max at 1683 cm−1 suggested the presence of aldehyde (Fig. S4a). In ESIMS, the compound showed molecular ions at m/z = 141 [M+1]+ inferring the molecular weight of C7H6OCl [M+1]+ (Fig. S4b). The proton NMR of the compound displayed proton signals at δ 9.99 (s, 1H) for one aldehyde proton, and at δ 7.83 (d, 2H, J = 8.5 Hz) and 7.53 (d, 2H, J = 8.5 Hz) for four aromatic protons (Fig. S4c). 13C NMR depicted peak at δ 190.7 for aldehyde (Fig. S4d). D2Ba was identified as 4-chlorobenzaldehyde based on the spectral data.
+
+The second fraction D2Bb in pure form appeared as light green liquid soluble in CHCl3, MeOH, DCM, and DMSO. The IR absorption maxima V
+max at 1709 cm−1 suggested the presence of carboxylic group (Fig. S5a). In ESIMS, the compound showed molecular ions at m/z = 299 [M+1]+ inferring the molecular weight of C19H38O2 [M+1]+ (Fig. S5b). The proton NMR of the compound displayed at δ 2.35 (t, 2H, J = 7.2 Hz) for alpha methylene protons; at δ 1.65–1.55 (30H, m) and 1.25–1.99 (m, 2H) for aliphatic methylene protons; at δ 1.25–1.99 (m, 2H) for methylene protons; and at δ 0.82 (t, 3H, J = 6.1 Hz) for methyl protons (Fig. S5c). 13C NMR depicted peak at δ 180.8 for carboxylic group (Fig. S5d). Based on spectral data, the D2Bb fraction was identified as nonadeconoic acid.
+
+Fraction D3 appeared as white solid, which was soluble in CHCl3, MeOH, DCM, and DMSO. The IR absorption maxima V
+max at 1687 cm−1 suggested the presence of functional groups like carbonyl group (Fig. S6a). In ESIMS, the compound showed molecular ions at m/z = 211.1474 [M+1] inferring the molecular weight of C11H1902N2[M+1]+ (Fig. S6b). The proton NMR of the compound displayed proton signals at δ 5.91 (s, 1H) for amide protons; 4.12 (t, 1H, J = 7.5 Hz) for methylene protons; 4.02 (d, 1H, J = 6.7 Hz) for methylene protons; 3.67–3.48 (m, 2H) for methylene protons; 2.45–2.24 (m, 1H) and 2.23–1.97 (m, 3H) for methylene proton; 1.96–1.83 (m, 1H), 1.82–1.69 (m,1H), and 1.60–1.45 (m, 1H) for methylene protons; and 1.05 (d, 3H, J = 6.0 Hz) and 0.96 (d, 3H, J = 6.0 Hz) for methyl protons. (Fig. S6c). 13C NMR depicted peaks at δ 170.2 (1C), 166.1 (1C), 76.5 (1C), 58.9 (1C), 53.3 (1C), 45.4 (1C), 38.5 (1C), 29.6 (1C), 28.0 (1C), 24.6 (1C), 23.2 (1C), 22.7 (1C), and at δ 21.1 (1C) (Fig. S6d). DEPT spectrum exhibiting methyl groups (12, 121), methylene groups (3, 4, 5, 10), and methylene groups (6, 9, 11) (Fig. S6e). 1H–1H COSY NMR spectrum exhibits correlation between H12–H11, H10–H11, H10–H9, H6–H5, H5–H4, H4–H3 (Fig. S6f). HSQC spectrum exhibits correlation between 13 C NMR with 1H NMR: C3–H3, C4–H4, C5–H5, C6–H6, C9–H9, C10–H10, C11–H11, C12–H12, and C13–H13 (Fig. S6g). HMBC spectrum exhibits following correlation of 13 C NMR with 1H NMR 23.2–1.05; 21.1–0.96; 24.6–1.55; 38.5–1.55, 2.08; 53.3–4.03; 58.9–4.15; 28.0–2.18, 2.38; 22.7–1.97, 2.05; 45.4–3.60; 170–4.12; and 166.1–4.02. (Fig. S6h). Based on these spectral data, the active fraction D3 was identified as 3-isobutylhexahydropyrrolo[1,2-a]pyrazine-1,4-dione This is the first report from actinobacteria.
+
+Determination of MIC of the isolated bioactive compounds
+
+MIC of the bioactive compounds, viz., benzoic acid, 2-nitrobenzaldehyde, 4-chlorobenzaldehyde, nonadeconoic acid, and 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione (Fig. 3), along with crude extract of the strain VLD-10 against bacteria and fungi was determined. The sensitivity of bacteria as well as fungi to the compounds exhibited variation and the MIC of these compounds ranged from 5–100 µg/ml (Table 3). Bioactive compounds of the crude extract showed good antimicrobial activity against test bacteria and fungi in the range of 10–20 µg/ml. Benzoic acid (D1Ba) is active against bacteria, such as B. cereus, S. aureus, and X. campestris as compared to the other bacteria tested, while Botrytis cinerea is sensitive among fungi. 2-nitrobenzal dehyde (D1Bb) is mostly active against bacteria like B. subtilis, Shigella flexneri, and Staphylococcus aureus. 4-chlorobenzaldehyde (D2Ba) is active against S. aureus, B. subtilis, and S. flexneri. Nonadeconoic acid (D2Bb) is active against S. flexneri, S. aureus, B. subtilis, and X. campestris. Among all the compounds, 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione (D3) is more active against B. subtilis, B. cereus, B. megaterium, C. diphtheriae, and E. coli, but it showed less activity against the fungi when compared to that of standard control (nystatin). The partially purified fraction (D4) exhibited good activity against Bacillus spp. tested.Table 3Minimum inhibitory concentration (MIC) of the bioactive compounds produced by Rhodococcus sp. VLD10Test organismMIC (µg/ml)D1BaD1BbD2BaD2BbD3CrudeextractPositive controlBacteria
+ Bacillus cereus
+20403535201015
+ Bacillus megaterium
+45354555201525
+ Bacillus subtilis
+35202020151020
+ Corynebacterium diphtheriae
+30455555201030
+ Escherichia coli
+30354535251020
+ Pseudomonas aeruginosa
+40453540451040
+ Salmonella typhi
+50504545502045
+ Serratia marcescens
+30353035251025
+ Shigella flexneri
+35202015251515
+ Staphylococcus aureus
+25251515301020
+ Xanthomonas campestris
+25352520251025Fungi
+ Aspergillus niger
+5085957050205
+ Botrytis cinerea
+25809075451510
+ Candida albicans
+559510090401510
+ Fusarium oxysporum
+50807065352010
+ Fusarium solani
+351008065402010
+ Verticillium alboatrum
+80908070552010
+ Alternaria alternata
+6575758540205Tetracylcline is the positive control for bacteria and Nystatin for fungi
+5D1Ba benzoic acid, D2Ba 4-chlorobenzaldehyde, D1Bb 2-nitrobenzaldehyde, D2Bb nonadeconoic acid, D3 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione
+Fig. 3
+a Molecular structure of benzoic acid, b molecular structure of 2-nitrobenzaldehyde, c molecular structure of 4-chlorobenzaldehyde, d Molecular structure of nonadeconoic acid, and e molecular structure of 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione
+
+Table 3
+
+Minimum inhibitory concentration (MIC) of the bioactive compounds produced by Rhodococcus sp. VLD10
+
+Tetracylcline is the positive control for bacteria and Nystatin for fungi
+
+5D1Ba benzoic acid, D2Ba 4-chlorobenzaldehyde, D1Bb 2-nitrobenzaldehyde, D2Bb nonadeconoic acid, D3 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione
+
+Fig. 3
+
+a Molecular structure of benzoic acid, b molecular structure of 2-nitrobenzaldehyde, c molecular structure of 4-chlorobenzaldehyde, d Molecular structure of nonadeconoic acid, and e molecular structure of 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione
+
+Rhodococci are notable for the ability to degrade a variety of natural and xenobiotic compounds (Bell et al. 1998) along with few bioactive metabolite reports. Chiba et al. (1999) purified and elucidated a novel antifungal cyclic tetrapeptide, Rhodopeptins (Mer-N1033) from Rhodococcus sp. Two antimycobacterial agents, lariatins A and B, were elucidated by Iwatsuki et al. (2006) from the culture broth of Rhodococcus sp. K01-B0171 using spectral analysis and advanced protein chemical methods. Kitagawa and Tamura (2008) isolated a new quinoline antibiotic, aurachin RE from the culture broth of Rhodococcus erythropolis JCM 6824 active against both high- and low-GC Gram-positive bacteria.
+
+Isolation and purification of rhodostreptomycin A and B by a combination of cation exchange (CM-Sephadex) and reversed-phase HPLC (Lichrospher 60RP-select B) from the culture broths of Rhodococcus fascians 307CO were recorded (Kurosawa et al. 2008). Abdel-Meged et al. (2011) purified, characterized, and tested the antimicrobial activity of glycolipids produced by Rhodococcus erythropolis isolated from soils of Riyadh area, Saudi Arabia. Borisova (2011) found that antimicrobial compound (MW 911.5452 Da) of Rhodococcus opacus isolated from the soils of East Tennessee State University inhibited R. erythropolis and a large number of closely related species.
+
+This study has revealed the production of five bioactive compounds, such as benzoic acid, 2-nitrobenzaldehyde, 4-chlorobenzaldehyde, nonadeconoic acid, and 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione, from Rhodococcus sp. VLD-10. Benzoic acid is a well-known food preservative that inhibits the growth of bacteria, yeasts, and molds (Warth 1991), which is also evident from our findings in vitro. The bioactive compounds, 2-nitrobenzaldehyde and 4-chlorobenzaldehyde play a prominent role in the manufacture of pharmaceuticals, dyes, agrochemicals, and other organic compounds. However, their natural occurrence from Rhodococcus spp. and their biological significance is not yet reported. This is the first report of 3-isopropylhexahydro-1H-pyrido[1,2-a] pyrazine-1,4(6H)-dione isolated from Rhodococcus sp. VLD-10.
+
+Electronic supplementary material
+
+Below is the link to the electronic supplementary material.
+Supplementary material 1 (DOC 1321 kb)
+
+Supplementary material 1 (DOC 1321 kb)
+

@@ -1,0 +1,454 @@
+Impact assessment of silver nanoparticles on plant growth and soil bacterial diversity
+
+Abstract
+
+The present study was carried out to investigate the impact of silver nanoparticles (AgNPs) on the growth of three different crop species, wheat (Triticum aestivum, var. UP2338), cowpea (Vigna sinensis, var. Pusa Komal), and Brassica (Brassica juncea, var. Pusa Jai Kisan), along with their impact on the rhizospheric bacterial diversity. Three different concentrations (0, 50 and 75 ppm) of AgNPs were applied through foliar spray. After harvesting, shoot and root parameters were compared, and it was observed that wheat was relatively unaffected by all AgNP treatments. The optimum growth promotion and increased root nodulation were observed at 50 ppm treatment in cowpea, while improved shoot parameters were recorded at 75 ppm in Brassica. To observe the impact of AgNPs on soil bacterial community, sampling was carried out from the rhizosphere of these crops at 20 and 40 days after the spraying of AgNPS. The bacterial diversity of these samples was analyzed by both cultural and molecular techniques (denaturing gradient gel electrophoresis). It is clearly evident from the results that application of AgNPs changes the soil bacterial diversity and this is further influenced by the plant species grown in that soil. Also, the functional bacterial diversity differed with different concentrations of AgNPs.
+
+Electronic supplementary material
+
+The online version of this article (doi:10.1007/s13205-016-0567-7) contains supplementary material, which is available to authorized users.
+
+Introduction
+
+The use of nanotechnology is increasing in various fields like information technology, energy, consumer goods, medical sector, and agriculture. However, every technology comes with a price; the release of NPs to the environment remains a point of concern, mostly due to the lack of scientific knowledge related to the potential health and environmental risks associated with them. Many studies have raised the concerns on how this release would affect ecosystem health and human safety (Meng et al. 2009; Klaine et al. 2008; Colvin 2003). Unfortunately, little knowledge is available to date despite these concerns. The present study deals with the effect of release of nanoparticles on plants and soil bacterial diversity.
+
+So far, both positive and negative effects of NPs on plants were reported. Hong et al. (2005) pointed out that 0.25% nano-TiO2 promoted photosynthesis and nitrogen metabolism resulting in improved spinach growth. Arora et al. (2012), while studying the impact of gold NPs on the growth profile and seed yield of Brassica juncea under field conditions, found that out of five different concentrations of gold NPs (0, 10, 25, 50, and 100 ppm), application of 10 ppm concentration resulted in the optimum increase in growth and seed yield of the plants. Stampoulis et al. (2009) and Hawthorne et al. (2012) exposed zucchini (Cucurbita pepo subspecies pepo) to different NPs and found plant biomass reduction when compared with unexposed or corresponding bulk material controls. Musante and White (2012) reported similar trends in NP Ag and Cu phytotoxicity for squash (C. pepo subspecies ovifera), although species-specific differences existed in the magnitude of biomass, transpiration reductions, and extent of element accumulation.
+
+Microorganisms are key regulators of biogeochemical recycling of nutrients in the environment and assist in maintaining the overall health and function of ecosystems. Microorganisms are especially sensitive to environmental changes (Sadowsky and Schortemeyer 1997); the structure and abundance of the microorganism community may shift in response to foreign nanomaterials (Ge et al. 2011; Kumar et al. 2011; Tong et al. 2007). Many nanomaterials, such as carbon nanotubes (Kang et al. 2007; Liu et al. 2009), graphene-based nanomaterials (Hu et al. 2010), iron-based nanoparticles (Auffan et al. 2009), silver (Sondi and Salopek-Sondi 2004), and copper, zinc, and titanium oxide nanoparticles (Kasemets et al. 2009), have been reported to be toxic to pure cultures of bacteria. However, these studies were conducted in vitro and it is hard to say that NPs have the same effect in the soil as they showed in in vitro conditions. Soil is a very complex system, and physicochemical characteristics such as pH, EC, texture, and organic matter content can alter the properties of NPs introduced in it. This interaction might result in increased or decreased bioavailability and toxicity of NPs (Dimkpa 2014). Many studies support this; fullerenes exposure did not alter the structure and function of the soil microbial community as reported by Tong et al. (2007), whereas Ge et al. (2011) found that nano-TiO2 and nano-ZnO have negative effects on the soil bacterial communities.
+
+There are limited and inconsistent data regarding the effect of NPs on the soil microbial community and there are no standard and proven methods for assessing their toxicity on soil microbial community. Nevertheless, various methods are used to evaluate the effect of contaminants on the soil microbial community, including viability count, molecular-based methods, carbon utilization patterns, and fatty acid methyl ester (FAME) analysis. In their efforts to check the effect of AgNPs on the microbial diversity and enzyme activity of soil, Hänsch and Emmerling (2010) found a significant decrease in microbial mass with increasing AgNPs concentration. However, no treatment effects were found for microbial biomass N, fluorimetric enzymes, and the abiotic soil parameters such as pH and soil organic C.
+
+Kirk et al. (2004) reviewed in detail the advantages and disadvantages of each method. All methods when used alone have several limitations (Mehta et al. 2014). Thus, in the current study, culture-dependent and independent methods were used in combination for assessing the ecotoxicity. The community structure was analyzed using PCR-DGGE. The present study aimed to look for the impact of AgNPs on the growth parameters of three different crop plants, T. aestivum (var. UP2338), B. juncea (var. Pusa Jai Kisan), and V. sinensis (var. Pusa Komal), under greenhouse conditions and their influence on rhizospheric bacterial diversity.
+
+Materials and methods
+
+Silver nanoparticles
+
+AgNPs formulation (9 × 10−4 M), which was used in the present study, was synthesized at the Department of Molecular Biology and Genetic Engineering, GB Pant University of Agriculture and Technology, Pantnagar, UK, India, through chemical reduction of silver nitrate by tri-sodium citrate salt, as described by Sileikaite et al. (2006).
+
+Plant growth
+
+Greenhouse experiments were conducted with three selected species, T. aestivum (var. UP2338), B. juncea (var. Pusa Jai Kisan), and V. sinensis (var. Pusa Komal). They were chosen as apart from being the most commonly grown crops and also represent the two major plant systems: monocots and dicots (leguminous and non-leguminous).The growth matrix used was unsterilized soil [pH 8.3, EC (dS/m) 0.852]. After 30 days of sowing, each crop was treated with 5 ml of 50 and 75 ppm concentration of AgNPs, separately as foliar spray. Distilled water was sprayed in the control treatment. Seedlings were again treated with the respective AgNPs concentrations at 40 days after sowing as a booster dose. Each treatment was replicated three times. Plant growth parameters, namely, root and shoot length, and fresh and dry weight, were recorded after 40 days of the first application of AgNPs. In the case of cowpea, root nodules were also counted in each root and their mean was taken. Another set of experiment was performed with the same conditions, but without any crops, and AgNPs were directly added to the soil.
+
+Bacterial community analysis
+
+To determine the effect of AgNPs on soil bacterial diversity, soil samples were taken from the rhizosphere of the three plant species after 20 and 40 days of the first AgNPs treatment. Then, these samples were analyzed by a culture-dependent (serial dilution plate count) method on different agar medium. One gram of soil sample was suspended in 9 ml of sterile saline (0.8%) and vortexed. Further dilutions were made from this suspension. For total bacterial count, 100 μl of suspension was spread plated on nutrient agar, and the total number of colonies was counted after incubation at 28 °C for 24 h. The samples were also tested for the effect on nitrogen fixers, siderophore producers, and phosphate solubilizers by spread plating the soil suspension on Jensen’s Medium, Chrome Azurol nutrient agar medium, and Pikovskaya’s medium, respectively. Dewy bacterial colonies on Jensen’s Medium were counted as nitrogen fixers, colonies forming orange-colored zone on chrome azurol agar medium were counted as siderophore producers, and clear zone forming colonies on Pikovskaya’s agar were counted as phosphate solubilizers. The diversity of the culturable bacteria was calculated according to Shannon–Weaver’s diversity indices (H′) (Magurran 1988).
+
+The rhizospheric soil samples collected after 40 days of treatment were used for DNA extraction. Total genomic DNA was extracted from soil samples (0.5 g dry equivalent weight) with the Fast DNA SPIN kit (MP biomedical) for soil. Prior to amplification, extracted DNA was visualized on 0.8% ethidium bromide-stained agarose gels via electrophoresis.
+
+PCR was performed with the thermal cycler (Biometra) using universal primers for bacteria, MF341 GC and MR 907 (Muyzer et al. 1993, 1995) which amplify the variable V3 region of 16S rDNA (MF341 GC-5′CGC CCG CCG CGC CCC GTC CCG CCC CCG CCC GCC TAC GGG AGG 3′and MR 907-5′CCG TCA ATT CMT TTG AGT TT 3′). Amplification was performed using an initial denaturation at 94 °C for 5 min, followed by 33 cycles of 20 s at 94 °C, 20 s at 57 °C, and for 30 s at 72 °C, with a final extension of 5 min at 72 °C. PCR products from each sample were run on a 9% polyacrylamide gel using an SCIE-PLAS DGGE assembly (Harvard Bioscience, Cambridge). The gel had a denaturing gradient ranging from 30 to 60% (where the 100% denaturant contains 7 M urea and 40% (vol/vol) formamide). The gel was run in 1.0× Tris–acetate–EDTA buffer at 200 V, 60 °C for 30 min, followed by 80 V, 60 °C for 17 h. Then, the gel was stained with SYBR Gold Dye (5.0 µl in 50 ml distilled water) for 30 min.
+
+The DGGE gel was analyzed by 0–1 patterns, and a binary matrix was generated for the bands in the gel, recorded as 1 (present) and 0 (absent). Jaccard similarity coefficient was used to estimate genetic distances between lines. Simplified representation of genetic distances b/w lines was obtained by UPGMA (unweighted pair group method with arithmetic mean) and represented by a dendrogram.
+
+Statistical analysis
+
+All statistical analyses were performed using STPR software. One-way ANOVA was conducted for plant growth parameters, soil bacterial count and diversity index of Brassica, with concentration of AgNPs being the only variable, while two-way ANOVA was used for bacterial counts and diversity index of wheat, cowpea and soil without plant, with number of days after treatment and concentration of AgNPs as the source of variation.
+
+Results and discussion
+
+Effect of silver nanoparticle treatment on the growth profile of plants
+
+The synthesized AgNPs were characterized by transmission electron microscopy and UV–Vis spectroscopy. Their size ranged between 35 and 40 nm (Fig. 1). The effect of nanoparticles varied from one plant species to another; in wheat, no significant effect of AgNPs was observed on growth parameters, with the exception of root fresh weight and root length, which showed a negative response at 75 ppm treatment, while in cowpea and Brassica, a positive response was observed toward AgNPs (Fig. 2). But, the concentration of AgNPs responsible for the observed effects was different for both cowpea and Brassica; in cowpea, 50 ppm concentration resulted in growth promotion and increased root nodulation (Fig. 3), whereas in Brassica 75 ppm concentration resulted in improved shoot parameters (non-significant effect on root parameters was observed). The exact reasons behind the differential sensitivity of different plants toward NPs remain unknown to this date (Ma et al. 2010; Anjum et al. 2013). Yin et al. (2012) also highlighted the differential susceptibility of 11 different wetland plant species toward AgNPs treatment. Copper NPs were shown to be toxic to two crop species, mung bean (Phaseolus radiatus) and wheat (Triticum aestivum), as demonstrated by the reduced seedling growth rate (Lee et al. 2008). Nevertheless, Seif et al. (2011) reported an increase in plant height of Borago on the application of AgNPs. Regarding the reason for the growth promotion, Arora et al. (2012), in their study, suggested that the changes in the growth profile of Brassica seedlings on exposure to gold NPs might be because of the interference of the latter in plant hormone action. Interestingly, Sharma et al. (2012) reported that the AgNPs treatment improved the growth by modulating the antioxidant status of 7-day-old Brassica seedlings under in vitro conditions, also as reported by Karimi et al. (2012) AgNPs application did not reduce germinability of wheat seed. Similar to our findings, Sillen et al. (2015) reported that on applying AgNPs to soil, maize plant biomass was significantly enhanced. Increased nodulation was observed in cowpea in case of 50 ppm treatment; however, the exact mechanism behind this cannot be explained on the basis of the current study. Although it can be speculated that since root exudates play an important role in plant microbe interaction (Bais et al. 2006), any change that occurred in root exudation pattern on exposure to this concentration of AgNPs might have been better perceived by the nitrogen-fixing bacteria resulting in enhanced nodulation.Fig. 1Characterization of silver nanoparticles. a UV–VIS spectra in water. b Morphology. c Particle size distribution
+Fig. 2(a–f) Effect of three different concentrations (0, 50, 75 ppm) of silver nanoparticles on different growth parameters of wheat, cowpea, and Brassica
+
+Fig. 3Effect of three different concentrations (0, 50, 75 ppm) of silver nanoparticles on the number of root nodules formed in cowpea
+
+Fig. 1
+
+Characterization of silver nanoparticles. a UV–VIS spectra in water. b Morphology. c Particle size distribution
+
+Fig. 2
+
+(a–f) Effect of three different concentrations (0, 50, 75 ppm) of silver nanoparticles on different growth parameters of wheat, cowpea, and Brassica
+
+Fig. 3
+
+Effect of three different concentrations (0, 50, 75 ppm) of silver nanoparticles on the number of root nodules formed in cowpea
+
+Evaluation of cultural bacterial diversity of soil
+
+In soil (without plants), total bacterial count improved in 50 ppm treatment. Nitrogen fixers were found to be sensitive toward 75 ppm treatment, while phosphate solubilizers count improved in both 50 ppm and 75 ppm treatment (Table 1). The Shannon diversity index of the total bacterial population and phosphate solubilizers improved after the AgNPs application. However, the diversity of nitrogen fixers was adversely affected (Table 2).Table 1Effect of silver nanoparticles on the bacterial count (log10 cfu) of soil (without plants)Total bacteriaN fixers*P solubilizers#
+20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean0 ppm2.266ab
+2.264a
+2.265a
+0.667b
+0.667b
+0.667b
+0.201ab
+0.100a
+0.151a
+50 ppm2.328c
+2.290b
+2.309b
+0.693b
+0.619ab
+0.656b
+0.418b
+0.593bc
+0.506b
+75 ppm2.283b
+2.262a
+2.272a
+0.460a
+0.551ab
+0.506a
+0.360b
+0.742c
+0.551b
+Mean2.292b
+2.272a
+0.607a
+0.612a
+0.326a
+0.478b
+cd at 5%cd at 5%cd at 5%Time interval (T)0.0110.1150.138Concentration (C)0.0140.1410.169
+T × C
+0.0200.2000.239Values are the means of three replicatesMeans sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05* Nitrogen fixers
+# Phosphate solubilizers
+Table 2Effect of silver nanoparticles on Shannon bacterial diversity index of soil (without plants)TreatmentsTotal bacteriaN fixersP solubilizers20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean0 ppm1.525b
+1.556c
+1.541a
+0.093b
+0.093b
+0.093b
+0.042a
+0.035a
+0.039a
+50 ppm1.445a
+1.625d
+1.535b
+0.088a
+0.084a
+0.086a
+0.055a
+0.079b
+0.067b
+75 ppm1.496b
+1.603d
+1.549a
+0.064a
+0.078a
+0.071a
+0.054a
+0.107c
+0.080b
+Mean1.489a
+1.595b
+0.082a
+0.085a
+0.050a
+0.074b
+cd at 5%cd at 5%cd at 5%Time interval (T)0.0190.0150.015Concentration (C)0.0240.0190.018
+T × C
+0.0340.0260.025Values are the means of three replicatesMeans sharing different alphabets “a”–“d” differ significantly from each other at p < 0.05
+
+Table 1
+
+Effect of silver nanoparticles on the bacterial count (log10 cfu) of soil (without plants)
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+
+* Nitrogen fixers
+
+# Phosphate solubilizers
+
+Table 2
+
+Effect of silver nanoparticles on Shannon bacterial diversity index of soil (without plants)
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”–“d” differ significantly from each other at p < 0.05
+
+In cowpea, the total bacterial count declined with increasing AgNPs concentration. The count of nitrogen fixers and siderophore producers improved in 50 ppm treatment, while 75 ppm inhibited their growth. Phosphate solubilizers were insensitive to the treatments in terms of count as well as diversity. In terms of diversity, 75 ppm treatment was inhibitory to total bacteria, nitrogen fixers, and siderophore producers (Tables 3, 4).Table 3Effect of silver nanoparticles on bacterial count (log10 cfu) of cowpeaTreatmentsTotal bacteriaN fixersP solubilizersSiderophore producers20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean0 ppm2.277b
+2.332c
+2.305c
+1.629c
+1.531b
+1.580b
+0.519a
+0.418a
+0.469a
+1.187c
+1.375c
+1.281b
+50 ppm2.282b
+2.263b
+2.272b
+1.774d
+1.669c
+1.721c
+0.502a
+0.360a
+0.431a
+1.441c
+1.789d
+1.615b
+75 ppm2.208a
+2.258b
+2.233a
+1.514b
+1.412a
+1.463a
+0.492a
+0.519a
+0.506a
+0.519b
+0.201a
+0.360b
+Mean2.256a
+2.284b
+1.639b
+1.537a
+0.504a
+0.432a
+1.049a
+1.122b
+cd at 5%cd at 5%cd at 5%cd at 5%Time interval (T)0.0190.0460.1330.153Concentration (C)0.0230.0570.1630.188
+T × C
+0.0330.0800.2300.266Values are the means of three replicatesMeans sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+Table 4Effect of silver nanoparticles on Shannon bacterial diversity index of cowpeaTreatmentsTotal bacteriaN fixersP solubilizersSiderophore producers20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean0 ppm1.596c
+1.390b
+1.493b
+0.065b
+0.060b
+0.062a
+0.071a
+0.060a
+0.065a
+0.00004a
+0.00013a
+0.00008a
+50 ppm1.606c
+1.398b
+1.502b
+0.066b
+0.055b
+0.061a
+0.063a
+0.055a
+0.059a
+0.00004a
+0.00473b
+0.00238b
+75 ppm1.602c
+1.310a
+1.456a
+0.062b
+0.019a
+0.041a
+0.080a
+0.073a
+0.077a
+0.00002a
+0.00001a
+0.00002a
+Mean1.601b
+1.366a
+0.065b
+0.045a
+0.071a
+0.063a
+0.00003a
+0.00162b
+cd at 5%cd at 5%cd at 5%cd at 5%Time interval (T)0.0230.0180.0170.0014Concentration (C)0.0280.0220.0210.0017
+T × C
+0.0390.0310.0290.0024Values are the means of three replicates Means sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+
+Table 3
+
+Effect of silver nanoparticles on bacterial count (log10 cfu) of cowpea
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+
+Table 4
+
+Effect of silver nanoparticles on Shannon bacterial diversity index of cowpea
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+
+In wheat, total bacterial count showed reduction in 50 and 75 ppm treatments. Nitrogen fixers and siderophore producers were sensitive toward 75 ppm treatment; however, siderophore producer count significantly improved in the 50 ppm treatment and phosphate solubilizer colony count was reduced in 75 ppm treatment (Table 5). An increase in diversity index of total bacterial population was observed in the 50 ppm treatment, whereas the diversity of nitrogen fixers decreased in the 75 ppm treatment. On the other hand, phosphate solubilizers were not affected in terms of diversity (Table 6).Table 5Effect of silver nanoparticles on bacterial count (log10 cfu) of wheatTreatmentsTotal bacteriaN fixersP solubilizersSiderophore producers20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean0 ppm2.299c
+2.282c
+2.290c
+0.920c
+0.519b
+0.719b
+0.360ab
+0.560b
+0.460b
+0.981c
+0.933b
+0.957b
+50 ppm2.259bc
+2.271bc
+2.265b
+1.075c
+0.418ab
+0.747b
+0.551b
+0.534b
+0.543b
+1.285c
+1.308d
+1.296c
+75 ppm2.142a
+2.248b
+2.195a
+0.534b
+0.259a
+0.397a
+0.100a
+0.159a
+0.130a
+0.502b
+0.201a
+0.351a
+Mean2.233a
+2.267b
+0.843b
+0.399a
+0.337a
+0.418a
+0.923a
+0.814a
+cd at 5%cd at 5%cd at 5%cd at 5%Time interval (T)0.0170.1470.1780.114Concentration (C)0.0210.1800.2190.140
+T × C
+0.0290.2550.3090.198Values are the means of three replicates Means sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+Table 6Effect of silver nanoparticles on Shannon bacterial diversity index of wheatTotal BacteriaN-FixersP-solubilizersSiderophore ProducersTreatments20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean20 DAT40 DATMean0 ppm1.443a
+1.589d
+1.516a
+0.133c
+0.070a
+0.062b
+0.052a
+0.076a
+0.064a
+0.00006b
+0.00013c
+0.00008a
+50 ppm1.470b
+1.609d
+1.540b
+0.179d
+0.061a
+0.061b
+0.078a
+0.076a
+0.077a
+0.00023c
+0.00473d
+0.00248b
+75 ppm1.485b
+1.525c
+1.505a
+0.095b
+0.050a
+0.041a
+0.052a
+0.032a
+0.042a
+0.00004a
+0.00004a
+0.00002a
+Mean1.466a
+1.574b
+0.136b
+0.060a
+0.061a
+0.061a
+0.00011a
+0.00162b
+cd at 5%cd at 5%cd at 5%cd at 5%Time Interval(T)0.0150.0190.0210.00002Concentration(C)0.0180.0230.0260.00003T×C0.0250.0310.0360.00004Values are the means of three replicatesMeans sharing different alphabets “a”–“d” differ significantly from each other at p < 0.05
+
+Table 5
+
+Effect of silver nanoparticles on bacterial count (log10 cfu) of wheat
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”–“c” differ significantly from each other at p < 0.05
+
+Table 6
+
+Effect of silver nanoparticles on Shannon bacterial diversity index of wheat
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”–“d” differ significantly from each other at p < 0.05
+
+In Brassica, the total bacterial count was higher in 50 ppm treatment, while a slight reduction was recorded in the 75 ppm treatment. Nitrogen fixers’ count also decreased in the 75 ppm treatment. However, the treatments had non-significant effect on phosphate solubilizers (Table 7). Total bacterial diversity increased in the 50 ppm treatment and decreased in the 75 ppm treatment (Table 8).Table 7Effect of silver nanoparticles on bacterial count (log10 cfu) of Brassica
+TreatmentsTotal bacteriaN fixersP solubilizers20 days20 days20 days0 ppm2.281b
+0.981ab
+0.418a
+50 ppm2.330c
+1.078b
+0.551a
+75 ppm2.199a
+0.937a
+0.593a
+cd at 5%0.0360.0980.228Values are the means of three replicatesMeans sharing different alphabets “a”, “b” differ significantly from each other at p < 0.05
+Table 8Effect of silver nanoparticles on Shannon Bacterial Diversity Index of Brassica
+TreatmentsTotal BacteriaN-FixersP solubilizer
+20 days
+
+20 days
+
+20 days
+0 ppm1.232ab
+0.151a
+0.059a
+50 ppm1.260b
+0.161a
+0.074a
+75 ppm1.164a
+0.159a
+0.068a
+
+cd at 5%
+0.0780.0290.035Values are the means of three replicates Means sharing different alphabets “a”, “b” differ significantly from each other at p < 0.05
+
+Table 7
+
+Effect of silver nanoparticles on bacterial count (log10 cfu) of Brassica
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”, “b” differ significantly from each other at p < 0.05
+
+Table 8
+
+Effect of silver nanoparticles on Shannon Bacterial Diversity Index of Brassica
+
+Values are the means of three replicates
+
+Means sharing different alphabets “a”, “b” differ significantly from each other at p < 0.05
+
+Although no clear-cut toxicity of NPs was observed toward the soil bacterial community, in some samples 75 ppm concentration was inhibitory. On the other hand, 50 ppm concentration enhanced the bacterial count in some cases. Thus, it can be concluded that the impact of AgNPs is concentration dependent.
+
+PCR-DGGE analysis using universal bacterial primer
+
+On the basis of the obtained banding pattern, it was found that in soil samples (without plants), 0 ppm-treated soil was 95.5% similar to both 50 and 75 ppm-treated soil in terms of bacterial diversity, while in 50 and 75 ppm no effect was visible. Among the soil samples of cowpea, the bacterial diversities of 50 and 75 ppm-treated soil samples were 100% similar to each other, and both of them were 93% similar to the diversity of 0 ppm-treated soil samples. In case of wheat, application of AgNPs resulted in much differences in diversity among treatments, viz., 74% between 0 and 75 ppm, while 50 ppm treatment showed 63% similarity to both 0 and 75 ppm treatments. In Brassica, 50 ppm-treated samples were 81.5% similar to 75 ppm-treated samples in diversity, while 0 ppm-treated soil sample showed 72% similarity to both 50 and 75 ppm soil samples (Fig. 4).Fig. 4Assessment of shift in bacterial diversity in soil samples by the dendrogram generated on the basis of banding pattern obtained from denaturing gradient gel electrophoresis (P, soil without plants; C, cowpea; W, wheat; B, Brassica; as suffix 0 = 0 ppm, 50 = 50 ppm, 75 = 75 ppm
+
+Fig. 4
+
+Assessment of shift in bacterial diversity in soil samples by the dendrogram generated on the basis of banding pattern obtained from denaturing gradient gel electrophoresis (P, soil without plants; C, cowpea; W, wheat; B, Brassica; as suffix 0 = 0 ppm, 50 = 50 ppm, 75 = 75 ppm
+
+It is clear from the results that the impact of AgNPs on soil bacterial diversity is not only concentration dependent, but also varies with the plant species grown in that soil. This specificity can be attributed to the different root exudation patterns of different plant species. The organic acids released by the plants as root exudates play a key role in influencing the microbial diversity of rhizosphere (Grayston et al. 1998; Bais et al. 2006; Haichar et al. 2008). The composition of root exudates varies from plant to plant and affects the relative abundance of microorganisms in the vicinity of the root (Somers et al. 2004). Furthermore, the application of AgNPs might have caused a change in the root exudation pattern, which, as a result, caused the change in the microbial population within the treatments in the same plant species. These results also suggest that different bacterial groups show different responses toward AgNPs. AgNPs affect the microorganisms by interacting with their cell membrane (Sondi and Salopek-Sondi 2004; Lok et al. 2006). Since the membrane properties differ among microbial groups, it could be the possible reason behind the differential behavior pattern of different bacterial groups toward silver nanoparticles (Gavanji 2013). Also, Anjum et al. (2013) and Dimkpa (2014) stated that the antimicrobial properties of AgNPs can get altered when released in soil due to the undergoing complex array of biotic and abiotic processes, for example, pore water harbors a range of electrolytes that increase the aggregation of AgNPs in soil, thus reducing its size-dependent toxicity (Lee et al. 2012). The dose-dependent effect of AgNPs on soil microbial community was also reported by Chunjaturas et al. (2014). Sillen et al. (2015) in their study suggested a link in increased biomass in maize only when there was a change in soil bacterial community, indicating that the microbial population was altered in a way to promote plant growth.
+
+Conclusion
+
+From the present study, it can be concluded that plant, microbes, and AgNPs interaction is very complex and, by optimizing the AgNPs concentration, plant growth promotion can be achieved without causing harm to the environment. The findings also highlight the need for further studies to ascertain the reason of differential response of different plant species to AgNP treatments to make them commercially successful.
+
+Electronic supplementary material
+
+Below is the link to the electronic supplementary material.
+Supplementary material 1 (DOCX 804 kb)
+
+Supplementary material 1 (DOCX 804 kb)
+

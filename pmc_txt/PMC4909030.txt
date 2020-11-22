@@ -1,0 +1,180 @@
+Optimization of fermentation media and growth conditions for microbial xylanase production
+
+Abstract
+
+Efficiency of cellulase-free xylanases is one of the determining factors in paper and pulp industries. Use of microbes which can produce cellulase-free xylanases may help to overcome the current challenges in kraft pulp processing. Isolation and screening of microorganisms from local samples offers a possibility for obtaining the potential microbes for this purpose. This research was therefore aimed to collect, screen, characterize and identify potential cellulase-free xylanase producers. A total of 313 microbial isolates were collected while using selective media (EBAM and XAM) to determine the xylanolytic potential of microbes. Qualitative and quantitative analyses were performed and finally 11 bacterial and 6 fungal strains were selected for characterization and identification. The potential isolates were identified as Bacillus pumilus (388.82 U/mg), Bacillus safensis (385.26 U/mg), Aspergillus flavus (493.33 U/mg) and Aspergillus niger (419.33 U/mg). Optimization of the microbial strains while using agro-industrial waste is suggested.
+
+Introduction
+
+Xylanases are of great importance in a number of industrial processes and the increasing trend towards an environment friendly industrialization has paved its ways. Hemicelluloses, being the second most abundant component of plant biomass tend to be suitable agro-industrial residue (Collins et al. 2005). 20–35 % of the total dry mass of plants constitutes xylans which are useful as fermentation substrate for the production of sugars and biofuel (Haltrich et al. 1996; Filho 1998). Xylans are heterogeneous compounds and require synergistic reaction of hydrolytic enzymes for their complete degradation. Among these enzymes, endo-β-1,4-xylanases (EC.3.2.1.8) are the most important xylanolytic enzymes which cleave off the internal glycosidic bonds in xylan backbone, reducing the degree of polymerization (Biely 1985; Polizeli et al. 2005). The cleavage carried out by these enzymes is very specific and the degree of substitution in the polymer affects the hydrolysis product (Dodd and Cann 2009).Interest in the xylanolytic enzymes has received much attention due to their potential uses in different industrial processes such as kraft pulp bleaching, biopulping in paper and pulp industry, in animal feed stock, bread and beverages (Kirk and Yang 1979; Schwien and Schmidt 1982; Viikari et al. 1986; Madlala et al. 2001).
+
+Some marine algae are also reported to secrete xylanases in extracellular environment (Polizeli et al. 2005). Xylanases of protozoan and crustacean origin are also reported (Devillard et al. 1999; Polizeli et al. 2005). Unusual xylanases from the gut of insects have been studied (Roy et al. 2003; Brennan et al. 2004). Wu and He (2015) have recently reported isolation of a xylanolytic strain Cellvibrio mixtus from giant snail in Singapore whereas similar reports of xylanases from fresh water mollusc have been noted from Yamura (Yamura et al. 1997). Many microbial sources including bacteria, fungi and yeast are being reported with tolerable temperature and pH ranges (Sunna and Antranikian 1997). Filamentous fungi, especially from Aspergillus and Trichoderma spp. are reported to be the best sources of xylanases with higher levels of extracellular xylanase production (Haltrich et al. 1996).
+
+To contribute in the improvement of biodegradation of hemicelluloses through microbial co-cultures, exploration, selection and characterization of potential cellulase-free xylanase producing microbes may have important roles. The production of cellulase-free xylanase is of crucial importance in paper and pulp industry. Thus, the objective of the present study was to collect, screen, identify and characterize cellulase-free xylanase producing locally isolated microbial strains.
+
+Materials and methods
+
+Sample collection and microbial isolation
+
+Samples for isolation of xylanase producing bacteria and fungi were obtained from particular sites. Samples of soil, leaf compost, grazer dunks and paper industry waste were put into plastic bags. Fresh ruminal fluids were collected from local slaughter houses and after filtration through a muslin cloth stored at 4 °C until further use.
+
+To isolate bacteria and fungi from soil and litter, 1 g of each crushed-sample and 1 ml of ruminal sample were suspended in 100 ml of sterile water by vortexing. Using standard spread plate technique, 100 µl of each sample suspension was spread onto the surface of nutrient agar plates supplemented with 15 ppm cycloheximide to isolate bacterial strains. For the isolation of fungal strains, 1 ml of each suspension was spread on YpSs agar plates supplemented with 0.08 % streptomycin. All plates were incubated overnight at 37 °C (for bacteria) and at 28 °C for 3–4 days (for fungi). Based on their appearance and morphology, various colonies were selected to obtain pure cultures on NA and PDA plates for bacterial and fungal isolates, respectively.
+
+Screening of xylanase producing bacterial
+
+Two step screening assay was used to determine the xylanase producing potential of the microbial strains. For the initial screening of lignocelluloses hydrolytic enzyme production, the isolates were grown on wheat bran agar medium (Composition: g/L; wheat bran powder_50.0, peptone_10.0, phosphate buffer_2 ml, agar_20.0) plates to limit the number of isolates for screening assay. All purified strains were spot tested by incubating them for 2–3 days at 28 °C on WBA plates. Strains showing significant growth on WBA were selected for xylanase screening assays. To detect the xylanase production ability, microbial strains were inoculated on 0.1 % xylan agar medium (Composition: g/L; yeast extract_3.0, peptone_1.5, NaCl_3.5, NaNO3_1.0, KH2PO4_1.0, MgSO4·7H2O_0.3 Agar_20 and 0.1 % beechwood xylan) plates (pH 5.5). Plates were incubated at 28 °C ± 2 for 72 h. All the plates were stained with 0.5 % Congo red dye for about half an hour and were then destained using 1 M NaCl solution at room temperature. Zones of clearance were observed for presence of xylanase activity. Microbes showing positive results were selected for further analysis.
+
+Xylanase production in submerged fermentation
+
+Xylanase activities of the selected isolates were measured using 3, 5-dinitrosalicylic acid (DNS) method (Ghose 1987) for determination of the amount of reducing sugars released during certain times of reaction mixture. Prior to xylanase assay, both the bacterial and fungal isolates were cultured in xylan broth medium (XBM) under submerged fermentation conditions (Samantha et al. 2011). For that purpose, 50 ml XBM (Composition: g/L; yeast extract_5.0, peptone_1.0, NaNO3_1.0, KH2PO4_1.0, MgSO4·7H2O_0.02, xylan_10.0) (pH 5.5) was prepared in 250 mL flask for each microbial strain separately. Medium was autoclaved at 121 °C, 15 lb for 15 min. Each strain was inoculated in separate flask and, flasks were incubated in a shaking incubator at 31 ± 2 °C for 7 days.
+
+After 7 days of incubation, crude enzyme was extracted by filtration and the filtrate was centrifuged at 10,000 rpm for 20 min at 4 °C. The cell free culture filtrate (CFCF) was used as crude enzyme. Afterwards, the enzyme extract was filtered through 0.45 µm microfilter membranes to make it free of cellular mass. Pellets were oven dried at 70 °C overnight and weighed to record biomass.
+
+Well plate diffusion assay
+
+Well plate diffusion assay was performed to qualitatively analyze enzyme activity. Xylan agar medium (Composition: g/L; xylan_9.0, agar_20.0, 0.1 M phosphate buffer_to raise volume upto1000 ml) prepared in phosphate buffer (pH 5.5) was autoclaved for 15 min at 121 °C and 15 lb (Samantha et al. 2011). Medium was poured in each disposable petri plate and was allowed to solidify. Upon solidification, wells were made by using sterilized cork borer of 10 mm diameter. To each well, 100 µl of the CFCF was poured and incubated at 31 °C overnight. To compare the effect of endo-xylanase by simple diffusion and Congo red assay, zones of clearance produced in incubated plates were recorded before and after being stained with 0.5 % Congo red dye for 30 min. Afterwards, stained plates were flooded with 1 M NaCl for destaining. Here, appearance of clear zones confirmed the presence of 1-4-β-endo-xylanase activity.
+
+Xylanase assay
+
+Xylanase assay was measured according to Bailey et al. (1992). CFCF was used as crude enzyme and 300 µl was incubated with 700 µl of 1 % solubilized birchwood xylan solution at 50 °C for 30 min in shaking incubator. Reaction was stopped by adding 1.5 mL of DNS reagent and was then boiled for 10 min. Reaction mixture was allowed to cool to room temperature. Afterwards, all samples were centrifuged at 10,000 rpm for 5 min at 4 °C to free the reaction mixture of cell debris. Afterwards, OD was recorded at 540 nm. The xylanase activity was expressed as mg/mL by comparing with standard curve of xylose prepared while using 0–500 µg xylose.
+
+Cellulase activity
+
+Cellulase activity was measured according to Ghose (1987). Seven hundred µl of 1 % carboxymethyl cellulose was incubated with 300 µl of CFCF. To stop the reaction, 1.5 ml of DNS reagent was added and boiled the reaction mixture for 10 min. After filtration, absorbance was measured at 540 nm. CMCase activity was expressed in mg/mL by comparing it with glucose standard curve prepared using 0–500 µg glucose.
+
+β-Xylosidase activity
+
+The activity of β-xylosidase was estimated by Lachke’s method. Substrate selected for xylosidase activity was 4 mM solution of ρ-nitrophenyl-β-d-xylopyranoside (ρ-NPX). Nine hundred µL of ρ–NPX substrate along with 100µL of cell free culture filtrate was incubated at 50 °C for 30 min. Afterwards, 1 mL of 2 M sodium carbonate solution was added and absorbance was recorded at 410 nm. Standard curve of ρ–nitrophenol was used for comparison.
+
+Determination of total protein content
+
+Bradford’s assay was used for total protein estimation. 1 mL of enzyme extract was taken in a glass tube and 3 mL of Bradford’s reagent was added to it. This mixture was incubated at room temperature for 5–10 min. Afterwards, OD was measured at 595 nm and compared against Bovine serum albumin (BSA) standard curve. Specific activity was calculated with the help of formula.\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Specific activity }}\left( {{\text{IU}}/{\text{mg}}} \right) = \frac{{{\text{Enzyme activity }}\left( {\text{IU}} \right)}}{{{\text{Protein content }}\left( {\text{mg}} \right)}} $$\end{document}Specific activityIU/mg=Enzyme activityIUProtein contentmg
+
+Phenotypic characterization of competent xylanolytic microbes
+
+Molecular characterization
+
+Potential xylanase producing microbial strains were identified on the basis of morphological, cultural, biochemical properties and ribotyping of conserved sequences. Molecular characterization of the best xylanase producing microbes was carried out to identify potential bacterial and fungal strains. Bacterial genomic DNA was extracted using phenol–chloroform extraction protocol (Sambrook and Russell 2001) whereas for fungal genomic DNA extraction, CTAB method was used. Afterwards, PCR amplification for the conserved sequences of DNA was performed and the amplified gene product was sequenced.
+
+Molecular characterization of bacterial strains was carried out by amplifying 16S ribosomal RNA gene. Universal 16S rDNA primers were selected for gene amplification. 27F (5′-AGAGTTTGATCMTGGCTCAG-3′) and 1492R (5′-TACGGYTACCTTGTTACGACTT-3′) (Frank et al. 2008). Fungal rDNA ITS region was amplified while using ITS1 (5′-TCCGTAGGTGAACCTGCGG-3′) and ITS4 (5′-TCCTCCGCTTATTGATATGC-3′) (Fujita et al. 2001).
+
+Results
+
+Isolation and screening of xylanolytic strains
+
+From all collected samples, a total of 184 microbial isolates were selected after primary screening on WBA medium. Out of these 184 isolates, 133 bacterial and 51 fungal strains were selected for secondary screening. Sixty-one bacterial and 27 fungal strains showed positive results to qualitative test of xylanase as indicated by the formation of clear zones in xylan agar medium plates.
+
+Xylanase production in SmF
+
+The selected strains with clear zones in xylan agar plates were further subjected to enzyme diffusion technique for qualitative analysis of extracellular 1,4-β-endoxylanase production under submerged fermentation while using XBM. Cell free culture filtrate on incubation produced clear zones visible against opaque xylan intact agar in the medium. Zones of clearance were recorded before and after Congo red staining. Results were more or less the same as recorded before staining (Tables 2, 3).
+
+Quantification of xylanase production in cell free culture filtrate
+
+Cell free culture filtrate was assayed against DNS and color change in the mixture was observed at 553 nm. The eleven bacterial and six fungal isolates that have significant xylanase productions were presented in Figs. 1 and 2. It showed that bacterial isolates BS131, 37 and 3 were the best three for xylanolytic index, i.e., 388.82, 385.26 and 354.17 IU/ml, respectively. Whereas, among the fungal isolates, ZGCL17, ZGCL1 and ZGCL 25 presented relatively high xylanase indexes, i.e., 493.33, 419.33 and 391.82 IU/ml. Isolation sources of the best xylanolytic microbial strains are listed in table. Specific activity observed and compared with the xylose standard curve (Tables 1, 2).Fig. 1Screening of xylanolytic microbes a before and b after Congo red staining
+Fig. 2Xylanolytic and cellulolytic indexes of a bacterial and b fungal isolates
+Table 1Qualitative and quantitative analysis of the extracellular enzyme produced by bacterial isolatesSr. no.Bacterial strainDiameter of zone of clearance (mm) at different pHDry weight (mg)Enzyme activity (IU/mL)Total protein (mg/mL)Specific activity (IU/mg)Simple diffusionCongo red assayEndoxylanaseCM caseFPaseβ-XylosidaseEndo-xylanase4.55.56.54.55.56.51BS1313230303230311.766.10.010.438.120.17388.822BS373129313129312.173.20.060.045.120.19385.263BS32524222526221.146.10.020.345.180.13354.174BS21923202123221.224.40.090.639.120.07348.575BS51920241920253.257.30.490.318.170.19301.586BS422119202119224.532.20.380.098.340.11292.737BS11817211819231.313.33.9211.215.80.05266.008BS381918222118222.429.13.633.516.260.11264.559BS361719161719172.163.30.440.137.350.27234.4410BS61916211916211.313.29.217.213.350.06220.0011BS351521221520222.721.216.219.32.630.11192.7312BS731111101111101.38.457.4611.310.70.07120.7113BS921112101111092.25.139.1713.25.780.0685.5014BS1230908090908091.17.918.439.189.330.1360.85115BS270709090709081.59.526.749.138.770.1756.0016BS650707080707082.111.89.9113.25.830.2351.30017BS780505060505071.53.5214.113.815.40.0939.1118BS990605060605072.14.948.329.8711.90.1630.88
+Table 2Qualitative and quantitative analysis of the extracellular enzyme produced by fungal isolatesSr. no.Fungal strainDiameter of zone of clearance (mm) at different pHDry weight (mg)Enzyme activity (IU/mL)Total protein (mg/mL)Specific activity (IU/mg)Simple diffusionCongo red assayEndoxylanaseCM caseFPaseβ-XylosidaseEndo-xylanase4.55.56.54.55.56.51ZGCL173537413537413.859.20.060.0315.20.12493.332ZGCL13835373936375.462.90.010.059.130.15419.333ZGCL253638363638374.734.10.030.0427.50.11391.824ZGCL372926313026313.937.71.813.7218.720.12284.165ZGCL232426252326267.636.70.891.617.910.21174.766ZGCL431818151819154.222.25.947.543.210.13170.777ZGCL121619171618178.227.37.638.719.210.17160.588ZGCL151110131113139.729.82.324.839.120.19156.849ZGCL491010111012114.120.111.29.917.450.14143.5710ZGCL331311121311129.318.913.217.211.20.1999.4711ZGCL220910081013104.713.221.212.323.30.1588.0012ZGCL1111081211081111.319.911.913.45.180.3262.1913ZGCL30709080711109.218.919.711.819.30.2965.1714ZGCL4107081007101012.111.917.69.3119.70.3237.1915ZGCL405070706070716.133.916.411.32.871.130.82
+
+Fig. 1
+
+Screening of xylanolytic microbes a before and b after Congo red staining
+
+Fig. 2
+
+Xylanolytic and cellulolytic indexes of a bacterial and b fungal isolates
+
+Table 1
+
+Qualitative and quantitative analysis of the extracellular enzyme produced by bacterial isolates
+
+Table 2
+
+Qualitative and quantitative analysis of the extracellular enzyme produced by fungal isolates
+
+Various assays were performed to estimate the production of different hydrolytic enzymes. The 17 potential isolates were subjected to test for their xylanase activity. Activities of xylanase, cellulase, β-xylosidase were estimated using appropriate protocols. The total protein content was determined by Bradford’s method (Tables 1, 2) (Bradford 1976; Lachke 1988; Miller 1959; Zhang et al. 2011).
+
+Phenotypic characterization of competent xylanolytic microbes
+
+Results were recorded for bacterial & fungal strains while using Bergey’s manual and listed in table (Table 3). All microbial strains were identified using rRNA gene sequencing and their resemblance with the closest type strains are presented in Tables 4, 5. The best xylanolytic bacterial strain BS131 was identified as Bacillus pumilus and the best fungal producer ZGCL17 was identified as Aspergillus flavus.Table 3Morphological Identification of potential xylanase producing microbesFungal strainIsolation sourceIdentified asZGCL1Soil
+Aspergillus sp.ZGCL17Soil
+Aspergillus sp.ZGCL23Saw dust
+Fusarium sp.ZGCL25Soil
+Penicillium sp.ZGCL37Decaying wood
+Trichoderma sp.
+ZGCL43Soil
+Aspergillus sp.BS1Ruminal fluid (Goat)
+Bacillus sp.BS2Decaying cow dung
+Bacillus sp.BS3Leaf compost
+Bacillus sp.BS5River bank soil
+Providencia sp.BS6Paper mill effluent
+Bacillus sp.BS35Raw milk
+Staphylococcus sp.BS36Moist soil
+Bacillus sp.BS37Moist soil
+Bacillus sp.BS38Decaying agro-waste
+Bacillus sp.BS42Leaf compost
+Bacillus sp.BS131Moist soil
+Bacillus sp.
+Table 4Identification of potential xylanase producing bacteria based on 16S ribosomal RNA gene sequenceSr. no.Bacterial strainIsolation sourceIdentified asSimilarity (%)NCBI Accession no.1BS1Ruminal fluid (Goat)
+Bacillus cereus
+100KT3562792BS2Decaying cow dung
+Bacillus altitudinis
+100KT3816143BS3Leaf compost
+Bacillus cereus
+100KT3562814BS5River bank soil
+Providencia rettgeri
+99KT3816155BS6Paper mill effluent
+Bacillus amyloliquefaciens
+99KT3816166BS35Raw milk
+Staphylococcus warneri
+99KX1891017BS36Moist soil
+Bacillus pumilus
+100KT5837508BS37Moist soil
+Bacillus safensis
+100KT3546459BS38Decaying agro-waste
+Bacillus pumilus
+99KT96291610BS42Leaf compost
+Bacillus subtilis
+99KT72156611BS131Moist soil
+Bacillus pumilus
+100KT962917
+Table 5Identification of potential xylanase producing fungi based on ITS gene sequenceSr. no.Fungal strainIsolation sourceIdentified asSimilarity (%)NCBI Accession no.1ZGCL1Soil
+Aspergillus niger
+99KT9704772ZGCL17Soil
+Aspergillus flavus
+99KT9704783ZGCL23Saw dust
+Fusarium oxysporum
+99KT9704824ZGCL25Soil
+Penicillium digitatum
+99KT9704805ZGCL37Decaying wood
+Trichoderma harzianum
+99KT9704816ZGCL43Soil
+Aspergillus oryzae
+99KT970479
+
+Table 3
+
+Morphological Identification of potential xylanase producing microbes
+
+Table 4
+
+Identification of potential xylanase producing bacteria based on 16S ribosomal RNA gene sequence
+
+Table 5
+
+Identification of potential xylanase producing fungi based on ITS gene sequence
+
+Discussion
+
+Out of the eleven bacterial and six fungal isolates that have been characterized for their cellulase free xylanase activity, Bacillus pumilus (BS131) and Bacillus safensis (BS37) are potential bacterial isolates due to their significant xylanase and minimum cellulase production. Aspergillus flavus (ZGCL17) and Aspergillus niger (ZGCL1) are the best cellulase free xylanase producers among the fungal isolates. These isolates have potential to be used in industrial processes especially suitable for paper and pulp industries.
+
+Hence, isolation, screening and selection have facilitated the discovery of several cellulase free xylanase producers from a wide variety of environmental samples. The results indicate possible employment of such enzymes in a number of industrial processes with a decrease in current cost of bioconversion of lignocellulosic mass.
+

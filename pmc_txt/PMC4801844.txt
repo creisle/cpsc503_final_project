@@ -1,0 +1,311 @@
+Probing an optimal class distribution for enhancing prediction and feature characterization of plant virus-encoded RNA-silencing suppressors
+
+Abstract
+
+To counter
+the host RNA silencing defense mechanism, many plant viruses encode RNA silencing suppressor proteins. These groups of proteins share very low sequence and structural similarities among them, which consequently hamper their annotation using sequence similarity-based search methods. Alternatively the machine learning-based methods can become a suitable choice, but the optimal performance through machine learning-based methods is being affected by various factors such as class imbalance, incomplete learning, selection of inappropriate features, etc. In this paper, we have proposed a novel approach to deal with the class imbalance problem by finding the optimal class distribution for enhancing the prediction accuracy for the RNA silencing suppressors. The optimal class distribution was obtained using different resampling techniques with varying degrees of class distribution starting from natural distribution to ideal distribution, i.e., equal distribution. The experimental results support the fact that optimal class distribution plays an important role to achieve near perfect learning. The best prediction results are obtained with Sequential Minimal Optimization (SMO) learning algorithm. We could achieve a sensitivity of 98.5 %, specificity of 92.6 % with an overall accuracy of 95.3 % on a tenfold cross validation and is further validated using leave one out cross validation test. It was also observed that the machine learning models trained on oversampled training sets using synthetic minority oversampling technique (SMOTE) have relatively performed better than on both randomly undersampled and imbalanced training data sets. Further, we have characterized the important discriminatory sequence features of RNA-silencing suppressors which distinguish these groups of proteins from other protein families.
+
+Electronic supplementary material
+
+The online version of this article (doi:10.1007/s13205-016-0410-1) contains supplementary material, which is available to authorized users.
+
+Introduction
+
+RNA silencing is a common host defense mechanism in plants against many plant RNA/DNA viruses (Li et al. 2014a; Pérez-Cañamás and Hernández 2014; Valli et al. 2001). To counter the RNA silencing defense mechanism, these plant viruses encode RNA-silencing suppressors, which disturb the host RNA silencing pathway. The molecular basis for the mechanism of encoding RNA-silencing suppressors by these plant viruses is still largely unknown. P1/HC–Pro of Potyviruses, P19 of tombusviruses and 2b proteins of cucumo-viruses are some of the well-studied RNA silencing suppressors (Qu and Morris 2005) and recently new RNA silencing suppressors are being identified in a mastrevirus (Wang et al. 2014) and in a wheat dwarf virus (Liu et al. 2014). Recent studies have also pointed to the role of suppressors in modulating the function of microRNAs (Chapman et al. 2004; Dunoyer et al. 2004).
+
+Annotation of putative members of this family is hampered by the presence of high sequence diversity existing among these plant virus-encoded RNA-silencing suppressors (Qu and Morris 2005). The sequence similarity-based search methods like BLAST (Altschul et al. 1990) and PSI-BLAST (Altschul et al. 1997) have their inherent limitations in these situations where there exists low sequence conservation. Previously in (Jagga and Gupta 2014) the shortcomings of sequence similarity-based search methods like PSI-BLAST in correctly annotating the members of this protein family are emphasized. Machine learning methods trained on mathematically represented suitable input feature vectors become a viable alternative to sequence similarity-based search methods. Previously different machine learning methods have been successfully applied to solve biological classification tasks (Kumari et al. 2015; Nath et al. 2012; Nath and Subbiah 2014). But the true performance of machine learning methods is affected by various factors such as class imbalance (Nath and Subbiah 2015a), imperfect learning due to some missing example instances and selection of inappropriate input features.
+
+The class imbalance problem is quite common in biological datasets, where there is a huge difference in the number of instances belonging to the different classes and subclasses. These types of imbalanced datasets result in classifier bias towards the majority class and tend to produce majority class classifier (Wei and Dunbrack 2013). In most of the cases, the class of interest is the minority class and is the cause for lower sensitivity. Many methods had been proposed to deal with the class imbalance problem. Previously it has been stressed that the natural class distribution may not be optimal for training (Lee 2014; Weiss and Provost 2003) and the requirement of a balanced training set for proper learning has been pointed out by Dunbrack et al. (Wei and Dunbrack 2013). In the current work, we propose a technique to achieve better learning of both the positive and negative classes by experimenting with different resampling methods to balance the dataset with varying degree of class distributions. We have also repeated the experiments on different machine learning algorithms on imbalanced, Synthetic Minority Oversampling Technique (SMOTE) (Chawla et al. 2002) oversampled and randomly undersampled datasets to find the optimal class distribution. We used the sequence features like amino acid composition, property group composition, dipeptide counts and property group n-grams for creating the input feature vectors. Broadly, two types of approaches are used for handling the class imbalance, (1) resampling methods which are algorithm independent and are transferable to different machine learning algorithms and (2) internal approaches which involve altering the existing algorithms and its various parameters for adapting to imbalance class distribution. The SMOTE and random undersampling fall under resampling methods, although other sophisticated varieties of SMOTE exist (Barua et al. 2014; Han et al. 2005; Nakamura et al. 2013), but in the present study, we have limited our focus on simple undersampling and SMOTE oversampling as they are found to be useful for many classifiers (Blagus and Lusa 2013) and in many biological classification problems (Batuwita and Palade 2009; MacIsaac et al. 2006; Xiao et al. 2011).
+
+The current method explored the possibility of improvement in prediction accuracy of the machine learning algorithms using optimal class distribution and presented in detail the behavior of the tested learning algorithms with varying degrees of resampling. From the current work, it is also proved that prediction accuracy for the plant virus-encoded RNA-silencing suppressor proteins can be improved using resampling techniques.
+
+Materials and methods
+
+Dataset
+
+We have used the dataset as used in (Jagga and Gupta 2014) which consisted of 208 plant virus-encoded RNA-silencing suppressor proteins (RSSPs) belonging to positive class and 1321 non-suppressor proteins (NSPs) belonging to negative class, for this study. The CD-HIT (Li and Godzik 2006) was applied separately to these classes of sequences to reduce the redundancy at 70 % sequence identity. Here, the positive class is the minority class as the number of positive class sequences is relatively very small when compared to the number of negative class sequences and their prediction will suffer from the imbalance class factor.
+
+Extraction of feature vectors
+
+The quality of the attributes of the protein sequences selected for creating the input feature vector will have great influence in learning the concepts of a particular protein family. We represented each protein sequence as the combination of following sequence features to create input instances and they are explained below.
+
+Amino acid composition feature
+
+Different proteins are evolved through the avoidance and preference of some specific amino acids and leads to some certain unique set of percentage frequency composition, which can be used successfully for discriminatory purposes (Nath and Subbiah 2014). So we have taken the frequency percentage of distribution of the 20 amino acids along the length of the protein sequence as one of the features for creating the input feature vector. It is calculated using the following formula:
+
+1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{AA}}_{i} = \frac{{{\text{TC}}_{{{\text{AA}},i}} }}{{{\text{TC}}_{{{\text{res}}, i}} }} \times 100, $$\end{document}AAi=TCAA,iTCres,i×100,where AA denotes for one of the 20 amino acid residues, AAi denotes the amino acid percentage frequency of specific type ‘AA’ in the ith Sequence, TCAA,i denotes the total count of amino acid of specific ‘AA’ type in the ith sequence, TCres,i denotes the total count of all residues in the ith sequence (i.e., sequence length).
+
+1
+
+Amino acid property group composition feature
+
+The amino acids can be grouped according to their physicochemical properties. The Table 1 contains the list of amino acids belonging to the 11 different physicochemical groups. We have taken the percentage frequency composition of the 11 different amino acid property groups as used in (Nath et al. 2013) as the second feature. The formula for calculating this feature attribute is given below.Table 1Physicochemical groupings of amino acids taken for the present studyS. no.Name of amino acid property groupAmino acids in the specific group1.Tiny amino acids groupAla, Cys, Gly, Ser, Thr2.Small amino acids groupAla, Cys, Asp, Gly, Asn, Pro, Ser, Thr and Val3.Aliphatic amino acids groupIle, Leu and Val4.Nonpolar amino acid groupsAla, Cys, Phe, Gly, Ile, Leu, Met, Pro, Val, Trp and Tyr5.Aromatic amino acid groupPhe, His, Trp and Tyr6.Polar amino acid groupAsp, Glu, His, Lys, Asn, Gln. Arg, Ser, and Thr7.Charged amino acid groupAsp, Glu, His, Arg, Lys8.Basic amino acid groupHis, Lys and Arg9.Acidic amino acid groupAsp and Glu10.Hydrophobic acid groupAla, Cys, Phe, Ile, Leu, Met, Val, Trp, Tyr11.Hydrophilic acid groupAsp, Glu, Lys, Asn, Gln
+
+Table 1
+
+Physicochemical groupings of amino acids taken for the present study
+
+2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{PG}}_{i} = \frac{{{\text{TC}}_{{{\text{PG}}, i}} }}{{{\text{TC}}_{{{\text{res}}, i}} }} \times  1 0 0 , $$\end{document}PGi=TCPG,iTCres,i×100,where PG denotes one of the 11 different amino acid property groups, PGi denotes the percentage frequency of specific ‘PG’ amino acid property group in the ith sequence, TCPG,i denotes the total count of specific amino acid property group ‘PG’ in the ith sequence, TCres,i denotes the total count of all residues in the ith sequence.
+
+2
+
+Dipeptide counts
+
+There are four hundred different possible dipeptides from 20 amino acids. To take advantage of the local sequence order and amino acid coupling into the prediction we have taken the dipeptide counts as the third feature.
+
+Property group n-grams
+
+To take into the conservation of similar contiguous physicochemical amino acid property groups in the protein sequence, we have calculated the property groups n-grams, where n is the window length. In the current work we have taken the window length of 2 as the fourth feature and is calculated by the formula given below:
+
+3\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Physicochemical}}\,\; 2 {\text{-grams}}:\,\;{\text{Small}} = \sum\limits_{i = 1}^{N - 1} {C\left({i,i + 1} \right)}, $$\end{document}Physicochemical2-grams:Small=∑i=1N-1Ci,i+1,where N denotes the length of the protein sequence, i denotes the position of the amino acid residue along the protein sequence, if the condition \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ ({\text{aa}}_{i} \in S^{*}   {\text{and aa}}_{i + 1} \in S^{*} ) $$\end{document}(aai∈S∗and aai+1∈S∗) is true then \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ C(i,i + 1) $$\end{document}C(i,i+1) = 1 else \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ C(i,i + 1) $$\end{document}C(i,i+1) = 0 where the set of small aminoacids S* = {Ala,Cys,Asp,Gly,Asn,Pro,Ser,Thr,Val}.
+
+3
+
+The above formula is used to calculate physicochemical 2-grams for the small amino acid group. In the similar way the physicochemical 2-grams for the other ten physicochemical property groups were calculated. An example feature vector is provided in Supplementary Table S1–S3.
+
+Optimal balancing protocol
+
+SMOTE
+
+It was proposed by Chawla et al. (2002) for intelligent oversampling of minority samples as opposed to random oversampling, which may bias the learning towards the overrepresented samples. It is a nearest neighbor-based method, where it first chooses k nearest samples for a particular minority sample. It then randomly selects the j minority samples to create a synthetic minority sample. Successful use of SMOTE in classification tasks have been shown in (Li et al. 2014b; Nath and Subbiah 2015b; Suvarna Vani and Durga Bhavani 2013).
+
+Classification protocol SVM
+
+Support vector machines are supervised learning algorithms and are based on statistical learning theory of Vapnik (Vapnik 1995, 1998). Previous usage of SVM for biological classification/prediction problems has found them to be more accurate and also they are robust to noise and well suited for high dimensional datasets (Kandaswamy et al. 2011; Mishra et al. 2014; Pugalenthi et al. 2010). We have used the sequential minimization optimization (SMO) (Platt 1999) algorithm for fast training of SVM with polynomial kernel with an exponent value of 1 and C = 1 (a complexity parameter which SMO uses to build the hyperplane between the two classes, -C governs softness of the class margins).
+
+All the experiments were carried out using WEKA (Hall et al. 2009) which is an open source java-based machine learning platform. The schematic representation of the current methodology is given in Fig. 1.Fig. 1Schematic representation of the current pipeline
+
+Fig. 1
+
+Schematic representation of the current pipeline
+
+Characterization of plant virus-encoded RNA-silencing suppressors
+
+We have used Relieff (Kira and Rendell 1992) feature ranking algorithm to rank the sequence features according to their discriminating ability. Relieff is a nearest neighbor-based feature relevance algorithm. It starts by randomly selecting an instance and then searches for the nearest neighboring instances belonging to the same and opposite classes. It compares the attributes of the instance with its nearest neighbors and assigns weights according to its discriminating ability.
+
+Performance evaluation metrics
+
+We have used stratified tenfold cross validation for the evaluation of the various models. The performances of the machine learning algorithms were assessed with both threshold-dependent and threshold-independent parameters. These parameters are derived from the values of the confusion matrix, namely TP: true positive that is the number of correctly predicted RSSPs, TN: true negative that is the number of correctly predicted NSPs, FP: false positive that is the number of incorrectly predicted NSPs and FN: false negative that is the number of incorrectly predicted RSSPs. The formula for calculating the evaluation parameters are given below:
+
+Sensitivity Expresses the percentage of correctly predicted RSSPs.4\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Sensitivity}} = {{\text{TP}} \mathord{\left/ {\vphantom {{\text{TP}} {\left( {{\text{TP}} + {\text{FN}}} \right)}}} \right. \kern-0pt} {\left( {{\text{TP}} + {\text{FN}}} \right)}} \times 100. $$\end{document}Sensitivity=TPTP+FN×100.
+
+4
+
+Specificity Expresses the percentage of correctly predicted NSPs.5\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Specificity}} = {{\text{TN}} \mathord{\left/ {\vphantom {{\text{TN}} {\left( {{\text{TN}} + {\text{FP}}} \right)}}} \right. \kern-0pt} {\left( {{\text{TN}} + {\text{FP}}} \right)}} \times 100. $$\end{document}Specificity=TNTN+FP×100.
+
+5
+
+Accuracy Expresses the percentage of both correctly predicted RSSPs and NSPs.6\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Accuracy}} = {{\left( {{\text{TP}} + {\text{TN}}} \right)} \mathord{\left/ {\vphantom {{\left( {{\text{TP}} + {\text{TN}}} \right)} {\left( {{\text{TP}} + {\text{FP}} + {\text{TN}} + {\text{FN}}} \right)}}} \right. \kern-0pt} {\left( {{\text{TP}} + {\text{FP}} + {\text{TN}} + {\text{FN}}} \right)}} \times 100. $$\end{document}Accuracy=TP+TNTP+FP+TN+FN×100.
+
+6
+
+AUC Area under the receiver operating characteristic (ROC) curve that summarizes the ROC by a single numerical value. It is a threshold-independent metric and can take values from 0 to 1 (Bradley 1997). The value of 0 indicates the worst case, 0.5 for random ranking and 1 indicates the best prediction.
+
+Youden’s Index This performance metric evaluates the algorithm’s ability to avoid failure. Lower failure rates are expressed by higher index values (Youden 1950). It is calculated as:7\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ Y = \left( {\text{Sensitivity}} \right) - \left( {1 - {\text{Specificity}}} \right). $$\end{document}Y=Sensitivity-1-Specificity.
+
+7
+
+Dominance It expresses the relationship between the TP_rate (true-positive rate) and TN_rate (true-negative rate) and is proposed by (García et al. 2009). It is calculated as:8\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\text{Dominance}} = \left({\text{TP}} \_{\text{rate}}\right)-\left({\text{TN}} \_{\text{rate}}\right). $$\end{document}Dominance=TP_rate-TN_rate.
+
+8
+
+Its value ranges from −1 to +1. A dominance value of +1 means a perfect accuracy on the positive class and a value −1 means a perfect accuracy on the negative class. A value closer to zero means a balance between TP_rate and TN_rate.
+
+g-mean: it was proposed by Kubat et al. (1997), this evaluation parameter shows the balance between sensitivity and specificity. It is the geometric mean of sensitivity and specificity. It is calculated as:9\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ g{\text{-means}} = \sqrt {{\text{Sensitivity}} \times {\text{Specificity}}}. $$\end{document}g-means=Sensitivity×Specificity.
+
+9
+
+Results and discussion
+
+We have experimented with four different machine learning algorithms, namely—(1) naive Bayes (NB), (2) Fischer linear discriminant function (implemented as FLDA in WEKA), (3) support vector machines with sequential minimization optimization (SMO) and (4) K nearest neighbor (implemented as IBK in WEKA) on the imbalanced dataset (original), randomly undersampled dataset (with varying class distribution) and SMOTE oversampled dataset (with varying class distribution) to find the optimal class distribution for each of these classifiers.
+
+Learning performance on imbalanced dataset
+
+Observing the values of the performance evaluation parameters obtained from the different machine learning algorithms when trained with the imbalanced dataset (Table 2), the overall accuracy of SMO and IBK crossed above 90 %, although with a large difference in their individual accuracies for the positive (sensitivity) and negative classes (specificity), respectively. The training on the imbalanced dataset resulted in high specificity values for all the learning algorithms except the naive Bayes. The negative dominance values of all the learning algorithms (except the naive Bayes) are also biased towards the TN_rate. This indicates that optimal learning with higher accuracies (sensitivity and specificities) for the positive and negative classes is difficult in cases where there is an imbalance between the positive and negative class instances.Table 2Performance evaluation metrics of the different learning algorithms trained on the imbalanced datasetsLearning algorithmsSensitivitySpecificityAccuracyAUCYouden’s IndexDominance
+g-meansImbalanced data set NB90.829.236.90.6780.2000.61651.49 FLDA64.784.982.30.8190.492−0.20274.1 SMO52.197.191.40.7460.496−0.45071.1 IBK68.997.093.40.8410.659−0.28181.7
+
+Table 2
+
+Performance evaluation metrics of the different learning algorithms trained on the imbalanced datasets
+
+Learning performance on randomly undersampled datasets
+
+Nearest neighbor-based IBK method performed better than all the other machine learning algorithms and closely followed by SMO, when the original imbalance dataset was subjected to undersampling at different distribution rates for dealing with the data imbalance problem. The values of different performance evaluation parameters obtained by different degrees of class distribution are recorded in the Table 3. When the dataset is fully balanced by undersampling (undersampled 1:1), we obtained higher accuracy for the positive class samples than all other undersampled datasets. Highest overall accuracy of 91.8 % is obtained by IBK when the undersampling rate is 1:5 closely followed by SMO with 89.4 % accuracy. In the case of the undersampling datasets, IBK performed better than all other machine learning algorithms.Table 3Performance evaluation metrics of the different machine learning algorithms trained on the different randomly undersampled training setsLearning algorithmsSensitivitySpecificityAccuracyAUCYouden’s IndexDominance
+g-meansUndersampling (1:1) (fully balanced) training set NB91.623.557.60.6310.1510.68146.3 FLDA73.968.571.40.7680.4240.05471.1 SMO77.374.876.10.7610.5210.02576.0 IBK80.781.581.10.8180.622−0.00881.5Undersampling (1:2) training set NB89.130.349.90.6660.1940.58851.9 FLDA63.063.063.00.6610.26063 SMO72.388.783.20.8050.61−0.16480.08 IBK72.390.884.60.8090.631−0.18581.0Undersampling (1:3) training set NB90.828.944.30.6640.1970.61951.2 FLDA58.855.756.50.6130.5070.03157.2 SMO67.291.985.70.7960.591−0.24778.5 IBK72.393.087.80.0820.653−0.20781.9Undersampling (1:4) training set NB88.231.142.50.6940.1930.57152.37 FLDA64.773.571.80.7310.382−0.08868.9 SMO63.092.486.60.7770.554−0.29476.2 IBK68.994.789.60.8230.636−0.25880.7Undersampling (1:5) training set NB89.131.140.80.6920.2020.5852.6 FLDA66.479.076.90.7910.454−0.12672.42 SMO57.194.688.40.7590.61−0.37573.4 IBK70.693.990.10.8410.645−0.23381.4Undersampling (1:6) training set NB89.129.638.10.6880.1870.59551.3 FLDA68.180.478.60.8050.485−0.12373.9 SMO56.395.089.40.7560.513−0.38773.13 IBK71.495.291.80.8240.666−0.23882.4
+
+Table 3
+
+Performance evaluation metrics of the different machine learning algorithms trained on the different randomly undersampled training sets
+
+Learning performance on SMOTE oversampled datasets
+
+SMO performed better than all the other machine learning algorithms closely followed by FLDA on SMOTE oversampled datasets. The values of different performance parameters are recorded in the Table 4. One of the best noticeable effects of oversampling is the immediate increase in sensitivity values for all the four machine learning algorithms. There is a regular increasing trend for the Youden’s Index (which shows the model’s ability to avoid faults) with increasing rate of SMOTE oversampling. The best trade-off for the different evaluation parameters was obtained for the SMOTE 500 % dataset with SMO as the machine learning algorithm. This particular training dataset gave the best performance evaluation metrics with SMO as the learning algorithm. With this training dataset we could achieve 98.5 % sensitivity, 92.6 % specificity, 95.3 % overall accuracy, and 0.955 of AUC. A high value of sensitivity indicates that the model is very accurate for the positive minority class samples. A positive dominance index of 0.059 also confirms the fact that the model is good in predicting minority samples. A high value of the Youden’s Index (0.911) indicates the model’s superiority in fault avoidance ability. A g-means value of 95.5 also indicates an optimal balance between sensitivity and specificity. ROC plots for the four different machine learning algorithms trained on the best performing training set (SMOTE oversampled 500 % dataset) are shown in Fig. 2.Table 4Performance evaluation metrics of the different machine learning algorithms trained on the different SMOTE oversampled training setsLearning AlgorithmsSensitivitySpecificityAccuracyAUCYouden’s IndexDominance
+g-meansSMOTE 100 % training set NB91.233.146.10.7380.2430.58154.9 FLDA81.584.583.80.8960.660−0.03082.9 SMO81.194.791.60.8790.758−0.13687.6 IBK97.985.188.00.9120.8300.12891.2SMOTE 200 % training set NB91.635.052.10.7490.2660.56656.6 FLDA91.385.487.20.9340.7670.00588.3 SMO92.493.993.50.9320.863−0.01593.1 IBK98.979.785.50.8940.7860.19288.7SMOTE 300 % training set NB91.236.056.10.7510.2720.55257.2 FLDA95.284.488.30.9460.7960.10889.6 SMO96.292.393.70.9420.8850.00394.2 IBK99.479.186.50.8900.7850.20388.6SMOTE 400 % training set NB90.936.956.10.7510.2780.5457.9 FLDA95.884.989.40.9520.8070.10990.1 SMO96.591.893.70.9410.8830.04794.1 IBK99.374.684.90.8700.7330.24786.0SMOTE 500 % training set NB92.036.862.40.7450.2880.55258.1 FLDA97.383.790.00.9620.8100.13690.2 SMO98.592.695.30.9550.9110.05995.5 IBK99.673.885.80.8670.7340.25885.7SMOTE 594 % (fully balanced) training set NB92.436.464.40.7420.2880.5657.9 FLDA97.785.191.40.9640.8280.1291.1 SMO97.990.894.40.9440.8870.07194.2 IBK99.673.586.60.8620.7310.26185.5
+Fig. 2ROC curves of the four classifiers using the training set with optimal class distribution [SMOTE (500 %)]
+
+Table 4
+
+Performance evaluation metrics of the different machine learning algorithms trained on the different SMOTE oversampled training sets
+
+Fig. 2
+
+ROC curves of the four classifiers using the training set with optimal class distribution [SMOTE (500 %)]
+
+To further validate the learned models trained on a SMOTE oversampled dataset (500 %), we have used leave on out cross validation test (Chou and Zhang 1995). It is deemed as the most objective and robust test and has been used by many researchers for the assessment of classifier models (Chou and Cai 2004; Gao et al. 2005; Xie et al. 2013), the results are given in Table 5.Table 5Leave on out cross validation performance evaluation metrics on the best training setLearning algorithmsSensitivitySpecificityAccuracyAUCYouden’s IndexDominance
+g-meansLOOCV on SMOTE (500 %) NB92.336.462.30.7450.2870.55957.96 FLDA97.285.190.70.9660.8230.12190.90 SMO98.992.395.30.9560.9120.06695.50 IBK99.475.886.80.8760.7520.23686.80
+
+Table 5
+
+Leave on out cross validation performance evaluation metrics on the best training set
+
+Further, a corrected resampled paired t test was performed using WEKA with SMO as the baseline classifier. The t test was performed at the 5 % significance level. Each tenfold cross validation was repeated ten times (10 × 10 runs for each algorithm). Percentage correctly predicted instances, AUC, TP rate and TN rate was used for comparison with t test. The results of the t test are provided in the supplementary material (Table S4a–d).
+
+Comparing the results with previous study
+
+We have compared the evaluation metric of the current study with the previous study and the performance evaluation metric values for the current best training set and the previously reported values are presented in Table 6.Table 6Comparison of the performance evaluation metrics of the current work with the previous methodsMethodsSensitivitySpecificityAccuracyAUCYouden’s IndexDominance
+g-meansJagga and Gupta (2014)80.9080.5780.610.9100.6140.00380.70SMO [SMOTE (500 %)]98.5092.6095.300.9550.9110.05995.50
+
+Table 6
+
+Comparison of the performance evaluation metrics of the current work with the previous methods
+
+On comparison with the previous method, the current SMOTE (500 %) model achieved far better performance evaluation metrics.
+
+It is also observed that both the SMOTE oversampling and random undersampling have least effect on the performance of the naive Bayes algorithm, a similar observation has also been made by (Daskalaki et al. 2006).
+
+Characterization of RNA-silencing suppressors using sequence-based features
+
+In Fig. 3, we have plotted the heat map representation of the sequence attributes except the dipeptides. Figure 4 presents the heat map representation of the dipeptides. The color bar in both the figures (on the right side of both the figures) shows the color intensity proportional to the feature ranking scores which are calculated according to their discriminating ability. Observing the Fig. 3, arginine, polar and nonpolar property groups are the most useful discriminatory features. From Fig. 4, it can also be observed that DF, SF, NN, DT, CW, CG are the most discriminatory dipeptides.Fig. 3Heat map representation of ranking the sequence features (excluding dipeptides) according to their discriminative ability
+Fig. 4Heat map representation of ranking the dipeptides according to their discriminative ability
+
+Fig. 3
+
+Heat map representation of ranking the sequence features (excluding dipeptides) according to their discriminative ability
+
+Fig. 4
+
+Heat map representation of ranking the dipeptides according to their discriminative ability
+
+Arginines are relatively important in binding sites (Barnes 2007), also it is imperative to mention the importance of the role of arginine in suppressor activity of PRS suppressor (2b) of a cucumber mosaic virus strain (CM95R) (Goto et al. 2007) where it facilitates in binding to RNA and in potato virus M where mutational studies have shown the importance of arginines in suppression activity (Senshu et al. 2011). The importance of nonpolar amino acids, specifically isoleucine in suppression activity is also emphasized in (Carr and Pathology 2007).
+
+Conclusions
+
+Machine learning-based approaches are apposite techniques when compared to sequence alignment-based methods for the prediction of plant virus-encoded RNA-silencing suppressors and can become the superior alternative if the imbalance dataset problem is properly resolved. The protein family classification problem intrinsically presents a class imbalance situation, where the class of interest is a particular protein family which constitutes the positive class and the rest of the protein families belonging to the negative classes. Naturally, there is a large difference between the number of instances belonging to positive and negative classes. Depending on the mathematical representation of the protein sequences, machine learning-based approaches can capture the hidden relationship among the calculated protein attributes, which is most of the times better than alignment-based methods for protein classification. The plant virus-encoded RNA-silencing suppressor protein classification presents a data imbalance problem; we compared the learning of different machine learning algorithms on imbalanced, SMOTE oversampled and randomly undersampled datasets. The results reported in this study showed that learning is non-optimal for imbalanced positive and negative class data sets. The behavior of the machine learning algorithms is different in SMOTE oversampling and random undersampling. IBK performed better on randomly undersampled datasets, while the performance of SMO is superior to all other machine learning algorithms on SMOTE oversampled datasets. Better performance evaluation metrics were obtained on SMOTE oversampled datasets than on the randomly undersampled datasets. The best model is achieved with SMOTE oversampling when SMO is used as the learning algorithm. This also points to the fact that the full (ideal) balancing between the positive and negative classes may not fully eliminate the classifier bias. The current study supports and provides evidence to the fact that the learning of different machine learning algorithms can be improved using an optimal class distribution and also the fully balanced class distribution need not be optimal for the training of the learning algorithms. Individual accuracies and learning on the positive and negative classes can be increased by changing the class distribution. Overall the performance of the various machine learning algorithms on SMOTE oversampled datasets is better than the random undersampled datasets. Further, we have ranked the calculated sequence features according to their discriminating ability in classifying plant virus-encoded RNA-silencing suppressors from non-suppressors. The current pipeline can be successfully applied to other protein family classification problem with different degrees of imbalance. The current method explored the possibility of improvement in prediction accuracy of the four machine learning algorithms using an optimal class distribution that provides the best trade-off between imbalance dataset and the diversity of the dataset. A comprehensive study was carried out and presented in detail the behavior of the tested learning algorithms with varying degrees of resampling. It is also proved that prediction accuracy for the plant virus suppressor proteins can be improved using the optimal class distribution ratio.
+
+Future research can be carried out by incorporating additional diversifying techniques to deal with the related problem of incomplete learning. More sophisticated techniques can be evolved to deal with the trade-off between the balancing factor and input instance diversity. Further research in this direction can lead to the formulation of some kind of standard in creating benchmark data sets to every specific biological problem.
+
+Electronic supplementary material
+
+Below is the link to the electronic supplementary material.
+Supplementary material 1 (DOCX 19 kb)
+
+Supplementary material 1 (DOCX 19 kb)
+

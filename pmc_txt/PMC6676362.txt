@@ -1,0 +1,215 @@
+Dose calibration of Gafchromic EBT3 film for Ir-192 brachytherapy source using 3D-printed PLA and ABS plastics
+
+Abstract
+
+3D printing technology has allowed the creation of custom applicators for high dose rate (HDR) brachytherapy, especially for complex anatomy. With conformal therapy comes the need for advanced dosimetric verification. It is important to demonstrate how dose to 3D printed materials can be related to dose to water. This study aimed to determine dose differences and uncertainties using 3D printed PLA and ABS plastics for Radiochromic film calibration in HDR brachytherapy.
+
+Gafchromic EBT3 film pieces were irradiated in water with an Ir-192 source at calculated dose levels ranging from 0 to 800 cGy, to create the control calibration curve. Similarly, film was placed below 3D printed PLA and ABS blocks and irradiated at the same dose levels calculated for water, ranging from 0 to 800 cGy. After a 72-h development time, film pieces were scanned on a flatbed scanner and the median pixel value was recorded in the region of highest dose. This value was converted to net optical density (NOD). A rational function was used to fit a calibration curve in water that relates NOD to dose for red, green, and blue color channels. Based on this fitted curve, ABS and PLA NOD values were used to estimate dose in 3D printed plastics.
+
+From the fitted calibration curve, mean residual error between measured and planned dose to water was less than 1% for each color channel at high dose levels. At high dose levels, ABS and PLA mean residual errors were about 6.9 and 7.8% in the red channel, while 5.2 and 5.7% in the green channel. Combined uncertainties measured to be about 6.9% at high dose levels. This study demonstrated dose differences and uncertainties using 3D printed applicators for HDR Ir-192 brachytherapy.
+
+Introduction
+
+Custom applicators are useful for treating superficial tumors with high dose rate (HDR) brachytherapy. They allow highly conformal dose delivery, and are especially beneficial for oblique surfaces, such as the face [1, 2]. The Freiburg Flap is a commonly used customizable applicator for treating cutaneous lesions at depths less than 5 mm3. While this applicator is useful for treating lesions located on relatively uniform surfaces, it has difficulty conforming to irregularly-shaped structures such as the nose or ear. Recently, the proliferation of 3D printing technology has enabled the creation of customized applicators for the delivery of highly conformal radiotherapy treatment, even in the setting of complex anatomic geometries [1].
+
+With advancement of applicators and conformal therapy comes the need for accurate dosimetry methods. Film dosimetry has proved to be a high-resolution tool for radiotherapy treatment verification. Radiochromic film is useful for HDR brachytherapy quality assurance and is more practical than use of radiographic film or ion chambers [4, 5].
+
+Radiochromic film darkens with radiation exposure and dose, measured by changes in optical density without the need for chemical processing. Radiochromic film dosimetry allows the conversion of net optical density (NOD) to dose based on a source-specific calibration curve in water, or solid water [4]. To create a calibration curve, film is exposed in water at increasing prescribed dose levels. Film response (darkening) is measured in a standard flatbed scanner as NOD. The NOD can be related to dose by a rational function. This fitted function, known as a calibration curve, can then be used as a dosimetry tool for future dose measurements made with Radiochromic film.
+
+Common 3D printed plastics such as acrylic butadiene styrene (ABS) and polymethylmethacrylate (PLA) have been shown to be near-water equivalent [6]. Currently, film calibration for the HDR source is done in water. The process of film calibration in water can be laborious and time consuming. In a busy clinical setting, the use of 3D printed PLA and ABS plastics could offer a faster alternative for obtaining film calibration curves. The goal of this work was to obtain the relationship of doses and uncertainties in 3D printed PLA and ABS plastics when used in lieu of water for film calibration for HDR Iridium-192 brachytherapy sources. Furthermore, as part of a large-scale study to design custom 3D-printed superficial HDR applicators, it is important to demonstrate how dose in 3D printed materials can be related to dose to water.
+
+Materials and methods
+
+Source
+
+An HDR remote afterloader (Nucletron, Elekta, Stockholm, Sweden) was used with a MICROSELECTRON V2 Iridium-192 source (Alpha-Omega Services, Inc., Edgerly, LA).
+
+Film
+
+Gafchromic EBT3 film was used in this study and is the most current model of Radiochromic film available. EBT3 film is near tissue equivalent with an effective atomic number of 7.26 [7]. It has two polyester substrate layers (125 μm) surrounding an active layer (28 μm), creating a symmetric structure that eliminates side orientation dependence. EBT3 film has been shown to be energy independent at doses above 100 cGy, and at energies greater than 100 keV photons [8], making it useful for Ir-192 sources, which have an average photon energy of 380 keV. In addition, EBT3 characteristics such as uniformity, orientation, and energy dependence have been widely studied [9, 10].
+
+All film was obtained from the same lot number, 06131702. Sheets were cut into fourths, creating 10.2 × 12.7 cm2 pieces and marked to maintain side and orientation dependence. Film was handled and stored in accordance with American Association of Physicists in Medicine (AAPM) Task Group 55 recommendations and guidelines [11].
+
+Dose to water measurements
+
+A custom 3D printed holder (made of ABS) was used to take film measurements in water (see Fig. 1). Two opposed catheters were placed 5 cm from the film's center to deliver a total dose of 50, 100, 200, 400, 600, and 800 cGy. Treatment planning software (Oncentra, Elekta, Stockholm, Sweden) calculated doses based on AAPM Task Group 43 (which does not correct for inhomogeneities) [12, 13]. A non-irradiated film sample was used as a 0 cGy background measurement.Fig. 1A custom 3D printed film hold was created using ABS. The design can be immersed in a water tank and allows film to be placed between two opposing catheters, 5 cm away from the film’s center
+
+Fig. 1
+
+A custom 3D printed film hold was created using ABS. The design can be immersed in a water tank and allows film to be placed between two opposing catheters, 5 cm away from the film’s center
+
+3D-printed material measurements
+
+A 4x4x7 cm3 ABS block was 3D printed using a commercially available 3D printer (Taz 6, Aleph Objects Inc., Loveland, CO) with 100% infill and a 0.2 mm layer height. The center of the catheter channel was offset by 1 cm from midline with the film placed along the surface of the block 3 cm from the catheter (see Figs. 2, 3 and 4). The treatment planning software (Oncentra, Elekta, Stockholm, Sweden) was again used to measure dose to water ranging 50–800 cGy to the film. This procedure was repeated for a similar block made of PLA. ABS and PLA were assumed to be near water equivalent in the treatment planning system (TPS) [6].Fig. 2A 3D printed ABS block, 4x4x7 cm3, with catheter placement 3 cm from baseFig. 3Film is placed 3 cm from the catheter and source, below the 3D printed blockFig. 4The 3D printed block, and film are surrounded by solid water to create scatter
+
+Fig. 2
+
+A 3D printed ABS block, 4x4x7 cm3, with catheter placement 3 cm from base
+
+Fig. 3
+
+Film is placed 3 cm from the catheter and source, below the 3D printed block
+
+Fig. 4
+
+The 3D printed block, and film are surrounded by solid water to create scatter
+
+Scanning the film
+
+A flatbed scanner (Epson Expression 11000XL, Seiko Epson Corp., Tokyo, Japan) and associated EPSON SCAN, were used to scan the film approximately 72 h post-irradiation. Previous findings have shown minimal variation in NOD beyond a 24 h development time [10]. A foam board positioning template was used to achieve reproducible and uniform position in the center of the scanner. Films were scanned three times each to determine scanning consistency. RBG-positive images were acquired with a spatial resolution of 72 dpi, and a depth of 48 bits (16 bits per color channel). Images were saved in tiff format. The ImageJ software platform (National Institutes of Health, Bethseda, MD) was used to analyze the film with a 9 × 9 pixel region of interest (ROI) selected at the highest point of exposure. The median pixel value (related to image’s intensity) from the ROI was then recorded for each color channel (red/blue/green). Median pixel value can then be converted to NOD by the following formula:\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ OD=\frac{Pixel\ Value}{2^{16}} $$\end{document}OD=Pixel Value216\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ NOD={OD}_{Dose}-{OD}_{0\  cGy} $$\end{document}NOD=ODDose−OD0cGy
+
+Creating and using a calibration curve
+
+The relationship between film response and dose was determined with a calibration curve based on water measurements. A rational function was used to fit the NOD data with the expected dose from the TPS [14]:\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ Dose=a+\frac{b}{NOD-c} $$\end{document}Dose=a+bNOD−c
+
+Using coefficients, a, b, and c to create calibration curve, dose to the can be measured based on changing film response.
+
+Uncertainty analysis
+
+In this study, uncertainty was determined based on precision of measurements and calculations made. Based on AAPM Task Group 43 uncertainties, both random (type A), and systematic (type B), are measured [12, 13]. Uncertainties were divided into two parts; determining dose from NOD, and film exposure. An estimate of combined uncertainty was calculated using a square root of the sum of squared individual uncertainty components, as recommended by AAPM [13].
+
+Results
+
+Calibration curve fit
+
+The parameters shown in Table 1 were fit for red, green, and blue channels, based on the relationship between planned dose and NOD. The dosimetric error was measured as a percent difference between the measured dose with film and the expected dose from the TPS. An absolute mean error was determined to quantify the sensitivity of each channel. Since EBT3 film is less accurate at low doses, the absolute mean error was divided into low dose (≤100 cGy) and high dose (> 100 cGy).Table 1Fitting Parameters for Calibration CurveColor ChannelabcRed− 582.230− 436.1800.757Green− 996.825− 727.0230.730Blue− 1633.021− 773.0910.475A rational function, y = a + (b/(x – c)), was used to fit the data where y is the dose and x is the NOD. Based on these parameters, a calibration curve can be created for each color channel
+
+Table 1
+
+Fitting Parameters for Calibration Curve
+
+A rational function, y = a + (b/(x – c)), was used to fit the data where y is the dose and x is the NOD. Based on these parameters, a calibration curve can be created for each color channel
+
+For water measurements all channels showed high dose mean error less than 1%. At low doses, there were inaccuracies in the calibration curve fit, as shown in Table 2. The blue channel showed the highest error, especially at the 50 cGy dose level. Since the red and green channels showed little dosimetric error at both high (≤0.1%) and low (< 5.0%) dose levels, they will be used for the remainder of the analysis. Previous studies emphasize that red and green channels were most sensitive for high dose levels [4, 10].Table 2Dose Measured in Water and Residual ErrorTPS Dose (cGy)Red (cGy)Error (%)Green (cy)Error (%)Blue (cGy)Error (%)0−6.1–− 0.6–−4.9–5053.57.052.14.260.019.9100102.52.597.8−2.298.07−1.8200203.01.5199.3−0.4197.8−0.1400397.0−0.8400.30.1395.0−1.2600596.4−0.6602.60.4600.70.2800801.50.2798.1−0.2796.2−0.4Low Dose Mean4.83.210.9High Dose Mean0.80.30.7Dose to water was measured based on calibration curve fit (in Table 1). The residual error was determined as the percent difference between the planned and the measured dose to water. An absolute mean error was calculated for each color channel. The mean error was split into low dose (< 100 cGy) and high dose (> 100 cGy) ranges
+
+Table 2
+
+Dose Measured in Water and Residual Error
+
+Dose to water was measured based on calibration curve fit (in Table 1). The residual error was determined as the percent difference between the planned and the measured dose to water. An absolute mean error was calculated for each color channel. The mean error was split into low dose (< 100 cGy) and high dose (> 100 cGy) ranges
+
+Dose measurements in PLA and ABS
+
+The red channel calibration curve from water (in Table 1) was used to fit NOD values for ABS and PLA film of increasing dose levels. Table 3 shows the measured dose and the percent error from the expected dose based on the red channel fit. Again, mean error was divided into low and high dose to account for inaccurate film response for doses at and below 100 cGy. A mean error of 6.9% and 7.8%, for ABS and PLA respectively for high doses using the red channel as seen in Table 3. The green channel measured a high dose mean error of 5.2% and 5.7% for ABS and PLA respectively. Table 4 displays green channel dose measurements. Figures 5 and 6 demonstrate how error changes with increasing dose for water, ABS, and PLA.Table 3Red Channel Dose Residual Error in Water, ABS and PLATPS Dose (cGy)Water Error (%)ABS Error (%)PLA Error (%)507.0−7.4−17.11002.5−4.1−4.12001.5−4.1−5.9400−0.8−9.2−9.4600−0.6−7.1−8.88000.2−7.3−7.3Low Dose Mean4.85.810.6High Dose Mean0.86.97.8The red channel calibration is used to estimate dose to water based on ABS and PLA NOD values. The error between TPS dose and measured dose is displayed for each dose level, as well as the combined absolute mean error for low dose (≤100 cGy) and high dose (> 100 cGy) rangesTable 4Green Channel Dose Residual Error in Water, ABS, and PLATPS Dose (cGy)Water Error (%)ABS Error (%)PLA Error (%)504.2−7.9−24.5100−2.2−5.9−7.0200−0.4−5.1−6.34000.1−6.5−6.56000.4−4.3− 4.9800−0.2−4.8−5.0Low Dose Mean3.26.915.8High Dose Mean0.35.25.7The green channel curve is used to estimate dose to water based on ABS and PLA NOD values. The error between TPS dose and measured is displayed for each dose level, as well as the combined absolute mean error for low dose (≤100 cGy) and high dose (> 100 cGy) rangesFig. 5Error between measured and planning dose for red channel film in Water (blue), ABS (orange), and PLA (grey)Fig. 6Error between measured and planning dose for green channel film in Water (blue), ABS (orange), and PLA (grey)
+
+Table 3
+
+Red Channel Dose Residual Error in Water, ABS and PLA
+
+The red channel calibration is used to estimate dose to water based on ABS and PLA NOD values. The error between TPS dose and measured dose is displayed for each dose level, as well as the combined absolute mean error for low dose (≤100 cGy) and high dose (> 100 cGy) ranges
+
+Table 4
+
+Green Channel Dose Residual Error in Water, ABS, and PLA
+
+The green channel curve is used to estimate dose to water based on ABS and PLA NOD values. The error between TPS dose and measured is displayed for each dose level, as well as the combined absolute mean error for low dose (≤100 cGy) and high dose (> 100 cGy) ranges
+
+Fig. 5
+
+Error between measured and planning dose for red channel film in Water (blue), ABS (orange), and PLA (grey)
+
+Fig. 6
+
+Error between measured and planning dose for green channel film in Water (blue), ABS (orange), and PLA (grey)
+
+Discussion
+
+Uncertainty analysis
+
+Uncertainties reported in AAPM Task Group 43 were both statistical, random (type A) and systematic, nonrandom (type B) [13]. Also suggested by AAPM Task Group 43, the combined uncertainty was estimated using a simple root sum of squares of individual components. Our uncertainty analysis was broken into two parts; obtaining dose from NOD, and film exposure. Timer error and calibration curve fit are dose dependent errors, therefore both low and high dose uncertainties were estimated. Table 5 summarizes sources of uncertainty and combined uncertainty for high and lose dose measurements in film.Table 5Uncertainty AnalysisI. Uncertainty in Determining Dose from NOD
+Low Dose
+
+High Dose
+
+Uncertainty Description
+
+Type A (%)
+
+Type B (%)
+
+Type A (%)
+
+Type B (%)
+Scanning Consistency0.10.1Film uniformity1.01.0ROI Size1.51.5Calibration Curve Fit4.8*0.8*Combined Uncertainty0.15.10.12.0Total Uncertainty5.12.0II. Uncertainty in Film Exposure
+Low Dose
+
+High Dose
+
+Uncertainty Description
+
+Type A (%)
+
+Type B (%)
+
+Type A (%)
+
+Type B (%)
+Repeatability0.10.10Distance to Source4.04.0Lack of Scatter Equilibrium5.05.0Source Strength1.51.5Exposure Time0.8*0.1*Combined Uncertainty0.16.60.106.66.66.6III. Total Uncertainty8.46.9*Indicates differences between high and low dose uncertaintyIndividual sources of uncertainty were determined for Dose from NOD Procedure (I) and consequential Film Exposure (II). Both random, statistical (Type A) and non-random, systematic (Type B) errors were determined. A root sum of squares is calculated to obtain combined, and total uncertainties
+
+Table 5
+
+Uncertainty Analysis
+
+*Indicates differences between high and low dose uncertainty
+
+Individual sources of uncertainty were determined for Dose from NOD Procedure (I) and consequential Film Exposure (II). Both random, statistical (Type A) and non-random, systematic (Type B) errors were determined. A root sum of squares is calculated to obtain combined, and total uncertainties
+
+Determining dose from NOD
+
+Scanning consistency added minimal statistical uncertainty, less than 0.1%. Scanning consistency was determined from the difference between six separate scans of the same film piece. Film uniformity was determined by measuring difference between four quadrants of a background film sample. An additional source to consider was the ROI size. Decreasing the ROI size would reduce the amount of data sampled and may overestimate the optical density. This error was again more prominent at lower dose levels, with a low signal to noise ratio. Previous literature has found little uncertainty for a ROI 4 × 4 mm2 or larger [15, 16]. Our 9 × 9 pixel ROI was equivalent to a 4.1 × 4.1 mm2 ROI. Compared to a 2.3 × 2.3 mm2 ROI, net optical density for our larger ROI differed by about 1.5% for red channel water measurements.
+
+With the obtained fitting parameters, the water calibration curves gave residual error for dose, especially at low dose levels as outlined in Table 2. For this reason, a systematic uncertainty error was added to the analysis for low and high dose levels. Combined uncertainty from Dose to OD procedure was estimated to be 5.1 and 2.0% for low and high dose, respectively.
+
+Film exposure
+
+Positional accuracy between the film and source was a large cause of dosimetric error. In water measurements, a slight bend in the film may cause the source to be incorrectly placed up to 1 mm. Although a double catheter setup was used to minimize film position error, it was still present. Source film position error was determined by relating exposure at 5 cm to exposure at 5.1 cm away by the inverse square relationship. For example, a 1 mm uncertainty would lead to a 4% error, for water measurements at 5 cm.
+
+Scatter equilibrium is an important consideration in superficial brachytherapy. At the skin surface there are less photons scattered from surrounding tissue, causing a smaller dose to the target. For ABS and PLA measurements, there was only 10 cm of solid water surrounding the 3D printed block/catheter (Fig. 4). Previous literature has suggested that full scatter equilibrium is achieved with at least 40 cm of water surrounding an Ir-192 source, otherwise the radial dose function can differ by 5–10%, thus under-dosing the target [17]. With the knowledge that our ABS and PLA film exposures did not achieve full scatter equilibrium, 5% systematic uncertainty is added. While this adds large uncertainty, it is a clinically relevant consideration. In practice full scatter equilibrium is not achievable for superficial HDR brachytherapy treatments within 5 mm of the skin surface [18]. Future studies should be completed to address loss of scatter conditions in superficial brachytherapy dosimetry.
+
+Timer error added minimal uncertainty, but still was considered in our analysis. Low doses required smaller dwell times; thus, a higher proportion of timer error. For example, a 50 cGy dose to water required a dwell time of 50 s. A 0.4 s timer uncertainty would lead to a 0.8% timer error, while an 800 cGy dose and 800 s dwell time would produce an error of only 0.05%. Total uncertainty for low and high dose measurement in film was 8.4 and 6.9%, respectively.
+
+Clinical relevance of results
+
+In HDR brachytherapy, most prescribed fractionation schemes require doses of 500 cGy per fraction, or more [2, 3]. Our results showed that at doses beyond 200 cGy, dosimetric error was near the expected level of uncertainty. The green channel proved to have the most sensitivity by measuring dose within 6% of the expected dose at high dose levels. This finding was in alignment with previous literature [4, 10]. The red channel showed less sensitivity but still within 8% at high dose levels for both PLA and ABS.
+
+Conclusions
+
+A calibration curve was accurately obtained for water, and doses to water were compared to doses to 3D printed PLA and ABS plastics. For the calibration curve fit in water at low dose levels (100 cGy and below), there was an error up to 4.8% in the red channel. This error in the calibration curve fit is minimized for doses beyond 200 cGy. At high dose levels (200 cGy and higher), the calibration curve fit in water presented a mean error of 0.8, 0.3, and 0.7% in respective red, green, and blue channels. An accurate setup, with high positional accuracy is necessary to ensure that a quality calibration curve is acquired.
+
+The results estimated the uncertainties and errors in measured doses when using 3D printed PLA and ABS plastics as summarized in Table 6. Distance and lack of scatter equilibrium were the largest source of uncertainty in our measurements. Measured doses in ABS and PLA were within the expected range of uncertainty.Table 6Summary of Dose ErrorsDose LevelMaterialColor ChannelError (%)(%Uncertainty)HighWaterRed0.8(6.86%)Green0.3ABSRed−6.9Green−5.2PLARed−7.8Green−5.7LowWaterRed4.8(8.36%)Green3.2ABSRed−5.8Green−6.9PLARed−10.6Green−15.8Table 6 Legend: Summary of error values for red and green channels in Water, ABS, and PLA at high and low dose levels with uncertainties
+
+Table 6
+
+Summary of Dose Errors
+
+Table 6 Legend: Summary of error values for red and green channels in Water, ABS, and PLA at high and low dose levels with uncertainties
+
+These results have shown that 3D printed PLA and ABS plastics can be used in lieu of water for film calibration for HDR Iridium-192 brachytherapy sources, however systematic uncertainties related to source position, and scatter equilibrium conditions due to the phantom size should be carefully accounted for.
+

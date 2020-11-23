@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     'readability_scores',
     help='path to the tsv file containing the readability scores output',
-    default=relative_file('../results/textstat.results.tsv')),
+    default=relative_file('../results/textstat.results.tsv'),
 )
 args = parser.parse_args()
 

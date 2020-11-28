@@ -47,7 +47,7 @@ parser.add_argument(
 parser.add_argument(
     '--output_file',
     help='path the the CSV output file',
-    default=relative_file('../data/pmc_review_acticles.csv'),
+    default=relative_file('../data/pmc_metadata.csv'),
 )
 args = parser.parse_args()
 

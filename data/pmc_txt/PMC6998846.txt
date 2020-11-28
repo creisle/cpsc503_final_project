@@ -1,4 +1,3 @@
-Simulation of semilunar valve function: computer-aided design, 3D printing and flow assessment with MR
 
 Abstract
 
@@ -20,106 +19,22 @@ Conclusion
 
 In this proof of concept study, we have demonstrated the ability to generate physiological 3D-printed aortic valve phantoms and evaluate their function with cine- and 4D Flow MRI. This technology can work synergistically with promising tissue engineering research to develop optimal aortic valve replacements, which closely reproduces the complex function of the normal aortic valve.
 
-Introduction
 
-The aortic and pulmonary valves are collectively called the semilunar valves as they consist of three semilunar shaped leaflets that show a gentle concave curvature when viewed from above. These valves are contained within the arterial root, which has three visible round outward protrusions called the sinuses of Valsalva. The structure of both the valve leaflets and sinuses are crucial in supporting the proper function of the semilunar valve and ensuring durability of the valve leaflets, which open and close approximately 100,000 times daily without any resting period. An enhanced understanding of the structural characteristics of the semilunar valves is therefore fundamental to the evaluation and staging of semilunar valve pathology, as well as the development of prosthetic or bioprosthetic valves. We hypothesized that a combination of computer-aided design (CAD), 3D printing and flow assessment with magnetic resonance imaging (MRI) would provide an unprecedented opportunity for detailed assessment of the structural and hemodynamic characteristics of both normal semilunar valves and pathologic conditions such as isolated aortic and pulmonary valve diseases and connective tissue diseases affecting the arterial roots. This paper illustrates the process of CAD and 3D printing of a semilunar valve phantom and the assessment of valve function using 4-dimensional (4D) flow MRI.
 
-Method
 
-Previously published data using either pathology specimens or medical imaging were used to model the structure of the ‘normal’ tricuspid aortic valve with a CAD software package (SolidWorks, Waltham, Massachusetts, USA) (Figs. 1, 2) [1–7]. The design of the aortic root incorporated the sinuses of Valsalva, sinotubular junction, and ascending aorta. A cylinder with the dimension of the distal left ventricular outflow tract was modeled to complete the aortic valve phantom (Fig. 3).
-Fig. 1Normal tricuspid aortic valve modelled using computer aided design based on geometry obtained from literature. a Superior view looking down the ascending aorta to visualize the aortic valve leaflets. b Lateral view of aortic valve phantom incorporating aortic root structuresFig. 22D sketches of aortic root and valve leaflet geometry (mm). a Coronal view of the aortic root. Wall thickness 2 mm. b Cross-sectional View of aortic root. c Lateral view of aortic root. d Lateral view of valve leaflet. e Frontal view of valve leaflet. f Superior view of valve leafletFig. 3Top Panel: 3D printed tricuspid aortic valve phantom. a Superior view looking down the ascending aorta to visualize the aortic valve leaflets. b Inferior view looking up the left ventricular outflow tract to the base of the closed valve. c Lateral view of aortic valve phantom incorporating aortic root structures. Bottom Panel: Piping connected to phantom which attaches to the physiological MRI compatible pump. Red arrows show the direction of flow through the phantom
-
-Fig. 1
-
-Normal tricuspid aortic valve modelled using computer aided design based on geometry obtained from literature. a Superior view looking down the ascending aorta to visualize the aortic valve leaflets. b Lateral view of aortic valve phantom incorporating aortic root structures
-
-Fig. 2
-
-2D sketches of aortic root and valve leaflet geometry (mm). a Coronal view of the aortic root. Wall thickness 2 mm. b Cross-sectional View of aortic root. c Lateral view of aortic root. d Lateral view of valve leaflet. e Frontal view of valve leaflet. f Superior view of valve leaflet
-
-Fig. 3
-
-Top Panel: 3D printed tricuspid aortic valve phantom. a Superior view looking down the ascending aorta to visualize the aortic valve leaflets. b Inferior view looking up the left ventricular outflow tract to the base of the closed valve. c Lateral view of aortic valve phantom incorporating aortic root structures. Bottom Panel: Piping connected to phantom which attaches to the physiological MRI compatible pump. Red arrows show the direction of flow through the phantom
-
-The stereolithography (STL) files were then generated and printed on a 3D printer (Objet 500 Connex 3, Stratsys Ltd., Eden Prairie, MN, USA). After multiple trials with various materials, a mixture of Agilus Clear and VeroWhite resin material was used to create the aortic walls and sinus and TangoPlus resin was used for the individual valve leaflets. The leaflet thickness was 0.6 mm. An MRI compatible flow pump (CardioFlow 5000, Shelley Medical Imaging Technologies, London, Ontario, Canada) with the capacity to mimic physiological flows was connected to the aortic flow phantom. The fluid reservoir, flow pump and phantom model were all connected in series on a single loop circuit. To mimic diastolic arterial pressure, the circuit between the phantom return line and reservoir was open and elevated such that the phantom sits 1088 mm below the water level. This setup results in a diastolic pressure equivalent to 80 mmHg at the phantom’s ascending aorta. The pump was programmed to generate a flow pattern, with a peak flow rate of 100 mL/s, simulating a normal aortic waveform (Fig. 4). The heart rate was set to 60 beats per minute. Prior to its introduction into the MRI scanner, the flow circuit was carefully tested on the bench, including graduated cylinder/stopwatch measurements to verify the accuracy of the pump. Following these preliminary tests, MRI data were acquired on a 3 T Prisma system (Siemens Healthineers, Erlangen, Germany).
-Fig. 4Normal aortic waveform programmed to flow pump over one cardiac cycle. Peak flow rate set at 100 mL/s
-
-Fig. 4
-
-Normal aortic waveform programmed to flow pump over one cardiac cycle. Peak flow rate set at 100 mL/s
-
-MRI measurements included:
-Cine imaging - to assess valve motion throughout the cardiac cycle2D phase contrast flow imaging – to measure flow velocity above and below the valve and assess for evidence of aortic stenosis (significant flow acceleration across the valve) or aortic regurgitation (retrograde flow) and to compare the data with ground truths.4D phase-contrast flow imaging – to visualize and analyze complex flow patterns using vector fields and path lines (Table 1).Table 1Pulse sequence parameters from the Digital Imagining and Communications in Medicine (DICOM) data for each of the modalities usedScan duration (minutes)2D/ 3DIn-plane resolution (mm2)Slice thickness (mm)TR/TE (ms)Field of ViewMatrix sizeFlip angle (°)Venc (cm/s)4D Flow11.7 (in-plane GRAPPA acceleration factor = 3)3D1.6 × 1.61.648.6/3.5200 × 156 × 64 mm3128 × 102 × 407100Phase Contrast0.52D1.0 × 1.05 (single slice acquisition)50.9/4.1200 × 119 mm2192 × 1162570Cine (axial)1.52D1.0 × 1.23 (5 slices acquired)58.8/3.3200 × 119 mm2192 × 9912n/aCine (coronal)1.52D1.2 × 1.33 (3 slices acquired)57.5/3.3224 × 133 mm2192 × 9912n/a
-
-Cine imaging - to assess valve motion throughout the cardiac cycle
-
-2D phase contrast flow imaging – to measure flow velocity above and below the valve and assess for evidence of aortic stenosis (significant flow acceleration across the valve) or aortic regurgitation (retrograde flow) and to compare the data with ground truths.
-
-4D phase-contrast flow imaging – to visualize and analyze complex flow patterns using vector fields and path lines (Table 1).
-
-Table 1
-
-Pulse sequence parameters from the Digital Imagining and Communications in Medicine (DICOM) data for each of the modalities used
-
-Results
-
-A live video recording demonstrating the function of the 3D printed valve is provided in Fig. 5 (and Additional file 1: Video S1). Valve opening and closure during systole and diastole, respectively, is clearly visualized.
-Fig. 5View from above the 3D printed aortic valve demonstrating the valve closing and opening in response to pulsatile flow. a Valve leaflets closing during diastole. b Valve leaflets opening during systole. (Corresponding video files attached – Additional file 1: Video S1)
-
-Fig. 5
-
-View from above the 3D printed aortic valve demonstrating the valve closing and opening in response to pulsatile flow. a Valve leaflets closing during diastole. b Valve leaflets opening during systole. (Corresponding video files attached – Additional file 1: Video S1)
-
-Additional file 1: Video S1. View from above the 3D printed aortic valve demonstrating the valve closing and opening in response to pulsatile flow.
-
-Additional file 1: Video S1. View from above the 3D printed aortic valve demonstrating the valve closing and opening in response to pulsatile flow.
-
-Cine MRI data, providing both short and long axis views of the functioning valve are shown in Fig. 6 (and Additional file 2: Video S2). During systole the leaflets opened instantaneously allowing unobstructed flow through the valve and the leaflets closed effectively with cessation of systolic forward flow. Visualization and quantitative analysis of 4D Flow data was performed using a commercial software package (4D Flow, Siemens, Erlangen, Germany). Retrospective measurements of net flow through 2D planes placed proximal and distal to the valve were very consistent (26.03 mL/s and 26.09 mL/s, respectively). Flow waveforms measured at these two planes are provided in Fig. 7. Peak flow values proximal and distal to the valve were 78.4 mL/s and 63.3 mL/s, respectively. Measurements of net flow value agreed closely with the integral of the flow waveform provided to the CardioFlow 5000 (27.74 mL/s), confirming 4D flow acquisition in relation to the pump output.
-Fig. 6Cine MRI images showing aortic valve phantom in simulated systole in short and long axis planes. Left image shows the valve leaflets closed. Right image shows leaflets open. (Corresponding video files attached – Additional file 2: Video S2)Fig. 7Correlation of blood flow volumes through the phantom proximal and distal to the aortic valve measured by 2D and 4D phase contrast imaging. There is better consistency of flow volumes in 4D than the 2D phase-contrast MRI measurements
-
-Fig. 6
-
-Cine MRI images showing aortic valve phantom in simulated systole in short and long axis planes. Left image shows the valve leaflets closed. Right image shows leaflets open. (Corresponding video files attached – Additional file 2: Video S2)
-
-Fig. 7
-
-Correlation of blood flow volumes through the phantom proximal and distal to the aortic valve measured by 2D and 4D phase contrast imaging. There is better consistency of flow volumes in 4D than the 2D phase-contrast MRI measurements
-
-Particle traces of flow from 4D-phase contrast MRI data demonstrated flow through the valve into the ascending aorta, as well as vortices within the aortic sinuses, which are expected during ventricular diastole. There was a small degree of retrograde flow during diastole, suggestive of regurgitation. (Fig. 8 + Additional file 3: Video S3).
-Fig. 8Particle tracing of flow from 4D phase-contrast MRI showing vortices in the aortic sinuses. Seeds were placed at the aortic valve orifice (Corresponding video file attached – Additional file 3: Video S3)
-
-Fig. 8
-
-Particle tracing of flow from 4D phase-contrast MRI showing vortices in the aortic sinuses. Seeds were placed at the aortic valve orifice (Corresponding video file attached – Additional file 3: Video S3)
-
-2D contrast imaging of flow volumes were less consistent than 4D with net flow proximal and distal to the valve measuring 20.60 mL and 27.20 mL, respectively. Peak flow values proximal and distal to the valve were 74.6 mL/s and 67.6 mL/s respectively.
 
 Discussion
 
 The semilunar valves are uniquely structured to open and close without the aid of the chords and papillary muscles. The tricuspid semilunar valve with properly sized and shaped sinuses of Valsalva appears to be the ideal configuration for optimal hemodynamics, compared to mono or bicuspid variants [4, 8–10]. Any alteration in the number of valve leaflets, the size of the valve annulus and the size and shape of the sinuses may result in inadequate flow or turbulence across the valvular orifice and damage to the valve leaflets. Both aortic and pulmonary valve diseases are not uncommon and require replacement of the diseased valve with a prosthetic or bioprosthetic valve through surgery or intervention [11–13]..
 
-3D printing of patient specific aortic root phantoms has previously been used successfully to develop procedural simulations for in vitro transcatheter aortic valve replacements (TAVR) and to quantitatively assess post-TAVR aortic root strain and potential incidence of paravalvular leak using computed tomography [14]. Our pilot study provides the first demonstration of 3D printing of flexible semilunar valves fabricated with CAD, followed by detailed assessments of function and flow using cine- and 4D Flow MRI.
+3D printing of patient specific aortic root phantoms has previously been used successfully to develop procedural simulations for in vitro transcatheter aortic valve replacements (TAVR) and to quantitatively assess post-TAVR aortic root strain and potential incidence of paravalvular leak using computed tomography . Our pilot study provides the first demonstration of 3D printing of flexible semilunar valves fabricated with CAD, followed by detailed assessments of function and flow using cine- and 4D Flow MRI.
 
 The results generated further validate the efficacy of using additive manufacturing as a feasible and effective methodology to assess semilunar valve function. In addition, it has been shown that 4D flow MRI can be used in phantoms to investigate the complex flow patterns within the aortic root, which are crucial in evaluating valve leaflet closure and coronary artery perfusion. This method can support ongoing work in the field of computational -fluid dynamics (CFD), which has analyzed normal aortic valve function, in addition to simulating surgical repairs of the aortic root [15–18].
 
 The workflow demonstrated in this paper can be applied to the investigation of: 1) the structural requirements for optimal function and durability of the semilunar valve and the sinuses of Valsalva, 2) the study of the hemodynamic changes in association with abnormal valve leaflet and sinus configuration such as various forms of bicuspid and quadricuspid valves, and 3) the effect of the dilated aortic root on aortic valve anatomy and function in systemic connective tissue diseases such as Marfan and Loeys-Dietz syndromes. Although the listed features can be assessed in living individuals, in-vivo studies are associated with numerous confounding factors such as ventricular function, heart rate, distal vascular resistance and anatomical variations. Inevitably this method requires a large study population to prove the given hypotheses. As any number of combinations of anatomical and hemodynamic variations can be fabricated with CAD and 3D printing, with the other confounding factors kept constant, the structural and functional importance of each component of the valve and sinus can be isolated and assessed in detail. Fabrication of individualized semilunar valve phantoms with computer and phantom flow dynamic studies may ultimately allow optimized design of bioprinted implantable valves. The experimental setting with phantoms can also be used for validation of the flow assessment tools including Doppler ultrasound, 2D- and 4D-flow MRI using precisely calibrated flow pumps. This methodology streamlines the process from prototyping to valve testing, reducing the time required to optimize the structure of the semilunar valve.
 
-Potential areas for improvement of the demonstrated workflow include: quality of 3D print material, the CAD technique for valve design and the physiological fidelity of the flow pump and circuit. The current commercially available 3D print material used to generate the valve phantoms does not have identical elastic, strength or biochemical properties to human valve tissue and will remain a limitation of this method until improved materials are available. While we were able to fabricate the valve leaflets with 0.6 mm thickness with the current commercially available print material, the forthcoming materials allow for fabrication of valve leaflets with a much more realistic 0.3 mm thickness [9, 19]. The use of a compliance chamber within the circuit, instead of an open circuit, would also improve the ability to control diastolic pressures being a more accurate reflection of physiological conditions. Although MRI has been proven to be a useful and accurate tool for flow assessment, further validation of 2D- and 4D flow -MRI is required in a larger number of phantom studies. Echocardiography can also be used as an additional modality to confirm the finding found on MR. This would be particularly useful in in-vivo studies where MR availability may be limited.
+Potential areas for improvement of the demonstrated workflow include: quality of 3D print material, the CAD technique for valve design and the physiological fidelity of the flow pump and circuit. The current commercially available 3D print material used to generate the valve phantoms does not have identical elastic, strength or biochemical properties to human valve tissue and will remain a limitation of this method until improved materials are available. While we were able to fabricate the valve leaflets with 0.6 mm thickness with the current commercially available print material, the forthcoming materials allow for fabrication of valve leaflets with a much more realistic 0.3 mm thickness . The use of a compliance chamber within the circuit, instead of an open circuit, would also improve the ability to control diastolic pressures being a more accurate reflection of physiological conditions. Although MRI has been proven to be a useful and accurate tool for flow assessment, further validation of 2D- and 4D flow -MRI is required in a larger number of phantom studies. Echocardiography can also be used as an additional modality to confirm the finding found on MR. This would be particularly useful in in-vivo studies where MR availability may be limited.
 
 Future directions
 
 Further experimentation with anatomically accurate phantoms will potentially advance our understanding of physiological valve function. With valve repairs being more desirable than replacements, particularly in the pediatric population; this methodology could potentially be used to assess the efficacy and durability of current novel aortic valve repair techniques prior to performing these complex procedures. Additionally, it may provide a safe platform to develop and validate future surgical valve repair techniques. Prior to patient translation, tissue engineering with in-vivo animal studies is the next step to validate this methodology. Tissue-engineered valves will address issues of biocompatibility and valve leaflet durability with the 3D-printed phantoms providing accurate geometric data for valve scaffolds with favourable flow dynamics.
-
-Conclusion
-
-In this proof of concept study, we have demonstrated the ability to use existing geometric aortic valve data to generate physiological 3D-printed aortic valve phantoms and evaluate their function with cine- and 4D Flow MRI. This methodology could be used to improve our understanding of the function of the semilunar valves and develop the correct geometry to achieve optimal flow dynamics. It also supports quantitative assessment of specific factors affecting valve function, such as the number of valve leaflets, the configuration of the sinuses of Valsalva, dilatation of the aortic root or pulmonary trunk and coronary artery perfusion during leaflet coaptation. This technology can work synergistically with the promising tissue engineering research in the quest to develop optimal aortic valve replacements, which most closely reproduces the complex function of the normal aortic valve.
-
-Supplementary information
-
-Additional file 2: Video S2. Cine MRI images showing aortic valve phantom in simulated systole in short (A) and long axis planes (B).
-Additional file 3: Video S3. Particle tracing of flow from 4D phase-contrast MRI showing vortices in the aortic sinuses. Seeds were placed at the aortic valve orifice.
-
-Additional file 2: Video S2. Cine MRI images showing aortic valve phantom in simulated systole in short (A) and long axis planes (B).
-
-Additional file 3: Video S3. Particle tracing of flow from 4D phase-contrast MRI showing vortices in the aortic sinuses. Seeds were placed at the aortic valve orifice.
-

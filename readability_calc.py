@@ -59,7 +59,6 @@ def outputScorePlots(data, outPath):
 
 
 def outputScoreData(data, outFile):
-    print(data)
     df = pd.DataFrame(
         data,
         columns=["filename", "measure", "score"]
@@ -73,71 +72,16 @@ def outputScoreData(data, outFile):
 
 
 
-
+#For each paper in papersDir, calc readibility scores and aggregate scores for analysis
+stats = []
 papersDir = "data/pmc_txt"
 outFile = "results/textstat.results.tsv"
 figOutPath = "results/textstat_plots"
 
-papers = os.listdir(papersDir)
-
-abstractPattern = ("(\r\n|\r|\n)(Abstract|ABSTRACT)((\r\n|\r|\n)(\r\n|\r|\n).+)+"
-                   "((\r\n|\r|\n)(\r\n|\r|\n)(Introduction|INTRODUCTION))(\r\n|\r|\n)")
-introPattern = ("(\r\n|\r|\n)(Introduction|INTRODUCTION)((\r\n|\r|\n)(\r\n|\r|\n).+)+" 
-"((\r\n|\r|\n)(\r\n|\r|\n)(METHODS|Methods|Materials and methods|MATERIALS AND METHODS))(\r\n|\r|\n)")
-discussionPattern = ("(\r\n|\r|\n)(Discussion|DISCUSSION)((\r\n|\r|\n)(\r\n|\r|\n).+)+" 
-"((\r\n|\r|\n)(\r\n|\r|\n)(Conclusion|CONCLUSION)(s|S)?)(\r\n|\r|\n)")
-text = ""
-preProcessFailed = False
-
-#For each paper in papersDir, calc readibility scores and aggregate scores for analysis
-stats = []
-for pName in papers:
-    try:
-        #print("Preprocessing " + pName)
-        preprocessFailed = False
-
-        abstract = ""
-        intro = ""
-        discussion = ""
-        pContents = ""
-        pPath = papersDir + "/" + pName
-        with open(pPath, 'r', encoding='utf-8') as pFile:
-            pContents = pFile.read()
-            abstractMatch = regex.search(abstractPattern, pContents, regex.MULTILINE)
-
-            #Handle abstract section
-            if (abstractMatch):
-                abstract = abstractMatch.group(0)
-                abstract = regex.sub("(\r\n|\r|\n)(Introduction|INTRODUCTION)(\r\n|\r|\n)", 
-                "", abstract)                                                                    #Remove the Introduction section header
-
-            #Handle intro section
-            introMatch = regex.search(introPattern, pContents, regex.MULTILINE)
-            if(introMatch):
-                intro = introMatch.group(0)
-                intro = regex.sub("(\r\n|\r|\n)(METHODS|Methods|Materials and methods|MATERIALS AND METHODS)(\r\n|\r|\n)", 
-                "", intro)                                                                        #Remove the Methods section header
-
-            #Handle discussion section
-            discussionMatch = regex.search(discussionPattern, pContents, regex.MULTILINE)
-            if(discussionMatch):
-                discussion = discussionMatch.group(0)
-                discussion = regex.sub("(\r\n|\r|\n)(Conclusion|CONCLUSION)(s|S)?(\r\n|\r|\n)", 
-                    "", discussion)    
-
-            text = abstract + "\n\n" + intro + "\n\n" + discussion
-
-            text = regex.sub("(\s*\(\d+(,\s*\d+\s*)*\)|\[(\d+(,\s*\d+\s*)*\])\s*)", "", text)     #Remove numeric references 
+#Analyze the text to calculate the different readibility metrics.
+print("Calculating readability scores for " + pName)
         
-    except:
-        print("Preprocessing failed for " +pName)
-        preProcessFailed = True
-           
-    if (not preProcessFailed):
-        #Analyze the text to calculate the different readibility metrics.
-        print("Calculating readability scores for " + pName)
-        
-        calcReadabilityScores(content=text, basename=pName, stats=stats, outFile=outFile)
+calcReadabilityScores(content=text, basename=pName, stats=stats, outFile=outFile)
        
 
 outputScoreData(stats, outFile)

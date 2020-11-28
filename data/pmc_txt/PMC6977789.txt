@@ -1,4 +1,3 @@
-Role of phosphoglucomutase in regulating trehalose metabolism in Nilaparvata lugens
 
 Abstract
 
@@ -7,6 +6,8 @@ Phosphoglucomutase (PGM) is a key enzyme in glycolysis and gluconeogenesis, regu
 Electronic supplementary material
 
 The online version of this article (10.1007/s13205-020-2053-5) contains supplementary material, which is available to authorized users.
+
+
 
 Introduction
 
@@ -18,124 +19,7 @@ PGM is a conserved enzyme, ubiquitous in animals, plants, and microorganisms cat
 
 At present, there are few studies investigating PGMs in insects or invertebrates. Because PGM controls the interconversion between G-6-P and G-1-P, which is the only way to convert trehalose into glycogen, PGM has an important role in trehalose and glycogen metabolism in the brown planthopper. In this study, we further explore the role of PGM in trehalose and glycogen metabolism. A greater understanding of the role of PGM will enable its potential use as a new target for green insecticides.
 
-Materials and methods
 
-Experimental materials
-
-Nilaparvata lugens was obtained from the Hangzhou population of the China Rice Research Institute. The rice used for feeding (O. sativa) was the susceptible Taichung Native 1 (TN1) strain. Brown planthoppers were maintained at a temperature of 25 ± 1 °C, a light dark cycle of 16 h light and 8 h dark, and a relative humidity of 70 ± 5%. The insects used for RNA interference (RNAi) microinjection experiments were nymphs grown to the fifth instar.
-
-RNA extraction and cDNA preparation
-
-Total RNA was obtained from the brown planthopper by extraction using the TRIzol reagent and the RNA integrity was determined by electrophoresis on 1% agarose gels. The concentration and purity of total RNA was determined using a Nanodrop 2000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA). cDNA was synthesised using the PrimeScript RT reagent Kit with gDNA Eraser (TaKaRa, Nojihigashi, Japan) according to the manufacturer’s instructions.
-
-Synthesis of dsRNA
-
-The dsRNA primers used for the synthesis of dsPGM1, dsPGM2, and dsGFP were designed using Primer 5 software and are listed in Table 1. cDNA was amplified with the primers of interest as follows: 40 cycles of 95 °C for 30 s, 58 °C for 30 s, and 72 °C for 45 s, followed by a final extension at 72 °C for 10 min. The PCR products were subjected to T cloning and subsequently amplified with primers containing the T7 promoter sequence. To synthesise dsRNA, cross-PCR reactions were performed using the T7 RiboMAX™ Express RNAi System kit (Promega, Madison, WI, USA). The integrity of the dsRNA was determined by gel electrophoresis, and the concentration and purity were measured using NanoDrop 2000.Table 1Primers used for qRT-PCR and for construction of dsPGM1, dsPGM2, and dsGFPPrimer nameGene nameGenebank accession numberForward primer (5′-3′)Reverse primer (5′-3′)Length (bp)QNl18SCGCTACTACCGATTGAAGGAAACCTTGTTACGACTT165QNlPGM1Phosphoglucomutase 1KU556839.1AACGAGACGGTGGGAGACTCCTGGTAAGTGTTGAGCC127QNlPGM2Phosphoglucomutase 2KU556840.1AGAGGAAGGTTGGGAGTGCATAATTCGCGGAGATAAG141QNlGPGlycogen PhosphorylaseKU556838.1GCTGCCTATGGCTATGGTATTCTCTGAGTGTTGACCCACTTCTTG202QNlGSGlycogen synthaseKU556837.1GCTCCAAAGCCTATGTTTCTACTGTGGTAACCCCTGTCCCTCA160QNLUGPaseUDP-Glucose pyrophosphorylaseKU556842.1ATACAAGATGGCGGCTAATTGTGGCAGTTGATAGAGC136QNlTPS1Trehalose-6-phosphate synthase 1GQ397450AAGACTGAGGCGAATGGTAAGGTGGAAATGGAATGTG154QNlTPS2Trehalose-6-phosphate synthase 2KU556826AGAGTGGACCGCAACAACATCAACGCCGAGAATGACTT161QNlTPS3 (Tang et al. 2019)Trehalose-6-phosphate synthase 3KU556827GTGATGCGTCGGTGGCTATCCGTTCATCATTGGGCATAGT224QNlTRE1-1Trehalase 1–1FJ790319GCCATTGTGGACAGGGTGCGGTATGAACGAATAGAGCC132QNlTRE1-2Trehalase 1–2KU556829GATCGCACGGATGTTTAAATGGCGTTCAAGTCAA178QNlTRE2Trehalase 2GQ397451TCACGGTTGTCCAAGTCTTGTTTCGTTTCGGCTGT197QNlHKHexokinaseKU556830GGTGCGAGAAGAAGTGAAGGTGAAACCCATTGGTAGAGT147QNlGFATGlutamine: fructose-6-phosphate aminotransferaseKU556833CCTCCCAGTTCATCTCGCCCAAGTTCTTCAAACCCTTTAT105NlG6PaseGlucose-6-phosphataseKU556841.1AGACCCTGGCAGTAGAATAGGGGAAGTGAGCCGAAAT132NlG6PI1Glucose-6-phosphate isomerase 1KU556832.1GTTCACGGTCGTCTGGAAAGTGACTGCTCCGTTTCACTCT82QNlG6PI2Glucose-6-phosphate isomerase 2KU556831.1AACAAGGCGACATGGAATCGACCATTTGTTCCTGGTTCGC85QNlG6PI3Glucose-6-phosphate isomerase 3XM_022345379.1ATGTCACAGTGCATGTCGTGACCTGCTCTCATTGATGCCA120QNlGNPNAGlucosamine-6-phosphate N-acetyltransferaseKU556834TGAGCTGCTGAAGACACTCCTGAATAACGGTGATGTA179QNlUAPUDP-N-acetylglucosamine pyrophosphorylaseJF330415ACGACAGATTAAAGCCGATACTACCTTGTCCACCAGCCA147QNlCHS1Chitin synthase 1AEL88648CCGCAAACGATTCCTACAGAAGGTCCTTGACGCTCATTCC222QNlCHS1aChitin synthase 1aJQ040014TGTTCTTGCTACAACTCAATAAAACACCAATCCGATAGGCTC141QNlCHS1bChitin synthase 1bJQ040013GCTGTCTTTGCTTTCTTCATACACCAATCCGATAGGCTC187dsNlPGM1Phosphoglucomutase 1GGCAAGCGTTCCTTAGAGCAGCCACATCCTTTTCATC553dsNlPGM1-T7Phosphoglucomutase 1GGCAAGCGTTCCTTAGAGCAGCCACATCCTTTTCATC603dsNlPGM2Phosphoglucomutase 2CAACACTTCAAACGGAGGACCGCATAGGGACCAGTAA311dsNlPGM2-T7Phosphoglucomutase 2CAACACTTCAAACGGAGGACCGCATAGGGACCAGTAA361dsGFPGreen fluorescent proteinAAGGGCGAGGAGCTGTTCACCGCAGCAGGACCATGTGATCGCGCdsGFP-T7Green fluorescent proteinAAGGGCGAGGAGCTGTTCACCGCAGCAGGACCATGTGATCGCGCT7: GGATCCTAATACGACTCACTATAGG
-
-Table 1
-
-Primers used for qRT-PCR and for construction of dsPGM1, dsPGM2, and dsGFP
-
-T7: GGATCCTAATACGACTCACTATAGG
-
-Microinjection of the brown planthopper
-
-The brown planthoppers were anesthetised with CO2 and then placed in the groove of a pre-prepared agarose gel. Using a standard capillary under a microscope, dsGFP, dsPGM1, and dsPGM2 (50 ng) were injected into the lateral epidermis of the two pairs of hind paws in the brown planthopper chest. The injected brown planthoppers were transferred to a glass tube containing fresh rice, and the surviving brown planthoppers were used for subsequent experiments within 48 h after injection. One hundred brown planthoppers were employed in each treatment and 10 were used in RNA isolation for quantitative real-time PCR (qRT-PCR).
-
-Experimental materials’ collection
-
-Experimental materials to examine developmental expression patterns in the brown planthopper were collected in triplicate every 24 h, over a period extending from the first day of the fourth instar nymph to the third day of adulthood. In addition, the tissue materials from the head, foot, wing, epidermis, ovary, fat body, and midgut were obtained through anatomical dissection using Leica EZ4 (Leica, Wetzlar, Germany). Different tissue materials were taken from more than 200 adults, and materials for each developmental stage were collected from 10 individuals. All experimental materials were stored at − 80 °C.
-
-Gene expression by qRT-PCR
-
-Total RNA was extracted from the experimental materials to examine developmental and tissue expression patterns, and cDNA was synthesised as previously described. The relative expression levels of the PGM1 and PGM2 genes at the different developmental stages and tissues were analysed by qRT-PCR using the 18S gene as an internal reference (Zhao et al. 2016). The reaction contained 10 μL of SYBR Premix Ex Taq (TaKaRa, Nojihigashi, Japan), 1 μL of template cDNA, 1 μL of forward primer, 1 μL of reverse primer, in a 20 μL final reaction volume. The sequences of the qRT-PCR primers are shown in Table 1. The PCR amplification procedure included, pre-denaturation at 95 °C for 2 min, 39 cycles of denaturation at 95 °C for 30 s, annealing at 55–60 °C for 30 s, and dissociation curve at 65–95 °C for 5 s.
-
-The relative expression levels of the target genes involved in trehalose and chitin metabolism in the brown planthopper 48 h after RNAi treatment were examined in triplicate using the SYBR Premix Ex Taq kit. The quantitative primers used are shown in Table 1.
-
-Determination of trehalase activity and carbohydrate content in the brown planthopper after RNAi treatment
-
-Phosphate buffered saline (PBS) was added to the appropriate tissue sample to obtain a final volume of 200 μL, and the tissue was disrupted by grinding and sonication. After disruption, 800 μL of PBS was added, and the sample was centrifuged at 1000g for 20 min at 4 °C. The supernatant (350 μL) was removed and centrifuged at 20,800g for 1 h at 4 °C. The supernatant was used to measure glucose content, total glycogen content, protein concentration, and soluble trehalase activity, and the pellet was resuspended in PBS to determine glucose content, protein concentration, and membrane-bound trehalase activity. The remaining supernatant was used for determination of total protein and trehalose concentrations. The methods used have been described previously (Zhang et al. 2017a).
-
-Analysis of NlPGM cDNA and protein sequences
-
-NlPGM1 and NlPGM2 cDNA sequences were compared with other phosphoglucomutase sequences present in GenBank using the BLAST-N and BLAST-X tools available on the National Center for Biotechnology Information (NCBI) website (https://blast.ncbi.nlm.nih.gov/Blast.cgi). Multiple sequence alignment of insect PGMs was performed using the tool available at the multiple sequence alignment website (https://bioinfo.genotoul.fr/multalin/multalin.html) and using DNAMAN software. The neighbour-joining method was used to construct a phylogenetic tree based on the amino acid sequences of known PGMs using MEGA 6.0 software. Bootstrap analysis was carried out and the robustness of each cluster was verified using 1000 replicates. NlPGM protein sequences and other analysis criteria used in this study, including MW, pI, and topology were deduced from the corresponding cDNA sequences using the translation tool on the ExPASy proteome prediction tools website (https://expasy.org/tools/dna.html).
-
-Statistical analysis
-
-Relative gene copy numbers were determined by qRT-PCR, using the 2−ΔΔCT method (Livaka and Schmittgen 2001). All reactions were performed in triplicate and with three biological replicates. The equation were used as follows (Chen et al. 2018):\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$2^{{ - {\text{DDCT}}}} = 2^{{ - \left[ {\left( {{\text{CT test group}} - {\text{CT test group }}18{\text{S}}} \right) - \left( {{\text{CT control group}} - {\text{CT control }}18{\text{S}}} \right)} \right]}}$$\end{document}2-DDCT=2-CT test group-CT test group18S-CT control group-CT control18S
-
-All the data were analysed using one-way ANOVA and multiple comparisons of the means were conducted using Tukey’s test. Differences were considered statistically significant if the P value was between 0.01 and 0.05, and extremely significant if the P value was less than 0.01. All data were plotted using SigmaPlot 10.0 software.
-
-Results
-
-Analysis of NlPGM1 and NlPGM2 sequences
-
-NlPGM1 (KU556839.1) and NlPGM2 (KU556840.1) cDNAs had open reading frames of 1821 and 1023 bp, respectively. NlPGM1 cDNA encoded a protein of 606 amino acids with a predicted mass of approximately 68.30 kDa and a pI of 5.89 (Fig. S1A). NlPGM2 encoded a protein of 340 amino acids with a predicted mass of approximately 36.82 kDa, and pI of 6.26. (Fig. S1B).
-
-Phylogenetic and multiple protein alignment analysis
-
-The PGM protein sequences of Laodelphax striatellus, Osmia bicornis bicornis, Solenopsis invicta, Cimex lectularius, Halyomorpha halys, Monomorium pharaonis, and Ceratina calcarata were selected to determine the homology by alignment with the NlPGM1 protein sequence. The PGM protein sequences of L. striatellus, Frankliniella occidentalis, Locusta migratoria, Melanaphis sacchari, Sarracenia flava, Acyrthosiphon pisum, and Myzus persicae were selected to determine the homology by alignment with the NlPGM2 protein sequence. The results showed that the insect PGMs were highly conserved: the homology of the PGM1 protein of brown planthopper and other insects ranged from 56.77 to 90.59% (Fig. S2A); the homology of the PGM2 protein ranged from 62.26 to 89.66% (Fig. S2B).
-
-Phylogenetic analysis using MEGA 6.0 software showed that the NlPGM1 and NlPGM2 proteins could be easily distinguished (Fig. S3). In addition, we found that the PGMs of N. lugens and L. striatellus could be assigned to the same subgroup (Fig. S3).
-
-Developmental and tissue expression patterns of PGM1 and PGM2
-
-First, we examined the expression levels of the PGM1 and PGM2 genes at different developmental stages, from the first day of the fourth instar to the third day of adulthood. At the fourth instar nymph stage, PGM1 and PGM2 had different expression patterns. The expression level of PGM1 was relatively stable, while the expression level of PGM2 in the fourth instar nymph increased gradually. The expression levels of PGM1 and PGM2 were high at the initial stage of the fifth instar nymph, and then decreased. At the adult stage, the expression levels of the PGM1 gene were the highest on the first day of adulthood and then decreased significantly and remained at relatively low levels on the second and third days (Fig. 1a, b).Fig. 1Relative expression of PGM1 and PGM2 in different tissues and developmental stages in the brown planthopper. Expression patterns of PGM1 (a) and PGM2 (b) at different developmental stages from the first day of the fourth instar nymph to the third day of adulthood. The expression patterns of PGM1 (c) and PGM2 (d) in various tissues including head, foot, wing, epidermis, ovary, and fat body collected from adults. The mRNA levels were normalised to N. lugens 18S (Nl18S) mRNA, and the relative expression levels for each tissue and developmental stage were measured in relation to the expression levels obtained in the head of the insects and first day of the fourth instar nymph. One-way analysis of variance (ANOVA) was performed to test for statistical significance. Data are presented as the mean ± SD (N = 3). Means with different letters within the same group differ significantly, P < 0.05
-
-Fig. 1
-
-Relative expression of PGM1 and PGM2 in different tissues and developmental stages in the brown planthopper. Expression patterns of PGM1 (a) and PGM2 (b) at different developmental stages from the first day of the fourth instar nymph to the third day of adulthood. The expression patterns of PGM1 (c) and PGM2 (d) in various tissues including head, foot, wing, epidermis, ovary, and fat body collected from adults. The mRNA levels were normalised to N. lugens 18S (Nl18S) mRNA, and the relative expression levels for each tissue and developmental stage were measured in relation to the expression levels obtained in the head of the insects and first day of the fourth instar nymph. One-way analysis of variance (ANOVA) was performed to test for statistical significance. Data are presented as the mean ± SD (N = 3). Means with different letters within the same group differ significantly, P < 0.05
-
-Both PGM1 and PGM2 were most highly expressed in the midgut, followed by the foot. The expression level of the PGM1 in the epidermis was lower than in the foot; the expression levels in the head, wings, ovary, and fat body were relatively low overall. The expression level of PGM2 in the fat body was lower than in the foot; the expression levels in the head, foot, wing, and ovary were also relatively low overall (Fig. 1c, d).
-
-Evaluation of the efficiency of RNAi knockdown by dsPGM1 and dsPGM2
-
-The expression levels of PGM1 and PGM2 were significantly decreased after RNAi for 48 h. Knocking down the PGM1 gene, the relative expression of PGM1 decreased almost 5 times compared to the control group (Fig. 2). In addition, the relative expression of PGM2 in the dsPGM2 group was 33 times lower than that in dsGFP group (Fig. 2). Moreover, compared with the control group injected with dsGFP, the expression levels of the PGM2 gene decreased slightly after the PGM1 knockdown, but this decrease was not significant. The expression level of the PGM1 gene also decreased significantly after the PGM2 knock down (Fig. 2).Fig. 2Relative expression levels of PGM1 and PGM2 after RNAi. mRNA levels of NlPGM1 and NlPGM2 relative to the Nl18S RNA level following RNAi targeting. The first day of the fifth instar nymph was chosen for dsRNA injection. *Indicates a significant difference and ** indicates an extremely significant difference
-
-Fig. 2
-
-Relative expression levels of PGM1 and PGM2 after RNAi. mRNA levels of NlPGM1 and NlPGM2 relative to the Nl18S RNA level following RNAi targeting. The first day of the fifth instar nymph was chosen for dsRNA injection. *Indicates a significant difference and ** indicates an extremely significant difference
-
-Expression of trehalose and glycogen metabolism-related genes following PGM1 or PGM2 knockdown
-
-The expression of most genes related to trehalose and glycogen metabolism were significantly decreased after knockdown of the PGM1 gene for 48 h, with the exception of the expression level of trehalose-6-phosphate synthase 2 (TPS2), which significantly increased, and the expression level of UDP-glucose pyrophosphorylase (UGPase), which showed no significant change (Fig. 3a). In contrast, the expression levels of TPS1, TPS3, trehalase 2 (TRE2), and hexokinase (HK) were significantly decreased after knockdown of PGM2 for 48 h. The expression levels of TPS2 and UGPase increased significantly, while the remaining genes showed no significant changes (Fig. 3b).Fig. 3Expression levels of trehalose and glycogen metabolic pathway genes after RNAi. The expression levels of three trehalose-6-phosphate synthases (TPSs), three trehalases (TREs), hexokinase (HK), glucose-6-phosphatase (G6Pase), UDP-glucose pyrophosphorylase (UGPase), glycogen synthase (GS), and glycogen phosphorylase (GP) at 48 h relative to the N. lugens 18S (Nl18S) RNA level following PGM1 (a) or PGM2 (b) knockdown
-
-Fig. 3
-
-Expression levels of trehalose and glycogen metabolic pathway genes after RNAi. The expression levels of three trehalose-6-phosphate synthases (TPSs), three trehalases (TREs), hexokinase (HK), glucose-6-phosphatase (G6Pase), UDP-glucose pyrophosphorylase (UGPase), glycogen synthase (GS), and glycogen phosphorylase (GP) at 48 h relative to the N. lugens 18S (Nl18S) RNA level following PGM1 (a) or PGM2 (b) knockdown
-
-Effects of PGM1 and PGM2 knockdown on glycogen, trehalose, and glucose levels
-
-Compared with the control group, both the glycogen and glucose contents showed significant increases after PGM1 or PGM2 knock down for 48 h. In addition, knockdown of PGM1, but not of PGM2, resulted in a significant increase in the trehalose content (Fig. 4).Fig. 4Trehalose, glycogen, and glucose content of N. lugens after RNAi. All measurements were performed in triplicate
-
-Fig. 4
-
-Trehalose, glycogen, and glucose content of N. lugens after RNAi. All measurements were performed in triplicate
-
-Effects of PGM1 and PGM2 knockdown on trehalase activity
-
-Compared with the dsGFP group, knockdown of PGM1 or PGM2 caused a significant increase in membrane-bound, insoluble, trehalase activity (Fig. 5).Fig. 5Trehalase 1 (soluble trehalase, a) and trehalase 2 (membrane-bound trehalase, b) activities after RNAi. All measurements were performed in triplicate
-
-Fig. 5
-
-Trehalase 1 (soluble trehalase, a) and trehalase 2 (membrane-bound trehalase, b) activities after RNAi. All measurements were performed in triplicate
-
-Expression of chitin metabolism-related genes after PGM1 and PGM2 gene knockdown
-
-Compared with the control group injected with dsGFP, the expression levels of all studied genes related to chitin metabolism were significantly decreased (1–9 times) after the PGM1 knockdown (Fig. 6a). The PGM2 knockdown also significantly decreased the expression of most of the genes involved in chitin metabolism, except for G6PI1 and G6PI3, which were not significantly changed, and glutamine:fructose-6-phosphate aminotransferase (GFAT), which was significantly increased (Fig. 6b). Knockdown of PGM1 and PGM2 also caused clear wing deformities and varying degrees of difficulty in molting (Fig. 6c).Fig. 6Expression levels of genes in the chitin metabolic pathway and the resulting abnormal phenotype after RNAi. a, b Expression levels of three glucose-6-phosphate isomerases (G6PIs), glutamine: fructose-6-phosphate aminotransferase (GFAT), glucosamine-6-phosphate N-acetyltransferase (GNPNA), UDP-N-acetylglucosamine pyrophosphorylase (UAP), and three chitin synthases (CHSs) relative to the N. lugens 18S (Nl-18S) RNA level. c Abnormal insects at the larva-adult stage
-
-Fig. 6
-
-Expression levels of genes in the chitin metabolic pathway and the resulting abnormal phenotype after RNAi. a, b Expression levels of three glucose-6-phosphate isomerases (G6PIs), glutamine: fructose-6-phosphate aminotransferase (GFAT), glucosamine-6-phosphate N-acetyltransferase (GNPNA), UDP-N-acetylglucosamine pyrophosphorylase (UAP), and three chitin synthases (CHSs) relative to the N. lugens 18S (Nl-18S) RNA level. c Abnormal insects at the larva-adult stage
 
 Discussion
 
@@ -148,19 +32,3 @@ Trehalose is the blood sugar in insects and critical for insect growth, developm
 The glucose levels were also significantly increased after injection of both dsPGM1 and dsPGM2 (Fig. 4). This is consistent with the several-fold higher expression level of G6Pase compared to the expression level of HK, even though HK and G6Pase were both suppressed by dsPGM1 and dsPGM2 (Fig. 3). Studies have shown that knockdown of the HR38 gene in Aedes aegypti can block transcriptional activation of the CM gene encoding PGM and TPS, resulting in increased glycogen accumulation (Dong et al. 2018). Here, we also found that the levels of glycogen in the brown planthopper were significantly increased after injection of dsPGM1 and dsPGM2 (Fig. 4). Trehalose and trehalase activity are key for the regulation of various physiological processes in insects (Ge et al. 2011). Membrane-bound trehalase activity was significantly increased after dsPGM1 or dsPGM2 injection, whereas soluble trehalase activity was not significantly altered (Fig. 5). These results indicate that PGM1 and PGM2 may have greater effect on membrane-bound trehalase than on the soluble form of the enzyme.
 
 An increasing number of studies have shown that trehalose metabolism can regulate the synthesis of chitin through trehalose synthase and trehalose hydrolase (Tang et al. 2010; Shukla et al. 2015; Shi et al. 2016; Yang et al. 2017). Knockdown of the TRE gene in the brown planthopper caused clear deformities in the wings and difficulty in molting, indicating that trehalose has a direct effect on chitin synthesis (Zhang et al. 2017a). Abnormal synthesis of chitin has also been observed in the brown planthopper after knockdown of the TPS gene (Yang et al. 2017). In this study, both the TPS and TRE genes were affected to some degree after knockdown of the PGM1 or PGM2 genes; therefore, we further tested the effect of PGM1 or PGM2 knockdowns on chitin synthesis. The expression of most of the genes involved in chitin synthesis were significantly decreased after dsPGM1 or dsPGM2 injection (Fig. 6a, b), and there were different degrees of deformity (Fig. 6c), suggesting that silencing the PGM1 or PGM2 genes can inhibit the expression of chitin synthase (CHS), resulting in the inability of the brown planthopper to synthesise chitin. Recently, in a study in the A. pisum nymph, knockdown of A. pisum CHS was found to disrupt embryonic development, leading to difficulty in molting (Ye et al. 2019). Another study in whitebacked planthoppers showed malformations and high mortality after CHS1, CHS1a, and CHS1b knockdown (Wang et al. 2019). These studies demonstrate that CHS plays a pivotal role in chitin synthesis, which is consistent with our results.
-
-Conclusions
-
-The expression patterns of the PGM1 and PGM2 genes were similar, both at different developmental stages and in different tissues. RNAi using dsPGM1 and dsPGM2 effectively inhibited the expression of their respective target genes and disrupted the normal metabolic balance between glycogen and trehalose, which affected chitin metabolism.
-
-Conflict of interest
-
-The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
-
-Electronic supplementary material
-
-Below is the link to the electronic supplementary material.
-Supplementary file1 (DOCX 331 kb)
-
-Supplementary file1 (DOCX 331 kb)
-

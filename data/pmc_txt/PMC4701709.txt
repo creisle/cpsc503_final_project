@@ -1,8 +1,9 @@
-Emerging CAM Ziziphus nummularia with in vivo sedative-hypnotic, antipyretic and analgesic attributes
 
 Abstract
 
 Ziziphus nummularia from Rhamnaceae family is traditionally used for sedative-hypnotic, antipyretic and analgesic purposes; however, scientific validations are lacking. This in vivo study was undertaken to verify the above ameliorative properties of Z. nummularia root methanolic extract. Various fractions of the extract were assayed on Balb/c mice by open field, Brewer’s yeast-induced hyperthermia and acetic acid-induced writhing experiments. The significance of the outcomes was analyzed with statistical tests. Various fractions of the extract exhibited marked dose-dependent (p < 0.05) sedative-hypnotic and antipyretic activities. The biological efficacies were most pronounced between 50 and 100 mg/kg. Further, the acetic acid-induced abdominal constrictions were significantly (p < 0.05) attenuated by the extract. Chloroform fraction of the extract was most dominant followed by ethyl acetate. The demonstrated therapeutic attributes of Z. nummularia extract can be exploited to isolate pharmaceutically relevant compounds.
+
+
 
 Introduction
 
@@ -16,84 +17,7 @@ Fig. 1
 
 The overview of Z. nummularia extract eliciting sedative, hypnotic, antipyretic, analgesics effect in balb/c mice
 
-Materials and methods
 
-Plant material
-
-The roots of Z. nummularia were collected from Takht Bhai District Mardan, Khyber Pakhtunkhwa, Pakistan. The plant was identified and authenticated by Professor Dr. Abdur Rashid, a botanist at the Botany Department, University of Peshawar, Pakistan. A voucher specimen (BOT 200399) has been deposited in the herbarium of the department of Botany, University of Peshawar, Pakistan.
-
-Experimental animals
-
-Balb/c mice of both gender, each weighing about 24–26 g were kept under standard laboratory conditions at (25 ± 4 °C). The animals were fed with a laboratory diet and water ad libitum. All experiments were performed at the Pakistan Council of Scientific and Industrial Research (PCSIR), University of Peshawar, Pakistan and were approved by the local Ethical Committee of the Peshawar University, Pakistan.
-
-Extraction and fractionation
-
-The root fragments of Z. nummularia were shade-dried at room temperature followed by coarse grinding. The powdered material (300 g) was exhaustively extracted with 99 % methanol for 7 days. The extract was concentrated and dried in a rotary evaporator and which yielded 38 g of brownish mass. The solid mass was suspended in water and successively fractionated with various solvents of increasing polarity, and the corresponding fractions of n-hexane, chloroform, ethyl acetate, and ethanol were obtained.
-
-Sedative activity (open field test)
-
-The sedative effect of the crude extract was evaluated according to published procedures using the open field method (Walsh and Cummins 1976). This method has been proven effective in the assessment of locomotor activity and anxiety-linked behaviors (Lau et al. 2008). The apparatus used for the test consisted of a white wooden area (150 cm in diameter) enclosed in stainless steel walls and the area was divided by black lines, into four squares. The open field was placed inside a light and sound-attenuated room. The mice were adapted to red light (40 W) for 60 min prior to the start of experiment and fed ad libitum. The animals were administered with normal saline and Z. nummularia root extract at the doses of 50 and 100 mg/kg. After 30 min of the treatment, each mouse was placed in the center of the box and the numbers of lines crossed were counted.
-
-Hypnotic properties in phenobarbitone-induced sleeping time
-
-The test mice were divided into groups of six each. Mice of the control group (negative control) were orally treated with normal saline (10 ml/kg) whereas those of the positive control group were given the standard drug bromazepam (5 mg/kg). This drug, from the class benzodiazepines (BZD) imparts short-term relief from anxiety by modulating the neurotransmitters in brain (Mandrioli et al. 2010). The remaining mice were treated with the Z. nummularia root extract at 50 and 100 mg/kg doses. After 30 min of treatment, all animals were injected with the barbiturate drug phenobarbitone sodium at a dose of 35 mg/kg and observed for onset and duration of sleep. The hypnotic effect of the extract was evaluated.
-
-Brewer’s-yeast-induced hyperthermia
-
-The antipyretic activities of Z. nummularia root extract were assessed in Brewer’s yeast (Saccharomyces cerevisiae)-induced hyperthermia (Tomazetti et al. 2005). Pyrexia was induced in mice by injection of 10 ml/kg of 15 % suspension of yeast. The normal body temperature of the animals was recorded with a digital clinical thermometer (Hartmann, Germany) using rectum, while the tail was fastened with an adhesive tape. The rectal temperature of each mouse was measured again after 19 h of yeast injection as described above. Mice that developed a minimum increase of 0.5 °C or more temperature were selected for the experiment. These rodents were categorized in group of size 6. A group of mice was fed with saline (10 ml/kg) and used as negative control, whereas other groups was treated either with paracetmol (100 mg/kg through intraperitoneal injection) as standard drug or Z. nummularia root extract at the doses of 50 and 100 mg/kg. After the respective treatment, the rectal temperature of each animal was again recorded at 1 h intervals for following 5 h. The obtained data were used for the calculation of percentage reduction in rectal temperature. Antipyretic activity was defined as the efficacy of test drug to abate the induced-pyrexia (Muhammad et al. 2013).\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$${\text{Reduction in temperature }}\left( \% \right) = \frac{B - C}{B - A} \times 100$$\end{document}Reduction in temperature%=B-CB-A×100where A is the normal body temperature, B is the temperature after pyrexia induction, C is the temperature after 1, 3 and 5 h.
-
-Acetic acid-induced writhing test
-
-Intraperitoneal injection of acetic acid triggers writhing, most likely due to the release of TNF-α, interleukin 1β and interleukin 8 by macrophages and mast cells (Ribeiro et al. 2000). The mice were divided into groups of 6 for evaluation of the analgesic effect of Z. nummularia roots extract. One group was injected with normal saline (10 ml/kg) and used as negative control. Another group was injected with diclofenac (5 and 10 mg/kg). The last group was treated with Z. nummularia root extract at 50 and 100 mg/kg. The mice were injected with acetic acid (1 % intraperitoneal) and the subsequent abdominal constriction (writhing) was counted for 10 min after 5 min of acetic acid injection.
-
-Statistical analyses
-
-The results are expressed as the mean ± standard error of the mean (SEM). One-way analysis of variance (ANOVA) was used for analysis of data followed by Dunnett’s test for multiple comparisons (Hoffman et al. 2008). Differences were considered significant at p ≤ 0.05.
-
-Results and discussion
-
-Effect of extract/fractions in open field test
-
-The efficacy of intraperitoneally administered Z. nummularia root extract (50 and 100 mg/kg) and bromazepam in mice have been illustrated in Fig. 2. The extract showed marked sedative effect with decreased locomotion in dose-dependent manner. The chloroform fraction was the most dominant followed by ethyl acetate with (p < 0.05 and p < 0.01) at 50 and 100 mg/kg.Fig. 2Data shows the number of lines crossed by animals in a box, 30 min after treatment with normal saline (10 ml/kg, control), extract/fractions of Z. nummularia roots (50 and 100 mg/kg) or bromazepam (5 mg/kg). Values are given as mean ± S.E.M, (n = 6). *p < 0.05 or **p < 0.01, p < 0.001, all compared with control
-
-Fig. 2
-
-Data shows the number of lines crossed by animals in a box, 30 min after treatment with normal saline (10 ml/kg, control), extract/fractions of Z. nummularia roots (50 and 100 mg/kg) or bromazepam (5 mg/kg). Values are given as mean ± S.E.M, (n = 6). *p < 0.05 or **p < 0.01, p < 0.001, all compared with control
-
-Effect of extract in open field test
-
-The effect of Z. nummularia roots extract at 50 and 100 mg/kg, in phenobarbitone-sleep in mice is shown in Table 1. The extract significantly (p < 0.05) reduced the sleep latency time (time taken for the onset of sleep) and increased the sleep in dose-dependent manner. Chloroform followed by ethyl acetate extract was the most potent fraction in inducing sleep and increasing its duration. The soporific effect elicited by the extract in bromazepam treated group was highly significant (p < 0.001).Table 1The effect of Z. nummularia root fractions in phenobarbitone-induced sleep in miceDrugIntraperitoneal doseOnset of sleep (min)Duration of sleep (min)Normal saline10 ml/kg + phenobarbitone23.27 ± 1.097.56 ± 2.45Crude extract50 mg/kg + phenobarbitone18.10 ± 2.7015.40 ± 1.75100 mg/kg + phenobarbitone14.33 ± 1.08*23.88 ± 2.75*Hexane50 mg/kg + phenobarbitone19.66 ± 1.129.45 ± 0.67100 mg/kg + phenobarbitone19.00 ± 1.059.60 ± 1.06Chloroform50 mg/kg + phenobarbitone15.33 ± 1.21*22.33 ± 1.12*100 mg/kg + phenobarbitone10.56 ± 0.99**27.05 ± 1.35**Ethyl acetate50 mg/kg + phenobarbitone18.44 ± 1.12*20.12 ± 1.45*100 mg/kg + phenobarbitone12.57 ± 1.49*23.67 ± 1.56*Aqueous50 mg/kg + phenobarbitone17.44 ± 1.0617.04 ± 0.99*100 mg/kg + phenobarbitone13.03 ± 0.89*23.55 ± 1.77*Bromazepam5 mg/kg + phenobarbitone3.25 ± 1.10***61.45 ± 1.10**** Data shows the onset and duration of sleep (in min) in mice pretreated with normal saline (10 ml/kg), extract/fractions (50 and 100 mg/kg) or bromazepam (5 mg/kg) and then all groups were treated with phenobarbitone (35 mg/kg). Data presented as mean ± S.E.M, (n = 6). * p < 0.05, ** p < 0.01, *** p < 0.001, all with respect to control
-
-Table 1
-
-The effect of Z. nummularia root fractions in phenobarbitone-induced sleep in mice
-
-* Data shows the onset and duration of sleep (in min) in mice pretreated with normal saline (10 ml/kg), extract/fractions (50 and 100 mg/kg) or bromazepam (5 mg/kg) and then all groups were treated with phenobarbitone (35 mg/kg). Data presented as mean ± S.E.M, (n = 6). * p < 0.05, ** p < 0.01, *** p < 0.001, all with respect to control
-
-Effect of extract in yeast induced hyperthermia
-
-The antipyretic effect of Z. nummularia root extract in yeast-induced hyperthermia has been presented in Fig. 3. The extract produced profound antipyretic effect in a dose-dependent manner during various assessment times (1–5 h). Additionally, the post chloroform treatment caused pronounced reduction in induced pyrexia with 45.77 and 67.44 % effect at 50 and 100 mg/kg, respectively after 1 h of injection.Fig. 3The percent antipyretic effect of extract/fractions of Z. nummularia roots in acetic acid-induced writhing. Data presented as mean ± S.E.M, (n = 6). *p < 0.05, **p < 0.01, all with respect to control
-
-Fig. 3
-
-The percent antipyretic effect of extract/fractions of Z. nummularia roots in acetic acid-induced writhing. Data presented as mean ± S.E.M, (n = 6). *p < 0.05, **p < 0.01, all with respect to control
-
-Effect of extract in acetic acid induced-writhing
-
-The antinociceptive activity of the Z. nummularia root extract has been shown in Fig. 4. As per the result, the extract significantly reduced pain sensation in acetic acid-induced writhing test. For all fractions of the extract, dose-dependent effects have been observed at 50 and 100 mg/kg, and the analgesic effect of chloroform fraction was most pronounced with 57.86 and 74.28 % at 50 and 100 mg/kg, respectively.Fig. 4The percent antinociceptive effect of extract/fractions of Z. nummularia roots in acetic acid-induced writhing. Data presented as mean ± S.E.M, (n = 6). *p < 0.05, **p < 0.01, ***p < 0.001, all with respect to control
-
-Fig. 4
-
-The percent antinociceptive effect of extract/fractions of Z. nummularia roots in acetic acid-induced writhing. Data presented as mean ± S.E.M, (n = 6). *p < 0.05, **p < 0.01, ***p < 0.001, all with respect to control
 
 Discussion
 
@@ -102,8 +26,3 @@ The findings from this investigation suggest that the roots extract of Z. nummul
 The acetic acid-induced writhing test is considered very effective in detecting antinociceptive effects of various extracts. Its sensitivity is much higher than other methods (hot plate, tail flick, carrageenan-induced paw edema, formalin-induced paw licking, etc.) used for this purpose (Ramirez et al. 2010). The abdominal constrictions and the resultant painful sensations provoked by the acid has been attributed to the perturbation and interplay of bradykinin, prostaglandins, interleukin-1β (IL-1β), interleukin-8 (IL-8), and tumor necrosis factor-α (TNF-α) (Ribeiro et al. 2000). The Z. nummularia root extract at the doses of 50–100 mg/kg, moderated the abdominal constrictions in a dose-dependent manner. One possible mechanism of this action could be the diminished production of prostaglandin E2 (PGE2) (Ying et al. 2014). The extract could be interfering with both central (opioid and cholinergic pathways) and peripheral (COX-2) pathways in eliciting the anti-inflammatory effects (Sawada et al. 2014). The chloroform fraction was the most effective followed by the ethyl acetate fraction in reducing pain and sensitivity. It indicates the accumulation of the antinociceptive constituents in these fractions.
 
 Anxiety and sleep interruptions have become the norm of current stressful living (Han et al. 2012). Also, the instances of depression, suicidal attempts are soaring (Cash and Bridge 2009). Reliance on the prescription drugs is not free of side effects. The frequent intake aggregates the metabolic system in long term, becomes ineffective and overdose proves fatal. Opioid analgesics (buprenorphine, fentanyl, codeine, ativan, dextropropoxyphene, methadone, oxycodone, carisoprodol, etc.) overdose-caused death cases are rising dramatically (Paulozzi et al. 2012). The deadly combination opioid, benzodiazepines, and/or alcohol use poses huge risk of morbidity (Gudin et al. 2013). On the other hand, CAM are naturally sourced, thus pose lower genotoxicity compared to chemicals. In this regard, Z. nummularia root extract merits further investigation. Isolation of the functional constituents and their structural elucidation warrants impetus. In a preliminary screening study, the phytochemicals alkaloids (ziziphines), carbohydrates, saponins, flavonoids, anthocyanins, and tannins were found in the ethanolic extract of Z. oenoplia (Suksamrarn et al. 2005; Rao et al. 2012). These components might be instrumental in inducing the tested biological responses. The hypnotic efficacy of Z. jujuba Mill. jujubosides has been correlated to the impact on circadian rhythm and the serotonergic system (Cao et al. 2010). Further studies on the therapeutic importance of this plant might provide affordable medication to large section population in the developing countries. However, possible health risks must be verified for broader remedial applications.
-
-Conclusion
-
-The cumulative findings from this study suggest that the root extract of Z. nummularia exhibits remarkable sedative-hypnotic, antipyretic and analgesic effects in mice. These findings explain the rationale of traditional medicinal use of Z. nummularia for alleviating pain, fever, insomnia, seizures, muscle spasms, anxiety etc. However, more in-depth studies are required to establish the safety, efficacy, and active constituents of this plant. This study is expected to inspire further investigation into this underutilized medicinal plant.
-

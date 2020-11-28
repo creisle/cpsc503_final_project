@@ -1,135 +1,18 @@
-Optimization of regeneration using differential growth regulators in indica rice cultivars
 
 Abstract
 
 Paddy is a staple crop and being grown in major parts of India, but similarly it is facing some major challenges like abiotic stresses (drought, salinity, etc.) by which its productivity is greatly affected. De-husked seeds of 21 cultivars of indica rice were cultured onto MS medium for screening of their micropropagation capabilities. All the selected cultivars are being cultivated by farmers of Andhra Pradesh and Rajasthan states of India, these cultivars bear good quality of grain and high yield. Similarly, both states are facing the problem of drought so; we selected these cultivars for the micropropagation and transformation studies. The induction of callus and regeneration in these selected cultivars were achieved on MS culture medium with supplementation of various growth regulators. Maximum callus induction and regeneration frequency were observed in Sambha mahsuri at the concentration of 3.0 mg L−1 of 2,4-D and BAP (5.0 mg L−1) while the moderate response achieved in other cultivars of rice. Sambha mahsuri showed promising results in terms of callus induction frequency, and regeneration potentialities of embryogenic callus so, there is need to develop a rice cultivars that could thrive under drought condition if the country is to sustain rice production. Finally, regenerated plantlets were successfully transferred to natural conditions (in pots) after acclimatization.
 
+
+
 Introduction
 
-Oryza sativa L. is the most economically important cultivated rice species of the Oryzeae tribe of Poaceae family. Rice is the world’s single most important staple food crop, and it represents a primary food for more than one-third of its population (Ilahi et al. 2005). Tissue culture techniques have become necessary for the production of the transgenic rice plants (Peng et al. 1992), hybrids (Mariam et al. 1996), and for the recovery of germplasm when seed availability is limited. These methods are based on adventitious shoot culture (Shahsavari 2011) and somatic embryogenesis (Amarasinghe 2009) which resulted into genetic variations in rice cultivars (Mannan et al. 2013). Micropropagation protocols have been established for japonica and indica rice cultivars using as explants like as mature seeds (Ullah et al. 2007), shoot segments (Verma et al. 2011), embryos (Ali et al. 2004; Evangelista et al. 2009), anthers (Khatun et al. 2010) which produced regenerated plantlets. Fifteen rice cultivars of indica rice were screened for induction of callus as well as subsequent regeneration of plantlets through plant tissue culture (Hertke and Lörz 1989). Similarly, 500 cultivars of rice were comprehensively studied for the induction of callus as well as regeneration of plantlets by Kamia et al. (1988). It was also reported that an individual genotype of rice plays a significant role in the induction of callus and regeneration of plantlets (Hoque and Mansfield 2004; Islam et al. 2005). Sambha mahsuri, Cotton Dora sannalu, PR-115 and PR-116 are high yielding cultivars in Telangana, Andhra Pradesh and Rajasthan states of India so, we focused our study on these cultivars of indica rice.
+Oryza sativa L. is the most economically important cultivated rice species of the Oryzeae tribe of Poaceae family. Rice is the world’s single most important staple food crop, and it represents a primary food for more than one-third of its population (Ilahi et al. 2005). Tissue culture techniques have become necessary for the production of the transgenic rice plants (Peng et al. 1992), hybrids (Mariam et al. 1996), and for the recovery of germplasm when seed availability is limited. These methods are based on adventitious shoot culture (Shahsavari 2011) and somatic embryogenesis (Amarasinghe 2009) which resulted into genetic variations in rice cultivars (Mannan et al. 2013). Micropropagation protocols have been established for japonica and indica rice cultivars using as explants like as mature seeds (Ullah et al. 2007), shoot segments (Verma et al. 2011), embryos (Ali et al. 2004; Evangelista et al. 2009), anthers (Khatun et al. 2010) which produced regenerated plantlets. Fifteen rice cultivars of indica rice were screened for induction of callus as well as subsequent regeneration of plantlets through plant tissue culture (Hertke and Lörz 1989). Similarly, 500 cultivars of rice were comprehensively studied for the induction of callus as well as regeneration of plantlets by Kamia et al.. It was also reported that an individual genotype of rice plays a significant role in the induction of callus and regeneration of plantlets (Hoque and Mansfield 2004; Islam et al. 2005). Sambha mahsuri, Cotton Dora sannalu, PR-115 and PR-116 are high yielding cultivars in Telangana, Andhra Pradesh and Rajasthan states of India so, we focused our study on these cultivars of indica rice.
 
-Materials and methods
 
-Plant material
-
-The mature seeds of six cultivars (Sarsu 52, P-44, PR-116, PR-115, PAV-16, PAV-201) of indica rice were obtained (Aug, 2013) from State Farms Corporation of India (SFCI), Suratgarh, India and were authenticated by Neeraj Verma, Director-Incharge (SFCI), Suratgarh, India. The remaining 15 indica rice cultivars (Surekha, Bhadrakali, Erramallellu, Kavya, Warangal sambha, Ramappa, Warangal sannalu, Sheetal, Siddhi, Varalu, Khushava, Pothana, Cotton dora sannalu, Vijetha, Sambha mahsuri) obtained (Aug, 2013) from Agricultural Research Station (ARS), Warangal, India. The seeds of these 15 cultivars were authenticated by Dr. C. Cheralu, Associate Director, ARS, Warangal, India. The seeds of all 21 indica rice cultivars were stored at room temperature in plant tissue culture lab to keep them away from contamination.
-
-General experimental conditions
-
-The authors designed the general experimental conditions as follows: (a) conditions for callus induction—each concentration of growth regulators, authors kept two replicas and five culture tubes for each concentration, i.e., ten tubes for each growth regulator concentration studied and one control for each concentration without addition of growth regulators; (b) multiple shoot formation—for each concentration of growth regulator, kept two replicas and five culture tubes for each concentration, i.e., ten tubes for each growth regulator concentration studied and one control for each concentration without addition of growth regulators; (c) profuse rooting—for each concentration of growth regulator, kept two replicas and five culture tubes for each concentration, i.e., ten tubes for each growth regulator concentration studied and one control for each concentration without addition of growth regulators.
-
-Culture conditions
-
-De-husked seeds of the indica rice cultivars were washed with tap water to remove dust and other particles. The cleaned de-husked seeds were placed in 70 % alcohol for 2.0 min and surface sterilized with 1.0 % (w/v) mercuric chloride solution for 3.0 min. The treated seeds were then rinsed three times with sterilized distilled water to remove all the traces of mercuric chloride. The sterilized seeds were inoculated onto MS (Murashige and Skoog 1962) culture medium containing sucrose (30 g L−1) and supplemented with various concentrations with various combinations of 2,4-D (1.0–5.0 mg L−1), kinetin (1.0–5.0 mg L−1), BAP (1.0–5.0 mg L−1), IAA (1.0–5.0 mg L−1), NAA (1.0–3.0 mg L−1), IBA (0.0–1.0 mg L−1). These inoculated cultures were incubated at 25 ± 1 °C with 60 % relative humidity under room light conditions (300 Lux). Obtained callus, multiple shoots and shoots with profuse rooting were subcultured after 35 days onto fresh MS medium containing same concentration of growth regulators.
-
-Results
-
-Callus induction and proliferation
-
-Sterilized de-husked seeds of 21 indica rice cultivars were inoculated onto MS culture medium supplemented with different concentrations of growth regulators and 3.0 % sucrose. The used growth regulators were kinetin (2.5 mg L−1), 2,4-D (3.0 mg L−1), kinetin + 2,4-D (2.5 + 3.5 mg L−1), BAP + IAA (2.5 + 3.0 mg L−1) added to the MS basal medium. After about 10 days of inoculation, callus formation started in 11 cultivars (Sarsu-52, PR-115, PR-116, Erramallellu, Pothana, Vijetha, Surekha, Kavya, Sambha mahsuri, Ramappa, and Khusava) of indica rice (Table 1) while in the above mentioned doses of growth regulators, no callus was observed in the remaining 10 cultivars (P-44, PAV-16, PAV-201, Bhadrakali, Cotton dora Sannalu, Varalu, Sheetal, Siddhi, Warangal Sambha, Warangal Sanalu) of indica rice. The excellent creamish colored embryoids (Fig. 1) were achieved in Sambha mahsuri cultivar with 3.0 mg L−1 of 2,4-D supplement in MS culture medium. A soft, friable, brown colored callus with moderate growth was induced and proliferated in PR-116 with 3.0 mg L−1 2,4-D supplement (Table 1). Besides Sambha mahsuri and PR-116 cultivar, embryogenic calli with mild growth were also observed in PR-115 and Erramallelu cultivars of indica rice. Non-embryogenic callus formed in Sarsu-52 cultivar of indica rice at the dose of 3.0 mg L−1 of 2,4-D (Table 1). There were some variations in calli also observed among all the 21 cultivars of indica rice qualitatively, i.e., size and color of calli, growth of callus. The observed variations in induction and proliferation of callus in different cultivars seemed to be mainly due to the physical factors like as position and location of explants onto the culture medium because of the same genetic make-up of explants. As evident from the observed results, meristemoids developed in these calli which exhibited sufficient reasonable regeneration capability. The 2,4-D supplementation in MS culture medium hastened the induction of callus in 11 cultivars of indica rice individually as well as in combination with cytokinins. Similarly, the effects of cytokinins (kinetin, BAP) in induction of calli were also observed in 11 cultivars of indica rice (Table 1). It was also observed that kinetin 2.5 mg L−1 was more effective than 2.5 + 3.0 mg L−1 BAP + IAA in induction and proliferation of calli in PR-115, PR-116 and Erramallelu, Pothana, Vijetha, Kavya, Sambha mahsuri, Rammapa, Khushava. When the concentration of kinetin was further increased to the level of 1.0 mg L−1, i.e., from 2.5 to 3.5 mg L−1 keeping the concentration of IAA as stable (2.5 mg L−1), excellent (e.g., weight) callus induction and growth was observed within 3–4 weeks in Sambha mahsuri, Erramallelu, Pothana (Table 1).Table 1Induction and characters of callus regenerated from de-husked seeds of indica rice cultivars cultured on MS culture medium with various concentrations of growth regulatorsName of the cultivarsAverage response (%)a
-Growth regulators usedConcentration of growth regulators (mg L−1)Number of days takenSarsu-5270.34 ± 0.39KIN2.52875.16 ± 0.482,4-D3.02769.34 ± 0.17KIN + 2,4-D2.5 + 3.52965.23 ± 0.28IAA + BAP3.0 + 2.53070.66 ± 0.36KIN + IAA2.5 + 2.529PR-11573.45 ± 0.46KIN2.52975.55 ± 0.462,4-D3.02870.66 ± 0.24KIN + 2,4-D2.5 + 3.52972.39 ± 0.15IAA + BAP3.0 + 2.53078.59 ± 0.81KIN + IAA2.5 + 2.529PR-11676.43 ± 0.72KIN2.52865.64 ± 0.632,4-D3.03264.09 ± 0.63KIN + 2,4-D2.5 + 3.53070.72 ± 0.53IAA + BAP3.0 + 2.52772.65 ± 0.43KIN + IAA2.5 + 2.530Erramallelu70.89 ± 0.31KIN2.52869.58 ± 0.282,4-D3.02671.67 ± 0.59KIN + 2,4-D2.5 + 3.52767.56 ± 0.60IAA + BAP3.0 + 2.52765.38 ± 0.73KIN + IAA2.5 + 2.528Pothana74.34 ± 0.61KIN2.53071.69 ± 0.412,4-D3.03272.59 ± 0.46KIN + 2,4-D2.5 + 3.53068.41 ± 0.53IAA + BAP3.0 + 2.53170.27 ± 0.55KIN + IAA2.5 + 2.530Vijetha70.40 ± 0.50KIN2.53267.71 ± 0.492,4-D3.03170.44 ± 0.47KIN + 2,4-D2.5 + 3.53065.35 ± 0.34IAA + BAP3.0 + 2.52758.78 ± 0.33KIN + IAA2.5 + 2.529Surekha64.45 ± 0.11KIN2.52964.51 ± 0.222,4-D3.02965.38 ± 0.12KIN + 2,4-D2.5 + 3.52867.04 ± 0.33IAA + BAP3.0 + 2.52967.59 ± 0.18KIN + IAA2.5 + 2.528Kavya70.20 ± 0.38KIN2.52871.31 ± 0.452,4-D3.02868.42 ± 0.47KIN + 2,4-D2.5 + 3.52967.22 ± 0.25IAA + BAP3.0 + 2.53071.58 ± 0.36KIN + IAA2.5 + 2.529Sambha mahsuri78.49 ± 0.40KIN2.53280.28 ± 0.452,4-D3.02779.21 ± 0.61KIN + 2,4-D2.5 + 3.52975.39 ± 0.52IAA + BAP3.0 + 2.52970.30 ± 0.67KIN + IAA2.5 + 2.528Ramappa65.48 ± 0.51KIN2.53464.37 ± 0.472,4-D3.03261.48 ± 0.56KIN + 2,4-D2.5 + 3.53263.73 ± 0.51IAA + BAP3.0 + 2.53162.87 ± 0.13KIN + IAA2.5 + 2.530Khushava60.77 ± 0.24KIN2.53064.98 ± 0.282,4-D3.02961.49 ± 0.32KIN + 2,4-D2.5 + 3.52959.30 ± 0.30IAA + BAP3.0 + 2.53063.57 ± 0.37KIN + IAA2.5 + 2.529Those with best average values were considered in 21 varieties for example average response (%) below 50 % was not considered, below 8 multiple shoots were not considered and below 8 roots were not considered. Number of tubes per each concentration studied = 5; Number of replicas for each concentration studied = 2; Total number of tubes per each concentration studied = 5 × 2 = 10; Number of de-husked seeds used per tube = 1; Number of de-husked seeds used per concentration studied = 10
-a
-\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$${\text{Average response }}\left( \% \right) = \frac{{{\text{No of dehusked seeds showing response per concentration}} \; }}{\text{Total number of tubes per concentration}}\times \; 100$$\end{document}Average response%=No of dehusked seeds showing response per concentrationTotal number of tubes per concentration×100
-
-Fig. 1Micropropagation of Sambha mahsuri indica rice cultivar. a, b Callus induction and proliferation; c, d multiple shoot regeneration: e, f, profuse rooting; g plantlets transferred in pot; h roots of plantlet. *Arrows showing number of shoots and roots in their respective figures
-
-Table 1
-
-Induction and characters of callus regenerated from de-husked seeds of indica rice cultivars cultured on MS culture medium with various concentrations of growth regulators
-
-Those with best average values were considered in 21 varieties for example average response (%) below 50 % was not considered, below 8 multiple shoots were not considered and below 8 roots were not considered. Number of tubes per each concentration studied = 5; Number of replicas for each concentration studied = 2; Total number of tubes per each concentration studied = 5 × 2 = 10; Number of de-husked seeds used per tube = 1; Number of de-husked seeds used per concentration studied = 10
-
-a
-\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$${\text{Average response }}\left( \% \right) = \frac{{{\text{No of dehusked seeds showing response per concentration}} \; }}{\text{Total number of tubes per concentration}}\times \; 100$$\end{document}Average response%=No of dehusked seeds showing response per concentrationTotal number of tubes per concentration×100
-
-Fig. 1
-
-Micropropagation of Sambha mahsuri indica rice cultivar. a, b Callus induction and proliferation; c, d multiple shoot regeneration: e, f, profuse rooting; g plantlets transferred in pot; h roots of plantlet. *Arrows showing number of shoots and roots in their respective figures
-
-Multiple shoot’s regeneration and root’s proliferation
-
-Multiple shoots were achieved only in four cultivars (PR-116, PR-115, Sambha mahsuri and Erramallelu) out of 21 studied indica rice cultivars inoculated onto the MS culture medium. The proliferation of multiple shoots was optimized at different combinations with different concentrations of 2,4-D + kinetin (0.3 +2.1 mg L−1), BAP (5.0 mg L−1), 2,4-D + BAP (0.3 + 2.2 mg L−1), NAA + kinetin (2.0 + 2.1 mg L−1) and NAA + BAP (2.0 + 2.2 mg L−1), sucrose (3.0 %) and mannitol (1.0 %) (Table 2). Out of above mentioned cultivars, best multiple shoot proliferation (average number 114.51 ± 0.11 shoots) was observed in Sambha mahsuri when cultured onto BAP (5.0 mg L−1) (Fig. 1) similarly, moderate multiple shoot regeneration was recorded in PR-115 (average number 13.56 ± 0.36 shoots) at 5.0 mg L−1 of BAP (Table 2).Table 2Proliferation of multiple shoots in various cultivars of indica rice cultured on MS culture medium with various concentrations of growth regulatorsGrowth regulatorsConcentration of growth regulators (mg L−1)Number of days takenAverage number of shoots in selected cultivarsa
-
-A
-
-B
-
-C
-
-D
-MS–301111MS + BAP5.02713.56 ± 0.3612.49 ± 0.42114.51 ± 0.1111.38 ± 0.48MS + 2,4D + KIN0.3 + 2.12912.64 ± 0.6511.58 ± 0.39112.53 ± 0.3010.55 ± 0.72MS + 2,4D + BAP0.3 + 2.22710.26 ± 0.4808.62 ± 0.3513.43 ± 0.5911.23 ± 0.63MS + NAA + KIN2.0 + 2.12810.57 ± 0.4911.93 ± 0.2813.11 ± 0.3910.39 ± 0.51MS + NAA + BAP2.0 + 2.22910.84 ± 0.6612.54 ± 0.4912.39 ± 0.4912.59 ± 0.42(A) PR-115, (B) PR-116, (C) Sambha mahsuri, (D) ErramalleluNumber of tubes for each concentration was five, i.e., ten for each concentration studiedSeeds showing below eight shoots were not consideredAverage of number of shoots per tube was calculated and mentioned in above tableNumber of shoots: Number of shoots = (A1 + A2 + A3… + A10)b = X; Number of tubes = B; Average of shoots = X ÷ B
-
-BAP 6-Benzyl amino purine, KIN kinetin, 2,4-D 2,4-Dichlorophenoxy acetic acid, NAA 1-Naphthaleneacetic acid
-aDetermination of shoots = Number of replicates for each concentration was two
-bA1–A10 is number of test tubes
-
-Table 2
-
-Proliferation of multiple shoots in various cultivars of indica rice cultured on MS culture medium with various concentrations of growth regulators
-
-(A) PR-115, (B) PR-116, (C) Sambha mahsuri, (D) Erramallelu
-
-Number of tubes for each concentration was five, i.e., ten for each concentration studied
-
-Seeds showing below eight shoots were not considered
-
-Average of number of shoots per tube was calculated and mentioned in above table
-
-Number of shoots: Number of shoots = (A1 + A2 + A3… + A10)b = X; Number of tubes = B; Average of shoots = X ÷ B
-
-BAP 6-Benzyl amino purine, KIN kinetin, 2,4-D 2,4-Dichlorophenoxy acetic acid, NAA 1-Naphthaleneacetic acid
-
-aDetermination of shoots = Number of replicates for each concentration was two
-
-bA1–A10 is number of test tubes
-
-Profuse rooting was achieved in four cultivars of indica rice (PR- 116, PR-115, Sambha mahsuri and Erramallelu) when, cultured onto MS culture medium with supplementation of IBA (1.0 mg L−1), in 18–20 days, respectively (Table 3). The maximum rooting (average number 13.63 ± 0.83 roots per shoot) was achieved in Sambha mahsuri cultivar of indica rice with supplementation of IBA (1.0 mg L−1) after 18 days (Table 3; Fig. 1). Similarly, moderate rooting was also observed in Erramallelu (average number 10.44 ± 0.73 roots per shoot) cultivar of indica rice at concentration of IBA (1.0 mg L−1), in 19 days, respectively (Table 3). The in vitro regenerated plantlets after attaining a size of 2–3 inches were then taken out from aseptic containers and transferred to the natural conditions after acclimatization.Table 3Profuse rooting in multiple shoots of indica rice cultivars cultured on MS culture medium with various concentrations of growth regulatorsName of cultivarsNumber of daysAverage number of rootsa
-Growth regulator (IBA mg L−1)PR-1151809.54 ± 0.481.0PR-1161908.69 ± 0.681.0Sambha mahsuri1813.63 ± 0.831.0Erramallelu1910.44 ± 0.731.0Number of replicates for each concentration was twoNumber of tubes for each concentration was five, i.e., ten for each concentration studiedShoots showing below 8 shoots were not consideredAverage of number of roots per shoot in each tube was calculated and mentioned in above table
-aDetermination of roots = number of roots = (A1 + A2 + A3… + A10)b = X; number of tubes = B; average of roots = X ÷ B
-
-bA1–A10 is number of test tubes
-
-Table 3
-
-Profuse rooting in multiple shoots of indica rice cultivars cultured on MS culture medium with various concentrations of growth regulators
-
-Number of replicates for each concentration was two
-
-Number of tubes for each concentration was five, i.e., ten for each concentration studied
-
-Shoots showing below 8 shoots were not considered
-
-Average of number of roots per shoot in each tube was calculated and mentioned in above table
-
-aDetermination of roots = number of roots = (A1 + A2 + A3… + A10)b = X; number of tubes = B; average of roots = X ÷ B
-
-bA1–A10 is number of test tubes
 
 Discussion
 
 In the current study, 21 cultivars of indica rice were used for micropropagation through de-husked seeds. The effects of 2,4-D were studied and observed that 2,4-D enhanced the frequency of induction and growth of callus (Deo et al. 2009). Similarly, in Sambha mahsuri cultivar, maximum multiple shoots regeneration was achieved in supplementation of MS + BAP (5.0 mg L−1). Simultaneously, stimulatory effects of BAP in combination with IAA and NAA have previously been reported to facilitate regeneration in indica rice cell cultures (Mandal et al. 2003; Karthekeyan et al. 2009). The observed results revealed that kinetin was found to be effective for the induction and proliferation of shoots and roots. This may be because cytokinin causes development of single pole and formation of meristematic dome from which the shoot primordium develops. The role of cytokinins on somatic embryogenesis has been explained by enhanced cell division of pre-embryogenically determined cells (Kintzois et al. 2002). In addition to these reports, kinetin increases proliferation and regeneration of callus by affecting mitosis, cytokinesis, total protein synthesis, lignin biosynthesis, vascular differentiation and differentiation of mature chloroplast from protoplastids (Wan et al. 1988).
 
 An important aspect of the present protocol was that all the plantlets regenerated from mature embryo-derived calli developed good root system. Moreover, after transferring to pots, in vitro regenerated plantlets of four cultivars survived, which in turn indicated good adaptability of somaclones in ambient environmental conditions. High auxin concentration leads to development of root primordium leading to root development. However, one of our cultivar Sambha mahsuri decreases in root development at high auxin concentration. Thus, in turn, suggested that genotypes also possessed variability in their capability of regeneration as reported in previous studies (Kumaria et al. 2000). The present study establishes a successful protocol for the induction and growth of callus, somatic embryogenesis in four diverse cultivars (PR-115, PR-116, Sambha mahsuri, and Erramallelu) of Indian sub-continent, and the in vitro regenerated plants were showed yield potential at par to that of direct seeded plants in ambient conditions. The present protocol would be useful for genetic transformation in elite genotypes of rice using any selected gene transfer method in near future.
-
-Conclusion
-
-Maximum frequency of induction and growth of callus, shoot proliferation was achieved in Sambha mahsuri cultivar of indica rice cultured onto MS culture medium with supplementation of 2,4-D (3.0 mg L−1) and BAP (5.0 mg L−1) in 27 days, while slow induction in other studied cultivars of indica rice. Thus, there is a need to develop new rice cultivars that could cope up to drought conditions and flourish into good quality of grain and higher yield. In our next course of the study, drought tolerant gene DREB1A will be introduced into Sambha mahsuri cultivar by particle bombardment method to improve of its growth and high yield under drought conditions for incremental benefits of farmers.
-

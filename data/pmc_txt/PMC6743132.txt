@@ -1,17 +1,4 @@
-Publisher Correction to: 3D Printing in Medicine, volume 5
 
-Publisher Correction to: 3D Printing in Medicine, volume 5
 
-https://doi.org/10.1186/s41205-019-0046-y
 
-An error occurred during the publication of one article in 3D Printing in Medicine. This article was published in volume 5 with a duplicate citation number.
-
-In this correction article the old and new citation metadata are published in Table 1.
-Table 1Overview of incorrect and correct citation metadataDOIIncorrect citation numberCorrect citation number10.1186/s41205-019-0046-y19
-
-Table 1
-
-Overview of incorrect and correct citation metadata
-
-The original article has been updated. The publisher apologizes for the inconvenience caused to our authors and readers.
 

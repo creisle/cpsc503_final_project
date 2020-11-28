@@ -1,8 +1,9 @@
-Molecular detection and pathogenicity of a nucleopolyhedrovirus isolated from looper caterpillar (Hyposidra talaca), a tea pest
 
 Abstract
 
 Hyposidra talaca is a major defoliating pest of tea plants in north-eastern part of India. In this study, we look for variations (if any) in the attacking virus. Viral samples were collected from different regions of the northern part of West Bengal in India and were analyzed by PCR technique to study the variations across the region. The partial segment of the HytaNPV polyhedrin gene was cloned and sequenced. A 527 bp nucleotide sequence containing highly conserved region from polyhedrin gene of HytaNPV was observed. The blast homology search for studied polyhedrin gene showed 98% sequence identity with the sequence of previous reported NPV of H. talaca, H. infixaria and Buzura suppressaria. Pathogenicity study against second instar H. talaca indicated that the LC50 values ranged from 4.61 × 105 to 7.57 × 105 polyhedral occlusion bodies per ml (POBs/ml) and the LT50 values ranged from 4.2 to 6.66 days. Sequencing result reveals that the same HytaNPV strain dominates across this area and the pathogenicity indicates its potential as an alternative to chemical insecticides to control H. talaca.
+
+
 
 Introduction
 
@@ -14,136 +15,7 @@ The H. talaca looper caterpillar (Walk.) (Lepidoptera: Geometridae) is an econom
 
 Due to the high potency of the virus as chemical alternative, finding out the naturally improved isolates of the virus is a matter of great interest. PCR-based diagnosis was used for identification, establishment of relationship and also to find out the variation within the tested HytaNPVs. The primary aim of the study was to identify the most potential isolate of HytaNPV. Examination of the samples from four different geographic locations was done for the above-mentioned identification and simultaneously infectivity evaluation was conducted to determine their successful practical use, by laboratory bioassay. This study may play an important role in the programs of integrated pest management (IPM).
 
-Materials and methods
 
-Larval rearing
-
-To investigate the sensitivity of H. talaca, the second instar larvae of this looper caterpillar were originally collected from Dooars region, West Bengal, India. The collection site was free of pesticides since 6 months and the larvae were carried with leaves to reduce their transportation disturbances. They were reared in the laboratory of the Plant Protection Department, North Bengal Regional Research and Development Centre, Tea Research Association (TRA), for three successive generations at 28 ± 2 °C, 72 ± 3% relative humidity and a 13L:11D photoperiod. Fresh tea leaves were provided as food after sterilizing with 10% formalin for 5 min and rinsed with sterile double-distilled water. These larvae were used for viral propagation and bioassays. The larvae were also examined daily to eliminate the secondary infection.
-
-Viruses
-
-The HytaNPV samples, used in the PCR study, were collected during 2012–2013 from geographically distinct localities covering eastern Dooars, western Dooars, central Dooars and Terai region of West Bengal, India. The average rainfall of Terai and Dooars are approximately 3500 and 3160 mm, respectively, situated between 26° 16′ and 27° 12′ north latitudes and 87° 59′ and 89° 53′ east longitudes. The virus samples were collected from ten tea estates located across these four distinct geographic regions (Table 1). From each collection site, 50–60 virus-infected larvae were sampled. The virus-infected larvae were collected as samples considering the primary signs of typical NPV infection in larval stage like flaccidity, rupturing of the cuticle and hanging upside down by their abdominal legs. Later, the presence of HytaNPV was ascertained by microscopic view and PCR study. The individual larva was collected in 1.5 ml centrifuge tube and the collected samples were kept at −20 °C for future use.Table 1Details of the survey site locationRegionSurvey siteIsolate referred asGeographic coordinateWestern dooarsKumlai tea estateKML26°50′N, 88°41′EWashabari tea estateWSB26°52′N, 88°32′ECentral dooarsBhagatpur tea estateBGP26°53′N, 88°55′EAmbari tea estateAMB26°52′N, 89°03′EKarbala tea estateKRB26°47′N, 89°04′ETelipara tea estateTLP26°43′N, 89°03′EBara Dighi tea estateBRD26°47′N, 88°46′ELakhipara tea estateLKP26°49′N, 89°00′EEastern dooarsRajabhat tea estateRJB26°39′N, 89°29′ETeraiSimulbari tea estateSMB26°47′N, 88°18′E
-
-Table 1
-
-Details of the survey site location
-
-Purification of HytaNPV
-
-For molecular analysis, each of aqueous homogenate of viral samples containing polyhedral occlusion bodies (POBs) was purified by two rounds of centrifugation. The putrefied samples were homogenized with pestle and mortar, and the concentrates were diluted with sterile double-distilled water. The crude filtrate was initially centrifuged for 5 min at 600 rpm to remove larger contaminants. The supernatant was collected in a new centrifuge tube for further centrifugation at 8000 rpm for 20 min to pellet the virus and then washed with sterile double-distilled water for three times. The pellets were finally dissolved in 1 ml sterile double-distilled water and conserved at −20 °C. The quantification of POBs was carried out by using Neubauer hemocytometer (Marienfeld, Germany) under phase-contrast microscope (Olympus BX 51). For bioassays, the viral samples were purified by following the same method.
-
-Virus propagation
-
-Four HytaNPV isolates (SMB, RJB, WSB and TLP), belonging to four different geographic regions, were taken for bioassay tests and multiplied in second instar H. talaca larvae for mass propagation. In case of each isolate, the multiplication of HytaNPV was conducted by isolation of POBs from infected cadavers. For multiplication of each isolate, 150 larvae were fed on tea leaves dipped with virus suspension in a concentration of 107 POBs/ml. After 2 h of starvation, they were exposed to virus-contaminated leaves for 24 h. Virus-induced larvae were kept as 30 larvae per group and reared in the laboratory at 28 ± 2 °C, 72 ± 3% relative humidity and a 13L:11D photoperiod. Microscopic view confirmed the presence of POBs in the cadavers of virus-induced larvae.
-
-Viral DNA extraction and PCR amplification
-
-After following the purification method, viral DNA was extracted from POBs of each of ten field collected HytaNPV samples and purified with QIAamp DNA Mini Kit (Qiagen) according to the manufacturer’s protocol. The final DNA was obtained after cleaning several times with ethanol and diluted wash solution. Later, DNA was eluted and re-suspended in 20 µl molecular-grade water (Himedia). The isolation of DNA was confirmed by electrophoresis in 1% agarose gel and quantified with BioPhotometer (Eppendorf).
-
-A highly conserved region of polyhedrin gene from HytaNPV isolates was amplified. The PCR was performed using the degenerate primer (F: 5′-GGACCSGGYAARAAYCAA AAA-3′ and R: 5′-GCRTCWGGYGCAAAYTCYTT-3′) designed according to Antony et al. (2011). The PCR reaction was carried out taking 50–100 ng of viral DNA in a 25 µl reaction solution containing 1X PCR buffer (Invitrogen, USA), 1.5 mM MgCl2 (Invitrogen, USA), 0.5 mM dNTPs (Bangalore Genei, India), 1 U Platinum Taq DNA polymerase (Invitrogen, USA) and 0.5 µM of each primer. PCR amplification was performed in a DNA thermal cycler (Veriti Thermal Cycler, Applied Biosystems, CA, USA). The conditions used were initially denaturation for one cycle at 94 °C for 5 min, followed by 35 repeated cycles of 94 °C for 30 s, 50 °C for 30 s, 72 °C for 30 s, and the final extension cycle at 72 °C for 7 min. The amplified products were resolved in 1.5% agarose gel stained with ethidium bromide.
-
-Cloning and sequencing of the polyhedrin gene
-
-The positive PCR product of the SMB isolate was eluted from the gel using HiPura Agarose Gel DNA Purification Spin Kit (Himedia, India) following the manufacturer’s protocol. The eluent was ligated into the pGEM-T vector (Promega, UK) in a 3:1 (insert: vector) molar ratio with T4 DNA ligase as described by the manufacturer. The ligated products were transformed into Escherichia coli DH10β competent cells (Invitrogen, USA). Following amplification of recombinant clone with M13 universal forward and reverse primers, the sequencing was performed using the BigDye Terminator v1.0 cycle sequencing kit (Applied Biosystems) in ABI 3500 Genetic Analyzer (Applied Biosystems).
-
-Sequence comparison and phylogenetic analysis
-
-The sequence data were assembled into contig by DNA Dragon Version 1.5.6 (SequentiX, Germany) followed by the multiple-sequence alignments construction with the highly similar DNA and protein sequences using the Clustal W program (Thompson et al. 1994). The obtained nucleotide sequence was blasted to the GenBank database (blastx) to retrieve similar nucleotide and amino acid sequences, which were used for phylogenetic tree construction. The phylogenetic tree of aligned amino acid sequences was generated by the neighbor-joining (NJ) algorithm (Saitou and Nei 1987) using Molecular Evolutionary Genetics Analysis (MEGA) v6.06 (Tamura et al. 2013). To estimate the confidence limits of nodes, 1000 bootstrap samples were generated. To reduce the impact of partial sequences of polyhedrin available in the GenBank database and to maximize the use of the available information, the pairwise comparison of amino acid sequences was performed by ClustalW with the default parameters.
-
-Bioassays
-
-The biological activity of four HytaNPV isolates, viz., SMB, RJB, WSB and TLP (belonging to four different geographic regions), was tested against early second instar H. talaca larvae. Bioassay tests were conducted using purified viral suspension by leaf-dip feeding technique. The virus concentrations were quantified with a phase-contrast microscope and a Neubauer hemocytometer. The concentrations of each tested isolates were prepared from the following stock concentrations in POBs/ml: 3.6 × 109, 5.7 × 109, 2.9 × 109 and 8.1 × 109 for SMB, RJB, WSB and TLP isolates, respectively. The experiments were performed using six concentrations of each virus isolate containing 1 × 103, 1 × 104, 1 × 105, 1 × 106 1 × 107 and 1 × 108 POBs/ml. Larvae were taken from the virus-free rearing culture and starved for 2 h before feeding viruses. Leaves were dipped in viral suspension, air-dried and fed to larvae for 24 h prior to feeding on fresh foliages until death or pupation. In the control treatment, the virus suspension was replaced by double-distilled water. For each isolate, three replicates each of 30 larvae were used for each virus concentration and three replicates (30 larvae per replication) of double-distilled water-treated leaves served as control. Larvae were incubated at 27 ± 1 °C, 72 ± 3% RH and a 13L:11D photoperiod. Virus-induced cumulative mortality was recorded daily till death and the mortality response data were analyzed on the basis of mortality on day 7 post-inoculation. The diseased cadavers were collected and kept in −20 °C for further analysis. Later virus infections were confirmed by the presence of POBs in the cadavers, when viewed under phase-contrast microscopy.
-
-Statistical analysis
-
-The mortality of larvae was tabulated daily for all NPV isolates vs. dose combinations (4 × 6). Probit analysis was performed using IBM SPSS release 23.0.0.0 on the basis of mortality data obtained after 7 days of post-inoculation. The median lethal concentrations (LC50) for second instar were obtained from the SPSS probit model. Median lethal time (LT50) was also determined for each concentration using the equation (Biever and Hostetter 1971):\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$${\text{LT}}_{50} = a + e(c - b)/D$$\end{document}LT50=a+e(c-b)/Dwhere ‘a’ is the number of hours from the initiation of the test until the reading made immediately before the 50% mortality was recorded; ‘b’ is the total number of larvae dead at the reading immediately before the 50% mortality was recorded; ‘c’ is the 50% of the total number tested (in our case, it is 45); ‘D’ is the number of larvae dying in 24 h during which the 50% mortality was reached; and ‘e’ is the number of hours between mortality counts (24 h in this case).
-
-Results
-
-Field survey
-
-The virus-infected larvae were collected from different geographic locations (Dooars and Terai) by primary observation of typical NPV signs and subjected to further studies (Fig. 1). The virus was diagnosed by microscopic study, propagated in H. talaca laboratory colony, purified and kept at −20 °C for future studies. The number of polyhedral occlusion bodies was calculated by a hemocytometer showing the presence of approximately 8.7 × 109 POBs/ml of cadaver.Fig. 1
-a Tea leaves affected by Hyposidra talaca.
-b Cadaver of Hyposidra talaca showing symptoms of nucleopolyhedrovirus infection
-
-Fig. 1
-
-a Tea leaves affected by Hyposidra talaca.
-b Cadaver of Hyposidra talaca showing symptoms of nucleopolyhedrovirus infection
-
-PCR amplification and sequencing
-
-The degenerate primer set was used to amplify the targeted sequence from the isolated DNA of the purified polyhedra and successful amplification of the specific polyhedrin gene region of ten isolates of HytaNPV was performed. Amplification was not obtained from the extract of control larvae. The bands obtained from the PCR products of all ten isolates were identical (Fig. 2). Hence, the sequencing was performed by taking only the SMB isolate of the Terai region; then it was compared and cross validated with previously reported HytaNPV (from Dooars region). Hereafter, the studied Terai isolate is denoted as HytaNPV-P. The amplified product of the concerned isolate showed a nucleotide sequence of 527 bp (GenBank accession no. KP027542). The deduced protein consists of 175 amino acids with the predicted molecular mass of 19.52 kDa.Fig. 2Agarose gel electrophoresis of specific PCR-amplified products from ten HytaNPV isolates. Lanes M 1 and M 2, 100 bp Ladder DNA marker (Genei, Bangalore); Lane L1: SMB, L2: LKP, L3: KRB, L4: TLP, L5: KML, L6: WSB, L7: BRD, L8: RJB, L9: BGP and L10: AMB isolate, respectively. The size of the band is shown in bp (base pair)
-
-Fig. 2
-
-Agarose gel electrophoresis of specific PCR-amplified products from ten HytaNPV isolates. Lanes M 1 and M 2, 100 bp Ladder DNA marker (Genei, Bangalore); Lane L1: SMB, L2: LKP, L3: KRB, L4: TLP, L5: KML, L6: WSB, L7: BRD, L8: RJB, L9: BGP and L10: AMB isolate, respectively. The size of the band is shown in bp (base pair)
-
-The obtained nucleotide sequence was blasted in the NCBI GenBank database, the NPV polyhedrin gene was identified and the blastn algorithm indicated the significant homology with 29 NPV isolates. The blast results for the polyhedrin gene of HytaNPV-P (acc. no. KP027542) at the nucleotide level revealed the highest homology of 98% with the polyhedrin gene of HytaNPV (acc. no. JF510035), H. infixaria NPV (HyinNPV, acc. no. JF510036) and B. suppressaria NPV (BusuNPV, acc. no. JF510034) previously reported by Antony et al. (2011) and the lowest sequence identity of 79% was observed in Plusia orichalcea NPV (acc. no. AF019882). On comparing, the multiple-sequence alignment of nucleotide was generated with HytaNPV-P, HytaNPV, HyinNPV and BusuNPV of Indian and Chinese isolate (Fig. 3). In comparison with previously reported HytaNPV, it exhibited ten nucleotides changes (at 6, 12, 15, 36, 102, 174, 192, 513, 519 and 522 positions) throughout the DNA segment.Fig. 3Comparison of HytaNVP-P polyhedrin gene sequence (acc. no. KP027542) with the sequences of HytaNPV, HyinNPV, BusuNPV (Indian isolate) and BusuNPV (Chinese isolate). Positions containing different nucleotides are shaded
-
-Fig. 3
-
-Comparison of HytaNVP-P polyhedrin gene sequence (acc. no. KP027542) with the sequences of HytaNPV, HyinNPV, BusuNPV (Indian isolate) and BusuNPV (Chinese isolate). Positions containing different nucleotides are shaded
-
-The deduced amino acid sequence was compared to all other reported polyhedrins in the GenBank database, and HytaNPV-P polyhedrin (acc. no. AJN00735) showed 87–100% homology with other lepidopteran NPVs. The results showed 100% sequence homology with HytaNPV (acc. no. AEK86285), HyinNPV(acc. no. AEK86286) and BusuNPV (acc. no. AEK86284). In spite of the above similarities, it created 98% sequence identity with the Chinese isolate of BusuNPV (acc. no. YP009001778), 97% sequence identity with Ectropis obliqua NPV (EcobNPV, acc. no. YP874194; also reported from China), and Hemileuca sp. NPV (acc. no. YP008378217), and 95% sequence identity with Helicoverpa armigera NPV (acc. no. ABW06597) and Mamestra configurata NPV (acc. no. NP613084). The lowest sequence identity of 88% was observed with Bombyx mori polyhedrin (acc. no. NP047414). The multiple-sequence alignment for amino acid was also performed taking the same NPV isolates as described in nucleotide alignment (Fig. 4). There was no difference found with previously reported HytaNPV, HyinNPV and BusuNPV (Indian Isolate). A difference of three amino acids (at 87, 146 and 198 positions) was noticed with the BusuNPV of the Chinese isolate.Fig. 4Deduced amino acid sequence alignment of HytaNPV-P poyhedrin gene (acc. no. AJN00735) with HytaNPV (acc. no. AEK86285), HyinNPV (acc. no. AEK86286), BusuNPV (Indian isolate, acc. no. AEK86284) and BusuNPV (Chinese isolate, acc. no. YP009001778). Positions containing different amino acids are shaded
-
-Fig. 4
-
-Deduced amino acid sequence alignment of HytaNPV-P poyhedrin gene (acc. no. AJN00735) with HytaNPV (acc. no. AEK86285), HyinNPV (acc. no. AEK86286), BusuNPV (Indian isolate, acc. no. AEK86284) and BusuNPV (Chinese isolate, acc. no. YP009001778). Positions containing different amino acids are shaded
-
-Phylogenetic analysis
-
-Phylogenetic analysis of the polyhedrin gene was performed to find out the relationship between HytaNPV-P and other NPVs. The studied data were recognized in the NCBI taxonomy database as a HytaNPV which was referred here as HytaNPV-P. Phylogenetic analysis of the HytaNPV-P polyhedrin showed a high degree of relationship with a large number of published amino acid sequences. A neighbor-joining tree was generated from the amino acid sequences of 26 NPV polyhedrin genes. Phylogenetic analysis indicates that the NPV infecting the H. talaca species in the Terai region of India is closely related to HytaNPV, HyinNPV and BusuNPV of the Indian isolate and comes under the same clade (Fig. 5). This suggested that the collected virus-infected larvae from the Terai region were very likely infected by the same strain. It also appeared to have close relation with Chinese isolates of BusuNPV, supported by high bootstrap value. High protein sequence homology of the polyhedrin region of HytaNPV-P with BusuNPV (98%) of the Chinese isolate and phylogenetic analysis indicates that they are very closely related. Phylogenetic study clearly indicates that in India, a variant of Chinese isolate of BusuNPV infects the H. talaca.Fig. 5Phylogenetic analysis using the predicted amino acid residues from Hyposidra talaca NPV (HytaNPV-P) polyhedrin gene. The tree shows the relationship between HytaNPV-P and other NPVs. The tree was constructed by neighbor-joining algorithm using MEGA (v. 6.06). The branch numbers represent bootstrap probabilities of 1000 replicates. The scale bar represents 0.05 amino acid substitutions per site. The tree is rooted on the Bombyx mori NPV for comparison. Nodes with bootstrap value above 50% are shown. The analysis involved 26 NPV amino acid sequences; the position of HytaNPV-P polyhedrin is highlighted (in red diamond). All positions containing gaps and missing data were eliminated
-
-Fig. 5
-
-Phylogenetic analysis using the predicted amino acid residues from Hyposidra talaca NPV (HytaNPV-P) polyhedrin gene. The tree shows the relationship between HytaNPV-P and other NPVs. The tree was constructed by neighbor-joining algorithm using MEGA (v. 6.06). The branch numbers represent bootstrap probabilities of 1000 replicates. The scale bar represents 0.05 amino acid substitutions per site. The tree is rooted on the Bombyx mori NPV for comparison. Nodes with bootstrap value above 50% are shown. The analysis involved 26 NPV amino acid sequences; the position of HytaNPV-P polyhedrin is highlighted (in red diamond). All positions containing gaps and missing data were eliminated
-
-Bioassays
-
-LC50 and LT50 values were represented in Table 2 for the tested isolates. The mortality ranged from 84 to 22% and it is clear that H. talaca larvae were susceptible to the applied concentrations. The result showed that the second instar was most susceptible to SMB isolate with an LC50 of 8.15 × 104 POBs/ml. Larvae were also susceptible to infection with LC50 values of 3.87 × 105, 1.89 × 105 and 2.79 × 105 POBs/ml, for RJB, WSB and TLP isolates, respectively, within the same time frame. The results of the study reflected the dose-dependent mortality, with the rising dose of POBs, the larval mortality showed an increasing trend. Inoculated larvae started to die at second day post-infection. In untreated control, no mortality was found. The estimated LT50 values varied from 3.25 to 6.67 days. An instance, for highest concentration (1 × 108 POBs/ml) of the LT50 value of the WSB isolate was lowest at 3.25 days. When treated with the highest dose, the LT50 values were 3.5 days for the SMB isolate, 3.86 days for the RJB isolate and 3.89 days for the TLP isolate. On the other hand, the result also indicates a gradual increase in tolerance with lower concentration.Table 2Dose–mortality response of second instar Hyposidra talaca larvae on four geographic isolates of H. talaca nucleopolyhedrovirus (HytaNPV) within 7 days of inoculationHytaNPV isolateNo. of tested 2nd instar larvae (n)Concentration (POBs/ml)HytaNPV caused mortality (%)Slope ± SELC50 POBs/ml (95% confidence limits)Chi square (χ
-2)LT50 (days)SMB901 × 108
-840.332 ± 0.0358.15 × 104 (3.39 × 104–1.78 × 105)0.0973.50901 × 107
-774.27901 × 106
-635.14901 × 105
-516.67901 × 104
-38–901 × 103
-27–90Control0–RJB901 × 108
-770.297 ± 0.0343.87 × 105 (1.62 × 105–9.44 × 105)0.1083.86901 × 107
-674.80901 × 106
-535.80901 × 105
-43–901 × 104
-32–901 × 103
-22–90Control0–WSB901 × 108
-830.350 ± 0.0351.89 × 105 (8.73 × 104–3.99 × 105)0.3753.25901 × 107
-734.20901 × 106
-605.33901 × 105
-43–901 × 104
-33–901 × 103
-22–90Control0–TLP901 × 108
-780.300 ± 0.0342.79 × 105 (1.17 × 105–6.65 × 105)0.0813.89901 × 107
-694.75901 × 106
-565.86901 × 105
-45–901 × 104
-33–901 × 103
-23–90Control0–Dose–mortality distribution with corresponding LC50 and LT50 values; Slope represents regression derivation. Data fit probit model by χ
-2 test at α = 0.05, degree of freedom (df) = 5
-
-Table 2
-
-Dose–mortality response of second instar Hyposidra talaca larvae on four geographic isolates of H. talaca nucleopolyhedrovirus (HytaNPV) within 7 days of inoculation
-
-Dose–mortality distribution with corresponding LC50 and LT50 values; Slope represents regression derivation. Data fit probit model by χ
-2 test at α = 0.05, degree of freedom (df) = 5
 
 Discussion
 
@@ -153,13 +25,8 @@ H. talaca plays a leading role in reducing tea production throughout the north-e
 
 Phylogenetic studies have shown that HytaNPV-P, HytaNPV, HyinNPV and BusuNPV (Indian isolate) belong to same clade and the derived tree also encourages the fact that a variant of the Chinese isolate of BusuNPV (acc. no. YP009001778) infects the HytaNVP-P. However, full genome sequencing is necessary to confirm whether the HytaNPV-P altogether is a different virus or a different isolate of BusuNPV (China).
 
-After ingestion of polyhedral occlusion bodies by larvae, NPV virions reach the midgut and spread to cause infection (Petrik et al. 2003). The results showed the effectiveness of the application of isolated NPV through tea leaves. In the present study, the SMB isolate of the Terai region showed higher LC50 value for second instar than the previously reported value of 2.8 × 103 POBs/ml (from Terai region) by Mukhopadhyay et al. (2011). On the other hand, we found the RJB isolate (from Eastern Dooars), WSB isolate (from Western Dooars) and TLP isolate (from Central Dooars), which were respectively 5 times, 2.3 times and 3.4 times less active than the SMB isolate. The reasons for the variability may be the different geographic locations (Terai and Dooars) and differences in larval age (Payne et al. 1981) and feeding habit (Lacey et al. 2002). The number of virions per occlusion body and the host susceptibility differences to NPV (El-Salamouny et al. 2003) can be the other possible causes. However, for cross reference, there is no other report of bioassay available at this point for this particular tea pest. Stiles and Himmerich (1998) also observed higher LC50 of AcMNPV against second instar Heliothis zea (i.e., 6.38 × 105 POBs/ml). Second instar larvae of Spodoptera littoralis were also highly susceptible to the SpliMNPV at the higher concentration of 2 × 106 POBs/ml, which caused a high rate of mortality than the lower concentration (Sutanto et al. 2014).
+After ingestion of polyhedral occlusion bodies by larvae, NPV virions reach the midgut and spread to cause infection (Petrik et al. 2003). The results showed the effectiveness of the application of isolated NPV through tea leaves. In the present study, the SMB isolate of the Terai region showed higher LC50 value for second instar than the previously reported value of 2.8 × 103 POBs/ml (from Terai region) by Mukhopadhyay et al.. On the other hand, we found the RJB isolate (from Eastern Dooars), WSB isolate (from Western Dooars) and TLP isolate (from Central Dooars), which were respectively 5 times, 2.3 times and 3.4 times less active than the SMB isolate. The reasons for the variability may be the different geographic locations (Terai and Dooars) and differences in larval age (Payne et al. 1981) and feeding habit (Lacey et al. 2002). The number of virions per occlusion body and the host susceptibility differences to NPV (El-Salamouny et al. 2003) can be the other possible causes. However, for cross reference, there is no other report of bioassay available at this point for this particular tea pest. Stiles and Himmerich also observed higher LC50 of AcMNPV against second instar Heliothis zea (i.e., 6.38 × 105 POBs/ml). Second instar larvae of Spodoptera littoralis were also highly susceptible to the SpliMNPV at the higher concentration of 2 × 106 POBs/ml, which caused a high rate of mortality than the lower concentration (Sutanto et al. 2014).
 
 The virulence of baculoviruses is measured by the killing speed of the concerned virus to the insect host (Van-Beek and Hughes 1998) and is necessary to know the correct time for pest management programs. The highest inoculums of 108 POBs/ml of HytaNPV showed rapid killing speed with LT50 value of 3.25 to 3.89 days after treatment for four isolates. Lower concentrations take longer time to meet the same level of larval mortality.
 
 The result shows decreasing trend in mortality with the decreasing dosage. Although this relation between the rate of change in mortality with the lessening dosage is not directly proportional, as the dose decreases ten times the mortality rate is decreased well less than ten times. Previous studies also support this observation (Jankevica and Zarins 1999; Sajap et al. 2000; Sethuraman and Narayanan 2010; Mukhopadhyay et al. 2011; Sutanto et al. 2014). However, the regression result in Table 2 shows that a positive correlation exists between mortality and dosage, as all the slope values are positive and infinitesimal Chi squares signify that there is a good linear fit. Both the studies of LC50 and LT50 satisfied the insecticidal characteristics of HytaNPV. HytaNPV isolated from H. talaca is being developed as a biopesticide for the control of H. talaca.
-
-Conclusion
-
-In this paper, we described the cloning and sequencing of a highly conserved region of polyhedrin gene and the insecticidal activity of HytaNPV. The PCR study revealed the presence of the same viral strain throughout the north-eastern tea belt. The high degree of phylogenetic agreement between the studied and previously reported HytaNPV polyhedrin gene sequence also supports this inference. This is the first report of sequencing of HytaNPV polyhedrin gene from the Terai region. The availability of HytaNPV may help in biopesticide production. The obtained results of bioassays support the use of HytaNPV as a potent biological control agent and a competent alternative to chemical insecticides in integrated pest management (IPM). The aforementioned characterization of the newly isolated HytaNPV would provide better understanding of the molecular properties of this virus and be helpful in the development of HytaNPV as a biopesticide.
-

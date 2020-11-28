@@ -1,4 +1,3 @@
-Identification and quantification of novel RNA isoforms in horn cancer of Bos indicus by comprehensive RNA-Seq
 
 Abstract
 
@@ -7,6 +6,8 @@ Horn cancer (HC) is a squamous cell carcinoma of horn, commonly observed in Bos 
 Electronic supplementary material
 
 The online version of this article (doi:10.1007/s13205-016-0577-5) contains supplementary material, which is available to authorized users.
+
+
 
 Introduction
 
@@ -18,100 +19,7 @@ Amongst diverse type of changes present in the cancer, overrepresentation of abe
 
 Detailed investigation and understanding of complexity of AS events exhibited by cancer cells are very important as it provides important clues about structural and functional consequences of deregulated genes. Until recently, profound cost, limited coverage and sensitivity of the sequencing and microarray studies were hindering the global study of AS events in the cell; however, with advancement in the next-generation sequencing technologies now it is possible to do the same. Although, HC has been studied recently for detection of AS events, the information generated was on limited scale, with small size of dataset and analysis lacking RNA-Seq-specific pipeline (Patel et al. 2013). In the present study, we employed high-throughput pyro sequencing combined with Cufflinks workflow optimized for RNA-Seq to elucidate complexity of the AS in HC transcriptome. Here, we report AS events exhibited in HC and HN tissue and confirmed their significant association with HC by RT-qPCR.
 
-Materials and methods
 
-Tissue collection and RNA sequencing
-
-All experimental protocols were performed as per guidelines and approval of Institutional Animal Ethics Committee of the Anand Agricultural University (Permit Number 486). Detailed summary of methods employed for tissue collection and sequencing is described elsewhere (Jakhesara et al. 2013b). Briefly, after mRNA isolation from collected tissues of HC and HN, cDNA libraries were prepared and sequenced on GS FLX Titanium following manufacturer protocol (Roche Diagnostics, Switzerland).
-
-Mapping of RNA-Seq reads using GMAP
-
-After signal processing and trimming, available reads were aligned to the UCSC Bos taurus reference genome (build bosTau7) using GMAP v2012-06-06 (Wu and Watanabe 2005). Whenever required, we used SAM Tools v0.1.18 (Li et al. 2009) to convert SAM files to BAM file and vice versa. Mapping results were visualized using a local copy of the Integrative Genomics Viewer v 2.1.17 (Thorvaldsdottir et al. 2012) software available at http://www.broadinstitute.org/igv/.
-
-Transcript assembly using Cufflinks
-
-The read alignments from GMAP were processed by Cufflinks v2.0.0 (Trapnell et al. 2010) for assembly of the reads into transcripts; their abundance estimation and tests for differential expression between the cancer and normal tissue samples were performed using Cufflinks. Cufflinks also uses reference annotation-based transcript (RABT) assembly method (Roberts et al. 2011), to assemble against a known reference annotation to better identify novel transcripts. Cufflinks measures transcript abundances in Fragments Per Kilobase of exon per Million fragments mapped (FPKM), which is analogous to single-read “RPKM”. Cufflinks was run with default parameters for RABT assembly method.
-
-Comparison to reference annotation and differential analysis
-
-Once assembly of alignments of reads to transcripts is completed; the transcripts.gtf files from Cufflinks were used as input to Cuffcompare along with reference annotation file refFlat.gtf file downloaded from UCSC Genome Browser Database (build Btau7) (Dreszer et al. 2012). Combined.gtf file produced by Cuffcompare was provided as input to Cuffdiff along with alignment files produced by GMAP for differential analysis between two samples. Cuffcompare and Cuffdiff were run employing default parameters with refFlat.gtf file of Bos taurus genome Btau7 build for reference annotation.
-
-Functional analysis of gene isoforms
-
-The Database for Annotation, Visualization and Integrated Discovery (DAVID) v6.7 is a set of web-based functional annotation tools for functional clustering of genes (Huang et al. 2009). The functional clustering tool was used for functional enrichment of isoforms with significant differential expression. Gene ontology was selected for functional annotation with Fishers exact test at threshold value of 0.001. Similarly, pathway analysis is also performed with DAVID employing Fishers exact test at a threshold value of 0.01.
-
-Validation of potential novel splices isoforms
-
-The tracking file provided by Cuffcompare was used to infer splice isoforms unique to cancer by examining manually. The transcripts with class code j were selected for further evaluation. All novel isoforms detected by Cuffcompare were classified based on their uniqueness in case of HC, HN and present in both the cases. Further, these novel isoforms were subjected to pathway-based clustering using the highest classification stringency parameter in DAVID v6.7. From these, novel splice isoforms clustered under pathways associated with cancer were selected for further in silico verification with IGV for actual read support and BLAT program of UCSC genome browser for EST support. Transcripts assembled from the reads supporting these splice isoforms were translated into protein sequence for evaluation of protein change by comparison with reference protein sequence and loss of functional domain by blastp (Altschul et al. 1990). At last, fourteen transcripts showed novel splicing both by Cufflinks and UCSC genome browser and a significant change in protein sequence with loss of functional motif was confirmed by RT-PCR. The primers for RT-PCR were designed from exon–exon junction in such a way that it should flank the location of splice site change.
-
-Quantitative real-time PCR (qPCR)
-
-Four samples each of HC and HN were used to isolate total RNA and differential expression of fourteen novel splice isoforms was confirmed through RT-qPCR. The FASTA sequences of reads spanning each selected transcript were obtained from IGV and queried using web based tool Primer-BLAST (Ye et al. 2012) against Bos taurus reference transcriptome to check the specificity of primers to amplify only isoform transcripts. The expression level of novel splice isoforms was quantified by RT-qPCR analysis on ABI PRISM 7500 fast real-time PCR system (Applied Biosystems) using Quantifast SYBR Green PCR master mix (Qiagen). For PCR, all reactions were run in triplicate and cycle threshold (C
-T) values for target novel transcripts were normalized with endogenous reference gene RPLP0. The fold change between two conditions was calculated using the formula as described here:\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$${\text{Fold expression}} = 2^{{ - \Delta \Delta C_{\text{T}} }}$$\end{document}Fold expression=2-ΔΔCTwhere ΔC
-T is the average C
-T of target isoform − average C
-T of endogenous control (RPLP0), and ΔΔC
-T is the ΔC
-T of target sample (HC) – ΔC
-T of calibrator sample (HN).
-
-Results
-
-Deep sequencing of Bos indicus horn transcriptome
-
-To fully characterize and identify HC transcriptome, three technical replicates of HC and HN sample were processed for sequencing in three different runs. Thereafter, we pooled sequencing data from all three technical replicates of each sample for further analysis. As a result of sequencing, we obtained a total of 0.59 million and 0.92 million high-quality reads comprising 239 million and 372 million nucleotide bases for HN and HC tissue, respectively. The reads used for analysis are submitted to the bioProject NCBI and publically available with Accession number PRJNA353983. Raw sequenced reads were processed for quality filtering on the basis of quality score and homopolymer runs. After quality filtering, we retained 535,067 and 849,077 reads, respectively, for HN and HC, for further mapping and analysis of digital gene expression profiling. We used GMAP software package for alignment of sequencing sequenced reads against Bos taurus reference genome (bTau7). Approximately, 94.8 and 94.3% of reads were successfully mapped to reference consisting of 80.3 and 79.7% of uniquely mapped reads, respectively, for HC and HN. Detailed summary of mapping is described elsewhere (Jakhesara et al. 2013b).
-
-Differentially expressed gene isoforms
-
-In total, 13,020 known isoforms were detected in HC while 12,728 known isoforms were detected in HN. Amongst these, 2739 isoforms were detected only in HC, while 2447 isoforms were detected only in HN. In total, 1252 known isoforms were up-regulated, while 1543 down-regulated isoforms were observed with at least twofold difference in HC tissue in comparison to HN. Top ten up- and down-regulated isoforms with significant differential expression are presented in Fig. 1a. More extensive lists of all 130 gene isoforms with significant differential expression in HC are given in Table ST1. The fold change amongst top 50 up-regulated isoforms was from 11 to 2.7; while in case of down-regulated isoforms, it was −8 to −2.5-fold.Fig. 1Top 10 up-/down-regulated isoforms in horn cancer. a Top 10 up-/down-regulated isoforms with significant differential expression in HC. The differentially expressed isoforms in HC vs. those in normal tissue were determined by Cuffdiff. The fold change is the ratio of FPKM of these isoforms in HC to FPKM in normal tissue. The differentially expressed isoforms were ranked on their fold change and 10 isoforms with the highest or lowest fold changes are shown in the figure. b Top 10 up-/down-regulated novel splice variants in HC. The fold change is the ratio of FPKM of these isoforms in HC to FPKM in normal tissue. The novel splice variants were ranked on their fold change and 10 splice variants with the highest or lowest fold changes are shown here
-
-Fig. 1
-
-Top 10 up-/down-regulated isoforms in horn cancer. a Top 10 up-/down-regulated isoforms with significant differential expression in HC. The differentially expressed isoforms in HC vs. those in normal tissue were determined by Cuffdiff. The fold change is the ratio of FPKM of these isoforms in HC to FPKM in normal tissue. The differentially expressed isoforms were ranked on their fold change and 10 isoforms with the highest or lowest fold changes are shown in the figure. b Top 10 up-/down-regulated novel splice variants in HC. The fold change is the ratio of FPKM of these isoforms in HC to FPKM in normal tissue. The novel splice variants were ranked on their fold change and 10 splice variants with the highest or lowest fold changes are shown here
-
-Functional annotation of isoforms with significant differential expression
-
-All isoforms with differential expression were subjected to functional analyses for gene ontology and pathway analysis. The results revealed significant enrichment of cancer (9.63E−04) and colorectal cancer (5.80E−03) pathways. Gene ontology analyses also revealed enrichment of several biological processes at threshold of 0.001. Mainly, biological processes associated with angiogenesis, epithelial cell development and differentiation, cell proliferation and cell death were found to be enriched in differentially expressed genes. Table 1 shows list of biological processes and pathways enriched in differentially expressed isoforms.Table 1List of pathways and functional categories deregulated in isoforms with significant differential expression in HCPathwayTerm
-P value
-Pathways deregulated in HC
-KEGG_PATHWAYbta05200:Pathways in cancer9.63E−04KEGG_PATHWAYbta05210:Colorectal cancer5.80E−03KEGG_PATHWAYbta04010:MAPK signalling pathway2.26E−02KEGG_PATHWAYbta04610:Complement and coagulation cascades2.33E−02KEGG_PATHWAYbta00680:Methane metabolism5.11E−02
-Gene ontology categories deregulated in HC
-GOTERM_BP_FATGO:0001944~vasculature development1.39E−07GOTERM_BP_FATGO:0001568~blood vessel development1.21E−06GOTERM_BP_FATGO:0048514~blood vessel morphogenesis3.20E−06GOTERM_BP_FATGO:0001525~angiogenesis2.98E−05GOTERM_BP_FATGO:0008285~negative regulation of cell proliferation6.46E−05GOTERM_BP_FATGO:0060429~epithelium development1.02E−04GOTERM_MF_FATGO:0003700~transcription factor activity2.36E−04GOTERM_BP_FATGO:0035295~tube development2.73E−04GOTERM_BP_FATGO:0006357~regulation of transcription from RNA polymerase II promoter4.24E−04GOTERM_BP_FATGO:0010604~positive regulation of macromolecule metabolic process4.64E−04GOTERM_BP_FATGO:0030855~epithelial cell differentiation6.88E−04GOTERM_BP_FATGO:0008219~cell death7.15E−04GOTERM_BP_FATGO:0010628~positive regulation of gene expression7.84E−04GOTERM_BP_FATGO:0016265~death8.32E−04GOTERM_BP_FATGO:0009967~positive regulation of signal transduction9.19E−04
-
-Table 1
-
-List of pathways and functional categories deregulated in isoforms with significant differential expression in HC
-
-Novel splice isoforms and their validation
-
-Cuffcompare detected several transcripts with novel splicing and all detected transcripts were classified as intergenic, complete match, novel or unknown. A total of 4785 novel splice isoforms were detected by Cuffcompare, which included 2432 isoforms unique for HC, 2055 isoforms unique for HN and 298 splice isoforms were observed in both the conditions. Figure 1b shows top 10 novel up- and down-regulated splice isoforms in HC and HN sample.
-
-The large number of novel splice isoforms was found in the present study; hence, to select the events relevant to the cancer, KEGG pathway analyses and gene ontology analyses were performed. Splice isoforms uniquely present in HC and HN as well as common isoforms in both conditions were subjected to KEGG pathway analyses using DAVID tool employing highest sensitivity. As a result of this analysis, three clusters (cancer-related pathways, cardiomyopathy and amino acid metabolism) were found to be enriched in HC and HN. Based on this analysis and in silico verification with IGV, respectively, 42, 43 and 17 splice isoforms were selected for HC, HN and common to both conditions (Table ST2). Figure 2 shows representative image of one such novel splice isoform detected in FOS gene.Fig. 2Representative figure of typical novel splice variant identified in our study. Figure was reconstructed using images from IGV and UCSC genome browsers. At the top of the figure (blue peaks) coverage tracks from IGV genome viewer are shown, while the diagrammatic representation showing transcript structures for FOS gene was taken from UCSC genome browser after BLAT analysis of reads showing novel splice variation. Black blocks show exonic regions, while regions with arrows indicate intronic regions. ESTs supporting the splice variation are shown in red. The region marked with faint yellow block shows the exon with splice change
-
-Fig. 2
-
-Representative figure of typical novel splice variant identified in our study. Figure was reconstructed using images from IGV and UCSC genome browsers. At the top of the figure (blue peaks) coverage tracks from IGV genome viewer are shown, while the diagrammatic representation showing transcript structures for FOS gene was taken from UCSC genome browser after BLAT analysis of reads showing novel splice variation. Black blocks show exonic regions, while regions with arrows indicate intronic regions. ESTs supporting the splice variation are shown in red. The region marked with faint yellow block shows the exon with splice change
-
-All splice isoforms were evaluated with blastp for protein change and details are available as Table ST2. Finally, 14 transcripts (7 isoforms uniquely expressed in HC, 5 transcripts uniquely expressed in HN and 2 isoforms present in both) were selected for RT-qPCR verification based on isoforms showing frame shift, loss of active domain and association with cancer. Table 2 shows list of splice isoforms with type of variation selected for RT-qPCR. Primers designed from exon–exon junction for amplification of these reference and variant transcript are given in Table ST3.Table 2List of splice variants selected for validation along with type of variation and protein changeGeneAccession no. of reference geneEST supportType of variationChr.Protein changeFOSNM_182786.2YesAlternate 3′ splicing exon 210Premature stop codon after 104 aaMAPK9NM_001046369.1YesAlternate 5′ splicing exon 107Premature stop codon after 293 aaFGFR1NM_001110207.1NoSkipping of exon 2, alternate 3′ splicing exon 327Deletion of aa 31–117, loss of Ig1_FGFR domainFGFR2NM_001205310.1NoSkipping of exon 10–1326Deletion of aa 448–639, loss of PTKc_FGFR domainMFAP4NM_001080217.1Noskipping of exon 2–5, alternate 5′ splicing exon 619Premature stop codon after 157 aa, part of fibrinogen related domain lostHSP90AB1NM_001079637.1YesIntron retention between exon 7–823Premature stop codon after 380 aa, HSP90 domain lostRPS6KB1NM_205816.1NoAlternative 3′ splicing exon 719Premature stop codon after 234 aa, part of STKc domain lostCREBBPNM_001164022.1NoAlternate 3′ splicing exon 925Premature stop codon after 649 aa, Creb domain lostCRKNM_001192334.1YesNovel exon between 1–2, alternate 3′ splicing of exon 219Premature stop codon after 204 aa, SH3 domain lostPTPN6NM_001098017.1NoSkipping of exon 125Premature stop codon after 457 aa, part of PTPc domain lostPTPRUNM_001191494.1NoAlternate 5′ splicing exon 72Premature stop codon after 312 aa, several domains of fibronectine and PTPc are lostSUFUNM_001098083.2NoAlternate exon 1126Same size of protein with different terminal 52 aa, different C terminal domain than ref.FN1NM_001163778.1NoSkipping of exon 322Deletion of 1631–1720 aa without frame shiftFN1NM_001163778.1YesNovel exon 252Addition of 91 aa after position 1266 without frame shift
-
-Table 2
-
-List of splice variants selected for validation along with type of variation and protein change
-
-The expression profile of 14 novel splice events and the corresponding reference transcripts obtained with RT-qPCR is presented in Fig. 3. The RT-qPCR analysis of HC and HN tissue confirmed the expression of all reference as well as novel splice isoforms except FGFR2 isoform, which could not be amplified after repeated attempts on different samples. However, we found some discrepancies between RT-qPCR and RNA-Seq expression results. RT-qPCR revealed down-regulation of all the splice isoforms which were found to be up-regulated by RNA-Seq except MAPK9, while in case of down-regulated isoforms complete correlation was observed between RT-qPCR and RNA-Seq.Fig. 3RT-qPCR analysis of novel splicing events. RT-qPCR analysis of novel splicing events on multiple horn cancer samples. The relative expression of reference (a) and variant (b) isoforms of candidate genes was analysed in four horn cancer tissue samples relative to four normal horn tissues. Gene names indicated below are the columns for respective genes, where _R and _V following gene names indicate reference and variant isoforms, respectively. The logarithmic transformation of relative quantitation (log2RQ) of each candidate isoform in cancer tissues was plotted against their expression in normal tissue. Error bar indicates standard error of mean (SEM) of four biological replicates of HC or HN
-
-Fig. 3
-
-RT-qPCR analysis of novel splicing events. RT-qPCR analysis of novel splicing events on multiple horn cancer samples. The relative expression of reference (a) and variant (b) isoforms of candidate genes was analysed in four horn cancer tissue samples relative to four normal horn tissues. Gene names indicated below are the columns for respective genes, where _R and _V following gene names indicate reference and variant isoforms, respectively. The logarithmic transformation of relative quantitation (log2RQ) of each candidate isoform in cancer tissues was plotted against their expression in normal tissue. Error bar indicates standard error of mean (SEM) of four biological replicates of HC or HN
 
 Discussion
 
@@ -128,21 +36,3 @@ Our validation of selected novel splicing events revealed discrepancy in the exp
 Since horn cancer has been analysed previously for detection of novel splice variants (Patel et al. 2013), we sought to identify any differences or similarities between results, if any. Surprisingly, none of the previously identified and validated eight splice isoforms were detected in the present study. However, several reasons could be attributed for such an observation. As the previous study was a preliminary study involving small size of dataset without any quality filtering of the data, skipping of all the previous events identified is quite possible. Second, the present study identified and selected a set of novel splice isoforms whose probability of association with horn cancer is much more, as the events were identified in a logical and systematic way after enrichment of genes associated with horn cancer using GO analysis. Third, the software used for assembly (GS de novo assembler vs Cufflinks) and detection of splice events (Blat vs Cuffcompare) was different and it is important to note that full-length transcript assembly is very difficult, which is additionally complicated by artifacts in sample preparation, sequencing and read alignment. The above listed reasons and small-scale analysis without any type of selection criteria of previously generated dataset resulted in skipping of already identified novel splice isoforms. Nonetheless, the findings reported in the present study are absolutely novel and add to existing knowledge about splice isoforms in HC.
 
 The 14 novel splicing events selected for verification might be considered as biomarkers as their potential effect on cancer progression. Consistent down-regulation of both the reference and variant was found for FOS gene by RT-qPCR across four HC samples. Alternate 3′ splicing of exon2 in FOS resulted in premature stop codon just after position 104 aa culminating in loss of basic leucine zipper DNA-binding domain responsible for specific DNA binding. Although transcripts containing premature stop codon are subjected to nonsense-mediated decay (NMD), it has been studied that stress response elicited in tumour microenvironment leads to inhibition of NMD (Wang et al. 2011). Further studies are required to support such speculation and to study the effect of aberrant expression of this splice isoform on tumour progression. MAPK9 splice isoform which is a member of MAP kinase family of genes is also called as c-Jun N-terminal kinases (JNK2) involved in proliferation, differentiation, transcription regulation and development (Raciti et al. 2012). MAPK9 splice isoform exhibited premature stop codon after 293 aa and loss of domain responsible for serine/threonine kinase activity. We observed consistent up-regulation of both the reference and variant for MAPK9 gene by RT-qPCR across four HC samples. FGFR1 and FGFR2 are the members of the fibroblast growth factor receptor (FGFR) family of genes with a variety of roles in cancer (Holzmann et al. 2012). Splice variation in FGFR1 led to loss of IG1 domain which leads to activation of distinct signalling cascades (Zhang et al. 2006), while splice change observed in FGFR2 with loss of PTKc domain could not be validated with RT-PCR. Both the genes FGFR1 and FGFR2, reference and variant, were found to be down-regulated by RT-qPCR. MFAP4 encodes for bovine microfibril-associated protein with probable role in calcium-dependent cell adhesion or intercellular interactions. We also observed intron retention in HSP90AB1 transcript resulting in premature termination after 380 aa position. HSP90AB1 plays an important role in folding newly synthesized proteins or stabilizing and refolding denatured proteins after stress (Cheng et al. 2012). RPS6KB1 splice isoform is part of a protein kinase family involved in the regulation of cellular growth, insulin, and cellular energy. Overexpression of RPS6KB1 plays an important role in hepatocellular carcinoma (Li et al. 2012) and correlates with adverse prognosis. Similarly, CREBBP (Mullighan et al. 2011), CRK (Sriram and Birge 2010), PTPN6 and PTPRU (Hoekstra et al. 2012) genes which might play a probable role in cancer revealed premature termination with loss of domains related to function as shown in Table 2. SUFU gene encodes negative regulator of Hedgehog signalling pathway exhibiting signalling cascade that plays a role in pattern formation and cellular proliferation during development. The gene is not well studied in the bovine, but two isoforms with different c terminal have been reported in humans (Tostar et al. 2012). SUFU splice isoform identified in this study encodes for longer isoform with different C terminal than reference. FN1 encodes fibronectin, a glycoprotein present at the cell surface and in extracellular matrix and is involved in cell adhesion and migration processes including embryogenesis, wound healing, blood coagulation, host defense, and metastasis (Goossens et al. 2009). Splice variation of novel exon 25 and skipping of exon 32 revealed in this isoform and resulted in varying length of protein without frameshift. In total, we confirmed expression of these 13 novel splice isoforms, however it remains to be investigated whether these putative protein isoforms are indeed translated in to proteins and in turn functional consequences of these variations. Furthermore, we found an interesting aspect of our analysis of AS events in HC as majority of novel splice isoforms supported by ESTs reported in bovine foetus. This may be due to the activation of genes or isoforms taking part in the foetal development by carcinogenic genes. This observation is supported by an earlier study showing antigenic similarity between bovine horn cancer and foetal tissue (Kuchroo et al. 1979).
-
-Conclusion
-
-The results reported here are novel in terms of alternative splicing prevailing in HC and have potential implications for intervention of HC at molecular level. Herein, we reported and confirmed several novel splice isoforms differentially expressed in HC which might be useful as biomarkers to diagnose the HC at early stage. Rigorous and cautious filtering of several novel splice isoforms resulted in splice isoforms, most probably associated with HC. In summary, we have identified and validated fourteen putative novel isoforms which are significantly associated with HC and discussed their possible involvement in cancer progression. Further extensive follow-up analysis of novel splice isoforms found in this study might be useful in the development of prospective intervention strategies for HC. The results reported here might also be helpful to understand other cancers prevalent in other species and refine the available information on transcriptome repertoire of bovine species.
-
-Electronic supplementary material
-
-Below is the link to the electronic supplementary material.
-Supplementary material 1 (DOC 196 kb)
-Supplementary material 2 (DOC 167 kb)
-Supplementary material 3 (DOC 49 kb)
-
-Supplementary material 1 (DOC 196 kb)
-
-Supplementary material 2 (DOC 167 kb)
-
-Supplementary material 3 (DOC 49 kb)
-

@@ -1,4 +1,3 @@
-Towards Improved Pharmacokinetic Models for the Analysis of Transporter-Mediated Hepatic Disposition of Drug Molecules with Positron Emission Tomography
 
 Abstract
 
@@ -8,429 +7,42 @@ Electronic supplementary material
 
 The online version of this article (10.1208/s12248-019-0323-0) contains supplementary material, which is available to authorized users.
 
+
+
 INTRODUCTION
 
-The liver is the major organ responsible for the metabolism and excretion of xenobiotics. It expresses several different transport proteins belonging to the solute carrier (SLC) and ATP-binding cassette (ABC) families in both the blood-facing basolateral membrane and in the bile-facing canalicular membrane of hepatocytes. These transporters regulate the uptake and biliary secretion of drugs and their metabolites into and out of the hepatocytes and therefore play a key role in the clearance of drugs (1). In addition to drug metabolizing enzymes, transporters can be involved in drug-drug interactions (DDIs). For instance, co-administration of a drug which is a substrate and a drug which is an inhibitor of the same transporter(s) can lead to changes in the pharmacokinetics (PK) of the substrate drug making transporters a potential source of PK variability (2).
+The liver is the major organ responsible for the metabolism and excretion of xenobiotics. It expresses several different transport proteins belonging to the solute carrier (SLC) and ATP-binding cassette (ABC) families in both the blood-facing basolateral membrane and in the bile-facing canalicular membrane of hepatocytes. These transporters regulate the uptake and biliary secretion of drugs and their metabolites into and out of the hepatocytes and therefore play a key role in the clearance of drugs. In addition to drug metabolizing enzymes, transporters can be involved in drug-drug interactions (DDIs). For instance, co-administration of a drug which is a substrate and a drug which is an inhibitor of the same transporter(s) can lead to changes in the pharmacokinetics (PK) of the substrate drug making transporters a potential source of PK variability.
 
-The interaction of drugs with transporters and their potential to be involved in DDIs is commonly studied using in vitro assays in which, for instance, drug uptake in cell lines overexpressing particular transporters is compared to drug uptake in non-transporter overexpressing control cells. In cases in which in vitro data point to a risk for transporter-mediated DDIs, in vivo studies in healthy human volunteers may become necessary (3). Usually, transporter-mediated DDIs lead to changes in plasma PK and can be studied in vivo by monitoring plasma drug concentrations. However, in other cases, transporter inhibition can lead to pronounced changes in the drug tissue concentrations with a negligible effect on the plasma PK (1,4). In order to assess the influence of transporters on drug tissue distribution, a method to measure drug tissue concentration is needed. Yet, current approaches to determine drug concentration in tissues mostly involve invasive procedures, which are not applicable in humans (5,6).
+The interaction of drugs with transporters and their potential to be involved in DDIs is commonly studied using in vitro assays in which, for instance, drug uptake in cell lines overexpressing particular transporters is compared to drug uptake in non-transporter overexpressing control cells. In cases in which in vitro data point to a risk for transporter-mediated DDIs, in vivo studies in healthy human volunteers may become necessary. Usually, transporter-mediated DDIs lead to changes in plasma PK and can be studied in vivo by monitoring plasma drug concentrations. However, in other cases, transporter inhibition can lead to pronounced changes in the drug tissue concentrations with a negligible effect on the plasma PK. In order to assess the influence of transporters on drug tissue distribution, a method to measure drug tissue concentration is needed. Yet, current approaches to determine drug concentration in tissues mostly involve invasive procedures, which are not applicable in humans.
 
-Noninvasive nuclear imaging methods such as positron emission tomography (PET) or single photon emission computed tomography (SPECT) allow radiolabeled drug molecules in the body to be visualized and monitored, therewith facilitating the study of time-dependent changes in drug tissue concentrations. Accordingly, these imaging methods can be implemented to assess the role of drug transporter function in drug disposition (6,7). In order to fully exploit the potential of these noninvasive imaging approaches in the study of drug transporters, quantitative PK modeling approaches are required. PK modeling of PET data can provide quantitative parameters such as the exchange rate constants of radiolabeled drugs between plasma and tissue compartments, which can be directly related to the function of ABC and SLC transporters localized at blood-tissue interfaces. Whereas considerable knowledge exists with respect to the modeling of PET data in the brain (8–12), less effort has so far been dedicated to the kinetic modeling of PET data in other organs, such as the liver (13). In the case of kinetic modeling of the liver, the dual blood supply to the organ (i.e., by the hepatic artery and the portal vein, PV) is an important factor to be considered (14).
+Noninvasive nuclear imaging methods such as positron emission tomography (PET) or single photon emission computed tomography (SPECT) allow radiolabeled drug molecules in the body to be visualized and monitored, therewith facilitating the study of time-dependent changes in drug tissue concentrations. Accordingly, these imaging methods can be implemented to assess the role of drug transporter function in drug disposition. In order to fully exploit the potential of these noninvasive imaging approaches in the study of drug transporters, quantitative PK modeling approaches are required. PK modeling of PET data can provide quantitative parameters such as the exchange rate constants of radiolabeled drugs between plasma and tissue compartments, which can be directly related to the function of ABC and SLC transporters localized at blood-tissue interfaces. Whereas considerable knowledge exists with respect to the modeling of PET data in the brain (8–12), less effort has so far been dedicated to the kinetic modeling of PET data in other organs, such as the liver. In the case of kinetic modeling of the liver, the dual blood supply to the organ (i.e., by the hepatic artery and the portal vein, PV) is an important factor to be considered.
 
-Erlotinib is an epidermal growth factor receptor targeting tyrosine kinase inhibitor used to treat advanced or metastatic non-small cell lung cancer and pancreatic cancer (15). It is mainly excreted via the hepatobiliary route and is a substrate of several ABC and SLC transporters including breast cancer resistance protein (ABCG2), P-glycoprotein (ABCB1), organic anion transporter 3 (SLC22A8), organic cation transporter 2 (SLC22A2), and organic anion-transporting polypeptide 2B1 (SLCO2B1) (16–18). Erlotinib shows large inter-individual differences in its PK, which may be related to variability in membrane transporter function in the liver. We have shown before that PET with [11C]erlotinib can be used to study hepatic disposition of erlotinib in humans (18,19). In order to assess the influence of hepatocyte transporters on hepatobiliary excretion of [11C]erlotinib, we have previously followed two different approaches. In a first study, we assessed the effect of pre-treatment with an oral therapeutic dose of unlabeled erlotinib on the hepatic disposition of [11C]erlotinib (18). In a second study, we assessed the influence of pre-treatment with the prototypical SLCO transporter inhibitor rifampicin on hepatic disposition of [11C]erlotinib (19).
+Erlotinib is an epidermal growth factor receptor targeting tyrosine kinase inhibitor used to treat advanced or metastatic non-small cell lung cancer and pancreatic cancer. It is mainly excreted via the hepatobiliary route and is a substrate of several ABC and SLC transporters including breast cancer resistance protein (ABCG2), P-glycoprotein (ABCB1), organic anion transporter 3 (SLC22A8), organic cation transporter 2 (SLC22A2), and organic anion-transporting polypeptide 2B1 (SLCO2B1) (16–18). Erlotinib shows large inter-individual differences in its PK, which may be related to variability in membrane transporter function in the liver. We have shown before that PET with [11C]erlotinib can be used to study hepatic disposition of erlotinib in humans. In order to assess the influence of hepatocyte transporters on hepatobiliary excretion of [11C]erlotinib, we have previously followed two different approaches. In a first study, we assessed the effect of pre-treatment with an oral therapeutic dose of unlabeled erlotinib on the hepatic disposition of [11C]erlotinib. In a second study, we assessed the influence of pre-treatment with the prototypical SLCO transporter inhibitor rifampicin on hepatic disposition of [11C]erlotinib.
 
-In this study, we used these previously published human [11C]erlotinib PET data sets (18,19) to evaluate the suitability of different compartment models to describe and quantify the kinetics of [11C]erlotinib in the liver and the bile duct/gall bladder. Two different compartment models were assessed (a three-compartment and a four-compartment model) that account for the kinetics of different hepatobiliary sub-structures. We also studied the differences in the PK modeling of [11C]erlotinib in the hepatobiliary system with traditional modeling using only a sampled arterial input function (AIF) and when a dual input function (DIF), which takes the 75% contribution of the PV into account, was used as the model input. The ultimate goal of the study was to contribute to finding a generic liver PK model that can be potentially applied to describe the hepatic disposition of other radiolabeled drugs in humans to facilitate future use of PET in the study of membrane transporter function in the liver.
+In this study, we used these previously published human [11C]erlotinib PET data sets to evaluate the suitability of different compartment models to describe and quantify the kinetics of [11C]erlotinib in the liver and the bile duct/gall bladder. Two different compartment models were assessed (a three-compartment and a four-compartment model) that account for the kinetics of different hepatobiliary sub-structures. We also studied the differences in the PK modeling of [11C]erlotinib in the hepatobiliary system with traditional modeling using only a sampled arterial input function (AIF) and when a dual input function (DIF), which takes the 75% contribution of the PV into account, was used as the model input. The ultimate goal of the study was to contribute to finding a generic liver PK model that can be potentially applied to describe the hepatic disposition of other radiolabeled drugs in humans to facilitate future use of PET in the study of membrane transporter function in the liver.
 
-METHODS
 
-Data Sets
-
-Clinical data sets were previously published by Bauer et al. (18,19). Both clinical studies were registered under EUDRACT number 2015-001593-18 and were approved by the Ethics Committee of the Medical University of Vienna. Written consent was obtained from the study participants before their inclusion into the study.
-
-In both studies, healthy volunteers (n = 6 per study) underwent two dynamic [11C]erlotinib PET scans of the abdominal region. The time interval between the scans in both studies was approximately 7 days. In the first study, a baseline PET scan was followed by a second PET scan, which was conducted 3 h after oral intake of a 300-mg dose of unlabeled erlotinib. In the second study, a baseline PET scan was followed by a second PET scan, which was conducted following an i.v. infusion of a 600-mg dose of rifampicin, a prototypical SLCO transporter inhibitor, over 30 min. Radioactivity in the upper abdominal region was measured over 90 min. Blood samples were drawn from the radial artery in parallel to the PET imaging. The regions of interest (ROIs) of the liver and extrahepatic bile duct/gall bladder (eBD/GB) were outlined on individual MR to PET co-registered images using PMOD 3.6 (PMOD Technologies, Zurich, Switzerland). The liver ROI was drawn excluding large blood vessels and visible intrahepatic bile ducts. For the delineation of bile duct ROIs early PET images were used whereas the gall bladder was better identifiable on late images. The extracted concentration-time curves (in kBq/mL) were then used for the modeling.
-
-Liver Dual Input Function
-
-Usually, compartment models developed to analyze PET data include an AIF that describes the radiotracer kinetics in plasma or blood and that is measured by arterial sampling (20). However, the liver receives a dual blood supply (from the hepatic artery and the PV) and, in order to accurately describe the radiotracer concentration presented to the liver, it might be necessary to compute a dual input function (DIF) including both arterial and PV concentrations. Since the PV cannot be sampled in humans, it is assumed that a mathematical method, which has been previously validated in pigs (21), can be used for the computation of the PV input function. In this method, the radiotracer concentration in portal venous blood, CPV(t), is calculated as the convolution integral between the concentration in hepatic arterial blood, CHA(t), and the impulse-response function, h(t). The blood concentration in the hepatic artery is assumed to be the same as the concentration measured in the radial artery.1\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {C}_{\mathrm{PV}}(t)={\int}_0^th\left(t-\tau \right){C}_{\mathrm{HA}}\left(\tau \right) d\tau $$\end{document}CPV(t)=∫0th(t−τ)CHA(τ)dτ
-
-1
-
-The impulse-response function can be characterized by a single parameter β, which is radiotracer specific and determines the mean transit time for the passage of radiotracer from the intestinal arteries to the PV (22).2\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ h(t)=\frac{\beta }{{\left(\beta +t\right)}^2} $$\end{document}ht=ββ+t2
-
-2
-
-The total DIF into the liver can be calculated as3\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {C}_{\mathrm{in}}(t)={f}_{\mathrm{HA}}{C}_{\mathrm{HA}}(t)+{f}_{\mathrm{PV}}{C}_{\mathrm{PV}}(t) $$\end{document}Cint=fHACHAt+fPVCPVtwhere fHA (fixed at a value of 0.25) and fPV (fixed at a value of 0.75) are the hepatic artery and the PV flow fraction, respectively (23,24).
-
-3
-
-Pharmacokinetic Modeling
-
-Individual concentration-time curves for each subject were used to conduct the different compartment analyses using in-house software developed in MATLAB (R2018a, The MathWorks Inc.). Two different compartment models were implemented to analyze [11C]erlotinib disposition in the hepatobiliary system. These models assume that the radioactivity signals in the liver and the eBD/GB ROIs measured over the short duration of the PET scan (90 min) only represent unmetabolized [11C]erlotinib, which is supported by previous data in mice (25) and rats (26).
-
-Four-Compartment Model
-
-The four-compartment (4C) model (Fig. 1a) can be seen as an extension of the PET compartment model proposed by Ørntoft et al. (24) to quantify hepatobiliary secretion kinetics of the conjugated radiolabeled bile acid [11C]cholylsarcosine. While the model developed in (24) included secretion of the radiotracer out of the PET ROI, the 4C model presented in this work includes an additional compartment that represents the amount of radiotracer in the eBD/GB. The system of ordinary differential equations that describes the transfer of [11C]erlotinib between compartments is defined in terms of mass as follows:4\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \frac{d{X}_{\mathrm{hep}}}{dt}={k}_1{X}_{\mathrm{blood}}-\left({k}_2+{k}_3\right){X}_{\mathrm{hep}} $$\end{document}dXhepdt=k1Xblood−k2+k3Xhep5\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \frac{d{X}_{\mathrm{ih}}}{dt}={k}_3{X}_{\mathrm{hep}}-{k}_5{X}_{\mathrm{ih}} $$\end{document}dXihdt=k3Xhep−k5Xih6\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \frac{d{X}_{\mathrm{eBD}/\mathrm{GB}}}{dt}={k}_5{X}_{\mathrm{ih}} $$\end{document}dXeBD/GBdt=k5Xihwhere Xhep and Xih are the amount of radiotracer (kBq) in the hepatocytes and intrahepatic bile duct, respectively, and XeBD/GB corresponds to the amount of [11C]erlotinib in the extrahepatic bile duct and gall bladder region. k1 (min−1) and k2 (min−1) are the rate constants for transfer of [11C]erlotinib between blood and liver tissue, k3 (min−1) is the rate constant for transfer of radiotracer from liver into the intrahepatic bile duct, and k5 (min−1) is the rate constant defining the radiotracer transfer from the intrahepatic bile duct to the extrahepatic bile duct/gall bladder. Xblood is the amount of radiotracer in the blood that can be defined as7\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {X}_{\mathrm{blood}}(t)={V}_{\mathrm{blood}}{C}_{\mathrm{in}}(t) $$\end{document}Xbloodt=VbloodCintwhere Vblood (mL) is the volume of blood in the liver (0.25 mL of blood per mL of liver tissue) (24). Cin(t) is the concentration (kBq/mL) of radiotracer in blood used as an input function. Depending on how Cin(t) is defined, two different approaches are presented. The first approach includes an AIF, in which Cin(t) is equivalent to the sampled arterial blood concentration (CHA(t)). In the second proposed approach, Cin(t) is defined according to Eq. 3. The β parameter which defines the concentration in the PV (Eqs. 1 and 2) is included as a model parameter that needs to be estimated based on the AIF and the fitted liver and eBD/GB curves.Fig. 1Compartment models for describing hepatic [11C]erlotinib disposition. Xblood, Xliv, Xhep, Xih, and XeBD/GB represent the amount of [11C]erlotinib in the blood, liver tissue, hepatocyte compartment, intrahepatic bile duct, and compartment representing the extrahepatic bile duct and gall bladder, respectively. The rate constants defining the exchange of [11C]erlotinib between blood and liver tissue are defined by k1 (min−1) and k2 (min−1). a In the four-compartment model (4C model), k3 (min−1) is the rate constant describing transfer from liver tissue to the intrahepatic bile duct, and k5 (min−1) is the rate constant describing transfer from the intrahepatic bile duct to the extrahepatic bile duct and the gall bladder. This model is divided into two main regions of interest: the liver, composed of the blood, hepatocyte, and intrahepatic bile duct compartments; and the extrahepatic bile duct and gall bladder (eBD/GB), composed of the extrahepatic bile duct and gall bladder compartment. b In the three-compartment model (3C model), k3 (min−1) is the rate constant describing transfer from the liver to the extrahepatic bile duct and gall bladder. The 3C model is divided into two main regions of interest: the liver, composed of blood and liver tissue compartments; and eBD/GB, which is composed of the extrahepatic bile duct and gall bladder compartment
-
-4
-
-5
-
-6
-
-7
-
-Fig. 1
-
-Compartment models for describing hepatic [11C]erlotinib disposition. Xblood, Xliv, Xhep, Xih, and XeBD/GB represent the amount of [11C]erlotinib in the blood, liver tissue, hepatocyte compartment, intrahepatic bile duct, and compartment representing the extrahepatic bile duct and gall bladder, respectively. The rate constants defining the exchange of [11C]erlotinib between blood and liver tissue are defined by k1 (min−1) and k2 (min−1). a In the four-compartment model (4C model), k3 (min−1) is the rate constant describing transfer from liver tissue to the intrahepatic bile duct, and k5 (min−1) is the rate constant describing transfer from the intrahepatic bile duct to the extrahepatic bile duct and the gall bladder. This model is divided into two main regions of interest: the liver, composed of the blood, hepatocyte, and intrahepatic bile duct compartments; and the extrahepatic bile duct and gall bladder (eBD/GB), composed of the extrahepatic bile duct and gall bladder compartment. b In the three-compartment model (3C model), k3 (min−1) is the rate constant describing transfer from the liver to the extrahepatic bile duct and gall bladder. The 3C model is divided into two main regions of interest: the liver, composed of blood and liver tissue compartments; and eBD/GB, which is composed of the extrahepatic bile duct and gall bladder compartment
-
-Since the acquired PET data is in the form of radiotracer concentration in the ROI, the final model concentration must be computed. In this model, we considered two main ROIs: the liver and the eBD/GB. The total amount measured by PET in the ROI, Xliver,ROI(t), is the sum of the amounts present in the different sub-regions represented by the compartments (27):8\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {X}_{\mathrm{liver},\mathrm{ROI}}(t)={X}_{\mathrm{blood}}(t)+{X}_{\mathrm{hep}}(t)+{X}_{\mathrm{ih}}(t) $$\end{document}Xliver,ROIt=Xbloodt+Xhept+Xiht
-
-8
-
-Therefore, expressing the amount in terms of concentration, X(t) = VC(t), the final concentration in the liver can be calculated as9\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {V}_{\mathrm{liver}}{C}_{\mathrm{liver},\mathrm{ROI}}(t)={V}_{\mathrm{blood}}{C}_{\mathrm{in}}(t)+{X}_{\mathrm{hep}}(t)+{X}_{\mathrm{ih}}(t) $$\end{document}VliverCliver,ROIt=VbloodCint+Xhept+Xiht10\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {C}_{\mathrm{liver},\mathrm{ROI}}(t)=\frac{V_{\mathrm{blood}}}{V_{\mathrm{liver}}}{C}_{\mathrm{in}}(t)+\frac{1}{V_{\mathrm{liver}}}{X}_{\mathrm{hep}}(t)+\frac{1}{V_{\mathrm{liver}}}{X}_{\mathrm{ih}}(t) $$\end{document}Cliver,ROIt=VbloodVliverCint+1VliverXhept+1VliverXiht11\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {C}_{\mathrm{liver},\mathrm{ROI}}(t)={V}_{\mathrm{b}}{C}_{\mathrm{in}}(t)+\frac{X_{\mathrm{hep}}(t)+{X}_{\mathrm{ih}}(t)}{V_{\mathrm{liver}}} $$\end{document}Cliver,ROIt=VbCint+Xhept+XihtVliverwhere Vliver (mL) is the physiological volume of the liver which was calculated by a previously reported method (28). Vb is the fraction of blood in the liver, which was set to 0.25 based on literature (24), and Cin(t) is either the concentration in the hepatic artery or the DIF depending on the chosen approach.
-
-9
-
-10
-
-11
-
-The final concentration in the eBD/GB can be calculated as follows:12\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {C}_{\mathrm{eBD}/\mathrm{GB},\mathrm{ROI}}(t)=\frac{X_{\mathrm{eBD}/\mathrm{GB}}(t)}{V_{\mathrm{eBD}/\mathrm{GB}}} $$\end{document}CeBD/GB,ROIt=XeBD/GBtVeBD/GBwhere VeBD/GB is the volume of the extrahepatic bile duct and gall bladder region derived from the PET images. The hepatic uptake clearance (CLH,uptake, mL/min/kg of body weight) is calculated by multiplying the blood volume (Vblood) in the liver with the influx rate constant (k1), and dividing by the weight of the individual (wbody):13\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {\mathrm{CL}}_{\mathrm{H},\mathrm{uptake}}=\frac{k_1{V}_{\mathrm{blood}}}{w_{\mathrm{body}}} $$\end{document}CLH,uptake=k1Vbloodwbody
-
-12
-
-13
-
-The hepatic efflux clearance (CLH,efflux, mL/min/kg) can be calculated by multiplying the volume of the intrahepatic bile duct compartment (Vih, 0.0032 mL per mL of liver tissue) (24) with k5 and dividing by wbody:14\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {\mathrm{CL}}_{\mathrm{H},\mathrm{efflux}}=\frac{k_5{V}_{\mathrm{ih}}}{w_{\mathrm{body}}} $$\end{document}CLH,efflux=k5Vihwbody
-
-14
-
-Three-Compartment Model
-
-The three-compartment (3C) model (Fig. 1b) is a simplification of the 4C model in which the liver tissue is represented as a single compartment instead of being divided into hepatocytes and intrahepatic bile duct. This model was previously proposed to represent the distribution of [11C]erlotinib in the liver and eBD/GB in a similar approach (18), but instead of including an input function into the model, the concentration of radiotracer in the blood was solved for in the model as well as for the liver and eBD/GB data. The 3C model presented in this work is described by the following system of ordinary differential equations15\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \frac{d{X}_{\mathrm{liv}}}{dt}={k}_1{X}_{\mathrm{blood}}-\left({k}_2+{k}_3\right){X}_{\mathrm{liv}} $$\end{document}dXlivdt=k1Xblood−k2+k3Xliv16\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \frac{d{X}_{\mathrm{eBD}/\mathrm{GB}}}{dt}={k}_3{X}_{\mathrm{liv}} $$\end{document}dXeBD/GBdt=k3Xlivwhere Xliv is the amount of radiotracer (kBq) in the liver tissue and XeBD/GB corresponds to the amount of radiotracer in the extrahepatic bile duct and gall bladder. k1 (min−1) and k2 (min−1) are the rate constants defining the transfer of radiotracer between blood and liver tissue, and k3 (min−1) is the rate constant that defines the transfer from the liver to the extrahepatic bile duct and gall bladder. Xblood(t) (the amount of [11C]erlotinib in the blood) is defined by Eq. 5. The definition of Cin(t) will also determine whether the input function is simply an AIF or a DIF including both PV and hepatic artery concentrations (Eqs. 1–3).
-
-15
-
-16
-
-The total amount in the liver ROI is given as17\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {X}_{\mathrm{liv}\mathrm{er},\mathrm{ROI}}(t)={X}_{\mathrm{blood}}(t)+{X}_{\mathrm{liv}}(t) $$\end{document}Xliver,ROIt=Xbloodt+Xlivt
-
-17
-
-Therefore, representing the amount in terms of concentration18\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {V}_{\mathrm{liv}\mathrm{er}}{C}_{\mathrm{liv}\mathrm{er},\mathrm{ROI}}(t)={V}_{\mathrm{blood}}{C}_{\mathrm{in}}(t)+{X}_{\mathrm{liv}}(t) $$\end{document}VliverCliver,ROIt=VbloodCint+Xlivt19\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {C}_{\mathrm{liv}\mathrm{er},\mathrm{ROI}}(t)={V}_{\mathrm{b}}{C}_{\mathrm{in}}(t)+\frac{X_{\mathrm{liv}}(t)}{V_{\mathrm{liv}\mathrm{er}}} $$\end{document}Cliver,ROIt=VbCint+XlivtVliverwhere Vliver (mL) is the physiological volume of the liver, Vb is the fraction of blood in the liver (set to 0.25), and Cin(t) is either the concentration in the hepatic artery or the DIF depending on the chosen approach. The total concentration in the eBD/GB ROI is defined in Eq. 12. CLH,uptake (mL/min/kg) is calculated as described in Eq. 13. CLH,efflux (mL/min/kg) can be calculated by multiplying the volume of liver tissue (Vliv) with k3 and dividing by the weight of the subject (wbody):20\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ C{L}_{\mathrm{H},\mathrm{efflux}}=\frac{k_3{V}_{\mathrm{liv}}}{w_{\mathrm{body}}} $$\end{document}CLH,efflux=k3Vlivwbody
-
-18
-
-19
-
-20
-
-The kinetic parameters were estimated by weighted nonlinear least squares using MATLAB (lsqnonlin function). The β parameter was also included as a model parameter which was estimated based on the fits as well as on the DIF as defined in Eqs. 1–3. The goodness-of-fit was evaluated by visual inspection and Akaike’s Information Criterion (AIC) (29). The model with the smallest AIC was considered to be the most suitable to represent the radiotracer concentration-time profiles in the different tissues of interest:21\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \mathrm{AIC}=N\ln \left(\mathrm{WRSS}\right)+2P $$\end{document}AIC=NlnWRSS+2Pwhere N is the number of data points, P is the number of estimated parameters in the model and WRSS is the weighted residual sum of squares evaluated at the minimum:22\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \mathrm{WRSS}={\sum}_{j=1}^N{w}_j{\left[{C}_{\mathrm{obs}}\left({t}_j\right)-{C}_{\mathrm{model}}\left({t}_j\right)\right]}^2 $$\end{document}WRSS=∑j=1NwjCobstj−Cmodeltj2where tj is the time point, Cobs(tj) is the concentration observed in the PET scan versus time, and Cmodel is the concentration obtained with the model. wj is the weight of the jth data point defined as23\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {w}_j=\frac{\varDelta {t}_j}{C_{\mathrm{obs}}\left({t}_j\right)\ {e}^{-\lambda {t}_j}} $$\end{document}wj=ΔtjCobstje−λtjwhere ∆tj is the length of the PET measuring intervals, and λ is the decay constant defined by the half-life (t1/2) of the radionuclide (i.e., 20.4 min for 11C) (30,31):24\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \lambda =\frac{\ln (2)}{t_{1/2}} $$\end{document}λ=ln2t1/2
-
-21
-
-22
-
-23
-
-24
-
-Statistical Analysis
-
-Statistically significant differences in pharmacokinetic parameters between studies were assessed using two-tailed paired or unpaired t tests. Differences in the AIC values among models were analyzed by ordinary one-way ANOVA test. Pearson correlation coefficient r was calculated to assess correlations. Statistical analyses were performed in Prism 7.0 software (GraphPad Software, La Jolla, CA, USA). The level of statistical significance was set to a p value of less than 0.05. All values are given as mean ± standard deviation (SD).
-
-RESULTS
-
-Analysis of [11C]Erlotinib + Erlotinib Study
-
-Data from the six study participants who underwent two different PET scans was analyzed by the two different models developed by us. The first baseline scan consisted of an i.v. bolus injection of [11C]erlotinib, while the second scan included an oral administration of erlotinib (300 mg) at 3 h prior to the radiotracer injection (18).
-
-The model comparisons for each ROI in both scans (for the subject in whom the best fits were obtained) are depicted in Fig. 2. The model comparisons in the other five subjects are shown in the Supplemental Material (Supplemental Figs. 1–5). The goodness-of-fit was evaluated by visual inspection and AIC values. Visually, all models represented the radiotracer disposition in liver and eBD/GB over time reasonably well. However, the 4C model, which included a second liver tissue compartment representing the intrahepatic bile duct, improved the fits for the liver compartment in the second scan (Fig. 2c), and therefore, it more precisely represented the decrease in radiotracer concentration in the liver when unlabeled erlotinib was administered before the radiotracer. Although the 4C model provided slightly better fits for the eBD/GB region, fits did not considerably differ between models. Supplemental Table I shows the AIC values of the 3C and 4C models with either AIF or DIF, which vary among individuals. The AIC values did not show statistically significant differences in the performance of the different implemented models. However, slightly lower AIC values (indicating better goodness-of-fit) were observed for the models using the DIF. While the 3C model appeared to perform better in the baseline scan (mean AIC value, 3C model 249 ± 41; 4C model 262 ± 38), the 4C model provided lower AIC values for scan 2 (mean AIC value, 3C model 223 ± 42, 4C model 212 ± 38).Fig. 2Concentration-time profiles of observed data and model predictions in one individual (p12) for the [11C]erlotinib + erlotinib data set. Concentration-time profiles in the liver and extrahepatic bile duct/gall bladder in the baseline scan (a, b) and in the scan acquired after oral pre-treatment with unlabeled erlotinib (c, d). Observed data is represented with open black circles; modeled data is represented with colored lines (AIF, arterial input function; DIF, dual input function; 3C, three compartment; 4C, four compartment)
-
-Fig. 2
-
-Concentration-time profiles of observed data and model predictions in one individual (p12) for the [11C]erlotinib + erlotinib data set. Concentration-time profiles in the liver and extrahepatic bile duct/gall bladder in the baseline scan (a, b) and in the scan acquired after oral pre-treatment with unlabeled erlotinib (c, d). Observed data is represented with open black circles; modeled data is represented with colored lines (AIF, arterial input function; DIF, dual input function; 3C, three compartment; 4C, four compartment)
-
-Parameter estimates for the 3C models (using AIF and DIF) are shown in Table I while parameter estimates for the 4C models are shown in Table II. Numerical identifiability was satisfactory in all studies. Parameter precision (represented as percent coefficient of variation, %CV) was poor only for β, especially in the 4C model and in subjects p12 and p13 in the 3C model. Changes in model outcome parameters from scan 1 to scan 2 in all models are depicted in Fig. 3. The k1 estimates were significantly higher for the DIF than for the AIF approach in both the 3C and the 4C models. However, this parameter did not follow any consistent trend between scan 1 and scan 2 among models. The value of k1 was significantly increased between scans in the 3C model using AIF, while it was significantly reduced from scan 1 to scan 2 in the 4C model using DIF. The other two implemented models did not show any significant variation for the k1 value between scans. Furthermore, k2 was significantly increased from the baseline scan to the second scan in all described models. Even though the value of k3 decreased from scan 1 to scan 2 in all models, this change was only significant in the 3C model. k5 was not significantly altered between scans in the 4C models. Hepatic uptake and efflux clearances (CLH,uptake and CLH,efflux) were also calculated and values are given in Supplemental Table II. The changes in CLH,uptake from scan 1 to scan 2 were comparable to those for k1 (Supplemental Fig. 6). The CLH,efflux in the 3C model was significantly reduced from scan 1 to scan 2, while for the 4C model, there was no significant alteration of CLH,efflux between scans (Supplemental Fig. 7).Table IParameter Estimates of the 3C Model for the [11C]Erlotinib + Erlotinib Data SetSubjectArterial input functionaDual input functionbk1 (min−1)k2 (min−1)k3 (min−1)k1 (min−1)k2 (min−1)k3 (min−1)β (min)Baseline scan  p121.700 (2)0.001 (28)0.004 (1)4.207 (2)0.0001 (71)0.007 (1)0.899 (152)  p131.989 (4)0.032 (5)0.003 (2)4.501 (7)0.033 (7)0.004 (2)0.812 (272)  p141.599 (2)0.012 (4)0.005 (1)4.178 (3)0.011 (10)0.010 (1)0.801 (42)  p152.212 (2)0.010 (5)0.006 (1)4.683 (4)0.003 (13)0.006 (1)1.720 (57)  p241.888 (3)0.018 (4)0.002 (1)4.553 (5)0.017 (4)0.004 (1)1.753 (74)  p301.238 (2)0.010 (4)0.006 (1)3.124 (3)0.006 (6)0.010 (1)1.714 (22)  Mean ± SD1.771 ± 0.3390.016 ± 0.0090.004 ± 0.0024.208 ± 0.5670.012 ± 0.0120.007 ± 0.0031.283 ± 0.490Second scan (after oral erlotinib)  p122.201 (7)0.119 (7)0.004 (2)3.891 (7)0.070 (6)0.005 (2)0.805 (81)  p132.299 (14)0.150 (14)0.001 (3)3.349 (15)0.103 (15)0.002 (3)1.649 (58)  p141.978 (6)0.156 (6)0.004 (1)3.499 (4)0.100 (4)0.006 (1)0.799 (52)  p152.810 (11)0.201 (10)0.003 (2)3.394 (6)0.094 (6)0.005 (2)0.899 (47)  p242.600 (11)0.188 (10)0.001 (3)5.110 (10)0.180 (9)0.001 (3)1.558 (49)  p302.080 (11)0.137 (10)0.0001 (3)3.585 (7)0.092 (6)0.0002 (2)2.154 (53)  Mean ± SD2.328 ± 0.3190.159 ± 0.0310.002 ± 0.0023.805 ± 0.6680.107 ± 0.0380.003 ± 0.0021.311 ± 0.561Values in parentheses represent percent coefficient of variation (%CV) of the parameter (parameter precision), calculated as (SE(pi)/pi)100, where pi is the parameter estimate and SE is the asymptotic standard error of the mean of pi. k1 and k2 are the exchange rate constants between blood and liver tissue, and k3 is the rate constant describing transfer from the liver to the extrahepatic bile duct and gall bladder. β is the mean transit time for the passage of radiotracer from intestinal arteries to the portal veina3C model using the blood sampled from the radial artery as the model input function. β estimation is not necessary since portal vein concentration is not calculatedb3C model using the dual input (combination of hepatic artery and portal vein) as the model input functionTable IIParameter Estimates of the 4C Model for the [11C]Erlotinib + Erlotinib Data SetSubjectArterial input functionaDual input functionbk1 (min−1)k2 (min−1)k3 (min−1)k5 (min−1)k1 (min−1)k2 (min−1)k3 (min−1)k5 (min−1)β (min)Baseline scan  p123.000 (7)0.052 (16)0.088 (7)0.006 (1)4.748 (6)0.015 (45)0.103 (8)0.010 (1)0.827 (139)  p132.300 (8)0.050 (10)0.013 (10)0.007 (7)4.899 (13)0.050 (20)0.021 (13)0.008 (8)0.799 (172)  p142.102 (5)0.028 (8)0.010 (4)0.039 (9)4.038 (11)0.134 (36)0.339 (15)0.009 (1)2.152 (58)  p152.092 (13)0.089 (41)0.285 (21)0.008 (2)4.587 (21)0.113 (148)0.777 (43)0.007 (1)1.899 (36)  p242.686 (8)0.069 (13)0.028 (9)0.005 (4)5.000 (23)0.055 (44)0.050 (11)0.007 (3)1.807 (158)  p302.164 (5)0.070 (7)0.037 (8)0.011 (3)4.301 (17)0.139 (32)0.189 (16)0.012 (2)1.482 (164) Mean ± SD2.391 ± 0.3720.060 ± 0.0210.077 ± 0.1060.013 ± 0.0134.596 ± 0.3680.084 ± 0.0510.247 ± 0.2840.009 ± 0.0021.494 ± 0.570Second scan (after oral erlotinib)  p122.801 (9)0.160 (12)0.015 (9)0.015 (7)4.250 (12)0.133 (15)0.026 (7)0.018 (4)2.169 (55)  p131.907 (16)0.168 (19)0.009 (16)0.006 (12)3.439 (16)0.131 (21)0.012 (18)0.007 (13)0.787 (173)  p142.547 (9)0.249 (10)0.012 (5)0.021 (5)3.457 (12)0.164 (12)0.027 (5)0.022 (3)1.899 (45)  p152.205 (11)0.190 (14)0.012 (8)0.018 (7)3.956 (17)0.158 (14)0.022 (10)0.022 (8)1.889 (75)  p242.560 (13)0.189 (13)0.002 (17)0.016 (21)4.330 (18)0.150 (16)0.005 (12)0.011 (12)0.800 (85)  p302.606 (12)0.189 (12)0.002 (19)0.003 (18)4.000 (19)0.140 (17)0.006 (10)0.002 (8)1.050 (88) Mean ± SD2.438 ± 0.3230.191 ± 0.0310.009 ± 0.0060.013 ± 0.0073.905 ± 0.3820.146 ± 0.0140.016 ± 0.0100.014 ± 0.0081.432 ± 0.621Values in parentheses represent the precision of the parameter estimates (%CV). k1 and k2 are the exchange rate constants between blood and liver tissue, k3 is the transfer rate constant from liver tissue to the intrahepatic bile duct, and k5 is the transfer rate constant from the intrahepatic bile duct to the extrahepatic bile duct and gall bladder. β is the mean transit time for the passage of radiotracer from intestinal arteries to the portal veina4C model using the blood sampled from the radial artery as the model input function. β estimation is not necessary since portal vein concentration is not calculatedb4C model using the dual input (combination of hepatic artery and portal vein) as the model input functionFig. 3Changes in outcome parameters between the first and second scans for the [11C]erlotinib + erlotinib data set. k1, k2, k3, and k5 values obtained in individual subjects for each model in scan 1 and scan 2. ns, not significant; *p ≤ 0.05; **p ≤ 0.01; ***p ≤ 0.005; ****p ≤ 0.0001, two-tailed paired t test
-
-Table I
-
-Parameter Estimates of the 3C Model for the [11C]Erlotinib + Erlotinib Data Set
-
-Values in parentheses represent percent coefficient of variation (%CV) of the parameter (parameter precision), calculated as (SE(pi)/pi)100, where pi is the parameter estimate and SE is the asymptotic standard error of the mean of pi. k1 and k2 are the exchange rate constants between blood and liver tissue, and k3 is the rate constant describing transfer from the liver to the extrahepatic bile duct and gall bladder. β is the mean transit time for the passage of radiotracer from intestinal arteries to the portal vein
-
-a3C model using the blood sampled from the radial artery as the model input function. β estimation is not necessary since portal vein concentration is not calculated
-
-b3C model using the dual input (combination of hepatic artery and portal vein) as the model input function
-
-Table II
-
-Parameter Estimates of the 4C Model for the [11C]Erlotinib + Erlotinib Data Set
-
-Values in parentheses represent the precision of the parameter estimates (%CV). k1 and k2 are the exchange rate constants between blood and liver tissue, k3 is the transfer rate constant from liver tissue to the intrahepatic bile duct, and k5 is the transfer rate constant from the intrahepatic bile duct to the extrahepatic bile duct and gall bladder. β is the mean transit time for the passage of radiotracer from intestinal arteries to the portal vein
-
-a4C model using the blood sampled from the radial artery as the model input function. β estimation is not necessary since portal vein concentration is not calculated
-
-b4C model using the dual input (combination of hepatic artery and portal vein) as the model input function
-
-Fig. 3
-
-Changes in outcome parameters between the first and second scans for the [11C]erlotinib + erlotinib data set. k1, k2, k3, and k5 values obtained in individual subjects for each model in scan 1 and scan 2. ns, not significant; *p ≤ 0.05; **p ≤ 0.01; ***p ≤ 0.005; ****p ≤ 0.0001, two-tailed paired t test
-
-Analysis of [11C]Erlotinib + Rifampicin Study
-
-Six study participants underwent two [11C]erlotinib PET scans: a baseline scan and a second scan after i.v. infusion of rifampicin (19). Model comparisons for both ROIs in the baseline scan and the scan after rifampicin infusion (for the subject with the best fits) are depicted in Fig. 4. The model comparisons in the other five subjects are shown in the Supplemental Material (Supplemental Figs. 8–12). Visually, all models showed a good agreement between the observed and the fitted concentrations. The 4C model provided slightly better fits, especially for eBD/GB. The AIC values did not show significant differences between different models (Supplemental Table III). However, lowest AIC values, indicating best fits, were found for the 3C model using the AIF and the 4C model using the DIF in the first scan (mean AIC value for 3C/AIF model 272 ± 49, 3C/DIF model 315 ± 91, 4C/AIF model 283 ± 13, and 4C/DIF model 271 ± 36) and for the 3C model using AIF in the second scan (mean AIC value for 3C/AIF model 255 ± 28, 3C/DIF model 288 ± 38, 4C/AIF model 269 ± 25, and 4C/DIF model 265 ± 41).Fig. 4Concentration-time profiles of observed data and model predictions in one individual (p40) for the [11C]erlotinib + rifampicin data set. Concentration-time profiles in the liver and extrahepatic bile duct/gall bladder in the baseline scan (a, b) and in the scan acquired after i.v. administration of rifampicin (c, d). Observed data is represented with open black circles; modeled data is represented with colored lines (AIF, arterial input function; DIF, dual input function; 3C, three compartment; 4C, four compartment)
-
-Fig. 4
-
-Concentration-time profiles of observed data and model predictions in one individual (p40) for the [11C]erlotinib + rifampicin data set. Concentration-time profiles in the liver and extrahepatic bile duct/gall bladder in the baseline scan (a, b) and in the scan acquired after i.v. administration of rifampicin (c, d). Observed data is represented with open black circles; modeled data is represented with colored lines (AIF, arterial input function; DIF, dual input function; 3C, three compartment; 4C, four compartment)
-
-Parameter estimates for the 3C models using both AIF and DIF are shown in Table III and parameter estimates from the 4C models are shown in Table IV. Parameter precision (%CV) was poorer for k2 in the DIF model in some of the individuals for both the 3C and the 4C models. Changes in outcome parameters between scans are depicted in Fig. 5. The value of k1 showed a tendency for a moderate decrease from scan 1 to scan 2 in most individuals for all the implemented models, but statistical significance was not reached. No model showed significant changes for the k2 value from scan 1 to scan 2. The value of k3 was reduced from scan 1 to scan 2 in almost all subjects for all models. This reduction was, however, only significant in the 4C model with both AIF and DIF. k5 in the 4C model was not significantly altered between scan 1 and scan 2. The values for CLH,uptake and CLH,efflux are shown in Supplemental Table IV. There was a trend towards a decrease in CLH,uptake from scan 1 to scan 2 in all models (Supplemental Fig. 13), similar to the reduction in k1, but none of these changes were statistically significant. No significant changes were found for CLH,efflux in any of the implemented models (Supplemental Fig. 14).Table IIIParameter Estimates of the 3C Model for the [11C]Erlotinib + Rifampicin Data SetSubjectArterial input functionDual input functionk1 (min−1)k2 (min−1)k3 (min−1)k1 (min−1)k2 (min−1)k3 (min−1)β (min)Baseline scan  p371.000 (3)0.021 (4)0.004 (1)2.711 (8)0.023 (10)0.005 (1)2.170 (69)  p382.024 (2)0.020 (2)0.005 (1)4.202 (3)0.009 (10)0.008 (1)0.608 (49)  p391.346 (1)0.003 (10)0.008 (1)3.643 (5)0.002 (30)0.014 (1)0.802 (40)  p401.994 (1)0.001 (20)0.007 (1)4.456 (5)0.0002(277)0.007 (2)1.342 (84)  p412.471 (1)0.010 (3)0.007 (1)4.639 (5)0.001 (101)0.009 (1)0.758 (44)  p421.485 (4)0.010 (13)0.010 (3)4.008 (7)0.007 (28)0.015 (5)0.800 (138)  Mean ± SD1.720 ± 0.5380.011 ± 0.0080.007 ± 0.0023.943 ± 0.6970.007 ± 0.0090.010 ± 0.0041.080 ± 0.590Second scan (after i.v. rifampicin)  p371.037 (2)0.018 (4)0.008 (1)2.304 (3)0.010 (9)0.012 (1)2.122 (41)  p381.082 (2)0.014 (4)0.002 (1)2.589 (3)0.015 (5)0.004 (1)0.823 (74)  p391.227 (3)0.020 (4)0.006 (1)2.715 (3)0.013 (9)0.010 (2)0.758 (56)  p402.016 (1)0.012 (3)0.003 (1)4.422 (1)0.009 (5)0.004 (1)0.797 (28)  p412.305 (1)0.007 (6)0.011 (1)4.781 (3)0.001 (76)0.012 (1)0.601 (69)  p421.197 (2)0.012 (6)0.009 (1)2.462 (5)0.005 (24)0.012 (2)0.727 (73)  Mean ± SD1.477 ± 0.5420.014 ± 0.0050.007 ± 0.0043.212 ± 1.0910.009 ± 0.0050.009 ± 0.0040.971 ± 0.569For legend to this table, see Table I legendTable IVParameter Estimates of the 4C Model for the [11C]Erlotinib + Rifampicin Data SetSubjectArterial input functionDual input functionk1 (min−1)k2 (min−1)k3 (min−1)k5 (min−1)k1 (min−1)k2 (min−1)k3 (min−1)k5 (min−1)β (min)Baseline scan  p372.100 (11)0.150 (14)0.035 (10)0.008 (4)3.463 (12)0.102 (18)0.076 (12)0.011 (2)0.879 (59)  p382.339 (7)0.072 (9)0.057 (9)0.009 (2)3.579 (6)0.083 (57)0.724 (21)0.009 (1)1.755 (54)  p392.264 (7)0.075 (8)0.066 (10)0.016 (3)3.378 (1)0.023 (16)0.759 (16)0.014 (1)1.157 (25)  p401.821 (2)0.002 (78)0.074 (6)0.009 (1)5.091 (2)0.006 (69)1.172 (29)0.010 (2)0.839 (60)  p412.501 (6)0.050 (18)0.100 (7)0.009 (1)4.371 (3)0.0003(21)0.622 (18)0.010 (1)1.708 (90)  p421.211 (7)0.001(342)0.044 (17)0.027 (10)3.376 (18)0.061(184)0.603 (37)0.014 (2)1.678 (60) Mean ± SD2.039 ± 0.4670.058 ± 0.0560.063 ± 0.0230.013 ± 0.0083.876 ± 0.7040.046 ± 0.0420.659 ± 0.3530.011 ± 0.0021.336 ± 0.429Second scan (after i.v. rifampicin)  p371.700 (4)0.069 (7)0.025 (7)0.029 (7)2.250 (26)0.016 (61)0.036 (26)0.029 (23)2.17 (106)  p381.062 (5)0.035 (6)0.029 (8)0.007 (4)2.752 (8)0.043 (17)0.046 (7)0.008 (2)1.626 (82)  p391.527 (6)0.059 (11)0.036 (9)0.014 (4)2.700 (4)0.027 (24)0.062 (17)0.020 (7)1.614 (92)  p401.770 (2)0.008 (6)0.003 (1)0.224 (9)4.399 (3)0.008 (7)0.004 (1)0.179 (7)1.993 (75)  p412.251 (5)0.015 (35)0.096 (7)0.015 (2)4.641 (4)0.001 (27)0.464 (20)0.012 (1)2.168 (93)  p421.135 (3)0.008 (14)0.014 (2)0.180 (14)3.452 (18)0.150 (52)0.408 (25)0.021 (2)2.167(143) Mean ± SD1.574 ± 0.4400.032 ± 0.0270.034 ± 0.0330.078 ± 0.0973.366 ± 0.9760.041 ± 0.0560.170 ± 0.2080.045 ± 0.0661.956 ± 0.269For legend to this table, see Table II legendFig. 5Changes in outcome parameters between the first and second scans for the [11C]erlotinib + rifampicin data set. k1, k2, k3, and k5 values obtained in individual subjects for each model in scan 1 and scan 2. ns, not significant; *p ≤ 0.05, two-tailed paired t test
-
-Table III
-
-Parameter Estimates of the 3C Model for the [11C]Erlotinib + Rifampicin Data Set
-
-For legend to this table, see Table I legend
-
-Table IV
-
-Parameter Estimates of the 4C Model for the [11C]Erlotinib + Rifampicin Data Set
-
-For legend to this table, see Table II legend
-
-Fig. 5
-
-Changes in outcome parameters between the first and second scans for the [11C]erlotinib + rifampicin data set. k1, k2, k3, and k5 values obtained in individual subjects for each model in scan 1 and scan 2. ns, not significant; *p ≤ 0.05, two-tailed paired t test
 
 DISCUSSION
 
-To advance the applicability of PET imaging as an upcoming tool in the study of hepatic transporter function, we evaluated different compartment modeling approaches for the analysis of previously acquired human PET data with [11C]erlotinib (18,19), which we considered as a small-molecule drug model, which undergoes transporter-mediated hepatobiliary excretion.
+To advance the applicability of PET imaging as an upcoming tool in the study of hepatic transporter function, we evaluated different compartment modeling approaches for the analysis of previously acquired human PET data with [11C]erlotinib, which we considered as a small-molecule drug model, which undergoes transporter-mediated hepatobiliary excretion.
 
-Traditional PET PK models are based on physiologically based pharmacokinetic models, in which the compartments correspond to predefined organs or tissues interconnected by blood flow, lymph flow, or other biochemical fluxes (32). Typically, the input of the system in PET kinetic modeling is a directly measured arterial blood or plasma curve (radioactivity in the blood/plasma as a function of time) termed AIF (11). Even though the blood is a physical compartment, it is typically not a mathematical compartment in PET kinetic models since it is a directly measured curve rather than being solved for (11).
+Traditional PET PK models are based on physiologically based pharmacokinetic models, in which the compartments correspond to predefined organs or tissues interconnected by blood flow, lymph flow, or other biochemical fluxes. Typically, the input of the system in PET kinetic modeling is a directly measured arterial blood or plasma curve (radioactivity in the blood/plasma as a function of time) termed AIF. Even though the blood is a physical compartment, it is typically not a mathematical compartment in PET kinetic models since it is a directly measured curve rather than being solved for.
 
-The liver receives blood from the hepatic artery (~ 25%) from which it acquires oxygenated blood, and from the PV (~ 75%) that provides deoxygenated blood containing newly absorbed nutrients, drugs, and, occasionally, toxins from the gastrointestinal tract (33). Thus, considering only AIF as a source of radioactivity to a liver PK model might not be accurate. Since direct blood sampling from the PV is not feasible in humans, several previous modeling approaches have applied image-derived PV blood curves (34–36). However, this approach is prone to imaging artifacts such as partial volume effects or respiratory motion, which are challenging to correct for and which may affect the accuracy of the model-derived parameter estimates (37). Therefore, we evaluated in our study an approach which relied on a mathematically derived DIF obtained from the sampled AIF (21,24,38). The estimated DIF was computed as a combination of the AIF and the PV contribution to the liver blood supply. The mathematical model used to obtain the PV concentration as a function of time was previously validated in pigs for other radiotracers (22). The β parameter that allowed the computation of the concentration in the PV (Eqs. 1 and 2) is radiotracer specific and can be experimentally determined if blood samples from the PV and from an artery are obtained. A high β value means loss of radiotracer in the intestine which may be due to transporter-mediated active secretion into the intestinal lumen, resulting in a low PV input function as compared to the AIF (Supplemental Fig. 15). On the other hand, a low β value would mean no or little loss of radiotracer in the intestinal lumen and comparable peaks of the PV and the AIF (22).
+The liver receives blood from the hepatic artery (~ 25%) from which it acquires oxygenated blood, and from the PV (~ 75%) that provides deoxygenated blood containing newly absorbed nutrients, drugs, and, occasionally, toxins from the gastrointestinal tract. Thus, considering only AIF as a source of radioactivity to a liver PK model might not be accurate. Since direct blood sampling from the PV is not feasible in humans, several previous modeling approaches have applied image-derived PV blood curves (34–36). However, this approach is prone to imaging artifacts such as partial volume effects or respiratory motion, which are challenging to correct for and which may affect the accuracy of the model-derived parameter estimates. Therefore, we evaluated in our study an approach which relied on a mathematically derived DIF obtained from the sampled AIF. The estimated DIF was computed as a combination of the AIF and the PV contribution to the liver blood supply. The mathematical model used to obtain the PV concentration as a function of time was previously validated in pigs for other radiotracers. The β parameter that allowed the computation of the concentration in the PV (Eqs. 1 and 2) is radiotracer specific and can be experimentally determined if blood samples from the PV and from an artery are obtained. A high β value means loss of radiotracer in the intestine which may be due to transporter-mediated active secretion into the intestinal lumen, resulting in a low PV input function as compared to the AIF (Supplemental Fig. 15). On the other hand, a low β value would mean no or little loss of radiotracer in the intestinal lumen and comparable peaks of the PV and the AIF.
 
-In previous studies with the radiolabeled conjugated bile acid [11C]cholylsarcosine, the β value was derived from studies in pigs, in which the PV blood curve was directly sampled, and then applied to the analysis of the human data, under the assumption that the β value does not differ between humans and pigs for this radiotracer (21,24). As for [11C]erlotinib no β value was available from experiments in pigs, we introduced β as a model parameter to be estimated, similar to the approach by Winterdahl et al. (22). However, our results showed high inter-individual variability of the β parameter as well as a large %CV (Tables I, II, III, and IV) indicating that its estimation might not be accurate. Our β estimates ranged from 0.6 to 2.2 min which was in comparable range to previously described radiotracers in pigs ([11C]methylglucose, 2-[18F]fluoro-2-deoxy-d-galactose, [15O]water), which showed some degree of loss upon intestinal passage (22). In fact, in the case of [11C]erlotinib, active intestinal secretion may be mediated by ABCG2 and ABCB1 located in the luminal membrane of the intestinal epithelial cells. These assumptions are supported by previous data published by Bauer et al. (18), which showed a reduction in the intestinal concentration of radioactivity in the PET scan performed after oral pre-treatment with unlabeled erlotinib presumably due to partial saturation of ABCG2/ABCB1-mediated intestinal secretion of [11C]erlotinib. However, as our β estimates were not very reliable, no firm conclusions can be drawn regarding changes in β values between scans. Interestingly, the fitting results (see Figs. 2 and 4) did not present any substantial improvements for the implementation of the DIF as compared with the use of only the AIF. Nevertheless, slightly lower AIC values were obtained when implementing the mathematically derived DIF for most of the individuals, which indicated that the DIF represented more accurately the true liver input function. The fact that the PV input function has a considerably lower peak than the AIF (Supplemental Fig. 15) resulted in an increase of k1 estimates from the AIF to the DIF approach (Tables I, II, III, and IV). However, as we were not able to directly obtain the PV input function in humans to experimentally validate the mathematically derived DIF, using the AIF as the model input may serve as a valid alternative to represent the hepatic disposition of [11C]erlotinib. In this way, uncertainties in the model results arising from the β parameter can be avoided. However, depending on the characteristics of the radiotracer, inclusion of the DIF might be essential in order to obtain accurate model fits. Therefore, future efforts should be directed towards improved measurement of image-derived PV input functions in humans.
+In previous studies with the radiolabeled conjugated bile acid [11C]cholylsarcosine, the β value was derived from studies in pigs, in which the PV blood curve was directly sampled, and then applied to the analysis of the human data, under the assumption that the β value does not differ between humans and pigs for this radiotracer. As for [11C]erlotinib no β value was available from experiments in pigs, we introduced β as a model parameter to be estimated, similar to the approach by Winterdahl et al.. However, our results showed high inter-individual variability of the β parameter as well as a large %CV (Tables I, II, III, and IV) indicating that its estimation might not be accurate. Our β estimates ranged from 0.6 to 2.2 min which was in comparable range to previously described radiotracers in pigs ([11C]methylglucose, 2-[18F]fluoro-2-deoxy-d-galactose, [15O]water), which showed some degree of loss upon intestinal passage. In fact, in the case of [11C]erlotinib, active intestinal secretion may be mediated by ABCG2 and ABCB1 located in the luminal membrane of the intestinal epithelial cells. These assumptions are supported by previous data published by Bauer et al., which showed a reduction in the intestinal concentration of radioactivity in the PET scan performed after oral pre-treatment with unlabeled erlotinib presumably due to partial saturation of ABCG2/ABCB1-mediated intestinal secretion of [11C]erlotinib. However, as our β estimates were not very reliable, no firm conclusions can be drawn regarding changes in β values between scans. Interestingly, the fitting results (see Figs. 2 and 4) did not present any substantial improvements for the implementation of the DIF as compared with the use of only the AIF. Nevertheless, slightly lower AIC values were obtained when implementing the mathematically derived DIF for most of the individuals, which indicated that the DIF represented more accurately the true liver input function. The fact that the PV input function has a considerably lower peak than the AIF (Supplemental Fig. 15) resulted in an increase of k1 estimates from the AIF to the DIF approach (Tables I, II, III, and IV). However, as we were not able to directly obtain the PV input function in humans to experimentally validate the mathematically derived DIF, using the AIF as the model input may serve as a valid alternative to represent the hepatic disposition of [11C]erlotinib. In this way, uncertainties in the model results arising from the β parameter can be avoided. However, depending on the characteristics of the radiotracer, inclusion of the DIF might be essential in order to obtain accurate model fits. Therefore, future efforts should be directed towards improved measurement of image-derived PV input functions in humans.
 
-In addition to the model input function, kinetic models for PET typically involve one or two compartments that describe the kinetics of the radiotracer in the tissue of interest (11). The one-tissue compartment model (two-compartment) describes the bidirectional flux of radiotracer between blood and tissue, while the two-tissue compartment model (three-compartment) includes a second tissue compartment that represents additional binding and/or metabolism of the radiotracer inside the tissue. In our study, we assumed that no metabolism of [11C]erlotinib occurred over the short duration of the PET scan, so that the model represented the exchange of unmetabolized radiotracer between different compartments. This assumption was supported by previous data in humans showing that the majority of radioactivity in plasma (> 95% at all studied time points) was found to be composed of unmetabolized [11C]erlotinib both for baseline PET scans and for PET scans acquired after administration of unlabeled erlotinib or rifampicin (18,19). Moreover, in mice and rats, chromatographic analysis revealed that the majority of radioactivity in liver tissue homogenate (approximately 60% in mice at 25 min after radiotracer injection and approximately 96% in rats at 15 min after radiotracer injection) represented unchanged [11C]erlotinib (25,26). The models developed in this work included an additional compartment that did represent not only the state of the radiotracer in the liver but also its secretion into the extrahepatic bile duct and gall bladder. Two models were employed in this study: a 4C model (three tissue compartments, Fig. 1a) and a 3C model (two tissue compartments, Fig. 1b). In the 4C model, the intrahepatic bile duct and the eBD/GB were considered as distinct compartments with rate constants describing the transfer of radiotracer from the liver into the intrahepatic bile duct (k3) and from the latter into the eBD/GB (k5). The radiotracer PK in eBD/GB was directly measured in the PET scans and therefore included into the model analysis, while the intrahepatic bile ducts represented a compartment that was not directly visible in the PET scans. The transporter-mediated secretion of [11C]erlotinib into bile as mediated by canalicular hepatocyte ABC transporters should therefore be primarily reflected by the k3 parameter. On the other hand, in the 3C model, the liver compartment and the intrahepatic bile duct compartment were lumped together, so that the k3 parameter mainly reflected the transfer of radiotracer from the hepatocytes into the eBD/GB.
+In addition to the model input function, kinetic models for PET typically involve one or two compartments that describe the kinetics of the radiotracer in the tissue of interest. The one-tissue compartment model (two-compartment) describes the bidirectional flux of radiotracer between blood and tissue, while the two-tissue compartment model (three-compartment) includes a second tissue compartment that represents additional binding and/or metabolism of the radiotracer inside the tissue. In our study, we assumed that no metabolism of [11C]erlotinib occurred over the short duration of the PET scan, so that the model represented the exchange of unmetabolized radiotracer between different compartments. This assumption was supported by previous data in humans showing that the majority of radioactivity in plasma (> 95% at all studied time points) was found to be composed of unmetabolized [11C]erlotinib both for baseline PET scans and for PET scans acquired after administration of unlabeled erlotinib or rifampicin. Moreover, in mice and rats, chromatographic analysis revealed that the majority of radioactivity in liver tissue homogenate (approximately 60% in mice at 25 min after radiotracer injection and approximately 96% in rats at 15 min after radiotracer injection) represented unchanged [11C]erlotinib. The models developed in this work included an additional compartment that did represent not only the state of the radiotracer in the liver but also its secretion into the extrahepatic bile duct and gall bladder. Two models were employed in this study: a 4C model (three tissue compartments, Fig. 1a) and a 3C model (two tissue compartments, Fig. 1b). In the 4C model, the intrahepatic bile duct and the eBD/GB were considered as distinct compartments with rate constants describing the transfer of radiotracer from the liver into the intrahepatic bile duct (k3) and from the latter into the eBD/GB (k5). The radiotracer PK in eBD/GB was directly measured in the PET scans and therefore included into the model analysis, while the intrahepatic bile ducts represented a compartment that was not directly visible in the PET scans. The transporter-mediated secretion of [11C]erlotinib into bile as mediated by canalicular hepatocyte ABC transporters should therefore be primarily reflected by the k3 parameter. On the other hand, in the 3C model, the liver compartment and the intrahepatic bile duct compartment were lumped together, so that the k3 parameter mainly reflected the transfer of radiotracer from the hepatocytes into the eBD/GB.
 
-The [11C]erlotinib + erlotinib PET data analyzed in this study have already been kinetically evaluated utilizing another 3C model, which did not provide satisfactory fits of the liver and eBD/GB data (18). In contrast to this, our results showed that both employed models could appropriately represent the radiotracer kinetics in the liver and in the eBD/GB. However, the 4C model better represented the decrease in liver distribution of radiotracer in scan 2, in which [11C]erlotinib was administered after oral pre-treatment with unlabeled erlotinib. Previously conducted in vitro transport studies demonstrated that SLCO2B1 is a high-affinity, low-capacity transporter of [11C]erlotinib (18). This led to the suggestion that hepatic SLCO2B1 contributed, next to passive diffusion, to uptake of [11C]erlotinib from the blood into the liver as reflected by a decrease in the liver-to-blood ratio of [11C]erlotinib when an oral therapeutic dose of unlabeled erlotinib was given before the PET scan (18). Counterintuitively, the previous kinetic analysis had shown that the decrease in liver concentrations observed in scan 2 was reflected by an increase in k2, rather than by a decrease in k1, as would be expected from saturation of a hepatic uptake transporter. The lack of a k1 reduction in scan 2 has been explained in a way that initial liver uptake of [11C]erlotinib was mainly mediated by passive diffusion with only a small contribution by SLCO2B1. It has been hypothesized that the increase in k2 was caused by saturation of SLCO2B1 activity, which decreased the ability of [11C]erlotinib to re-enter from the blood into the liver after the initial uptake phase (18). Importantly, all compartment models evaluated in this study corroborated the k2 increase in scan 2 obtained in the previous analysis (18) (Fig. 3). Moreover, the two employed 3C models revealed a significant reduction of k3 in scan 2 (Fig. 3). This decrease in k3 was also significant in the 4C DIF model when the baseline scan values from both studies (erlotinib and rifampicin) were grouped in a single baseline scan and compared to the values from the scan with the co-administration of erlotinib (Supplemental Fig. 16). Such a k3 reduction was not obtained in the previous analysis (18), but would be expected based on previously published preclinical PET data in mice (25). In the mouse study, co-injection of [11C]erlotinib with unlabeled erlotinib (10 mg/kg) led to a pronounced reduction in CLH,efflux of [11C]erlotinib, determined with integration plot analysis, presumably due to saturation of ABCG2/ABCB1-mediated transport of [11C]erlotinib from the liver into the bile (25).
+The [11C]erlotinib + erlotinib PET data analyzed in this study have already been kinetically evaluated utilizing another 3C model, which did not provide satisfactory fits of the liver and eBD/GB data. In contrast to this, our results showed that both employed models could appropriately represent the radiotracer kinetics in the liver and in the eBD/GB. However, the 4C model better represented the decrease in liver distribution of radiotracer in scan 2, in which [11C]erlotinib was administered after oral pre-treatment with unlabeled erlotinib. Previously conducted in vitro transport studies demonstrated that SLCO2B1 is a high-affinity, low-capacity transporter of [11C]erlotinib. This led to the suggestion that hepatic SLCO2B1 contributed, next to passive diffusion, to uptake of [11C]erlotinib from the blood into the liver as reflected by a decrease in the liver-to-blood ratio of [11C]erlotinib when an oral therapeutic dose of unlabeled erlotinib was given before the PET scan. Counterintuitively, the previous kinetic analysis had shown that the decrease in liver concentrations observed in scan 2 was reflected by an increase in k2, rather than by a decrease in k1, as would be expected from saturation of a hepatic uptake transporter. The lack of a k1 reduction in scan 2 has been explained in a way that initial liver uptake of [11C]erlotinib was mainly mediated by passive diffusion with only a small contribution by SLCO2B1. It has been hypothesized that the increase in k2 was caused by saturation of SLCO2B1 activity, which decreased the ability of [11C]erlotinib to re-enter from the blood into the liver after the initial uptake phase. Importantly, all compartment models evaluated in this study corroborated the k2 increase in scan 2 obtained in the previous analysis (Fig. 3). Moreover, the two employed 3C models revealed a significant reduction of k3 in scan 2 (Fig. 3). This decrease in k3 was also significant in the 4C DIF model when the baseline scan values from both studies (erlotinib and rifampicin) were grouped in a single baseline scan and compared to the values from the scan with the co-administration of erlotinib (Supplemental Fig. 16). Such a k3 reduction was not obtained in the previous analysis, but would be expected based on previously published preclinical PET data in mice. In the mouse study, co-injection of [11C]erlotinib with unlabeled erlotinib (10 mg/kg) led to a pronounced reduction in CLH,efflux of [11C]erlotinib, determined with integration plot analysis, presumably due to saturation of ABCG2/ABCB1-mediated transport of [11C]erlotinib from the liver into the bile.
 
-For the second study, in which [11C]erlotinib PET scans were performed after administration of the prototypical SLCO transporter inhibitor rifampicin, there were no significant changes in the uptake or backflux of the radiotracer between the blood and the liver (Fig. 5). This contrasted with a previous analysis based on integration plot analysis and kinetic modeling using a liver model implemented in freely available iFit software (www.liver.dk/ifit.html), which revealed a moderate reduction of k1 in the scan recorded after rifampicin infusion (19). This moderate effect of rifampicin on k1 was attributed to rifampicin exerting only a weak inhibitory effect on SLCO2B1 at the attained plasma concentrations, as opposed to its strong inhibitory effect on SLCO1B1 and SLCO1B3, for which [11C]erlotinib is not a substrate (18,19). The k1 reduction was further supported by data in mice, which received a higher dose of rifampicin than for the human study leading to a pronounced decrease in k1 (19). Our present data also showed a trend for k1 decreases, but statistical significance was not reached, most likely due to the small sample size of the study (Fig. 5). However, when k1 values from the baseline scan in both studies (erlotinib and rifampicin) were grouped as a single baseline scan, the reduction in k1 when rifampicin was co-administered became significant in all the implemented models except in the 3C AIF (Supplemental Fig. 16). In accordance with the previous analysis (19), we found in the employed 4C models a significant reduction in k3, which was most likely caused by inhibition of ABCG2/ABCB1-mediated secretion of [11C]erlotinib from the liver into the bile by rifampicin.
+For the second study, in which [11C]erlotinib PET scans were performed after administration of the prototypical SLCO transporter inhibitor rifampicin, there were no significant changes in the uptake or backflux of the radiotracer between the blood and the liver (Fig. 5). This contrasted with a previous analysis based on integration plot analysis and kinetic modeling using a liver model implemented in freely available iFit software (www.liver.dk/ifit.html), which revealed a moderate reduction of k1 in the scan recorded after rifampicin infusion. This moderate effect of rifampicin on k1 was attributed to rifampicin exerting only a weak inhibitory effect on SLCO2B1 at the attained plasma concentrations, as opposed to its strong inhibitory effect on SLCO1B1 and SLCO1B3, for which [11C]erlotinib is not a substrate. The k1 reduction was further supported by data in mice, which received a higher dose of rifampicin than for the human study leading to a pronounced decrease in k1. Our present data also showed a trend for k1 decreases, but statistical significance was not reached, most likely due to the small sample size of the study (Fig. 5). However, when k1 values from the baseline scan in both studies (erlotinib and rifampicin) were grouped as a single baseline scan, the reduction in k1 when rifampicin was co-administered became significant in all the implemented models except in the 3C AIF (Supplemental Fig. 16). In accordance with the previous analysis, we found in the employed 4C models a significant reduction in k3, which was most likely caused by inhibition of ABCG2/ABCB1-mediated secretion of [11C]erlotinib from the liver into the bile by rifampicin.
 
-Hepatic uptake and efflux clearances were also calculated for every implemented model (Supplemental Tables II and IV). Changes in CLH,uptake were similar to the k1 changes in both studies. While there were no significant changes in CLH,uptake when unlabeled erlotinib was administered before the second scan, there was a trend for a decrease in CLH,uptake when rifampicin was administered before the second scan, which was consistent with a weak inhibitory effect of rifampicin on SLCO2B1-mediated hepatic uptake of [11C]erlotinib (19). The CLH,uptake values, when the DIF was implemented, were of the same order of magnitude as the liver blood flow (21 mL/min/kg body weight) (23). However, the CLH,uptake values for the AIF model were considerably higher than those of the hepatic artery blood flow (4.3 mL/min/kg body weight) but much lower than those of the total liver blood flow. This indicated that the mathematical approximation of the DIF using the model-derived PV input function and the sampled AIF might be more accurate to represent the uptake mechanisms of [11C]erlotinib than only the use of the AIF. The value of CLH,efflux between the 3C model and the 4C model cannot be directly compared since the clearance is calculated from different rate constants (k3 in 3C model and k5 in 4C model) and from different physiological volumes (liver tissue volume and intrahepatic bile duct volume for the 3C and 4C models, respectively) corresponding to the defined compartments. This caused a significant reduction in CLH,efflux from the 3C to the 4C model since the volume in the intrahepatic bile duct (Vih) was defined as 3.2 mL of bile per liter of liver tissue (24).
+Hepatic uptake and efflux clearances were also calculated for every implemented model (Supplemental Tables II and IV). Changes in CLH,uptake were similar to the k1 changes in both studies. While there were no significant changes in CLH,uptake when unlabeled erlotinib was administered before the second scan, there was a trend for a decrease in CLH,uptake when rifampicin was administered before the second scan, which was consistent with a weak inhibitory effect of rifampicin on SLCO2B1-mediated hepatic uptake of [11C]erlotinib. The CLH,uptake values, when the DIF was implemented, were of the same order of magnitude as the liver blood flow (21 mL/min/kg body weight). However, the CLH,uptake values for the AIF model were considerably higher than those of the hepatic artery blood flow (4.3 mL/min/kg body weight) but much lower than those of the total liver blood flow. This indicated that the mathematical approximation of the DIF using the model-derived PV input function and the sampled AIF might be more accurate to represent the uptake mechanisms of [11C]erlotinib than only the use of the AIF. The value of CLH,efflux between the 3C model and the 4C model cannot be directly compared since the clearance is calculated from different rate constants (k3 in 3C model and k5 in 4C model) and from different physiological volumes (liver tissue volume and intrahepatic bile duct volume for the 3C and 4C models, respectively) corresponding to the defined compartments. This caused a significant reduction in CLH,efflux from the 3C to the 4C model since the volume in the intrahepatic bile duct (Vih) was defined as 3.2 mL of bile per liter of liver tissue.
 
-Both data sets have been previously analyzed using a graphical analysis method termed integration plot analysis (18,19). This approach allows determining the clearances or the rate constants for initial uptake of radioactivity from the blood into the liver and for efflux of radioactivity from the liver into the bile and has been used in several other studies to assess the impact of liver transporters on the liver kinetics of different PET tracers (39,40). We found a significant positive correlation between the kinetic parameters obtained in this study (using AIF) with the respective values from integration plot analysis (Supplemental Fig. 17). However, integration plot analysis is based on arterial blood, so that kuptake,liver values do not represent the transfer rate constant from sinusoidal blood into the liver. Moreover, the rate constant describing the backflux of radioactivity from the liver into the blood (k2) cannot be determined using integration plot analysis. For certain drugs, this parameter may be influenced by the activity of efflux transporters located in the basolateral membrane of hepatocytes (e.g., multidrug resistance-associated proteins 3 and 4, ABCC3 and ABCC4) and is therefore of major relevance to be determined. Moreover, the estimation of kefflux,liver is not straightforward in some occasions using integration plot analysis since a linear phase of the plot cannot be always identified leading to inconclusive results.
+Both data sets have been previously analyzed using a graphical analysis method termed integration plot analysis. This approach allows determining the clearances or the rate constants for initial uptake of radioactivity from the blood into the liver and for efflux of radioactivity from the liver into the bile and has been used in several other studies to assess the impact of liver transporters on the liver kinetics of different PET tracers. We found a significant positive correlation between the kinetic parameters obtained in this study (using AIF) with the respective values from integration plot analysis (Supplemental Fig. 17). However, integration plot analysis is based on arterial blood, so that kuptake,liver values do not represent the transfer rate constant from sinusoidal blood into the liver. Moreover, the rate constant describing the backflux of radioactivity from the liver into the blood (k2) cannot be determined using integration plot analysis. For certain drugs, this parameter may be influenced by the activity of efflux transporters located in the basolateral membrane of hepatocytes (e.g., multidrug resistance-associated proteins 3 and 4, ABCC3 and ABCC4) and is therefore of major relevance to be determined. Moreover, the estimation of kefflux,liver is not straightforward in some occasions using integration plot analysis since a linear phase of the plot cannot be always identified leading to inconclusive results.
 
 An alternative approach to analyze the present data may be the implementation of a population-based PK model, which may facilitate the statistical comparison of the individual models, enable a better comparison of the parameter estimates using a covariate approach, and finally improve the identifiability of the β parameter. Even though population-based PK models usually involve large numbers of heterogeneous patients in which few samples are taken per individual so that it is not possible to characterize the individual’s PK, such models have also been previously applied to PET data (41–43). However, as population-based PK modeling requires dedicated software packages, which are not available to us, this analysis was not pursued in the present study.
 
 As shown in this study, compartment analysis of PET data can be used to assess transporter-mediated DDIs in the liver. It can be anticipated that our analysis approach may also be applicable to assess pathophysiological changes or polymorphisms in the transporter-encoding genes as sources of PK variability. Our models may also find application to assess hepatic disposition of other radiolabeled drugs or to obtain improved readouts for diagnostic liver PET or SPECT tracers.
-
-CONCLUSION
-
-We developed 3C and 4C models to describe the kinetics of [11C]erlotinib in the hepatobiliary system. Both the models provided acceptable fits of the observed data, but the 4C model provided a richer kinetic picture, including an additional compartment that represented the radiotracer disposition in the intrahepatic bile duct that was not visible in the PET scan but also accounted for the total liver radioactivity. Changes in model outcome parameters between scans were consistent with the involvement of basolateral hepatocyte uptake and canalicular efflux transporters in the hepatobiliary clearance of [11C]erlotinib. Contrary to our expectations, our results demonstrated that inclusion of a DIF did not lead to substantial improvements in model fits. However, the benefit of a DIF may depend on the radiotracer being employed, so that future efforts should be directed towards defining improved algorithms for partial volume and motion correction of image-derived PV input functions in humans. The models developed in this work represent a step forward in applying PET as a tool to assess the impact of hepatic transporters on drug disposition and their involvement in DDIs.
-
-Electronic Supplementary Material
-
-ESM 1(DOCX 9.38 mb)
-
-ESM 1
-
-(DOCX 9.38 mb)
-

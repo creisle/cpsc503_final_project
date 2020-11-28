@@ -1,4 +1,3 @@
-A Bounded Integer Model for Rating and Composite Scale Data
 
 Abstract
 
@@ -8,251 +7,33 @@ Electronic supplementary material
 
 The online version of this article (10.1208/s12248-019-0343-9) contains supplementary material, which is available to authorized users.
 
+
+
 INTRODUCTION
 
 Many clinical trial endpoints are measured with rating scales or composite scales. Rating scales, such as the Likert scale, are typically based on a single assessment or question (e.g. “How much pain do you feel?”) while composite scales consist of several assessments or questions that generate a total score. The nature of such scale-based data is complex, and there is no fully satisfying modelling approach when the number of possible categories is many.
 
-The most common strategy is to treat the outcome as a continuous variable (CV), while knowing that the underlying data is of a categorical or integer nature. This poses a problem especially at the scale boundaries, where the residual error can give predictions outside the expected range. Logistic transformation or beta regression can constrain the variable, but then a model can only predict the extreme values asymptotically (1). Also, the continuous variable needs to be rounded and/or truncated to simulate real-life-like examples (2).
+The most common strategy is to treat the outcome as a continuous variable (CV), while knowing that the underlying data is of a categorical or integer nature. This poses a problem especially at the scale boundaries, where the residual error can give predictions outside the expected range. Logistic transformation or beta regression can constrain the variable, but then a model can only predict the extreme values asymptotically. Also, the continuous variable needs to be rounded and/or truncated to simulate real-life-like examples.
 
 Another approach is to treat the outcome as an ordered categorical variable (OC), which instead requires as many parameters, save one, as the number of categories only to capture the baseline characteristics. More observations are also required to estimate these parameters as the number of categories increases. Another drawback of OC models is that they cannot simulate outside the range of observations, whether it be interpolation or extrapolation.
 
-Latent variable models for categorical data have been used for a long time (3). Previous work has mostly focused on scales with only a few categories (< 10) (e.g. no-mild-moderate-severe) but not on rating scales or composite scales with a larger number of possible categories (4–7). New methods have also been suggested to deal with ordinal data within nonlinear mixed-effects modelling in a parsimonious way (8). Probit regression for bounded outcome scores (BOS) for composite scale data is a promising concept which has been described for one data set previously (9).
+Latent variable models for categorical data have been used for a long time. Previous work has mostly focused on scales with only a few categories (< 10) (e.g. no-mild-moderate-severe) but not on rating scales or composite scales with a larger number of possible categories (4–7). New methods have also been suggested to deal with ordinal data within nonlinear mixed-effects modelling in a parsimonious way. Probit regression for bounded outcome scores (BOS) for composite scale data is a promising concept which has been described for one data set previously.
 
 Here, we present the bounded integer (BI) model for modelling rating and composite scale data aiming for parsimony, while respecting the integer nature of the data. Using previously published data, we compare the bounded integer model with OC and CV models for situations where the number of categories is high (11 for rating scale and > 70 for composite scales). We also show how Markovian elements can be implemented in these models.
 
-METHODS
 
-The Bounded Integer Model
-
-For a scale with n categories, the area under a standard normal distribution with a mean of 0 and variance of 1 (N(0,1)) is divided into n equal-sized areas through n − 1 cut-off values via the probit (quantile function of the standard normal distribution): Z1/n to Z(1 − n)/n.
-
-A function of fixed effects (θ) and random effects for an individual i (ηi), time and covariates (Xi), f(θ,ηi,f,t,Xi,f) with variance function g(σ,ηi,g,t,Xi,g) is used together with the Z-values to estimate the probability of each category. The two functions define a normal distribution: N(f(θ,ηi,f,t,Xi,f), g(σ,ηi,g,t,Xi,g)). Formally, the probability for the kth category (Pi,j(k)) is defined in Eq. 1:
-
-1\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {P}_{i,j}(k)=\phi \left(\frac{Z_{\frac{k}{n}}-f\left(\uptheta, {\upeta}_{i,f},t,{X}_{i,f}\right)\ }{g\left(\upsigma, {\upeta}_{i,g},t,{X}_{i,g}\right)\ }\right)-\phi \left(\frac{Z_{\frac{k-1}{n}}-f\left(\uptheta, {\upeta}_{i,f},t,{X}_{i,f}\right)\ }{g\left(\upsigma, {\upeta}_{i,g},t,{X}_{i,g}\right)\ }\right) $$\end{document}Pi,jk=ϕZkn−fθηi,ftXi,fgσηi,gtXi,g−ϕZk−1n−fθηi,ftXi,fgσηi,gtXi,gwhere φ is the cumulative distribution function of the normal distribution; in other words, the probability of each score is defined as the area under the latent variable defined function within the interval given by the cut-offs. For the first category (k = 1), Eq. 1 collapses into Eq. 2:
-
-1
-
-2\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {P}_{i,j}(1)=\phi \left(\frac{Z_{\frac{1}{n}}-f\left(\uptheta, {\upeta}_{i,f},t,{X}_{i,f}\right)\ }{g\left(\upsigma, {\upeta}_{i,g},t,{X}_{i,g}\right)\ }\right) $$\end{document}Pi,j1=ϕZ1n−fθηi,ftXi,fgσηi,gtXi,gsince this is the cumulative distribution in the interval [− ∞,Z1/n), and for the last category (k = n) into Eq. 3:
-
-2
-
-3\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {P}_{i,j}(n)=1-\phi \left(\frac{Z_{\frac{n-1}{n}}-f\left(\uptheta, {\upeta}_{i,f},t,{X}_{i,f}\right)\ }{g\left(\upsigma, {\upeta}_{i,g},t,{X}_{i,g}\right)\ }\right) $$\end{document}Pi,jn=1−ϕZn−1n−fθηi,ftXi,fgσηi,gtXi,gsince this is the cumulative distribution in the interval [Z(n-1)/n,∞]. A formal definition of the likelihood under this model is provided in the supplemental equations.
-
-3
-
-Data Sets
-
-Several data sets were used in the investigation, representing both rating scale data (Likert, where patients were asked to rate their pain with an integer between 0 and 10) and composite scale data (all others). A visual representation of the data sets is shown in Fig. 1. The data sets varied in disease area, number of categories, number of observed categories and number of observations as shown in Table I.Fig. 1Score time course and 90% prediction intervals for the investigated data sets. MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome ScaleTable IA summary of data set characteristics and referencesDiseaseScaleCategoriesObserved range (theoretical)No. of patientsNo. of ObsReference dataReference modelsParkinson’s diseaseMDS-UPDRS motor (10)1331–77 (0–132)4282720(11)(12)Parkinson’s diseaseUPDRS motor (13)10916–80 (0–108)19946(12)(12)Alzheimer’s diseaseADAS-Cog (14)710–70 (0–70)8173594(15)(15)SchizophreniaPANSS (16)18130–176 (30–210)13237728(17)(17)SchizophreniaPANSS (16)18130–167 (30–210)12928520(18)(18)Neuropathic painLikerta110–10 (0–10)23122,492(19)(19,20)
-MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-a
-Rating scale
-
-Fig. 1
-
-Score time course and 90% prediction intervals for the investigated data sets. MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-Table I
-
-A summary of data set characteristics and references
-
-MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-a
-Rating scale
-
-Implementation of the Bounded Integer Model
-
-The rating scale data from the 11-category Likert neuropathic pain scale had previously been modelled with both an OC (20) and a CV (19) approach. Both these models had elements for serial correlation (Markov or autoregressive). The BI model was thus implemented with a Markov element. To achieve this, an additional Markov model component was implemented as described in Eq. 4:
-
-4\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {P}_{i,j}\left(k|{Y}_{i,j-1}=k\right)=\frac{P_{k,i,j}+ PM}{1+ PM} $$\end{document}Pi,jkYi,j−1=k=Pk,i,j+PM1+PMwhere Yi,j-1 is the observation and Pk,i,j is the probability of a score k for individual i at time j. If Yi,j and Yi,j-1 are different, the expression is instead as in Eq. 5:
-
-4
-
-5\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {P}_{i,j}\left(k|{Y}_{i,j-1}\ne k\right)=\frac{P_{k,i,j}}{1+\mathrm{PM}} $$\end{document}Pi,jkYi,j−1≠k=Pk,i,j1+PM
-
-5
-
-The parameter PM(θ,ηi,PM,t,Xi,PM), constrained to be non-negative, provide when positive a higher probability that an observation has the same value as the previous observation in time, compared with that of the predictions by f() and g() alone. An exponentially distributed random effect was used to implement interindividual variability in PM.
-
-For the cases where a CV model was available, it was used as a reference model. Full details on these models and the data collection process can be found in the respective publication. A BI model was then implemented with the same structural components and covariates as the reference model. The parameterization could not be identical, as the BI and CV models have a different basic structure, but the number of estimated parameters was made to be the same and the implemented relations qualitatively similar.
-
-In one case (MDS-UPDRS), no CV model was available for the data in questions, and both BI and CV models were constructed with baseline, linear disease progression and a symptomatic drug effect, as indicated from the item response model in the original analysis (10). Interindividual parameter variability was introduced in all three structural model parameters. The NONMEM model file for the final BI model is provided in supplemental code 2.
-
-Goodness-of-Fit Metrics
-
-The Akaike information criterion (AIC) was used to compare goodness of fit between models. For a model with m parameters to estimate, AIC is computed via the objective function value (OFV) as:
-
-6\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ \mathrm{AIC}=\mathrm{OFV}+2m $$\end{document}AIC=OFV+2m
-
-6
-
-Thus, for models with the same number of parameters, the difference in AIC or OFV is the same. This was the case for all comparisons, save the comparison between OC and BI models for the Likert data.
-
-Pearson Residual: a Probability Weighted Residual
-
-For categorical data, residuals do not represent a direct link between the model and the data, as it does for continuous variable. Also, the choice of residual to use for facilitating identification of outliers and model misspecification is not as straightforward. For the BI model, we use the Pearson residual for categorical data (PWRES) (3) for model diagnostic purposes:
-
-7\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {\mathrm{PPRED}}_{i,j}={P}_{i,j}(1)\times 1+{P}_{i,j}(2)\times 2+\dots ={\sum}_{k=1}^n{P}_{i,j}(k)\times k $$\end{document}PPREDi,j=Pi,j1×1+Pi,j2×2+…=∑k=1nPi,jk×k8\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {\mathrm{SDPRED}}_{i,j}=\sqrt{\sum_{k=1}^n{P}_{i,j}(k)\times {\left(k-{\mathrm{PPRED}}_{i,j}\right)}^2} $$\end{document}SDPREDi,j=∑k=1nPi,jk×k−PPREDi,j29\documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym} 
-				\usepackage{amsfonts} 
-				\usepackage{amssymb} 
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$ {\mathrm{PWRES}}_{i,j}=\frac{{\mathrm{DV}}_{i,j}-{\mathrm{PPRED}}_{i,j}}{{\mathrm{SDPRED}}_{i,j}} $$\end{document}PWRESi,j=DVi,j−PPREDi,jSDPREDi,jwhere the ith individual’s jth observation has response DVi,j, weighted prediction PPREDi,j, standard deviation SDPREDi,j and weighted residual PWRESi,j. The expected mean and variance of PWRES are approximately 0 and 1.
-
-7
-
-8
-
-9
-
-Cross-validation
-
-The performance in external validation of the models was investigated through cross-validation (21–25), where the data was split into five equal-size sets. Model parameters were estimated on four-fifth (80%) of the sets, and the resulting parameters, without re-estimation, were used in evaluating the goodness of fit, using OFV as metric, to the fifth (20%), test data, set. This process was repeated five times, one for each set left out. The OFVs for these five sets were then added and used as a measure of performance to data which was not used in the parameter estimation—the lower the cross-validated OFV, the better the performance. Such a metric is a global one and captures the likelihood with which a model can predict data which was not used for the parameter estimation. As no parameters are estimated based on the new data, there is no need to take into account the size of the model when comparing such out-of-sample OFVs.
-
-Software
-
-Nonlinear mixed-effects modelling was performed with NONMEM version 7.3 (26), executed through PsN version 7.4 (27). Graphics were made with R (28). The Laplace estimation method, with interaction for the CV models, was used for all model evaluations.
-
-RESULTS
-
-The BI model had fewer parameters compared with the published implementation of an ordered categorical model for the Likert data set (13 and 18, respectively). The ∆AIC was 1555 in favour of the BI model. When ∆OFV was calculated from cross-validated analyses of the two models, the difference was 1694 in favour of the BI model. When the analysis was performed without Markov elements in either the BI or CV model, the ∆AIC was 810 in favour of the BI model.
-
-The fit to the Likert data for the previously published CV model displayed an AIC value which was 1945 higher than the corresponding BI model with the same number of parameters. Pearson residuals for the BI model are illustrated in Fig. 2. NONMEM control stream for the BI model is found in supplemental code 2.Fig. 2PWRES vs. time. MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-Fig. 2
-
-PWRES vs. time. MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-The goodness of fit of the BI and corresponding CV model to different data sets with composite scale data is shown in Table II. The BI and CV models in these examples had the same number of estimated parameters. The parameter estimates of the BI models are shown in supplemental table 1. For all the seven BI models, the incorporation of interindividual variability in the g() function improved the goodness of fit, with decreases in the OFV ranging from 57 to 4446 (not shown).Table IIFit to different composite scale data sets for bounded integer and continuous variable modelsDiseaseScaleNo. of parametersCV = BICV AIC∆AICCV-BI∆Cross-validated OFVCV-BIParkinson’s diseaseMDS-UPDRS motor1418,5397461Parkinson’s diseaseUPDRS motor1656316284Alzheimer’s diseaseADAS-Cog1120,358729729SchizophreniaPANSSa1756,178− 63− 70SchizophreniaPANSSb1561,5751122Neuropathic painLikertc18d
-vs. 13e48,93815551694
-∆AIC, difference in Akaike information criterion; CV, continuous variable; BI, bounded integer; ∆cross-validated OFV, difference in cross-validated objective function value; MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-a
-Reference 17
-
-b
-Reference 18
-
-c
-Rating scale
-
-d
-Ordered categorical model
-
-e
-Bounded integer model
-
-Table II
-
-Fit to different composite scale data sets for bounded integer and continuous variable models
-
-∆AIC, difference in Akaike information criterion; CV, continuous variable; BI, bounded integer; ∆cross-validated OFV, difference in cross-validated objective function value; MDS-UPDRS, Movement Disorder Society-Unified Parkinson’s Disease Rating Scale; UPDRS, Unified Parkinson’s Disease Rating Scale; ADAS-Cog, Alzheimer’s Disease Assessment Scale-Cognitive; PANSS, Positive and Negative Syndrome Scale
-
-a
-Reference 17
-
-b
-Reference 18
-
-c
-Rating scale
-
-d
-Ordered categorical model
-
-e
-Bounded integer model
-
-Figure 2 displays residual analyses for composite score data. For all the data sets, it has a mean value close to 0 and a variance close to 1. There is a slight trend in some residuals, such as for the UPDRS BI model, indicating that the model structure could be improved.
 
 DISCUSSION
 
 Bounded Integer Versus Ordered Categorical Model
 
-The BI model described the Likert pain scale data better than the model treating the data as OC, both in fit (∆AIC = 1555) and external validation (cross-validated ∆OFV = 1694). This is the only comparison where there is a difference in the number of parameters between the BI model and the model used for comparison. In this case, there were 5 fewer parameters in the BI model. Thus, a disadvantage of the OC model is that it requires many parameters which make it less suitable for scales with many categories. As the number of categories increases, the OC model will also require more observations to support these parameters. A related problem is that with the OC model, the probability of categories that are not present in the data cannot be estimated. Either the probability of such scores needs to be fixed to zero or individual categories need to be merged into groups. The BI approach handles these probabilities implicitly, making it possible to predict and simulate scores not present in a given data set. The BI model assumes that all scores that make up a scale are possible and also that the probability of a non-extreme score is larger than at least one of the nearest adjacent scores, so that Pi, j(k) > min(Pi, j(k − 1), Pi, j(k + 1)). This inherent assumption could pose a problem if the distribution of scores is for some reason not unimodal, e.g. if 5 and 7 are much more common than 4, 6 and 8. Such data have been observed when pain intensity has been captured using pictures with different face expressions (29). While similar problems may occur when rating scales use verbal expressions to identify categories, one can assume that there is less risk when, as in the present case, pain intensity response is solicited directly using a numerical scale, where patients identify the numerical category they associate with their present pain intensity.
+The BI model described the Likert pain scale data better than the model treating the data as OC, both in fit (∆AIC = 1555) and external validation (cross-validated ∆OFV = 1694). This is the only comparison where there is a difference in the number of parameters between the BI model and the model used for comparison. In this case, there were 5 fewer parameters in the BI model. Thus, a disadvantage of the OC model is that it requires many parameters which make it less suitable for scales with many categories. As the number of categories increases, the OC model will also require more observations to support these parameters. A related problem is that with the OC model, the probability of categories that are not present in the data cannot be estimated. Either the probability of such scores needs to be fixed to zero or individual categories need to be merged into groups. The BI approach handles these probabilities implicitly, making it possible to predict and simulate scores not present in a given data set. The BI model assumes that all scores that make up a scale are possible and also that the probability of a non-extreme score is larger than at least one of the nearest adjacent scores, so that Pi, j(k) > min(Pi, j(k − 1), Pi, j(k + 1)). This inherent assumption could pose a problem if the distribution of scores is for some reason not unimodal, e.g. if 5 and 7 are much more common than 4, 6 and 8. Such data have been observed when pain intensity has been captured using pictures with different face expressions. While similar problems may occur when rating scales use verbal expressions to identify categories, one can assume that there is less risk when, as in the present case, pain intensity response is solicited directly using a numerical scale, where patients identify the numerical category they associate with their present pain intensity.
 
 At the boundaries of the scale, responses may be different, containing different types of information. For the Likert pain rating scale, there are numbers from 0 to 10, where 0 represents “no pain” and 10 “the worst pain imaginable”. It is reasonable that patients rate the step size between 1 and 2 as equal to that between 6 and 7. In this example, there could be an aversion to responding 10, and in many other studies, the extreme values have deviant probabilities. For OC models, this is not a problem, as each category is modelled independently of the others. However, as discussed previously, the latent variable distribution assumes a continuous underlying function to estimate the probabilities. For the same reason as above, this type of data may need further parameters or a different latent variable distribution to fit well with the BI model.
 
-The BI model is similar to the BOS model described by Hu et al. (9) in the parsimonious approach and the use of probit regression. In their work, they additionally investigated different link functions, or transformations of the outcome, although only for one scale and with one example. Their suggestion is to transform one or either side of the distribution to achieve a normal-appearing distribution. Flexible transformations such as the discretized beta distribution suggested by Ursino and Gasparini (8) are also possible. However, this was outside the scope of this work.
+The BI model is similar to the BOS model described by Hu et al. in the parsimonious approach and the use of probit regression. In their work, they additionally investigated different link functions, or transformations of the outcome, although only for one scale and with one example. Their suggestion is to transform one or either side of the distribution to achieve a normal-appearing distribution. Flexible transformations such as the discretized beta distribution suggested by Ursino and Gasparini are also possible. However, this was outside the scope of this work.
 
-The reason that the BI model described the Likert pain data better than the OC model appeared to be related to the presence of a random effect in g(), the BI model variability function. The effect was generally well described (30) (relative standard error < 30%, see supplemental table 1). Without such a random effect, the fit for the BI model was no longer superior to that of the OC model. This interindividual variability in g() was formulated as an exponential distribution. It predicts that individuals differ in the consistency with which they report the daily pain scores. A similar type of variability cannot be introduced into the OC model with a single random effect. Rather, it would require a random effect per category, hence increasing the model size considerably.
+The reason that the BI model described the Likert pain data better than the OC model appeared to be related to the presence of a random effect in g(), the BI model variability function. The effect was generally well described (relative standard error < 30%, see supplemental table 1). Without such a random effect, the fit for the BI model was no longer superior to that of the OC model. This interindividual variability in g() was formulated as an exponential distribution. It predicts that individuals differ in the consistency with which they report the daily pain scores. A similar type of variability cannot be introduced into the OC model with a single random effect. Rather, it would require a random effect per category, hence increasing the model size considerably.
 
 Markov Modelling
 
@@ -278,42 +59,14 @@ As seen in Fig. 2, the Pearson residuals seem to have a mean of 0 and a variance
 
 General Discussion
 
-In the present work, we have used cut-offs for the probit function driven by the standard normal distribution, and a normal distribution was also the choice for the mean-variance (f() − g()) function. One could imagine other ways of determining the cut-offs as well as choosing other distribution functions. For the former, it is possible to estimate the cut-off values at the expense of parsimony. This can also result in over-fitting with poor predictive performance. For the latter, other probability density functions than the standard normal could also be implemented, for example a t-distribution to allow for heavier tails. A Box-Cox transformed distribution might provide a better fit if the data distribution is skewed, as indicated by Hu et al. (9). In this paper, we focused on the normal distribution due to its simplicity and few assumptions regarding the data. This implementation showed an improvement in fit over OC and CV models in all investigated cases, save one, but this fact does not exclude that further refinements to the BI model implementation can be done.
+In the present work, we have used cut-offs for the probit function driven by the standard normal distribution, and a normal distribution was also the choice for the mean-variance (f() − g()) function. One could imagine other ways of determining the cut-offs as well as choosing other distribution functions. For the former, it is possible to estimate the cut-off values at the expense of parsimony. This can also result in over-fitting with poor predictive performance. For the latter, other probability density functions than the standard normal could also be implemented, for example a t-distribution to allow for heavier tails. A Box-Cox transformed distribution might provide a better fit if the data distribution is skewed, as indicated by Hu et al.. In this paper, we focused on the normal distribution due to its simplicity and few assumptions regarding the data. This implementation showed an improvement in fit over OC and CV models in all investigated cases, save one, but this fact does not exclude that further refinements to the BI model implementation can be done.
 
 For the one case where the BI model performed worse than the CV model, PANSS 1 data, further testing via residual modelling (not shown) indicated that the BI model could have been improved upon more than the corresponding CV model by adding a more flexible residual structure. Importance sampling with the expectation step only also gave a better fit than the CV model (not shown).
 
-The main difference from the work by Ursino and Gasparini (8) and especially Hu et al. (9) is the implementation on several data sets, both rating and composite scale data, comparisons with more standard models, allowing random effects directly on the variability parameter and the implementation of Markov elements.
+The main difference from the work by Ursino and Gasparini and especially Hu et al. is the implementation on several data sets, both rating and composite scale data, comparisons with more standard models, allowing random effects directly on the variability parameter and the implementation of Markov elements.
 
 While rating scales with few categories often express the choice in words (no, mild, moderate, severe), a rating scale like the Likert already provide the integer numbers as guide for patients to guide their choice between no pain and worst possible pain. For this reason, it is likely that a scale like the Likert data is well described by the BI approach.
 
 For a scale with a few numbers of scores, the gain of the BI approach is likely smaller. There is no general rule for when to switch to a CV model from an OC model, as demonstrated by the fact that the 11-category Likert data was modelled in both ways. Likewise, the gain of switching to a BI model cannot be stated by a definite rule. However, the number of scores (n) is one important aspect, where the advantages (parsimony, run times, parameter uncertainty) over OC models are expected to be larger as n increases. The advantage over CV models could depend on if there are many observations at the scale boundaries, but as exemplified with UPDRS and MDS-UPDRS, an advantage may be identified even when no data are close to scale limits.
 
-In many cases, there are competing scales for assessing the same disease, e.g. Parkinson’s disease. The latent variable could serve as a link between such scales so that translation between scales is made possible. This could be helpful when pooling data for combined analysis. One example of such a translation is a recent model for nicotine craving data where both a 4-category scale and a visual analogue scale with 101 categories were measured (31).
-
-CONCLUSIONS
-
-The bounded integer model provides a good description of rating and composite scale data, both in terms of fit and performance in external validation. It has shown better fit and performance in external validation to multiple data sets than models treating the same data as either ordered categorical or a continuous variable. Simulations from the model will provide real-life-like data that does not need rounding/truncation and/or transformation. Also, Markov elements can easily be added to the model.
-
-Electronic Supplementary Material
-
-ESM 1(DOCX 24.1 kb)
-ESM 2(MOD 3 kb)
-ESM 3(MOD 18 kb)
-ESM 4(DOCX 15.3 kb)
-
-ESM 1
-
-(DOCX 24.1 kb)
-
-ESM 2
-
-(MOD 3 kb)
-
-ESM 3
-
-(MOD 18 kb)
-
-ESM 4
-
-(DOCX 15.3 kb)
-
+In many cases, there are competing scales for assessing the same disease, e.g. Parkinson’s disease. The latent variable could serve as a link between such scales so that translation between scales is made possible. This could be helpful when pooling data for combined analysis. One example of such a translation is a recent model for nicotine craving data where both a 4-category scale and a visual analogue scale with 101 categories were measured.

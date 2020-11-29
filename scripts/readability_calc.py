@@ -11,16 +11,18 @@ from matplotlib import pyplot as plt
 #Calculates the Flesch-Kincaid Grade Level, Gunning FOG Index, Automated Readability Index and Coleman-Liau Index
 #for the given text. Writes results to an outpul tsv file.
 def calcReadabilityScores(content, basename, stats=[], outFile=""):
-    stats.append([basename, "flesch_reading_ease", textstat.flesch_reading_ease(content)])
-    stats.append([basename, "gunning_fog", textstat.gunning_fog(content)])
-    stats.append(
-        [
-            basename,
-            "automated_readability_index",
-            textstat.automated_readability_index(content),
-        ]
-    )
-    stats.append([basename, "coleman_liau_index", textstat.coleman_liau_index(content)])
+    
+    scores = {
+        "flesch_reading_ease": textstat.flesch_reading_ease(content),
+        "gunning_fog": textstat.gunning_fog(content),
+        "automated_readability_index": textstat.automated_readability_index(content),
+        "coleman_liau_index": textstat.coleman_liau_index(content)
+    }
+
+    for metric in scores:
+        if scores[metric] > 0.0:                                        #Ignore scores that are 0, as this is an error.
+            stats.append([basename, metric, scores[metric]])
+    
 
     
 

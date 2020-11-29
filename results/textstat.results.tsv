@@ -1795,10 +1795,6 @@ PMC7046865.txt	flesch_reading_ease	206.84
 PMC7046865.txt	gunning_fog	0.0
 PMC7046865.txt	automated_readability_index	0.0
 PMC7046865.txt	coleman_liau_index	-15.81
-PMC7047727.json	flesch_reading_ease	206.84
-PMC7047727.json	gunning_fog	0.0
-PMC7047727.json	automated_readability_index	0.0
-PMC7047727.json	coleman_liau_index	-15.81
 PMC7047727.txt	flesch_reading_ease	30.7
 PMC7047727.txt	gunning_fog	15.64
 PMC7047727.txt	automated_readability_index	17.7

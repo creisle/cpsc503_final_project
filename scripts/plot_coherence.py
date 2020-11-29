@@ -55,8 +55,8 @@ def saveHistogram(scores, title, outPath, bins=20):
 
 
 
-coherencePath = "results/taaco_scores.csv"
-figPath = "results/taaco_plots"
+coherencePath = "../results/taaco_scores.csv"
+figPath = "../results/taaco_plots"
 
 data = loadCoherenceData(coherencePath)
 

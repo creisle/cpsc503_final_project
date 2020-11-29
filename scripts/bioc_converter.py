@@ -2,8 +2,8 @@ import bconv
 import os
 import regex
 
-basePath = "data/pmc_small_sample"
-outPath = "data/pmc_txt"
+basePath = "../data/pmc_small_sample"
+outPath = "../data/pmc_txt"
 outFormat = "txt"
 abstractPattern = ("(\r\n|\r|\n)(Abstract|ABSTRACT)((\r\n|\r|\n)(\r\n|\r|\n).+)+"
                    "((\r\n|\r|\n)(\r\n|\r|\n)(Introduction|INTRODUCTION))(\r\n|\r|\n)")

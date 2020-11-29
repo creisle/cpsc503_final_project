@@ -1,8 +1,0 @@
-
-Abstract
-
-Wood industries and agricultural crops generate an inexhaustible supply of by-products like lignin, which constitutes an environmental problem. Increasing efforts have been done to find new applications for lignin. One of them is as a food additive, but its chemical nature makes it sensitive to browning which constitutes a major drawback for this type of lignin application. In the present study we are documenting how color stabilization of a commercial kraft lignin was achieved after the treatment with Penicillium chrysogenum var. halophenolicum. In addition the fungal capacity to remove lignin is studied together with the effect of its treatment on cytotoxicity of lignin. P. chrysogenum var. halophenolicum was able to transform lignin, ensuring its color stability for more than 24 months. Dynamic light scattering and atomic force microscopy showed that the fungus contributed to homogenize particle size and hydrodynamic properties in lignin suspensions without increase the toxicity over HeLa cells and human primary fibroblasts. These findings suggest new uses for kraft lignin after P. chrysogenum var. halophenolicum treatment providing an effective approach for improve color stability.
-
-
-
-

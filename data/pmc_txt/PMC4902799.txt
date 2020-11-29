@@ -1,8 +1,0 @@
-
-Abstract
-
-A variety of multidimensional anthropogenic activities, especially of industrial level, are contaminating our aquatic and terrestrial environments with a variety of metallic and non-metallic pollutants. The metallic and non-metallic pollutants addressed specifically in this review are heavy metals and various compound forms of sulfates, respectively. Direct and indirect deleterious effects of the both types of pollutants to all forms of life are well-known. The treatment of such pollutants is therefore much necessary before their final discharge into the environment. This review summarizes the productive utility of sulfate-reducing bacteria (SRB) for economical and concomitant treatment of the above mentioned wastes. Utilization of agro-industrial wastes and some environmental contaminants including hydrocarbons, as economical growth substrates for SRB, is also suggested and proved efficient in this review. Mechanistically, SRB will utilize sulfates as their terminal electron acceptors during respiration while utilizing agro-industrial and/or hydrocarbon wastes as electron donors/carbon sources and generate H2S. The biogenic H2S will then react vigorously with dissolved metals present in the wastewaters thus forming metal sulfide. The metal sulfide being water insoluble and heavier than water will settle down in the water as precipitates. In this way, three types of pollutants i.e., metals, sulfates and agro-industrial and/or hydrocarbon wastes will be treated simultaneously.
-
-
-
-

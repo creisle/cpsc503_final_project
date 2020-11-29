@@ -1,8 +1,0 @@
-
-Abstract
-
-In black feathers, melanin is embedded in keratin matrix that makes feather more resistance to the microbial degradation. Chryseobacterium sp. RBT previously isolated from the poultry waste disposable site revealed strong sulfitolytic and keratinolytic activities. Maximum keratinase activity was observed at 48 h (89.12 U ml−1) showed 83 % of native black feather degradation. The concentration of free sulfhydryl groups released during degradation was 0.648 × 10−4 M (12 h), 2.144 × 10−4 M (96 h), and however, declined on prolong incubation to 1.752 × 10−4 M (120 h). Melanin was released in the degradation medium after microbial exploitation of black feather. After purification, melanin was dark brown colored powder insoluble in water, 5 M HCL, ethanol, methanol, benzene, chloroform, and acetone; whereas, soluble in KOH and NaOH. On exposure to oxidizing and reducing reagents feather melanin showed decolorization, while formed a brown precipitate when reacted with FeCl3. The spectroscopic characterization of isolated melanin demonstrated absorption at infra-red region. Similarly, UV–visible scan confirmed that increase in the wavelength progressively declined the absorbance of pigment. The crude keratinase enzyme (2 % v/v) produced during degradation showed complete dehairing of goat skin within 20 h.
-
-
-
-

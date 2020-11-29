@@ -1,8 +1,0 @@
-
-Abstract
-
-To guide developers of innovative and generic drug products that contain nanomaterials, the U.S. Food and Drug Administration issued the draft guidance for industry titled: “Drug Products, Including Biological Products, that Contain Nanomaterials” in December 2017. During the AAPS Guidance Forum on September 11, 2018, participants from industry, academia, and regulatory bodies discussed this draft guidance in an open setting. Two questions raised by the AAPS membership were discussed in more detail: what is the appropriate regulatory pathway for approval of drug products containing nanomaterials, and how to determine critical quality attributes (CQAs) for nanomaterials? During the meeting, clarification was provided on how the new FDA center-led guidance relates to older, specific nanomaterial class, or specific product-related guidances. The lively discussions concluded with some clear observations and recommendations: (I) Important lessons can be learned from how CQAs were determined for, e.g., biologics. (II) Publication of ongoing scientific discussions on strategies and studies determining CQAs of drug products containing nanomaterials will significantly strengthen the science base on this topic. Furthermore, (III) alignment on a global level on how to address new questions regarding nanomedicine development protocols will add to efficient development and approval of these much needed candidate nanomedicines (innovative and generic). Public meetings such as the AAPS Guidance Forum may serve as the place to have these discussions.
-
-
-
-

@@ -1,8 +1,0 @@
-
-Abstract
-
-Growth of the industrial sector, a result of population explosion has become the root cause of environmental deterioration and has raised the concerns for efficient wastewater management and reuse. Photoautotrophic cultivation of microorganisms is a boon and considered as a potential biological treatment for remediation of wastewater as it sequesters CO2 during growth. Photoautotrophs viz. cyanobacteria, micro-algae and macro-algae can photosynthetically assimilate the excessive pollutants present in the wastewater. The present review emphasizes on the achievability of microorganisms to bestow wastewater as the nutrient source for biomass production, which can further be reused for feed, food and fertilizers. To support this, various case studies have been cited that prove phycoremediation as a cost-effective and sustainable process over conventional wastewater treatment processes that requires high chemical load and more energy inputs.
-
-
-
-

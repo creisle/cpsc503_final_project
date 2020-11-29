@@ -1,8 +1,0 @@
-
-Abstract
-
-Superparamagnetic iron oxide nanoparticles (SPIONs) are considered as chemically inert materials and, therefore, being extensively applied in the areas of imaging, targeting, drug delivery and biosensors. Their unique properties such as low toxicity, biocompatibility, potent magnetic and catalytic behavior and superior role in multifunctional modalities have epitomized them as an appropriate candidate for biomedical applications. Recent developments in the area of materials science have enabled the facile synthesis of Iron oxide nanoparticles (IONPs) offering easy tuning of surface properties and surface functionalization with desired biomolecules. Such developments have enabled IONPs to be easily accommodated in nanocomposite platform or devices. Additionally, the tag of biocompatible material has realized their potential in myriad applications of nanomedicines including imaging modalities, sensing, and therapeutics. Further, IONPs enzyme mimetic activity pronounced their role as nanozymes in detecting biomolecules like glucose, and cholesterol etc. Hence, based on their versatile applications in biomedicine, the present review article focusses on the current trends, developments and future prospects of IONPs in MRI, hyperthermia, photothermal therapy, biomolecules detection, chemotherapy, antimicrobial activity and also their role as the multifunctional agent in diagnosis and nanomedicines.
-
-
-
-

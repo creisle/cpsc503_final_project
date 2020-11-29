@@ -1,8 +1,0 @@
-
-Abstract
-
-Additive manufacturing/3D printing of medical devices is becoming more commonplace, a 3D printed drug is now commercially available, and bioprinting is poised to transition from laboratory to market. Despite the variety of technologies enabling these products, the US Food and Drug Administration (FDA) is charged with protecting and promoting the public health by ensuring these products are safe and effective. To that end, we are presenting the FDA’s current perspective on additive manufacturing/3D printing of medical products ranging from those regulated by the Center for Devices and Radiological Health (CDRH), the Center for Drug Evaluation and Research (CDER), and the Center for Biologics Evaluation and Research (CBER). Each Center presents an overview of the additively manufactured products in their area and the specific concerns and thoughts on using this technology in those product spaces.
-
-
-
-

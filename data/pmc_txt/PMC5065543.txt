@@ -1,8 +1,0 @@
-
-Abstract
-
-Bio-inspired algorithms are widely used to optimize the model parameters of GRN. In this paper, focus is given to develop improvised versions of bio-inspired algorithm for the specific problem of reconstruction of gene regulatory network. The approach is applied to the data set that was developed by the DNA microarray technology through biological experiments in the lab. This paper introduced a novel hybrid method, which combines the clonal selection algorithm and BFGS Quasi-Newton algorithm. The proposed approach implemented for real world E. coli data set and identified most of the relations. The results are also compared with the existing methods and proven to be efficient.
-
-
-
-

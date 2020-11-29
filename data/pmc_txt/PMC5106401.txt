@@ -1,8 +1,0 @@
-
-Abstract
-
-Marine sediments accommodate plethora of diverse microorganisms with varying ecological functions. In the present study, we isolated bacteria from surficial sediments of south east Arabian Sea (AS) and evaluated their bioactive potentials. A total of 131 isolates belonging to the phylum: γ-Proteobacteria (63%), Bacillales (34%) and Micrococcaceae (3%) were isolated. Among these, about 40% of the isolates showed the presence of secondary metabolite biosynthetic genes such as PKS or NRPS or both. Organic extracts of nearly 50% of these organisms were cytotoxic to human breast cancer MCF-7 cells and were bactericidal to human pathogens, Escherichia coli and Pseudomonas sp., while 20–30% of them were bactericidal to Vibrio sp. and Staphylococcus sp. too. In all, 8 isolates, belonging to Pseudomonas spp., Bacillus sp. and/or Lysinibacillus sp. displayed high level of bactericidal/cytotoxic properties. The study proposes AS sediment as a rich source for microorganisms with prospective bioactive molecules.
-
-
-
-

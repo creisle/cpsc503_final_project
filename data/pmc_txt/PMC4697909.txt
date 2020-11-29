@@ -1,8 +1,0 @@
-
-Abstract
-
-β-Glucosidases are diverse group of enzymes with great functional importance to biological systems. These are grouped in multiple glycoside hydrolase families based on their catalytic and sequence characteristics. Most studies carried out on β-glucosidases are focused on their industrial applications rather than their endogenous function in the target organisms. β-Glucosidases performed many functions in bacteria as they are components of large complexes called cellulosomes and are responsible for the hydrolysis of short chain oligosaccharides and cellobiose. In plants, β-glucosidases are involved in processes like formation of required intermediates for cell wall lignification, degradation of endosperm’s cell wall during germination and in plant defense against biotic stresses. Mammalian β-glucosidases are thought to play roles in metabolism of glycolipids and dietary glucosides, and signaling functions. These enzymes have diverse biotechnological applications in food, surfactant, biofuel, and agricultural industries. The search for novel and improved β-glucosidase is still continued to fulfills demand of an industrially suitable enzyme. In this review, a comprehensive overview on detailed functional roles of β-glucosidases in different organisms, their industrial applications, and recent cloning and expression studies with biochemical characterization of such enzymes is presented for the better understanding and efficient use of diverse β-glucosidases.
-
-
-
-

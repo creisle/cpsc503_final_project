@@ -1,8 +1,0 @@
-
-Abstract
-
-Recent advances in our understanding of the intestinal stem cell niche and the role of key signaling pathways on cell growth and maintenance have allowed the development of fully differentiated epithelial cells in 3D organoids. Stem cell-derived organoids carry significant levels of proteins that are natively expressed in the gut and have important roles in drug transport and metabolism. They are, therefore, particularly relevant to study the gastrointestinal (GI) absorption of oral medications. In addition, organoids have the potential to serve as a robust preclinical model for demonstrating the effectiveness of new drugs more rapidly, with more certainty, and at lower costs compared with live animal studies. Importantly, because they are derived from individuals with different genotypes, environmental risk factors and drug sensitivity profiles, organoids are a highly relevant screening system for personalized therapy in both human and veterinary medicine. Lastly, and in the context of patient-specific congenital diseases, orthotopic transplantation of engineered organoids could repair and/or replace damaged epithelial tissues reported in various GI diseases, such as inflammatory bowel disease, cystic fibrosis, and tuft enteropathy. Ongoing translational research on organoids derived from dogs with naturally occurring digestive disorders has the potential to improve the predictability of preclinical models used for optimizing the therapeutic management of severe chronic enteropathies in human patients.
-
-
-
-

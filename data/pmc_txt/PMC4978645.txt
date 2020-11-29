@@ -1,8 +1,0 @@
-
-Abstract
-
-The production of cellulolytic enzymes (β-exoglucanase, β-endoglucanase and β-glucosidase) by Penicillium sp. on three different media in liquid shake culture conditions was compared. The organism exhibited relatively highest activity of endoglucanase among three enzymes measured at 7-day interval during the course of its growth on Czapek-Dox medium supplemented with 0.5 % (w/v) cellulose. Cellulose at 0.5 %, lactose at 0.5 %, sawdust at 0.5 %, yeast extract at 0.2 % as a nitrogen source, pH 5.0 and 30 °C temperature were found to be optimal for growth and cellulase production by Penicillium sp. Yields of Fpase, CMCase and β-glucosidase, attained on optimized medium with Penicillium sp. were 8.7, 25 and 9.52 U/ml, respectively with increment of 9.2, 5.9 and 43.8-folds over titers of the respective enzyme on unoptimised medium. Cellulase of the fungal culture with the ratio of β-glucosidase to Fpase greater than one will hold potential for biotechnological applications.
-
-
-
-

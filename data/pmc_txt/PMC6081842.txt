@@ -1,8 +1,0 @@
-
-Abstract
-
-Biosensor-based devices are pioneering in the modern biomedical applications and will be the future of cardiac health care. The coupling of artificial intelligence (AI) for cardiac monitoring-based biosensors for the point of care (POC) diagnostics is prominently reviewed here. This review deciphers the most significant machine-learning algorithms for the futuristic biosensors along with the internet of things, computational techniques and microchip-based essential cardiac biomarkers for real-time health monitoring and improving patient compliance. The present review also discusses the recently developed cardiac biosensors along with technical strategies involved in their mechanism of working and their applications in healthcare. Additionally, it provides a key for the ontogeny of an effective and supportive hierarchical protocol for clinical decision-making about personalized medicine through combinatory information analysis, and integrated multidisciplinary AI approaches.
-
-
-
-

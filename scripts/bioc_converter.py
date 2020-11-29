@@ -1,9 +1,28 @@
 import bconv
 import os
 import regex
+import argparse
 
-basePath = "../data/pmc_small_sample"
-outPath = "../data/pmc_txt"
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '--pmc_dir',
+    help='path',
+    default="D:/pmc_archive"
+)
+parser.add_argument(
+    '--out_path',
+    help='path to the dir where txt output will be stored',
+    default="D:/pmc_archive/pmc_txt"
+)
+
+args = parser.parse_args()
+
+
+basePath = args.pmc_dir
+outPath = args.out_path
 outFormat = "txt"
 abstractPattern = ("(\r\n|\r|\n)(Abstract|ABSTRACT)((\r\n|\r|\n)(\r\n|\r|\n).+)+"
                    "((\r\n|\r|\n)(\r\n|\r|\n)(Introduction|INTRODUCTION))(\r\n|\r|\n)")

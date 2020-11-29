@@ -1,8 +1,0 @@
-
-Abstract
-
-Hand-held three dimensional models of the human anatomy and pathology, tailored-made protheses, and custom-designed implants can be derived from imaging modalities, most commonly Computed Tomography (CT). However, standard DICOM format images cannot be 3D printed; instead, additional image post-processing is required to transform the anatomy of interest into Standard Tessellation Language (STL) format is needed. This conversion, and the subsequent 3D printing of the STL file, requires a series of steps. Initial post-processing involves the segmentation-demarcation of the desired for 3D printing parts and creating of an initial STL file. Then, Computer Aided Design (CAD) software is used, particularly for wrapping, smoothing and trimming. Devices and implants that can also be 3D printed, can be designed using this software environment. The purpose of this article is to provide a tutorial on 3D Printing with the test case of complex congenital heart disease (CHD). While the infant was born with double outlet right ventricle (DORV), this hands-on guide to be featured at the 2015 annual meeting of the Radiological Society of North America Hands-on Course in 3D Printing focused on the additional finding of a ventricular septal defect (VSD). The process of segmenting the heart chambers and the great vessels will be followed by optimization of the model using CAD software. A virtual patch that accurately matches the patient’s VSD will be designed and both models will be prepared for 3D printing.
-
-
-
-

@@ -1,8 +1,0 @@
-
-Abstract
-
-Cotton (Gossypium spp.) is the single most important spinning fiber that has economic significance worldwide. Cotton is one of the most value-added crops and an excellent model system for the analysis of polyploidization and cell development. Thus, the Cotton Genome Consortium has made rapid and significant progress in whole genome sequencing studies in the last decade. Developments in cotton genome sequencing and assembly provide powerful tools for dissecting the genetic and molecular bases of agronomically important traits and establishing regulatory networks on these processes, which leads to molecular breeding. Here, we briefly review these advances, emphasizing their implications in the genetic improvement of cotton with a particular focus on fiber quality and yield. Moreover, major progresses in chloroplast and mitochondrial genomes have also been summarized.
-
-
-
-

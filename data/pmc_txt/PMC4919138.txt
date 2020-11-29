@@ -1,8 +1,0 @@
-
-Abstract
-
-Carrageenan, one of the phycocolloids is a sulfated galactan made up of linear chains of galactose and 3,6-anhydrogalactose with alternating α-(1 → 3) and β-(1 → 4) linkages and further classified based on the number and the position of sulfated ester(s); κ-, ι- and λ-carrageenan. Enzymes which degrade carrageenans are called k-, ι-, and λ-carrageenases. They all are endohydrolases that cleave the internal β-(1–4) linkages of carrageenans yielding products of the oligo-carrageenans. These enzymes are produced only by bacteria specifically gram negative bacteria. Majority of the marine bacteria produce these enzymes extracellularly and their activity is in wide range of temperature. They have found potential applications in biomedical field, bioethanol production, textile industry, as a detergent additive and for isolation of protoplast of algae etc. A comprehensive information shall be helpful for the effective understanding and application of these enzymes. In this review exhaustive information of bacterial carrageenases reported till date has been done. All the aspects like sources, production conditions, characterization, cloning and- biotechnological applications are summarized.
-
-
-
-

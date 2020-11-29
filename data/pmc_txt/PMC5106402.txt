@@ -1,8 +1,0 @@
-
-Abstract
-
-Suspected phytoplasma symptoms of little leaf, yellowing, chlorosis, phyllody, witches’ broom, and stunting were observed on ten different ornamental plant species at New Delhi, Andhra Pradesh, Haryana, Bengaluru, and Pune, India, during March to July 2016. To investigate the possibility of phytoplasma etiology, PCR assays were performed using universal primer pairs (P1/P7 followed by 3Far/3Rev) specific to the phytoplasma 16Sr RNA gene. First round PCR amplification with primer pair P1/P7 did not yield expected 1.8 kb product of 16S rRNA region from any of the 17 symptomatic samples. However, 1.3 Kb amplicons were observed in nested PCR assays with 3Far/3Rev primer pair in symptomatic leaf samples of Hibiscus rosa-sinensis L. (Pune isolate), Saponaria officinalis L. (Pune isolate), and Allamanda cathartica L. (Delhi isolate). No amplifications were observed in any of the other tested symptomatic and non-symptomatic plant samples either in first round or second round of nested PCR assays with phytoplasma specific primer pairs. Pairwise sequence comparison of 16S rDNA sequences of the five positive phytoplasma strains of A. catharica, H. rosa-sinensis, and S. officinalis in the present study revealed 99–100% sequence identities with strains of ‘clover proliferation’ (16SrVI) group. Phylogenetic and virtual RFLP analysis of 16S rDNA sequences of the five identified phytoplasma strains belonging to three ornamental species further confirmed their clustering and grouping with member strains of ‘clover proliferation’ subgroup D. This is the first record of the phytoplasma association of ‘clover proliferation’ subgroup D with H. rosa-sinensis, S. officinalis, and A. cathartica in the world.
-
-
-
-

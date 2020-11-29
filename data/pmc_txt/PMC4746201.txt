@@ -1,8 +1,0 @@
-
-Abstract
-
-In the present investigation, a gene encoding extracellular lipase was cloned from a Bacillus licheniformis. The recombinant protein containing His-tag was expressed as inclusion bodies in Esherichia coli BL21DE3 cells, using pET-23a as expression vector. Expressed protein purified from the inclusion bodies demonstrated ~22 kDa protein band on 12 % SDS-PAGE. It exhibited specific activity of 0.49 U mg−1 and % yield of 8.58. Interestingly, the lipase displayed activity at wide range of pH and temperature, i.e., 9.0–14.0 pH and 30–80 °C, respectively. It further demonstrated ~100 % enzyme activity in presence of various organic solvents. Enzyme activity was strongly inhibited in the presence of β-ME. Additionally, the serine and histidine modifiers also inhibited the enzyme activities strongly at all concentrations that suggest their role in the catalytic center. Enzyme could retain its activity in presence of various detergents (Triton X-100, Tween 20, Tween 40, SDS). Sequence and structural analysis employing in silico tools revealed that the lipase contained two highly conserved sequences consisting of ITITGCGNDL and NLYNP, arranged as parallel β-sheet in the core of the 3D structure. The function of these conserve sequences have not fully understood.
-
-
-
-

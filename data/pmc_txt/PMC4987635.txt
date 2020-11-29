@@ -1,8 +1,0 @@
-
-Abstract
-
-Pseudomonas, an enormously diverse genus of the γ-Proteobacteria, is an important member of soil microbial communities. In this study, genetic heterogeneity and plant growth promotory property of Pseudomonas was compared within the group Pseudomonas sensu stricto isolated from the lesser explored niches of Himalayan region. A significant difference (P < 0.001 in total Pseudomonas count) was observed among the six types of soil samples collected from oak forest, fine forest, and agricultural soil. The highest numbers of bacteria were isolated from oak forest soil followed by pine forest soil and agricultural soil. 23.52 % of the total 238 isolates were siderophore producers and were identified as Pseudomonas on the basis of PCR amplification using 16S rDNA Pseudomonas specific primer. The molecular analysis by Jaccard’s similarity coefficient resulted into eight different clusters and six outlying branches. Some of the clusters include Pseudomonas from forest as well as agricultural land. Among the 51 isolates 100 % were siderophore and IAA producers, 68.62 % were phosphate solubilizers and 62.74 % HCN producers. The results reveal that isolates from lesser explored area possess beneficial properties and show genetic heterogeneity among them.
-
-
-
-

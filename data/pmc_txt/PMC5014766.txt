@@ -1,8 +1,0 @@
-
-Abstract
-
-Sanitary landfilling is the most common way to dispose solid urban waste; however, improper landfill management may pose serious environmental threats through discharge of high strength polluted wastewater also known as leachate. The treatment of landfill leachate to fully reduce the negative impact on the environment, is nowadays a challenge. In this study, an aerobic sequencing batch reactor (ASBR) was proposed for the treatment of locally obtained real landfill leachate with initial ammoniacal nitrogen and chemical oxygen demand (COD) concentration of 1800 and 3200 mg/L, respectively. ASBR could remove 65 % of ammoniacal nitrogen and 30 % of COD during seven days of treatment time. Thereafter, an effective adsorbent, i.e., zeolite was used as a secondary treatment step for polishing the ammoniacal nitrogen and COD content that is present in leachate. The results obtained are promising where the adsorption of leachate by zeolite further enhanced the removal of ammoniacal nitrogen and COD up to 96 and 43 %, respectively. Furthermore, this combined biological–physical treatment system was able to remove heavy metals, i.e. aluminium, vanadium, chromium, magnesium, cuprum and plumbum significantly. These results demonstrate that combined ASBR and zeolite adsorption is a feasible technique for the treatment of landfill leachate, even considering this effluent’s high resistance to treatment.
-
-
-
-

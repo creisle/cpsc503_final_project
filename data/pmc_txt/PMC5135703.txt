@@ -1,8 +1,0 @@
-
-Abstract
-
-Type 2 diabetes (T2DM) is a polygenic metabolic disorder characterized by hyperglycemia occurring as a result of impaired insulin secretion or insulin resistance. Various environmental and genetic factors interact and increase the risk of T2DM and its complications. Among the various genetic factors associated with T2DM, single nucleotide polymorphism in different candidate genes have been studied intensively and the resulting genetic variants have been found to have either positive or negative association with T2DM thereby increasing or decreasing the risk of T2DM, respectively. In this review, we will focus on Guanine nucleotide-binding protein subunit beta 3 (GNB3), Norepinephrine Transporter (NET), Potassium Channel gene (KCNJ11), Transcription Factor 7-Like 2 (TCF7L2) and Glucocorticoid receptor (GRL) genes and their association with T2DM studied in different ethnic groups. The products of these genes are involved in the biochemical pathway leading to T2DM. Polymorphisms in these genes have been intensively studied in individuals of different ethnic origins. Results show that genetic variants of TCF7L2 and KCNJ11 genes have potential to emerge as a risk biomarker for T2DM whereas results of GNB3, GRL and NET genes have been controversial when studied in individuals of different ethnicities. We have tried to summarize the results generated globally in context to the selected genes which could possibly help researchers working in this field and would eventually help in understanding the mechanistic pathways of T2DM leading early diagnosis and prevention.
-
-
-
-

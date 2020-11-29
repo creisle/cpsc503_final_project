@@ -1,8 +1,0 @@
-
-Abstract
-
-Disulfide bonds occurred in majority of secreted protein. Formation of correct disulfide bonds are must for achieving native conformation, solubility and activity. Production of recombinant proteins containing disulfide bond for therapeutic, diagnostic and various other purposes is a challenging task of research. Production of such proteins in the reducing cytosolic compartment of E. coli usually ends up in inclusion bodies formation. Refolding of inclusion bodies can be difficult, time and labor consuming and uneconomical. Translocation of these proteins into the oxidative periplasmic compartment provides correct environment to undergo proper disulfide bonds formation and thus achieving native conformation. However, not all proteins can be efficiently translocated to the periplasm with the help of bacterial signal peptides. Therefore, fusion to a small well-folded and stable periplasmic protein is more promising for periplasmic production of disulfide bonded proteins. In the past decades, several full-length proteins or domains were used for enhancing translocation and solubility. Here, protein fusion tags that significantly increase the yields of target proteins in the periplasmic space are reviewed.
-
-
-
-

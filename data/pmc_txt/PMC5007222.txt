@@ -1,8 +1,0 @@
-
-Abstract
-
-This study investigated the optimization of d-lactic acid production from unutilized biomass, specifically banana peel and corncob by multiple parallel fermentation (MPF) with Leuconostoc mesenteroides and Aspergillus awamori. The factors involved in MPF that were assessed in this study comprised banana peel and corncob, KH2PO4, Tween 80, MgSO4·7H2O, NaCl, yeast extract, and diammonium hydrogen citrate to identify the optimal concentration for d-lactic acid production. Optimization of these component factors was performed using the Taguchi method with an L8 orthogonal array. The optimal concentrations for the effectiveness of MPF using biomass substrates were as follows: banana peel, d-lactic acid production was 31.8 g/L in medium containing 15 % carbon source, 0.5 % KH2PO4, 0.1 % Tween 80, 0.05 % MgSO4·7H2O, 0.05 % NaCl, 1.5 % yeast extract, and 0.2 % diammonium hydrogen citrate. corncob, d-lactic acid production was 38.3 g/L in medium containing 15 % of a carbon source, 0.5 % KH2PO4, 0.1 % Tween 80, 0.05 % MgSO4·7H2O, 0.1 % NaCl, 1.0 % yeast extract, and 0.4 % diammonium hydrogen citrate. Thus, both banana peel and corncob are unutilized potential resources for d-lactic acid production. These results indicate that MPF using L. mesenteroides and A. awamori could constitute part of a potential industrial application of the currently unutilized banana peel and corncob biomass for d-lactic acid production.
-
-
-
-

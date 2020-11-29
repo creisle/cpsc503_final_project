@@ -1,8 +1,0 @@
-
-Abstract
-
-Here, we report on the inexpensive fabrication of an electrospray/electrospinning setup by fused deposition modelling (FDM) 3D printing and provide the files and parameters needed to print this versatile device. Both electrospray and electrospinning technologies are widely used for pharmaceutical, healthcare and bioengineering applications. The setup was designed to be modular, thus its parts can be exchanged easily. The design provides a safe setup, ensuring that the users are not exposed to the high voltage parts of the setup. PLA, PVA, and a thermoplastic elastomer filament were used for the 3D printing. The filament cost was $100 USD and the rig was printed in 6 days. An Ultimaker 3 FDM 3D printer was used with dual print heads, and the PVA was used as a water-soluble support structure. The end part of the setup had several gas channels, allowing a uniform gas flowing against the direction of the nanoparticles/nanofibers, enhancing the drying process by enhancing the evaporation rate. The setup was tested in both electrospray and electrospinning modes successfully. Both the .sldprt and .stl files are provided for free download.
-
-
-
-

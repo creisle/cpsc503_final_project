@@ -1,8 +1,0 @@
-
-
-
-Introduction
-
-Several health-promoting compounds (phenolics, flavanoids) are rich in Brassicaceae plants (Jahangir et al. 2009). Moreover, glucosinolates (GSLs) are the major secondary metabolites found in the Brassicaceae family (Fahey et al. 2001). Glucosinolates provided resistance against pathogens and control auxin homeostasis in plants (Baskar et al. 2012). Among different Brassica crops, Brassica rapa ssp. pekinensis is globally cultivated and is highly consumed in Korea with the cultivation area covers across 37,200 ha (Park and Cheigh 2003). These natural health-promoting compounds should be enriched via the genetic engineering approaches for the potential use of B. rapa crops. However, the generation of transgenic plants in B. rapa is considered as difficult. Previous reports indicated the successful regeneration efficiencies in B. rapa for various purposes (Tang et al. 2003; Min et al. 2007; Zang et al. 2008). Zang et al. attempted to generate B. rapa transgenic plants to enrich glucosinolates. Similarly, Cho et al. successfully generated B. rapa transgenic plants expressing CRY-1C gene. However, the rate of transformation efficiency is largely varied. The effective in vitro plant regeneration system is essential for genetic transformation in plants. Here, we have established an efficient reproducible protocol for high-frequency regeneration via indirect organogenesis from hypocotyl explants of Chinese cabbage. In this paper, we described a simple protocol for Agrobacterium-mediated genetic transformation via indirect regeneration using hypocotyl explants in B. rapa.
-
-

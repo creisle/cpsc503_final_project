@@ -1,8 +1,0 @@
-
-Abstract
-
-Despite the improvements in drug screening, high levels of drug attrition persist. Although high-throughput screening platforms permit the testing of compound libraries, poor compound efficacy or unexpected organ toxicity are major causes of attrition. Part of the reason for drug failure resides in the models employed, most of which are not representative of normal organ biology. This same problem affects all the major organs during drug development. Hepatotoxicity and cardiotoxicity are two interesting examples of organ disease and can present in the late stages of drug development, resulting in major cost and increased risk to the patient. Currently, cell-based systems used within industry rely on immortalized or primary cell lines from donated tissue. These models possess significant advantages and disadvantages, but in general display limited relevance to the organ of interest. Recently, stem cell technology has shown promise in drug development and has been proposed as an alternative to current industrial systems. These offerings will provide the field with exciting new models to study human organ biology at scale and in detail. We believe that the recent advances in production of stem cell-derived hepatocytes and cardiomyocytes combined with cutting-edge engineering technologies make them an attractive alternative to current screening models for drug discovery. This will lead to fast failing of poor drugs earlier in the process, delivering safer and more efficacious medicines for the patient.
-
-
-
-

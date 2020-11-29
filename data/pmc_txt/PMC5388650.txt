@@ -1,8 +1,0 @@
-
-Abstract
-
-Tinospora cordifolia is a prioritized medicinal plant and having an immense medicinal importance especially in Indian medicinal system. But this plant needs a regeneration protocol for its rapid propagation. An efficient regeneration protocol was developed for T. cordifolia using nodal explants. High frequency of multiple shoot formation was induced when the nodal segments were cultured on MS medium supplemented with BAP (1.0 mg L−1) and 2-iP (0.5 mg L−1). The highest mean number of shoots per nodal explant (7.9 ± 0.45) with highest shoot length (9.3 ± 0.48 cm) and 86% response were achieved on this media and hormonal concentration. The optimum rooting was obtained on ½ strength of MS medium augmented with IBA (0.5 mg L−1) with 8.3 ± 0.46 cm root length and 89% response. Micropropagated plantlets were found to be identical with the mother plant when clonal fidelity of these plantlets were analyzed with inter simple sequence repeat (ISSR) marker. The berberine content was analyzed through LCMS QToF and the highest amount was found in in vitro callus (19.8 µg/gm) followed by stem (9.3 µg/gm) and leaves of field-grown plants (8.4 µg/gm). Further, presence of berberine was confirmed by ESI–MS spectra with protonated molecular ions ([M + H]+) at m/z 336. Furthermore, MS–MS fragmentation pattern confirmed for the presence of berberine in both the samples. Both the spectra (standard and samples) showed common peaks for berberine in the form of protonated molecular ions ([M + H]+) at m/z 320, m/z 304, m/z 292, m/z 278 in MS/MS mode. The study revealed that developed protocol is potent for rapid mass propagation of this plant species with high accumulation of important secondary metabolite berberine.
-
-
-
-

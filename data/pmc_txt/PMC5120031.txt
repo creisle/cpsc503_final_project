@@ -1,8 +1,0 @@
-
-Abstract
-
-In this paper, a new and facile approach for molybdate loading in the brown algae of Sargassum angustifolium is introduced. The molybdate ions were entered into the algae body during a short cultivation to produce algae–Mo as a novel adsorbent for eliminating phosphate ions from synthetic and real wastewaters. Results of the surface analysis showed that molybdate loading onto the algae was successfully performed. Herein, basic variables, such as initial solution pH, adsorbent dosage, contact time, phosphate concentration, and temperature, were investigated in detail to assess the phosphate adsorption performance of algae–Mo. The pseudo-second-order kinetic model fitted our acquired experimental kinetic data most appropriately, in comparison to the use of a pseudo-first-order model. The Langmuir model appeared to fit the adsorption data more desirably than that of Freundlich and Dubnin–Radushkevich models, with a maximum phosphate adsorption capacity of 149.25 mg/g at 25 °C. The finding of the thermodynamic study revealed that the phosphate adsorption onto algae–Mo was spontaneous, feasible, and endothermic in nature. The study on Mo2+ ions leaching strongly suggested that the risk of Mo2+ leakage during phosphate adsorption was negligible at a wide pH range of 3–9. The adsorption efficiency attained was 53.4% at the sixth cycle of reusability. Two real wastewaters with different qualities were successfully treated by the algae–Mo, suggesting that the algae–Mo could be ordered for practical wastewater treatment.
-
-
-
-

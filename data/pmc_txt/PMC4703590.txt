@@ -1,8 +1,0 @@
-
-Abstract
-
-Laccase belongs to a small group of enzymes called the blue multicopper oxidases, having the potential ability of oxidation. It belongs to enzymes, which have innate properties of reactive radical production, but its utilization in many fields has been ignored because of its unavailability in the commercial field. There are diverse sources of laccase producing organisms like bacteria, fungi and plants. In fungi, laccase is present in Ascomycetes, Deuteromycetes, Basidiomycetes and is particularly abundant in many white-rot fungi that degrade lignin. Laccases can degrade both phenolic and non-phenolic compounds. They also have the ability to detoxify a range of environmental pollutants. Due to their property to detoxify a range of pollutants, they have been used for several purposes in many industries including paper, pulp, textile and petrochemical industries. Some other application of laccase includes in food processing industry, medical and health care. Recently, laccase has found applications in other fields such as in the design of biosensors and nanotechnology. The present review provides an overview of biological functions of laccase, its mechanism of action, laccase mediator system, and various biotechnological applications of laccase obtained from endophytic fungi.
-
-
-
-

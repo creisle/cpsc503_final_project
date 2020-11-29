@@ -1,8 +1,0 @@
-
-Abstract
-
-Breast cancer is the leading cause of cancer-related death in women worldwide. Invasive ductal carcinoma (IDC) is the most frequent invasive form of breast cancer followed by metastasis. There is no accepted marker for distinguishing this form from other less aggressive forms of breast cancer. Therefore, finding new markers especially molecularly detectable ones are noteworthy. It has been shown that NOTCH1 has been overexpressed in the patients with breast cancer, but no study has investigated the expression of NOTCH1 and its correlation with other molecular and hormonal markers of breast cancer so far. In the current study, 20 breast cancer tissues and 20 matched adjacent normal breast tissue from breast cancer patients were obtained and categorized in two groups: patients with IDC and patient with other types of breast cancer. Gene expression analysis using real-time PCR showed that the NOTCH1 gene was significantly overexpressed in patients with IDC. We also found a slight correlation between NOTCH1 overexpression and p53 accumulation in the cancerous cells confirmed by Immunohistochemistry (IHC). This results showed that it is possible to introduce NOTCH1 expression as a novel biomarker of IDC, alone or preferably accompanied by IHC of p53. We also can design new therapeutic agents targeting NOTCH1 expression for inhibition of metastasis in ductal breast carcinoma.
-
-
-
-

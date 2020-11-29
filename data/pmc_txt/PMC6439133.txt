@@ -1,8 +1,0 @@
-
-Abstract
-
-The present study investigated the efficiency of CRISPR/Cas9 in creating genomic deletions as the basis of its application in removing selection marker genes or the intergenic regions. Three loci, representing a transgene and two rice genes, were targeted at two sites each, in separate experiments, and the deletion of the defined fragments was investigated by PCR and sequencing. Genomic deletions were found at a low rate among the transformed callus lines that could be isolated, cultured, and regenerated into plants harboring the deletion. However, randomly regenerated plants showed mixed genomic effects, and generally did not harbor heritable genomic deletions. To determine whether point mutations occurred at each targeted site, a total of 114 plants consisting of primary transgenic lines and their progeny were analyzed. Ninety-three plants showed targeting, 60 of which were targeted at both sites. The presence of point mutations at both sites was correlated with the guide RNA efficiency. In summary, genomic deletions through dual-targeting by the paired-guide RNAs were generally observed in callus, while de novo point mutations at one or both sites occurred at high rates in transgenic plants and their progeny, generating a variety of insertion–deletions or single-nucleotide variations. In this study, point mutations were exceedingly favored over genomic deletions; therefore, for the recovery of plant lines harboring targeted deletions, identifying early transformed clones harboring the deletions, and isolating them for plant regeneration is recommended.
-
-
-
-

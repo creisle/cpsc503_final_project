@@ -1,8 +1,0 @@
-
-Abstract
-
-Congenital heart diseases causing significant hemodynamic and functional consequences require surgical repair. Understanding of the precise surgical anatomy is often challenging and can be inadequate or wrong. Modern high resolution imaging techniques and 3D printing technology allow 3D printing of the replicas of the patient’s heart for precise understanding of the complex anatomy, hands-on simulation of surgical and interventional procedures, and morphology teaching of the medical professionals and patients. CT or MR images obtained with ECG-gating and breath-holding or respiration navigation are best suited for 3D printing. 3D echocardiograms are not ideal but can be used for printing limited areas of interest such as cardiac valves and ventricular septum. Although the print materials still require optimization for representation of cardiovascular tissues and valves, the surgeons find the models suitable for practicing closure of the septal defects, application of the baffles within the ventricles, reconstructing the aortic arch, and arterial switch procedure. Hands-on surgical training (HOST) on models may soon become a mandatory component of congenital heart disease surgery program. 3D printing will expand its utilization with further improvement of the use of echocardiographic data and image fusion algorithm across multiple imaging modalities and development of new printing materials. Bioprinting of implants such as stents, patches and artificial valves and tissue engineering of a part of or whole heart using the patient’s own cells will open the door to a new era of personalized medicine.
-
-
-
-

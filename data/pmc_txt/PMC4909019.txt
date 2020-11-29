@@ -1,8 +1,0 @@
-
-Abstract
-
-Biological methods of nanoparticles synthesis are ecologically sound and sustainable alternative to the conventional methods. On the basis of aforesaid premise, the present study deals with the optimization and fabrication of gold nanoparticles (Au-NPs) using easily available bio-resource, Delonix regia leaf extract. The use of practically nontoxic natural extracts and water allows the synthesis pathways presented to be considered as ‘‘green’’ and so permitting the synthesized Au-NPs to be used in sensitive areas, such as bioremediation. Various characterization techniques are adopted for the evaluation of size, stability, morphology, crystal nature, and purity of nanoparticles. Ultraviolet–visible spectroscopy analysis showed a surface Plasmon resonance peak for prepared Au-NPs at 542 nm, and its absorbance increased with increasing the interaction time. Transmission electron microscopy analysis showed that the particles were spherical and 4–24 nm in size. Energy dispersive X-ray spectroscopy analysis displayed a 2.2 keV peak corresponding to the pure phase gold nanocrystal. X-ray diffraction analysis proved the fabrication of crystalline Au-NPs with face-centered cubic geometry within 10 min. Furthermore, ζ potential (−15 mV) and Fourier transform infrared data suggested the role of polar polyphenolic compounds of leaf extract in fabrication and stabilization process. Biofabricated nanoparticles are demonstrated to have catalytic activity for the reduction of toxic nitro-organic pollutant o-nitroaniline. Therefore, the present study offers a straightforward, cost-efficient, eco-friendly, and sustainable alternative for the fabrication of catalytically active Au-NPs.
-
-
-
-

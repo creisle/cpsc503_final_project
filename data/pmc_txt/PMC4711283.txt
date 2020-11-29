@@ -1,8 +1,0 @@
-
-Abstract
-
-A novel extreme halophilic exochitinase enzyme was produced by honey isolate Aspergillus awamori EM66. The enzyme was immobilized successfully on k-carrageenan-alginate gel carrier (CA) with 93 % immobilization yield. The immobilization process significantly improved the enzyme specific activity 2.6-fold compared to the free form. The significant factors influencing the immobilization process such as enzyme protein concentration and loading time were studied. Distinguishable characteristics of optimum pH and temperature, stability at different temperatures and NaCl tolerance for free and immobilized enzyme were studied. The immobilization process improved optimum temperature from 35 to 45 °C. The immobilized enzyme retained 76.70 % of its activity after 2 h at 75 °C compared to complete loss of activity for the free enzyme. The reusability test proved the durability of the CA gel beads for 28 cycles without losing its activity.
-
-
-
-

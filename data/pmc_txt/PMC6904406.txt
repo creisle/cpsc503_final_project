@@ -1,8 +1,0 @@
-
-Abstract
-
-Over the last decade, several regulatory guidelines on bioanalytical method validation (BMV) have been issued by regulatory agencies around the world. This has left the bioanalytical community struggling with regional differences in regulatory expectations when preparing for global pharmaceutical submissions. The International Council for Harmonization of Technical Requirements for Pharmaceuticals for Human Use (ICH) has the mission to achieve greater harmonization worldwide to ensure that safe, effective, and high-quality medicines are developed and registered in the most resource-efficient manner. Following calls for harmonization, ICH-selected bioanalytical method validation and sample analysis among its topics for guidance development and earlier this year released a draft guideline (M10) on BMV for public consultation. In response, the American Association of Pharmaceutical Scientists (AAPS) held a 3-day workshop to provide a forum for regulatory, industry, and academic scientists to discuss the guideline and hear various points of view on key aspects. While there was agreement that the draft guideline is generally well written and comprehensive, specific topics generated considerable discussion and, in some cases, revision recommendations for consideration by the expert working group (EWG) responsible for the guideline content. This report provides a summary of the workshop proceedings.
-
-
-
-

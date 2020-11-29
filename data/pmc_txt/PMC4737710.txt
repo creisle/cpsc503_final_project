@@ -1,8 +1,0 @@
-
-Abstract
-
-An efficient keratinolytic strain of Stenorophomonas maltophilia KB13 was isolated from feather disposal site of Bilaspur, Chhattisgarh, India. The strain could metabolize 10 g/l chicken feathers as sole source of carbon and nitrogen. Soluble protein, amino acid, and cysteine content were found to be maximum (690.6 ± 8.7, 688.9 ± 9.12 and 21 ± 0.36 µg/ml, respectively) at late logarithmic phase of growth. Protease and keratinase activity reached its maximum level (103.26 ± 7.09 and 178.5 ± 9.10 U/ml) at the 4th day of incubation. The feather protein hydrolysate (FPH) obtained after degradation of chicken feathers was utilized to reduce hexavalent chromium. About 78.4 ± 2.4 and 63.6 ± 2.2 % reduction of 50 and 100 mg/l Cr(VI), respectively, was observed after 60 min of incubation with FPH. Further, there was no effect of autoclaved FPH on Cr(VI) reduction indicating that any bacterial enzyme was not involved in reduction process. Cr(VI) reduction was significantly inhibited by 10 mm Hg2+ ions indicating the role of sulfur-containing amino acids in reduction process. FTIR analysis confirmed that chromium reduction occurred due to oxidation of amino acids cysteine and cystine. This study shows that FPH arising after feather degradation can be employed as a potential candidate for the reduction of hexavalant chromium.
-
-
-
-

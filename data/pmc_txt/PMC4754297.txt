@@ -1,8 +1,0 @@
-
-Abstract
-
-Hyaluronic acid (HA) is a polysaccharide found in the extracellular matrix of vertebrate epithelial, neural and connective tissues. Due to the high moisture retention, biocompatibility and viscoelasticity properties of this polymer, HA has become an important component of major pharmaceutical, biomedical and cosmetic products with high commercial value worldwide. Currently, large scale production of HA involves extraction from animal tissues as well as the use of bacterial expression systems in Streptococci. However, due to concerns over safety, alternative sources of HA have been pursued which include the use of endotoxin-free microorganisms such as Bacilli and Escherichia coli. In this review, we explore current knowledge of biosynthetic enzymes that produce HA, how these systems have been used commercially to produce HA and how the challenges of producing HA cheaply and safely are being addressed.
-
-
-
-

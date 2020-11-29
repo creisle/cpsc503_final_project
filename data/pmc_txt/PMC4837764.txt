@@ -1,8 +1,0 @@
-
-Abstract
-
-Three different fractional (methanol, ethyl acetate and hexane) extracts from yuzu (Citrus junos Sieb ex Tanaka), hallabong [(C. unshiu Marcov × C. sinensis Osbeck) × C. reticulata Blanco] and orange (C. sinensis) were evaluated for their antioxidant activity and antiplatelet effects. 2,2-Diphenyl-1-Picrylhydrazyl (DPPH), cupric reducing antioxidant capacity (CUPRAC) and ferric-reducing antioxidant power (FRAP) methods were used for the antioxidant activity tests. Total flavonoids and total phenolics were also evaluated spectrophotometrically. The ethyl acetate fraction contained the highest total flavonoid and total phenolic content and exhibited the highest antioxidant activities (185.2 ± 14.5 and 208.7 ± 17.5 mg/g dry extract for FRAP and CUPRAC values, respectively). The total phenolic and total flavonoid content ranged from 58.2 ± 1.4 to 102.4 ± 8.6 and 19.6 ± 0.5 to 64.3 ± 0.8 mg/g dry extract, respectively. The results of DPPH assay showed that ethyl acetate fractions had the least IC50 values (0.12 ± 0.002, 0.04 ± 0.0006, in mg/mL for orange and hallabong samples, respectively) followed by the hexane fraction (0.19 ± 0.007 mg/mL) of the orange sample. For all fractions, the antioxidant activity and contents of total phenolics and total flavonoids correlated well with each other. In vitro investigation of the antiplatelet effect showed that ethyl acetate fraction has the highest inhibition (84.3 ± 5.8 to 96.1 ± 1.8 %). Hexane and MeOH fractions of hallabong and orange samples inhibited platelet aggregations by less than or equal to 41 %.
-
-
-
-

@@ -1,8 +1,0 @@
-
-Abstract
-
-Complex and hierarchically functionalized scaffolds composed of micro- and nanoscale structures are a key goal in tissue engineering. The combination of three-dimensional (3D) printing and electrospinning enables the fabrication of these multiscale structures. This study presents a polycaprolactone 3D-printed and electrospun scaffold with multiple mesh layers and fiber densities. The results show successful fabrication of a dual-scale scaffold with the 3D-printed scaffold acting as a gap collector with the printed microfibers as the electrodes and the pores a series of insulating gaps resulting in aligned nanofibers. The electrospun fibers are highly aligned perpendicular to the direction of the printed fiber and form aligned meshes within the pores of the scaffold. Mechanical testing showed no significant difference between the number of mesh layers whereas the hydrophobicity of the scaffold increased with increasing fiber density. Biological results indicate that increasing the number of mesh layers improves cell proliferation, migration, and adhesion. The aligned nanofibers within the microscale pores allowed enhanced cell bridging and cell alignment that was not observed in the 3D-printed only scaffold. These results demonstrate a facile method of incorporating low-density and aligned fibers within a 3D-printed scaffold that is a promising development in multiscale hierarchical scaffolds where alignment of cells can be desirable.
-
-
-
-

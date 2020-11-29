@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 import csv 
+import argparse
 from matplotlib import pyplot as plt
 
 def loadCoherenceData(path):
@@ -55,11 +56,31 @@ def saveHistogram(scores, title, outPath, bins=20):
 
 
 
-coherencePath = "../results/taaco_scores.csv"
-figPath = "../results/taaco_plots"
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '--taaco_scores',
+    help='path to output csv file produced by taaco2.0',
+    default="../results/taaco_scores.csv"
+)
+parser.add_argument(
+    "--taaco_plots",
+    help='path the the TSV output file',
+    default="../results/taaco_plots"
+)
+
+
+args = parser.parse_args()
+
+
+
+
+coherencePath = args.taaco_scores
+figPath = args.taaco_plots
 
 data = loadCoherenceData(coherencePath)
-
 
 saveHistogram(data["lsa"], "LSA Scores", figPath)
 saveHistogram(data["lda"], "LDA Scores", figPath) 

@@ -1,8 +1,0 @@
-
-Abstract
-
-Aspergillus terreus NCFT4269.10 was implemented in solid-state (SSF) and liquid static surface fermentation (LSSF) for biosynthesis of pectinase. Amongst various substrates, like, mustard oil cake, neem oil cake, groundnut oil cake, black gram peels, green gram peels, chickling vetch peels/grass pea peels wheat bran, pearl millet residues, finger millet waste, broken rice, banana peels (BP), apple pomace (AP) and orange peels, banana peel (Musa paradisiaca L.; Family: Musaceae) was most suitable for pectinase biosynthesis (LSSF: 400 ± 21.45 Uml−1; SSF: 6500 ± 1116.21 Ug−1). Optimization of process parameters using one-variable-at-a-time method revealed that an initial medium pH of 5.0 at 30 °C and 96 h of incubation along with mannitol, urea, ammonium persulfate and isoleucine have positive influence on pectinase production. Further, K+ (1 mM), Riboflavin (10 mg 100 ml−1) and gibberellic acid (0.025 %, w/v) supported in enhanced pectinase production. Banana peels and AP at a ratio of 9:1, moisture content of 90 % with 2 % inoculum size were suitable combinations for production of pectinase. Similarly, 96 h of soaking time with 0.1 M phosphate buffer (pH 6.5) is essential for pectinase recovery. Purification to electrophoretic homogeneity revealed 1.42 fold purification with 8.08 % yield and a molecular weight of 24.6 kDa. Scaling up of various fermentation parameters and supplementing BP as the substrate for pectinase production with better recovery could make it promising for different industrial exploitation.
-
-
-
-

@@ -1,8 +1,0 @@
-
-Abstract
-
-Xylanases are hydrolytic enzymes which cleave the β-1, 4 backbone of the complex plant cell wall polysaccharide xylan. Xylan is the major hemicellulosic constituent found in soft and hard food. It is the next most abundant renewable polysaccharide after cellulose. Xylanases and associated debranching enzymes produced by a variety of microorganisms including bacteria, actinomycetes, yeast and fungi bring hydrolysis of hemicelluloses. Despite thorough knowledge of microbial xylanolytic systems, further studies are required to achieve a complete understanding of the mechanism of xylan degradation by xylanases produced by microorganisms and their promising use in pulp biobleaching. Cellulase-free xylanases are important in pulp biobleaching as alternatives to the use of toxic chlorinated compounds because of the environmental hazards and diseases caused by the release of the adsorbable organic halogens. In this review, we have focused on the studies of structural composition of xylan in plants, their classification, sources of xylanases, extremophilic xylanases, modes of fermentation for the production of xylanases, factors affecting xylanase production, statistical approaches such as Plackett Burman, Response Surface Methodology to enhance xylanase production, purification, characterization, molecular cloning and expression. Besides this, review has focused on the microbial enzyme complex involved in the complete breakdown of xylan and the studies on xylanase regulation and their potential industrial applications with special reference to pulp biobleaching, which is directly related to increasing pulp brightness and reduction in environmental pollution.
-
-
-
-

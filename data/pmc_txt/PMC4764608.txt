@@ -1,8 +1,0 @@
-
-Abstract
-
-The deconstruction of biomass is a pivotal process for the manufacture of target products using microbial cells and their enzymes. But the enzymes that possess a significant role in the breakdown of biomass remain relatively unexplored. Thermophilic microorganisms are of special interest as a source of novel thermostable enzymes. Many thermophilic microorganisms possess properties suitable for biotechnological and commercial use. There is, indeed, a considerable demand for a new generation of stable enzymes that are able to withstand severe conditions in industrial processes by replacing or supplementing traditional chemical processes. This manuscript reviews the pertinent role of thermophilic microorganisms as a source for production of thermostable enzymes, factors afftecting them, recent patents on thermophiles and moreso their wide spectrum applications for commercial and biotechnological use.
-
-
-
-

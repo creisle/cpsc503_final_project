@@ -1,8 +1,0 @@
-
-Abstract
-
-Biogas is a combination of methane, CO2, nitrogen, H2S and traces of few other gases. Almost any organic waste can be biologically transformed into biogas and other energy-rich organic compounds through the process of anaerobic digestion (AD) and thus helping in sustainable waste management. Although microbes are involved in each step of AD, knowledge about those microbial consortia is limited due to the lack of phylogenetic and metabolic data of predominantly unculturable microorganisms. However, culture-independent methods like PCR-based ribotyping has been successfully employed to get information about the microbial consortia involved in AD. Microbes identified have been found to belong mainly to the bacterial phyla of Proteobacteria, Chloroflexi, Firmicutes and Bacteroidetes. Among the archaeal population, the majority have been found to be methanogens (mainly unculturable), the remaining being thermophilic microbes. Thus, the AD process as a whole could be controlled by regulating the microbial consortia involved in it. Optimization in the feedstock, pH, temperature and other physical parameters would be beneficial for the microbial growth and viability and thus helpful for biogas production in AD. Besides, the biogas production is also dependent upon the activity of several key genes, ion-specific transporters and enzymes, like genes coding for methyl-CoM reductase, formylmethanofuran transferase, formate dehydrogenase present in the microbes. Fishing for these high-efficiency genes will ultimately increase the biogas production and sustain the production plant.
-
-
-
-

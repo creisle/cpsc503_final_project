@@ -1,6 +1,7 @@
 import os
 import regex
 import textstat
+import argparse
 
 import pandas as pd
 import numpy as np
@@ -73,11 +74,32 @@ def outputScoreData(data, outFile):
 
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '--papers_dir',
+    help='glob pattern to use in finding text files. MUST be quoted to avoid expanding beforehand',
+    default="D:/pmc_archive/pmc_txt"
+)
+parser.add_argument(
+    '--out_file',
+    help='path the the TSV output file',
+    default="../results/textstat.results.tsv"
+)
+
+parser.add_argument(
+    '--fig_path',
+    help='path to the output figure dir',
+    default="../results/textstat_plots"
+)
+
+args = parser.parse_args()
+
+
 #For each paper in papersDir, calc readibility scores and aggregate scores for analysis
 stats = []
-papersDir = "../data/pmc_txt"
-outFile = "../results/textstat.results.tsv"
-figOutPath = "../results/textstat_plots"
+papersDir = args.papers_dir
+outFile = args.out_file
+figPath = "../results/textstat_plots"
 
 papers = os.listdir(papersDir)
 
@@ -89,7 +111,7 @@ for p in papers:
 
 
 outputScoreData(stats, outFile)
-outputScorePlots(stats, figOutPath)
+outputScorePlots(stats, figPath)
 
 
 

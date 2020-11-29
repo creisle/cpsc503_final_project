@@ -1,8 +1,0 @@
-
-Abstract
-
-The beneficial effects of silicon and its role for plants are well established; however, the advantages of silicon nanoparticles over its bulk material are an area that is less explored. Silicon nanoparticles have distinctive physiological characteristics that allow them to enter plants and influence plant metabolic activities. The mesoporous nature of silicon nanoparticles also makes them good candidates as suitable nanocarriers for different molecules that may help in agriculture. Several studies have shown the importance of silicon nanoparticles in agriculture, but an overview of the related aspects was missing. Therefore, this review brings together the literature on silicon nanoparticles and discusses the impact of silicon nanoparticles on several aspects of agricultural sciences. The review also discusses the future application of silicon nanoparticles in plant growth, plant development, and improvement of plant productivity.
-
-
-
-

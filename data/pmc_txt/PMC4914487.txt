@@ -1,8 +1,0 @@
-
-Abstract
-
-Microbial bioremediation of petroleum wastewater by phenol-degrading-bacteria holds promise in circumventing the issue of petroleum-spill related pollution. Herein, biodegradation of petroleum wastewater samples collected from oil refinery site was carried out in a fluidized bed bioreactor by Ca-alginate immobilized biomass of phenol-degrading strains of Bacillus cereus (AKG1 MTCC9817 and AKG2 MTCC9818). Degradation performance of the system was evaluated by measuring the changes in chemical oxygen demand (COD) and level of phenolic compounds in the wastewater samples during the microbial treatment. The microbial treatment reduced initial COD level and concentration of phenolic compounds by 95 % or more, demonstrating the excellent efficacy of immobilized AKG1 and AKG2 strains in treating petroleum wastewater in continuous mode of operation. The present study demonstrates the potential of immobilized AKG1 and AKG2 in treating petroleum wastewater in fluidized bed bioreactors.
-
-
-
-

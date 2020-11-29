@@ -1,8 +1,0 @@
-
-Abstract
-
-The advancements made in tissue culture techniques has made it possible to regenerate various horticultural species in vitro as micropropagation protocols for commercial scale multiplication are available for a wide range of crops. Clonal propagation and preservation of elite genotypes, selected for their superior characteristics, require high degree of genetic uniformity amongst the regenerated plants. However, plant tissue culture may generate genetic variability, i.e., somaclonal variations as a result of gene mutation or changes in epigenetic marks. The occurrence of subtle somaclonal variation is a drawback for both in vitro cloning as well as germplasm preservation. Therefore, it is of immense significance to assure the genetic uniformity of in vitro raised plants at an early stage. Several strategies have been followed to ascertain the genetic fidelity of the in vitro raised progenies comprising morpho-physiological, biochemical, cytological and DNA-based molecular markers approaches. Somaclonal variation can pose a serious problem in any micropropagation program, where it is highly desirable to produce true-to-type plant material. On the other hand, somaclonal variation has provided a new and alternative tool to the breeders for obtaining genetic variability relatively rapidly and without sophisticated technology in horticultural crops, which are either difficult to breed or have narrow genetic base. In the present paper, sources of variations induced during tissue culture cycle and strategies to ascertain and confirm genetic fidelity in a variety of in vitro raised plantlets and potential application of variants in horticultural crop improvement are reviewed.
-
-
-
-

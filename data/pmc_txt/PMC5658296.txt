@@ -1,8 +1,0 @@
-
-Abstract
-
-In this study, siderophore production by various bacteria amongst the plant-growth-promoting rhizobacteria was quantified by a rapid and efficient method. In total, 23 siderophore-producing bacterial isolates/strains were taken to estimate their siderophore-producing ability by the standard method (chrome azurol sulphonate assay) as well as 96 well microplate method. Production of siderophore was estimated in percent siderophore unit by both the methods. It was observed that data obtained by both methods correlated positively with each other proving the correctness of microplate method. By the modified microplate method, siderophore production by several bacterial strains can be estimated both qualitatively and quantitatively at one go, saving time, chemicals, making it very less tedious, and also being cheaper in comparison with the method currently in use. The modified microtiter plate method as proposed here makes it far easier to screen the plant-growth-promoting character of plant-associated bacteria.
-
-
-
-

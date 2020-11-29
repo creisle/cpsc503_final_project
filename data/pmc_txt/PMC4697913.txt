@@ -1,8 +1,0 @@
-
-Abstract
-
-Fungi are important natural product sources that have enormous potential for the production of novel compounds for use in pharmacology, agricultural applications and industry. Compared with other natural sources such as plants, fungi are highly diverse but understudied. However, research on Cladosporium cladosporioides revealed the existence of bioactive products such as p-methylbenzoic acid, ergosterol peroxide (EP) and calphostin C as well as enzymes including pectin methylesterase (PME), polygalacturonase (PG) and chlorpyrifos hydrolase. p-Methylbenzoic acid has ability to synthesise 1,5-benzodiazepine and its derivatives, polyethylene terephthalate and eicosapentaenoic acid. EP has anticancer, antiangiogenic, antibacterial, anti-oxidative and immunosuppressive properties. Calphostin C inhibits protein kinase C (PKC) by inactivating both PKC-epsilon and PKC-alpha. In addition, calphostin C stimulates apoptosis in WEHI-231 cells and vascular smooth muscle cells. Based on the stimulation of endoplasmic reticulum stress in some types of cancer, calphostin C has also been evaluated as a potential photodynamic therapeutic agent. Methylesterase (PME) and PG have garnered attention because of their usage in the food processing industry and significant physiological function in plants. Chlorpyrifos, a human, animal and plant toxin, can be degraded and eliminated by chlorpyrifos hydrolase.
-
-
-
-

@@ -27,3 +27,14 @@ for example
 ```bash
 python scripts/compute_readability_scores.py -h
 ```
+
+## Getting Data
+
+There is a `get_data.sh` script which has bash commands to download some of the required data. It
+can be run as follows
+
+```bash
+bash scripts/get_data.sh
+```
+
+This will create the `data/pubmed` directory and download the PMC to PMID ID mapping

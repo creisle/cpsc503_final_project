@@ -10,7 +10,7 @@ stats = []
 
 
 def relative_file(*paths):
-    os.path.join(os.path.dirname(__file__), *paths)
+    return os.path.join(os.path.dirname(__file__), *paths)
 
 
 parser = argparse.ArgumentParser()

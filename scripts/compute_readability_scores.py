@@ -27,7 +27,10 @@ parser.add_argument(
 args = parser.parse_args()
 
 
-for filename in glob.glob(args.text_glob):
+input_files = glob.glob(args.text_glob)
+if not input_files:
+    raise FileNotFoundError(f'pattern must have at least one input file: {args.text_glob}')
+for filename in input_files:
     section = filename.split('/')[-2]
     basename = filename.split('/')[-1]
     print(f'reading: {filename}')

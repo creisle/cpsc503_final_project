@@ -65,3 +65,12 @@ Whereas the text conversion and downstream analysis can be done with the second 
 source venv/bin/activate
 snakemake -s text_stats.snakefile --jobs 10
 ```
+
+This stage can be very slow to build the DAG (10-15m) on the full dataset. To test for errors it
+can be run with subsampling by setting the `SAMPLE_SIZE` environment variable prior to run. This
+will sample a number (ex. 10) of xml files from each directory.
+
+```bash
+export SAMPLE_SIZE=10
+snakemake -s text_stats.snakefile --jobs 10
+```

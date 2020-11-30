@@ -19,7 +19,7 @@ rule all:
     input: expand('data/pmc_articles/{batch_id}.readability_scores.csv', batch_id=batches)
 
 rule convert_nxml_to_text:
-    input: 'data/pmc_articles/{batch_id}/{article_id}.xml'
+    input: 'data/pmc_articles/{batch_id}/{article_id}.*xml'
     output: 'data/pmc_articles/{batch_id}/{article_id}.xml.txt'
     shell: 'python scripts/bloc_converter.py --in_file {input} --out_file {output}'
 

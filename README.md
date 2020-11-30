@@ -28,13 +28,40 @@ for example
 python scripts/compute_readability_scores.py -h
 ```
 
-## Getting Data
+## Analysis
 
-There is a `get_data.sh` script which has bash commands to download some of the required data. It
-can be run as follows
+The analysis pipeline is split into 2 stages: metadata collection and stats computation.
+
+### Metadata collection
+
+Proir to running the metadata collection. A mySQL instance of the [pubmed knowledge graph](https://www.nature.com/articles/s41597-020-0543-2#Sec11)
+[database dump](http://er.tacc.utexas.edu/datasets/ped) should be up and running so it can
+be pulled from.
 
 ```bash
-bash scripts/get_data.sh
+gunzip < pubmed19.sql.gz | mysql -h <HOSTNAME> pubmed_kg -p
 ```
 
-This will create the `data/pubmed` directory and download the PMC to PMID ID mapping
+The metadata can be generated with the following
+
+```bash
+source venv/bin/activate
+snakemake -s metadata.snakefile --jobs 1
+```
+
+### Text Conversion and Statistics
+
+The PMC xml files should be uncompressed in a file with the following structure: `*/*.xml`. The
+top-level directory can then be symlinked under the data directory relative to this repository.
+
+```bash
+cd data
+ln -s /path/to/folder/above/xml/folders pmc_articles
+```
+
+Whereas the text conversion and downstream analysis can be done with the second pipeline file
+
+```bash
+source venv/bin/activate
+snakemake -s text_stats.snakefile --jobs 10
+```

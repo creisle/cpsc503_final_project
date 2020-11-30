@@ -56,4 +56,4 @@ df = pd.DataFrame(
 )
 
 with open(args.output_file, 'w') as fh:
-    fh.write(df.to_csv(sep='\t', index=False))
+    fh.write(df.to_csv(index=False))

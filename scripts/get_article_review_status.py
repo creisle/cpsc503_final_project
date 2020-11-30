@@ -40,7 +40,7 @@ def fetch_review_articles_list():
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    '--pmc_pubmed_mapping',
+    '--input_file',
     help='path to the csv file mapping PMID to PMCID. Download here: https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz',
     default=relative_file('../data/pubmed/PMC-ids.csv'),
 )

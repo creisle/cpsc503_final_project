@@ -7,16 +7,9 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument(
-    '--in_file', 
-    help='the input bioc file',
-    default="D:/pmc_archive"
-)
-parser.add_argument(
-    '--out_file',
-    help='the output txt file',
-    default="D:/pmc_archive/pmc_txt"
-)
+parser.add_argument('--in_file', help='the input bioc file', default="D:/pmc_archive")
+parser.add_argument('--out_file', help='the output txt file', default="D:/pmc_archive/pmc_txt")
+parser.add_argument('--format', choices=['pmc', 'nxml'], help='input file format', default="nxml")
 
 args = parser.parse_args()
 
@@ -40,8 +33,8 @@ preProcessFailed = False
 #Iterate over all dirs in the base path here and for each folder convert the contents
 print("Converting bioc to " + outFormat + "...")
 
-       
-paper = bconv.load(inPath, fmt='nxml', mode="collection")
+
+paper = bconv.load(inPath, fmt=args.format, mode="collection")
 bconv.dump(paper, outPath, outFormat)
        
 try:

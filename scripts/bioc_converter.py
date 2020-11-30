@@ -20,6 +20,9 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+if not os.path.exists(args.in_file):
+    raise FileNotFoundError(args.in_file)
+
 
 inPath = args.in_file
 outPath = args.out_file

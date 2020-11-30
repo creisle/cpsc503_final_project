@@ -32,10 +32,9 @@ def get_batch_article(wildcards):
 rule convert_nxml_to_text:
     input: get_batch_article
     output: 'data/pmc_articles/{batch_id}/{article_id}.nxml.txt'
-    shell: 'python scripts/bioc_converter.py '
+    shell: 'python scripts/convert_nxml_to_txt.py '
         + '--in_file \'{input}\' '
         + ' --out_file \'{output}\' '
-        + ' --format nxml'
 
 
 def get_batch_text(wildcards):

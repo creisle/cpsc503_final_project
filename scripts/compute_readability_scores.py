@@ -41,6 +41,9 @@ for filename in input_files:
     with open(filename, 'r') as fh:
         content = fh.read()
 
+    if not content.strip():
+        continue
+
     stats.append([section, basename, 'flesch_reading_ease', textstat.flesch_reading_ease(content)])
     stats.append(
         [section, basename, 'flesch_kincaid_grade', textstat.flesch_kincaid_grade(content)]

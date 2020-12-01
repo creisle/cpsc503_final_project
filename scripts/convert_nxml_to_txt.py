@@ -44,7 +44,7 @@ excluded_tags = [
 
 section_header_max_tokens = 3
 
-nxml = bconv.load(args.in_file, fmt=args.format, mode="collection")
+nxml = bconv.load(args.in_file, fmt='nxml', mode="collection")
 
 sections: List[List[str]] = []
 headers: List[str] = []

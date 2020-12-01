@@ -1,3 +1,6 @@
+"""
+outputs csv file with the following columns: 'section', 'filename', 'measure', 'score'
+"""
 import argparse
 import glob
 import os

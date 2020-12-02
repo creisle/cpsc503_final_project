@@ -13,7 +13,6 @@ if SAMPLE_SIZE:
 for batch in glob('data/pmc_articles/*'):
     if os.path.isdir(batch):
         batch_id = batch.split('/')[-1]
-        batches.append(batch_id)
 
         if glob(os.path.join(batch, '*.nxml')):
             batches.append(batch_id)

@@ -66,11 +66,13 @@ source venv/bin/activate
 snakemake -s text_stats.snakefile --jobs 10
 ```
 
-This stage can be very slow to build the DAG (10-15m) on the full dataset. To test for errors it
-can be run with subsampling by setting the `SAMPLE_SIZE` environment variable prior to run. This
-will sample a number (ex. 10) of xml files from each directory.
+This will create text files for each NXML file as well as complete stamp files in the
+following pattern
 
-```bash
-export SAMPLE_SIZE=10
-snakemake -s text_stats.snakefile --jobs 10
-```
+| File                   | Path                                                          |
+| ---------------------- | ------------------------------------------------------------- |
+| complete stamp         | data/pmc_articles/{batch_id}/NXML_TXT.COMPLETE                |
+| log file               | data/pmc_articles/{batch_id}.readability_scores.snakemake.txt |
+| readability scores csv | data/pmc_articles/{batch_id}.readability_scores.csv           |
+| text file conversion   | data/pmc_articles/{batch_id}/{article_id}.nxml.txt            |
+| log file               | data/pmc_articles/{batch_id}.nxml_to_txt.snakemake.txt        |

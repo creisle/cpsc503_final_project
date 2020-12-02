@@ -3,7 +3,7 @@ import os
 import random
 
 
-batch_articles = {}
+batches = []
 
 SAMPLE_SIZE = os.environ.get('SAMPLE_SIZE')
 SAMPLE_SIZE = int(SAMPLE_SIZE) if SAMPLE_SIZE else None
@@ -13,37 +13,36 @@ if SAMPLE_SIZE:
 for batch in glob('data/pmc_articles/*'):
     if os.path.isdir(batch):
         batch_id = batch.split('/')[-1]
-        articles = glob(os.path.join(batch, '*.nxml'))
+        batches.append(batch_id)
 
-        if SAMPLE_SIZE and SAMPLE_SIZE < len(articles):
-            articles = articles[len(articles) - SAMPLE_SIZE - 1:]
+        if glob(os.path.join(batch, '*.nxml')):
+            batches.append(batch_id)
 
-        for article in articles:
-            batch_articles.setdefault(batch_id, []).append(article)
-print('found', sum(len(v) for v in batch_articles.values()), 'articles')
+        # if SAMPLE_SIZE and SAMPLE_SIZE < len(articles):
+        #     articles = articles[len(articles) - SAMPLE_SIZE - 1:]
+
+        # for article in articles:
+        #     batch_articles.setdefault(batch_id, []).append(article)
+print('found', len(batches), 'batches')
 
 
 
 rule all:
-    input: expand('data/pmc_articles/{batch_id}.readability_scores.csv', batch_id=sorted(batch_articles))
+    input: expand('data/pmc_articles/{batch_id}.readability_scores.csv', batch_id=batches)
 
 rule convert_nxml_to_text:
-    input: 'data/pmc_articles/{batch_id}/{article_id}.nxml'
-    output: 'data/pmc_articles/{batch_id}/{article_id}.nxml.txt'
+    output: 'data/pmc_articles/{batch_id}/NXML_TXT.COMPLETE'
     shell: 'python scripts/convert_nxml_to_txt.py '
-        + ' --in_file "{input}"'
-        + ' --out_file "{output}"'
-
-
-def get_batch_text(wildcards):
-    return [re.sub(r'\.n?xml$', '.nxml.txt',a) for a in batch_articles[wildcards.batch_id]]
+        + ' --in_dir "data/pmc_articles/{wildcards.batch_id}"'
+        + ' --stamp NXML_TXT.COMPLETE'
+        + ' &> "data/pmc_articles/{wildcards.batch_id}.nxml_to_txt.snakemake.txt"'
 
 rule compute_text_stats:
-    input: get_batch_text
+    input: 'data/pmc_articles/{batch_id}/NXML_TXT.COMPLETE'
     output: 'data/pmc_articles/{batch_id}.readability_scores.csv'
     shell: 'python scripts/compute_readability_scores.py'
         + ' --text_glob "data/pmc_articles/{wildcards.batch_id}/*.nxml.txt"'
-        + ' --output_file "{output}" &> "data/pmc_articles/{batch_id}.readability_scores.snakemake.txt"'
+        + ' --output_file "{output}" &> "data/pmc_articles/{wildcards.batch_id}.readability_scores.snakemake.txt"'
 
 
 

@@ -76,3 +76,12 @@ following pattern
 | readability scores csv | data/pmc_articles/{batch_id}.readability_scores.csv           |
 | text file conversion   | data/pmc_articles/{batch_id}/{article_id}.nxml.txt            |
 | log file               | data/pmc_articles/{batch_id}.nxml_to_txt.snakemake.txt        |
+
+### Labelling Scientific Concepts
+
+ The final step requires significant setup and must be run on a GPU cluster to be feasible. Therefore
+ we do not include that code here This creates the annotations files using the model referred to in
+ [Brack, 2020](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_17)
+
+ This step creates the `data/pmc_articles/{batch_id}/{article_id}.nxml.txt.ann` files and takes the
+ `data/pmc_articles/{batch_id}/{article_id}.nxml.txt` files as input

@@ -133,5 +133,6 @@ results
 data
 !/data/pmc_small_sample
 !/data/pmc_txt
+data/pmc_articles
 
 .snakemake

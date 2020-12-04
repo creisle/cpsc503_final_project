@@ -13,11 +13,12 @@ import os
 import pandas as pd
 
 
-import nltk
-nltk.download('stopwords')
-from nltk.corpus import stopwords
+
 
 def preProcess(text):
+    #Lemmatization
+    sp = spacy.load("en_core_web_sm", disable=['parser', 'ner'])
+
     text = regex.sub('[,\.!?]', '', text)
     text = text.lower()
 
@@ -30,7 +31,7 @@ def preProcess(text):
     bi_mod = gensim.models.phrases.Phraser(bi)
     
     #Remove stopwords
-    sWords = stopwords.words('english')
+    sWords = sp.Defaults.stop_words
     
     lim = len(words)
     i = 0
@@ -46,12 +47,11 @@ def preProcess(text):
             
     word_bigrams = [bi_mod[data[0]]]
     
-    #Lemmatization
-    spacyLemmatize = spacy.load("en_core_web_sm", disable=['parser', 'ner'])
+    
         
     lemmatizedText = []
     
-    spacyLemmas = spacyLemmatize(" ".join(word_bigrams[0])) 
+    spacyLemmas = sp(" ".join(word_bigrams[0])) 
     permit = ['NOUN', 'ADJ', 'VERB', 'ADV']
     
     for t in spacyLemmas:
@@ -123,6 +123,6 @@ with open(inFile, "r", encoding='utf-8') as pFile:
     lemmatizedText = preProcess(text)
     ldaCoherence = calcCoherence(lemmatizedText, passes, nTopics)
      
-
+    print (ldaCoherence)
 outputScoreData(ldaCoherence, os.path.basename(inFile), outFile)
 

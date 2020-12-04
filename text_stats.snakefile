@@ -31,19 +31,24 @@ batches = sorted(batches)
 rule all:
     input: 'data/pmc_articles.all_readability_scores.csv'
 
+rule lda:
+    input: expand('data/pmc_articles/{batch_id}.lda_coherence.csv', batch_id=batches)
+
 rule convert_nxml_to_text:
     output: 'data/pmc_articles/{batch_id}/NXML_TXT.COMPLETE'
+    log: 'data/pmc_articles/{batch_id}.nxml_to_txt.snakemake.txt'
     shell: 'python scripts/convert_nxml_to_txt.py '
         + ' --in_dir "data/pmc_articles/{wildcards.batch_id}"'
         + ' --stamp NXML_TXT.COMPLETE'
-        + ' &> "data/pmc_articles/{wildcards.batch_id}.nxml_to_txt.snakemake.txt"'
+        + ' &> "{log}"'
 
 rule compute_text_stats:
-    input: 'data/pmc_articles/{batch_id}/NXML_TXT.COMPLETE'
+    input: rules.convert_nxml_to_text.output
     output: 'data/pmc_articles/{batch_id}.readability_scores.csv'
+    log: 'data/pmc_articles/{batch_id}.readability_scores.snakemake.txt'
     shell: 'python scripts/compute_readability_scores.py'
         + ' --text_glob "data/pmc_articles/{wildcards.batch_id}/*.nxml.txt"'
-        + ' --output_file "{output}" &> "data/pmc_articles/{wildcards.batch_id}.readability_scores.snakemake.txt"'
+        + ' --output_file "{output}" &> "{log}"'
 
 rule merge_text_stats:
     input: expand('data/pmc_articles/{batch_id}.readability_scores.csv', batch_id=batches)
@@ -53,7 +58,10 @@ rule merge_text_stats:
         + ' --input_files_pattern "data/pmc_articles/*.readability_scores.csv"'
         + ' --output_file {output} &> {log}'
 
-# rule compute_tacco_scores:
-#     input: 'data/pmc_articles/{batch_id}'
-#     output: 'data/pmc_articles/{batch_id}.tacco2.csv'
-#     shell: 'TODO'
+rule compute_lda_coherence:
+    input: rules.convert_nxml_to_text.output
+    output: 'data/pmc_articles/{batch_id}.lda_coherence.csv'
+    log: 'data/pmc_articles/{batch_id}.lda_coherence.snakemake.txt'
+    shell: 'python scripts/lda_calc.py'
+        + ' --input_files_pattern "data/pmc_articles/{wildcards.batch_id}/*.nxml.txt"'
+        + ' --out_file "{output}" &> "{log}"'

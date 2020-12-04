@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+data
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -134,5 +135,5 @@ data
 !/data/pmc_small_sample
 !/data/pmc_txt
 data/pmc_articles
-
+data/pmc_articles/*
 .snakemake

@@ -1,5 +1,6 @@
 import argparse
 import os
+import sys
 from glob import glob
 
 import gensim
@@ -102,17 +103,20 @@ input_files = glob(args.input_files_pattern)
 if not input_files:
     raise FileNotFoundError(f'no files found for pattern: {args.input_files_pattern}')
 scores = []
-
+errors = []
 
 for text_file in input_files:
     batch_id = text_file.split('/')[-2]
-
-    print('reading:', text_file)
-    with open(text_file, "r", encoding='utf-8') as pFile:
-        text = pFile.read()
-        lemmatizedText = preProcess(text)
-        ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics)
-        scores.append((batch_id, os.path.basename(text_file), "lda_coherence", ldaCoherence))
+    try:
+        print('reading:', text_file)
+        with open(text_file, "r", encoding='utf-8') as pFile:
+            text = pFile.read()
+            lemmatizedText = preProcess(text)
+            ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics)
+            scores.append((batch_id, os.path.basename(text_file), "lda_coherence", ldaCoherence))
+    except Exception as err:
+        print(err, file=sys.stderr)
+        errors.append(err)
 
 df = pd.DataFrame(scores, columns=["section", "filename", "measure", "score"])
 print('writing:', args.out_file)

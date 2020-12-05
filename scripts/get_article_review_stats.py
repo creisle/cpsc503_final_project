@@ -52,9 +52,9 @@ parser.add_argument(
 args = parser.parse_args()
 
 
-print('reading:', args.pmc_pubmed_mapping)
+print('reading:', args.input_file)
 pmc_df = pandas.read_csv(
-    args.pmc_pubmed_mapping,
+    args.input_file,
     dtype={
         'Journal Title': 'string',
         'ISSN': 'string',

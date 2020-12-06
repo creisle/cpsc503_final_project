@@ -1,11 +1,11 @@
 import argparse
 import os
+import re
 import sys
 from glob import glob
 
 import gensim
 import pandas as pd
-import regex
 import spacy
 from gensim.corpora.dictionary import Dictionary
 from gensim.models import CoherenceModel, LdaModel
@@ -17,7 +17,7 @@ def preProcess(text):
     # Lemmatization
     sp = spacy.load("en_core_web_sm", disable=['parser', 'ner'])
 
-    text = regex.sub('[,\.!?]', '', text)
+    text = re.sub(r'[,\.!?]', '', text)
     text = text.lower()
 
     words = gensim.utils.simple_preprocess(text, deacc=True)  # Tokenize
@@ -143,6 +143,7 @@ else:
             curr_df['measure'] = 'lda_coherence'
             curr_df['filename'] = os.path.basename(csv_file)
             curr_df['score'] = curr_df['text'].apply(calculate_coherence_score)
+            curr_df['text_size'] = curr_df['text'].apply(lambda x: len(x))
             curr_df = curr_df.drop(columns='text')
             if df is None:
                 df = curr_df

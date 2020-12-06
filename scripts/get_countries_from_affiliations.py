@@ -4,8 +4,7 @@ import re
 from typing import Dict
 
 import pandas as pd
-import pymysql
-from sqlalchemy import create_engine
+
 
 
 def relative_file(*paths):

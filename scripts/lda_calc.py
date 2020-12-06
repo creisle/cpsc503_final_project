@@ -112,7 +112,7 @@ scores = []
 
 def calculate_coherence_score(text) -> float:
     lemmatizedText = preProcess(text)
-    ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics)
+    ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics, args.workers)
     return ldaCoherence
 
 

@@ -93,6 +93,9 @@ parser.add_argument(
     help='the glob pattern for the input TXT files to calculate coherence for',
     required=True,
 )
+parser.add_argument(
+    '--gcdc', action='store_true', help='flag to indicate the input files are GCDC CSV files'
+)
 parser.add_argument('--out_file', help='the output file for csv results', required=True)
 parser.add_argument('--passes', help='number of passes over texts', default=100, type=int)
 parser.add_argument('--topics', help='number of topics to consider', default=5, type=int)
@@ -103,21 +106,50 @@ input_files = glob(args.input_files_pattern)
 if not input_files:
     raise FileNotFoundError(f'no files found for pattern: {args.input_files_pattern}')
 scores = []
-errors = []
 
-for text_file in input_files:
-    batch_id = text_file.split('/')[-2]
-    try:
-        print('reading:', text_file)
-        with open(text_file, "r", encoding='utf-8') as pFile:
-            text = pFile.read()
-            lemmatizedText = preProcess(text)
-            ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics)
-            scores.append((batch_id, os.path.basename(text_file), "lda_coherence", ldaCoherence))
-    except Exception as err:
-        print(err, file=sys.stderr)
-        errors.append(err)
 
-df = pd.DataFrame(scores, columns=["section", "filename", "measure", "score"])
+def calculate_coherence_score(text) -> float:
+    lemmatizedText = preProcess(text)
+    ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics)
+    return ldaCoherence
+
+
+if not args.gcdc:
+    for text_file in input_files:
+        batch_id = text_file.split('/')[-2]
+        try:
+            print('reading:', text_file)
+            with open(text_file, "r", encoding='utf-8') as pFile:
+                text = pFile.read()
+                scores.append(
+                    (
+                        batch_id,
+                        os.path.basename(text_file),
+                        "lda_coherence",
+                        calculate_coherence_score(text),
+                    )
+                )
+        except Exception as err:
+            print(err, file=sys.stderr)
+
+    df = pd.DataFrame(scores, columns=["section", "filename", "measure", "score"])
+else:
+    df = None
+
+    for csv_file in input_files:
+        try:
+            print('reading:', csv_file)
+            curr_df = pd.read_csv(csv_file)
+            curr_df['measure'] = 'lda_coherence'
+            curr_df['filename'] = os.path.basename(csv_file)
+            curr_df['score'] = curr_df['text'].apply(calculate_coherence_score)
+            curr_df = curr_df.drop(columns='text')
+            if df is None:
+                df = curr_df
+            else:
+                df = pd.concat([df, curr_df])
+        except Exception as err:
+            print(err, file=sys.stderr)
+
 print('writing:', args.out_file)
 df.to_csv(args.out_file, index=False)

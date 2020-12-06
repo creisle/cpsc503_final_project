@@ -56,7 +56,7 @@ def preProcess(text):
     return [lemmatizedText]
 
 
-def calcCoherence(lemmatizedTexts, passes=100, nTopics=5):
+def calcCoherence(lemmatizedTexts, passes=100, nTopics=5, workers = 1):
 
     id2word = Dictionary(lemmatizedTexts)
     corp = [id2word.doc2bow(text) for text in lemmatizedTexts]
@@ -70,6 +70,7 @@ def calcCoherence(lemmatizedTexts, passes=100, nTopics=5):
         per_word_topics=False,
         alpha=0.01,
         eta=0.9,
+        workers=workers
     )
 
     coherenceModel = CoherenceModel(
@@ -96,6 +97,7 @@ parser.add_argument(
 parser.add_argument('--out_file', help='the output file for csv results', required=True)
 parser.add_argument('--passes', help='number of passes over texts', default=100, type=int)
 parser.add_argument('--topics', help='number of topics to consider', default=5, type=int)
+parser.add_argument('--workers', help='number of workers threads to use', default=1, type=int)
 
 args = parser.parse_args()
 
@@ -112,7 +114,7 @@ for text_file in input_files:
         with open(text_file, "r", encoding='utf-8') as pFile:
             text = pFile.read()
             lemmatizedText = preProcess(text)
-            ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics)
+            ldaCoherence = calcCoherence(lemmatizedText, args.passes, args.topics, args.workers)
             scores.append((batch_id, os.path.basename(text_file), "lda_coherence", ldaCoherence))
     except Exception as err:
         print(err, file=sys.stderr)

@@ -137,4 +137,7 @@ data
 data/pmc_articles
 data/pmc_articles/*
 .snakemake
+venv*
+*.bk
+logs
 screenlog*

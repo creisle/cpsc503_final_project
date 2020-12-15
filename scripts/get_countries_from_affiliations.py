@@ -6,12 +6,13 @@ from typing import Dict
 import pandas as pd
 
 
-
 def relative_file(*paths):
     return os.path.join(os.path.dirname(__file__), *paths)
 
 
 def clean_affiliation(affiliation):
+    if pd.isnull(affiliation):
+        return ''
     affiliation = affiliation.strip()
     affiliation = re.sub(r'\.$', '', affiliation)
     affiliation = re.sub(r'\s*\d+(\-\d+)?\s*$', '', affiliation)
@@ -35,16 +36,17 @@ def parse_country(aff):
 parser = argparse.ArgumentParser()
 parser.add_argument('--metadata_file', default=relative_file('../data/pmc_metadata.csv'))
 parser.add_argument(
-    '--affiliations_file', default=relative_file('../data/pmc_metadata.affiliations.csv')
+    '--affiliations_file', default=relative_file('../data/pmc_metadata.affiliations.all.csv')
 )
 parser.add_argument(
-    '--output_file', default=relative_file('../data/pmc_metadata.affiliations.countries.csv')
+    '--output_file', default=relative_file('../data/pmc_metadata.affiliations.all.countries.csv')
 )
 args = parser.parse_args()
 
 
-df = pd.read_csv(args.affiliations_file)
+df = pd.read_csv(args.affiliations_file, dtype={'PMID': 'str', 'Affiliation': 'str'})
 metadata_df = pd.read_csv(args.metadata_file)
+metadata_df['PMID'] = metadata_df.PMID.astype('str')
 
 countries = {
     'US': [

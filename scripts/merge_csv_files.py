@@ -16,7 +16,7 @@ args = parser.parse_args()
 
 merge_df = None
 
-for input_file in glob(args.input_files_pattern):
+for input_file in sorted(glob(args.input_files_pattern)):
     print('reading:', input_file)
     df = pd.read_csv(input_file)
     if merge_df is None:

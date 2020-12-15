@@ -46,7 +46,7 @@ The metadata can be generated with the following
 
 ```bash
 source venv/bin/activate
-snakemake -s metadata.snakefile --jobs 1
+snakemake -s workflows/metadata.snakefile --jobs 1
 ```
 
 ### Text Conversion and Statistics
@@ -63,7 +63,7 @@ Whereas the text conversion and downstream analysis can be done with the second 
 
 ```bash
 source venv/bin/activate
-snakemake -s text_stats.snakefile --jobs 10
+snakemake -s workflows/text_stats.snakefile --jobs 10
 ```
 
 This will create text files for each NXML file as well as complete stamp files in the
@@ -79,9 +79,17 @@ following pattern
 
 ### Labelling Scientific Concepts
 
- The final step requires significant setup and must be run on a GPU cluster to be feasible. Therefore
- we do not include that code here This creates the annotations files using the model referred to in
- [Brack, 2020](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_17)
+The final step requires significant setup and must be run on a GPU cluster to be feasible. Therefore
+we do not include that code here This creates the annotations files using the model referred to in
+[Brack, 2020](https://link.springer.com/chapter/10.1007/978-3-030-45439-5_17)
 
- This step creates the `data/pmc_articles/{batch_id}/{article_id}.nxml.txt.ann` files and takes the
- `data/pmc_articles/{batch_id}/{article_id}.nxml.txt` files as input
+This step creates the `data/pmc_articles/{batch_id}/{article_id}.nxml.txt.ann` files and takes the
+`data/pmc_articles/{batch_id}/{article_id}.nxml.txt` files as input
+
+There are two workflow files associated with this processing
+
+- workflows/scibert-concept-extraction.snakefile
+- workflows/scibert-post-processing.snakefile
+
+The first extracts concepts from individual articles whereas the second post-processes, simplifies,
+and merges the individual annotation files

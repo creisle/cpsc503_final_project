@@ -4,7 +4,6 @@ import os
 
 rule all:
     input: 'data/pmc_metadata.affiliations.countries.csv'
-    # input: expand('data/pmc_articles/{batch_id}/{article_id}.txt', zip, batch_id=batches, article_id=articles)
 
 rule download_pmid_mapping:
     output: 'data/pubmed/PMC-ids.csv'

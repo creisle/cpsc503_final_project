@@ -89,6 +89,9 @@ following pattern
 | text file conversion   | data/pmc_articles/{batch_id}/{article_id}.nxml.txt            |
 | log file               | data/pmc_articles/{batch_id}.nxml_to_txt.snakemake.txt        |
 
+Following text conversion, LDA coherence scoring will also be analyzed and generate files with
+scores per batch.
+
 ### Labelling Scientific Concepts
 
 The final step requires significant setup and must be run on a GPU cluster to be feasible. Therefore

@@ -7,8 +7,8 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from scipy import stats
 
-MIN_TEXT_SIZE = 250
-MAX_TEXT_SIZE = 25000
+MIN_TEXT_SIZE = 1000
+MAX_TEXT_SIZE = 100000
 
 
 def relative_file(*paths):
@@ -72,7 +72,8 @@ df['is_english'] = df.country.isin({'US', 'UK', 'Canada', 'Australia'})
 df['short_text'] = df.text_size < MIN_TEXT_SIZE
 df['text_size_bin'] = df['text_size'].apply(lambda x: round(x, -2))
 
-ax = sns.relplot(kind='line', data=df, x='text_size', y='score', hue='is_english')
+ax = sns.relplot(kind='scatter', data=df, x='text_size', y='score', hue='is_english')
+
 plt.axvline(MIN_TEXT_SIZE)
 plt.axvline(MAX_TEXT_SIZE)
 ax.set(xscale='log')

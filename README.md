@@ -3,6 +3,10 @@
 ## Data Sources
 
 - [NCBI PMC Journal List](https://www.ncbi.nlm.nih.gov/pmc/journals/?format=csv)
+- [PubMed Knowledge Graph](https://www.nature.com/articles/s41597-020-0543-2#Sec11)
+- [PMC Full Text Open Access XML](https://www.ncbi.nlm.nih.gov/pmc/tools/ftp)
+- [OA-STM Corpus](https://gitlab.com/TIBHannover/orkg/orkg-nlp.git)
+- [GCDC Grammarly Data Set](https://github.com/aylai/GCDC-corpus)
 
 ## Getting Started
 

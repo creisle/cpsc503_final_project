@@ -6,8 +6,8 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from scipy import stats
 
-MIN_TEXT_SIZE = 250
-MAX_TEXT_SIZE = 25000
+MIN_TEXT_SIZE = 1000
+MAX_TEXT_SIZE = 100000
 
 
 def relative_file(*paths):
@@ -77,10 +77,12 @@ for measure in sorted(df.measure.unique()):
 ttest_df = pd.DataFrame(ttest_scores, columns=['measure', 'ttest_statistic', 'ttest_pvalue'])
 table = (
     df.merge(ttest_df, on=['measure'])
-    .groupby(['measure', 'is_english'])
+    .groupby(['measure', 'is_english', 'ttest_statistic', 'ttest_pvalue'])
     .agg({'score': ['mean', 'median', 'std'], 'PMCID': 'nunique'})
     .reset_index()
 )
+table.columns = ['_'.join(col) if len(col) > 1 else ''.join(col) for col in table.columns.values]
+
 print(table.to_csv(index=False))
 
 # plot scores eng vs not
@@ -90,13 +92,7 @@ g.set(yscale='log')
 savefig(g, 'pmc.textstat.eng.boxplot.png')
 
 # plot scores vs country
-g = sns.FacetGrid(df, col="measure", col_wrap=3)
+g = sns.FacetGrid(df, col="measure")
 g.map_dataframe(sns.boxenplot, x="score", y="country", palette='tab10')
 g.set(xscale='log')
 savefig(g, 'pmc.textstat.country.boxplot.png')
-
-# plot scores vs text size
-g = sns.FacetGrid(df, col="measure", col_wrap=3)
-g.map_dataframe(sns.boxenplot, x="text_size", y="score", hue='is_english', palette='tab10')
-g.set(xscale='log')
-savefig(g, f'pmc.textstat.text_size.scatter.png')

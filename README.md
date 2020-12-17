@@ -4,7 +4,7 @@ Done as part of fufilling the course requirements for CPSC503 (UBC)
 
 ## Abstract
 
-In the last two decades, the reading burden on researchers has increased significantly. However, asssistive tools and underlying methods for navigating the vast array of published material have not kept up with this growth. We present both a global LDA-based coherence scoring method and a supervised concept extraction framework. Together, these offer a promising solution for assessing readability and conceptual foreknowledge requirements which is applicable in supporting tools for researchers, most notably recommender systems. We evaluated our approach on large data sets of scientific literature and contrast our coher- ence scoring method with traditional ”shallow” readability scoring. In addition to our results, we provide a design for an open-source tool to record data on users as they browse paper
+In the last two decades, the reading burden on researchers has increased significantly. However, asssistive tools and underlying methods for navigating the vast array of published material have not kept up with this growth. We present both a global LDA-based coherence scoring method and a supervised concept extraction framework. Together, these offer a promising solution for assessing readability and conceptual foreknowledge requirements which is applicable in supporting tools for researchers, most notably recommender systems. We evaluated our approach on large data sets of scientific literature and contrast our coherence scoring method with traditional ”shallow” readability scoring. In addition to our results, we provide a design for an open-source tool to record data on users as they browse papers.
 
 ![system overview](manuscript/images/system-architecture.png)
 
